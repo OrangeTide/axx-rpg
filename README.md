@@ -3,20 +3,20 @@
 A two-page OSR refit of Advanced Dungeons & Dragons 1st Edition. Page one is the
 player's game: character creation, the core roll, time, exploration, encounters,
 combat, healing, and conditions. Page two is the GM's game: magic, advancement,
-dungeon procedure, and the tables. The page style follows the terse two-page
-layout of 24XX games. The rules do not follow 24XX.
+dungeon procedure, and the tables. The layout borrows the terse two-page format
+of Jason Tocci's 24XX games. The rules come from somewhere else.
 
 ## Design goals
 
 - One roll. Everything a player does is 1d20 plus a modifier against a target
   number, usually 12, or against Armor Class.
-- Every rule fits on one line. If it needs a table of its own, it is cut or
-  folded into a line.
+- Every rule fits on one line. Anything that needs its own table gets folded
+  into a line or dropped.
 - Keep the shape of 1st Edition. Six abilities rolled in order, four classes,
   kindred, alignment, Hit Dice, Vancian spells, gold for experience, turns and
   rounds, wandering monsters, morale, and lethal combat.
 - Make the GM's side complete. Stocking, depth, reaction, surprise, and treasure
-  placement are rules, not assumptions.
+  placement each get a procedure to roll on.
 
 ## Where we deviate from AD&D 1st Edition
 
@@ -60,7 +60,7 @@ layout of 24XX games. The rules do not follow 24XX.
 - **Multi-classing and dual-classing.** Any kindred may take any class, which
   removes the reason the elf fighter/magic-user existed.
 - **Level limits by race.** Nothing stops a Halfling Fighter at level 4.
-- **Psionics.** Gone entirely.
+- **Psionics.** Cut.
 - **Weapon vs armor adjustments, speed factors, and segments.** Damage type and
   the flat -2 carry what matters at the table.
 - **Percentile thief skills.** Thief skills are Class Checks with DEX at +2.
