@@ -30,6 +30,8 @@ pages. They stay untouched by `make`.
 ## Supplements
 
 - `lifepaths.typ`: the lifepath character supplement. Builds to a PDF.
+- `travel.typ`: the travel and journey supplement, covering overland, sea, and
+  airship crossings. Builds to a PDF.
 
 ## Planned
 
