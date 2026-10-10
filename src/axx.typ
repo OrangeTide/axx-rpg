@@ -23,19 +23,11 @@ From your #k[3d6 Ability Scores (3--18)]:
 - #item[Saving Throws (Roll-Under)][When exposed to a hazard, roll #k[1d20]. If you roll #k[equal to or under] your class Target Number for that hazard type, you succeed.]
   - _Level Progression:_ Reduce all Save Target Numbers by #k[1 per Level] (minimum 2).
 
-#table(
-  columns: (1fr, auto, auto, auto, auto),
-  align: (left, center, center, center, center),
-  table.hline(stroke: 0.8pt),
-  [Hazard], [Ftr], [Clr], [M-U], [Thf],
-  table.hline(stroke: 0.5pt),
-  [1. Poison / Death], k[12], [10], [14], [13],
-  [2. Wands / Staves], [14], [12], k[11], [14],
-  [3. Petrification / Polymorph], [15], [13], [13], [12],
-  [4. Breath Weapon], [17], [16], [15], k[13],
-  [5. Spells], [16], k[15], k[12], [15],
-  table.hline(stroke: 0.8pt),
-)
+- #item[Save Targets by Class][Best save in bold.]
+  - #k[Fighter:] Poison #k[12] #bar Wands 14 #bar Petrify 15 #bar Breath 17 #bar Spells 16
+  - #k[Cleric:] Poison 10 #bar Wands 12 #bar Petrify 13 #bar Breath 16 #bar Spells #k[15]
+  - #k[Magic-User:] Poison 14 #bar Wands #k[11] #bar Petrify 13 #bar Breath 15 #bar Spells #k[12]
+  - #k[Thief:] Poison 13 #bar Wands 14 #bar Petrify 12 #bar Breath #k[13] #bar Spells 15
 
 == Turns, Time & Resources
 
