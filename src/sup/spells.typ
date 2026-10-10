@@ -25,6 +25,8 @@ Clerics pray and may prepare any Cleric spell of a level they have slots for. Ma
 - #item[Per Level][Where an effect scales "per Level," count your caster Level. Damage spells grow as the entry says.]
 - #item[Reversible][Some Cleric spells reverse into their mirror: Cure becomes Cause, Light becomes Darkness, Remove Curse becomes Bestow. A Chaotic Cleric leans on the dark side; a Lawful one must have cause.]
 - #item[Concentration][A spell with a lasting effect you steer ends if you are Paralyzed, Asleep, or slain, or if you cast another.]
+- #item[Foci][A caster works through a focus: the Magic-User a spellbook, the Cleric a holy symbol. Lose it and you cannot prepare spells until you replace it.]
+- #item[Components][A few spells list a _Component_, a material spent in the casting. The core game ignores them. Use them for color, or let the costly ones drain a purse. No Component listed means none is needed.]
 
 == Beyond Level 3
 
@@ -32,7 +34,14 @@ The core game stops at 3rd-level spells. To carry a campaign further, a spell of
 
 #pagebreak()
 
-#let fmt(r) = [#strong(r.at(0)) #r.at(5)]
+#let fmt(r) = {
+  let comp = r.at(6)
+  if comp == "" {
+    [#strong(r.at(0)) #r.at(5)]
+  } else {
+    [#strong(r.at(0)) #r.at(5) #emph([Component: #comp.])]
+  }
+}
 #let data = csv("spells.csv").slice(1)
 
 #let classes = (

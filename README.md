@@ -88,9 +88,46 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 - Monster XP at 25 per HD is low by design, so that treasure drives play.
   Groups that want fights to pay should raise it.
 
-## Layout
+## Core and supplements
 
-- `src/axx.typ`: the game. Each file in `src/` becomes `build/NAME.pdf`.
+The project splits into a small core and a set of supplements, each its own PDF.
+
+- **Core.** `src/axx.typ` is the whole game on two pages. It holds only what every
+  session needs: character creation, the core roll, time, combat, healing,
+  conditions, a starter spell and monster list, and the dungeon procedure. The
+  two-page budget is a hard constraint, not an accident.
+- **Supplements.** `src/sup/*.typ` carry everything that would crowd the core: a
+  lifepath system, travel, the full bestiary, and the spellbook. Each is a
+  standalone PDF in the same house style.
+- **Adventures.** `src/adv/*.typ` are standalone modules, also in the house style,
+  sharing one structure (hook, three acts, a choice, rewards, threats).
+- **Master data.** The CSV files in `src/sup/` are the source of record for game
+  data: `bestiary.csv`, `equipment.csv`, `magic.csv`, and `spells.csv`. The
+  bestiary and spellbook supplements generate their reference pages straight from
+  these files with Typst's `csv()`, so the data lives in one place and adding a
+  row adds an entry.
+
+### What goes where
+
+The dividing line is space and universality. A rule earns a place in the core only
+if every session uses it and it fits in one line. Anything that adds a subsystem, a
+long list, or flavor goes to a supplement, where space is cheap. Some worked
+decisions:
+
+- The core carries a starter spell and monster list; the full compendiums are
+  supplements. The core text and the supplements share the same data files.
+- Spell components stay out of the core. They live as an optional column in
+  `spells.csv`, rendered only in the spellbook, so the flavor is kept without
+  spending core space. Costly ones double as treasure sinks.
+- Each caster works through one focus object (spellbook, holy symbol), not a
+  per-spell component list. That is the core's answer to components.
+- When a material matters in play, it becomes a gear item (holy water, blade
+  poison), not a component entry.
+
+## Files
+
+- `src/axx.typ`: the core game. Each `.typ` under `src/` becomes a PDF under `build/`.
+- `src/adv/`, `src/sup/`: adventures and supplements.
 - `lib/24xx.typ`: the page style and helpers (`xx`, `rolltable`, `item`, `k`, `bar`).
 - `fonts/`: D-DIN (SIL OFL) and Roboto Condensed (Apache 2.0).
 
