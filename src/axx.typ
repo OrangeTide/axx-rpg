@@ -162,18 +162,18 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
   item[Young Dragon][HD 8, HP 40, AC 18, Atk +8 (2d8). On first sight, Will save or Frightened. Breath once per fight: 6d6 fire in 30 ft, Dodge for half. Immune to fire. Sleeps on a hoard.],
 ))
 
-#rolltable("1d8", "Treasure", (
+#rolltable("1d6", "Treasure", (
   item[Loose Pouch][2d6 x 10 GP.],
-  item[Chest][1d6 x 100 GP + 1d4 gems (50 GP each).],
-  item[Art][Silverware, idols, or tapestry worth 300 GP. Two slots.],
-  item[Potion][Healing (1d8 HP) or Giant Strength (+2 melee attack and damage, 6 turns).],
-  item[Scroll][One random spell of level 1--3, single cast by any caster.],
-  item[Magic Weapon][+1 to attack and damage. Counts as magic and silver.],
-  item[Magic Armor][+1 AC over its base type.],
-  item[Named Item][Roll on Named Items. With 1d6 x 100 GP.],
+  item[Coin Cache][1d6 x 100 GP.],
+  item[Chest][1d6 x 100 GP and 1d4 gems (50 GP each). Locked.],
+  item[Art][Silverware, idols, or a tapestry worth 300 GP. Two slots.],
+  item[Gems][2d6 cut stones at 50 GP each, in one pouch. One slot.],
+  item[Magic Item][Roll on Magic Items, with 1d6 x 100 GP.],
 ))
 
-#rolltable("1d6", "Named Items", note: [One each in the world. Each has a cost.], (
+#rolltable("1d8", "Magic Items", note: [The find on a Magic Item result. Each named relic is one of a kind; the full roster is magic.csv.], (
+  item[Potion][Healing (1d8 HP), or Giant Strength (+2 melee attack and damage, 6 turns). GM picks.],
+  item[Charm][A Scroll (one random spell of level 1--3, a single cast by any caster), or a +1 weapon or +1 armor. A +1 weapon counts as magic and silver.],
   item[Lantern of the Drowned][Its blue flame burns 24 turns without oil and shows invisible things. Water within 30 ft rises an inch each turn it is lit.],
   item[Blade of the First Orc][Edged, +2 to damage. Howls when drawn: every monster on the level makes a noise check.],
   item[Mantle of Ashes][Immune to fire. The wearer's own touch chars paper and wood.],

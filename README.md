@@ -68,7 +68,7 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
   New spells come from scrolls and captured books.
 - **Prime requisite XP bonuses, training costs, and name levels.** Experience is
   gold, monsters, and depth.
-- **Treasure types and gem tables.** The 1d8 Treasure table and the stocking
+- **Treasure types and gem tables.** The 1d6 Treasure table and the stocking
   roll do the work.
 - **Secondary skills, languages by INT table, and aging.** INT lists lore and
   languages and leaves the details to the GM.
