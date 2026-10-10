@@ -2,7 +2,7 @@
 
 #show: xx.with(
   title: "The Skyship in the Hollow Peak",
-  subtitle: "A fantasy adventure for AX&X, for 4 to 6 characters of levels 3 to 5",
+  subtitle: "A fantasy adventure for AX&X, for 4 to 6 characters of levels 2 to 3",
   cols: 2,
 )
 
