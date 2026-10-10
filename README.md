@@ -97,8 +97,8 @@ The project splits into a small core and a set of supplements, each its own PDF.
   conditions, a starter spell and monster list, and the dungeon procedure. The
   two-page budget is a hard constraint, not an accident.
 - **Supplements.** `src/sup/*.typ` carry everything that would crowd the core: a
-  lifepath system, travel, the full bestiary, and the spellbook. Each is a
-  standalone PDF in the same house style.
+  lifepath system, travel, the full bestiary, the spellbook, and a combat and
+  tactics module. Each is a standalone PDF in the same house style.
 - **Adventures.** `src/adv/*.typ` are standalone modules, also in the house style,
   sharing one structure (hook, three acts, a choice, rewards, threats).
 - **Master data.** The CSV files in `src/sup/` are the source of record for game
@@ -123,6 +123,9 @@ decisions:
   per-spell component list. That is the core's answer to components.
 - When a material matters in play, it becomes a gear item (holy water, blade
   poison), not a component entry.
+- Tactical depth stays out of the core. Positioning, charging, grappling,
+  terrain, and ranged nuance live in the Combat & Tactics supplement, so the core
+  keeps its beginner-friendly four-line fight.
 
 ## Files
 
