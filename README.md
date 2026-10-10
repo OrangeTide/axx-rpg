@@ -1,4 +1,4 @@
-# XD&X
+# AX&X
 
 An OSR refit of 1st Edition, laid out in the style of 24XX. Built with Typst.
 
