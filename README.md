@@ -41,7 +41,7 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 | Spell lists | Hundreds of spells | Nineteen spells. The Improvise rule covers conversion. |
 | Turn Undead | Matrix of Cleric level against undead type, with 2d6 result | One roll: 1d20 + Level + WIS, 10 + HD or higher. Turns 2d6 HD, or destroys when 3 levels above. |
 | Experience | Gold and monster XP by table, prime requisite bonus, training cost to level | 1 GP is 1 XP. 25 XP per monster HD. 100 XP times depth for a first visit. Thresholds double from 2,000. No training. |
-| Death | Dead at -10, or 0 with optional rules, resurrection survival rolls | 0 HP triggers a 1d6 Injury roll. Slain, Maimed, and Petrified are permanent unless the GM supplies a cure. |
+| Death | Dead at -10, or 0 with optional rules, resurrection survival rolls | 0 HP triggers a 1d6 Brush with Death roll. Slain, Maimed, and Petrified are permanent unless the GM supplies a cure. |
 | Healing | 1 HP per day of rest | Bind Wounds 1d4 once per day, one Hit Die per night, full after a week in town. |
 | Conditions | Described per spell or monster | Eight named conditions, each with one source and one effect. |
 | Reaction | Percentile roll with CHA adjustments | 2d6 + CHA, three bands. |
@@ -77,7 +77,7 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 - **Movement rates by race and encumbrance bands.** Move is 30 ft, or 20 ft in
   heavy armor.
 - **Resurrection and raise dead.** Death is permanent unless the GM provides a
-  cure. The Injury table and replacement characters do the rest.
+  cure. Brush with Death and replacement characters do the rest.
 
 ## Known tensions
 

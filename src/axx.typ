@@ -91,7 +91,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Action][Attack, cast, use an item, aid, or move again. Leaving melee gives each adjacent enemy a free attack.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = Level + class bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two attackers on one target: +2 each.]
 - #item[Range][Move 30 ft per round, 20 ft in medium or heavy armor. Thrown 30 ft. Bows and slings 60 ft, 120 ft at -2, or 240 ft at -5. Half cover: -2 to hit. Full cover: no target.]
-- #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll Injury. Damage past 0 is ignored.]
+- #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
 - #item[Helpless][Attacks on a sleeping, paralyzed, or bound target hit automatically.]
@@ -103,7 +103,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Sleep][A Day regains one Hit Die + CON. Needs the ration.]
 - #item[Safe Haven][A week in town restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
-- #item[At 0 HP][Roll 1d6 on the Injury table; each result states your HP. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
+- #item[At 0 HP][Roll 1d6 on Brush with Death; each result states your HP. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
 
 == Conditions
 
@@ -114,7 +114,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Frightened][Must flee from the source for 1d4 rounds.]
 - #item[Burning][1d6 fire damage each round until a round is spent dousing.]
 - #item[Petrified][Stone. Out of play, permanent unless cured.]
-- #item[Injured][-2 to all d20 rolls until healed as the Injury result states.]
+- #item[Injured][-2 to all d20 rolls until healed as the Brush with Death result states.]
 
 #pagebreak()
 
@@ -208,7 +208,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
   item[Kin][A relative went into the dungeon and never came back.],
 ))
 
-#rolltable("1d6", "Injury (at 0 HP)", (
+#rolltable("1d6", "Brush with Death", note: [Roll when you drop to 0 HP.], (
   item[Slain][Dead.],
   item[Maimed][Lose a limb or an eye. Unconscious 1d4 turns, then 1 HP. Injured for good.],
   item[Grievous Wound][Unconscious until healed by magic or sleep. Injured until a Safe Haven rest.],
