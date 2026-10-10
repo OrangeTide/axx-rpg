@@ -17,8 +17,9 @@ generate stat blocks or tables from them.
   in gold pieces and item slots.
 - `magic.csv`: magic items, both the generic treasure items and the one-of-a-kind
   named items with their drawback.
-- `spells.csv`: the spell list, by class and level, with the save a target rolls
-  and the damage type where one applies.
+- `spells.csv`: the spell compendium, by class and level, with the save a target
+  rolls and the damage type where one applies. `spells.typ` reads this file and
+  generates the spell entries, so adding a row adds a spell.
 
 The build only compiles `.typ` files, so these CSV lists are data, not published
 pages. They stay untouched by `make`.
@@ -37,6 +38,9 @@ pages. They stay untouched by `make`.
   airship crossings. Builds to a PDF.
 - `bestiary.typ`: the bestiary supplement. Page one is the monster rules and the
   ability glossary; the stat blocks that follow are generated from `bestiary.csv`.
+  Builds to a PDF.
+- `spells.typ`: the spellbook supplement. Page one is the magic rules and casting
+  conventions; the spell entries that follow are generated from `spells.csv`.
   Builds to a PDF.
 
 ## Planned
