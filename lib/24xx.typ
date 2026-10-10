@@ -41,8 +41,8 @@
     },
     footer-descent: 0.2in,
   )
-  set text(font: body-font, stretch: body-stretch, size: 8.6pt, fill: black, hyphenate: false)
-  set par(leading: 0.42em, spacing: 0.42em, justify: false)
+  set text(font: body-font, stretch: body-stretch, size: 8.3pt, fill: black, hyphenate: false)
+  set par(leading: 0.4em, spacing: 0.4em, justify: false)
 
   // Level 1: major section in big heavy caps with a rule above.
   show heading.where(level: 1): it => {

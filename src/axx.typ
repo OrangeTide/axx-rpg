@@ -2,14 +2,13 @@
 
 #show: xx.with(
   title: "XD&X",
-  subtitle: "An OSR refit of 1st Edition, in the style of 24XX",
   credit: [XD&X is an OSR variation on 1st Edition, not a 24XX game. Page style inspired by 24XX by Jason Tocci, released under CC BY 4.0.],
   cols: 3,
 )
 
 = Character Creation
 
-Roll abilities, pick a class, buy gear, and prepare spells if your class casts them. Then roll on the Trinket table.
+Roll abilities, pick a kindred and a class, buy gear, and prepare spells if your class casts them. Then roll on the Trinket table.
 == Abilities
 
 Roll #k[3d6 in order] for each. Scores give a modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3.
@@ -27,8 +26,18 @@ Every class starts at Level 1 with the #k[maximum] of one Hit Die + CON, and kno
 
 - #item[Fighter][d8 Hit Die. +2 to attacks. Any weapon or armor. +2 to Body saves.]
 - #item[Cleric][d6 Hit Die. +1 to attacks. Blunt weapons, medium or heavy armor. +2 to Will saves. _Turn Undead:_ a Class Check with WIS once per fight; on success, d8 HD of undead flee for 1d4 turns.]
-- #item[Magic-User][d4 Hit Die. +0 to attacks. Dagger or staff, no armor. +2 to saves against spells, wands, and staves.]
+- #item[Magic-User][d4 Hit Die. +0 to attacks. Dagger or staff, no armor. Starts with a spellbook holding two spells. +2 to saves against spells, wands, and staves.]
 - #item[Thief][d6 Hit Die. +1 to attacks. Light armor. +2 to Dodge saves. Stealth, locks, and traps are Class Checks with DEX, at +2. _Backstab:_ +4 to attack and double damage against an unaware target.]
+
+== Kindred
+
+Any kindred may take any class. Each gives one trait.
+
+- #item[Human][+1 to one ability score, chosen after rolling.]
+- #item[Dwarf][+2 to Body saves. Sees 60 ft in the dark. Notes sloping passages and new stonework.]
+- #item[Elf][Immune to Sleep and Charm. Sees 60 ft in the dark. Finds secret doors on a 1--2 on 1d6 when passing within 10 ft.]
+- #item[Halfling][+2 to Dodge saves and to stealth checks. Small weapons only.]
+- #item[Half-Orc][+1 to melee damage. Sees 60 ft in the dark. -1 to CHA checks with those who hold a grudge.]
 
 == Gear List
 
@@ -36,14 +45,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or the armor's value + DEX. You carr
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling with ammunition (1d6, 2 slots) #k[20 GP].]
 - #item[Armor][Light (AC 13, 1 slot) #k[20 GP] #bar Medium (AC 15, 2 slots) #k[75 GP] #bar Heavy (AC 17, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
-- #item[Supplies][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Rope 50 ft (1 slot) #k[1 GP] #bar Iron spikes and hammer (1 slot) #k[3 GP] #bar Thieves' Tools (1 slot) #k[30 GP] #bar Holy Symbol #k[25 GP] #bar Spellbook (1 slot) #k[15 GP].]
-
-== Spells & Magic
-
-Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see Combat for disruption.
-
-- #item[Cleric Spells][_Cure Light Wounds_ (1d8 HP, ends Poisoned), _Light_ (30 ft radius, 6 turns), _Bless_ (+1 to the party's attacks for one fight), _Protection from Evil_ (+2 AC and saves against one creature type for one fight).]
-- #item[Magic-User Spells][_Magic Missile_ (1d4+1 damage, never misses), _Sleep_ (2d4 HD of creatures of 4 HD or less fall Asleep, no save), _Shield_ (+4 AC for one fight), _Invisibility_ (unseen until you attack or cast), _Charm Person_ (Will save or one person treats you as a trusted friend for a day).]
+- #item[Supplies][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Rope 50 ft (1 slot) #k[1 GP] #bar Ten-foot pole (1 slot) #k[1 GP] #bar Iron spikes and hammer (1 slot) #k[3 GP] #bar Grappling hook (1 slot) #k[5 GP] #bar Oil flask (thrown, 1d6 and Burning) #k[2 GP] #bar Mirror #k[10 GP] #bar Whistle #k[1 GP] #bar Chalk #k[1 GP] #bar Sack (holds 3 slots, 1 slot) #k[1 GP] #bar Thieves' Tools (1 slot) #k[30 GP] #bar Holy Symbol #k[25 GP] #bar Spellbook (1 slot) #k[15 GP].]
 
 = Playing the Game
 
@@ -55,13 +57,11 @@ Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see
   - #k[Body (CON):] poison, death magic, paralysis, petrification, disease.
   - #k[Dodge (DEX):] breath weapons, wands, traps, falling.
   - #k[Will (WIS):] spells, charm, fear, illusion.
-- #item[Natural 20][Always succeeds. Attacks deal double damage.]
-- #item[Natural 1][Always fails, and the GM adds a complication.]
+- #item[Natural 20 and 1][A 20 always succeeds, and an attack deals double damage. A 1 always fails, with a complication.]
 
 == Time
 
 - #item[Turn (10 minutes)][The exploration unit. In one turn the party moves through a few rooms, searches a room, picks a lock, or rests. Every third turn, roll 1d6: on a 1, a wandering monster appears (roll on the Threat table).]
-  - #k[Rest:] After five turns of activity the party must rest for one turn or take -2 to all d20 rolls until it does.
   - #k[Torches:] One torch burns for 6 turns (1 hour). A lantern flask burns 24 turns.
 - #item[Round (1 minute)][The combat unit. Each combatant moves and takes one action.]
 - #item[Day][Ends with 8 hours of sleep and one ration per character. Without the ration, no HP is regained that night and all d20 rolls take -2 until fed.]
@@ -74,6 +74,9 @@ Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see
 - #item[Damage][Weapon die + STR for melee. At 0 HP, roll on the Injury table. Damage past 0 is ignored.]
 - #item[Casting][A spell takes the caster's action. If the caster took damage earlier in the round, the spell is lost.]
 - #item[Helpless][Attacks against a sleeping, paralyzed, or bound target hit automatically.]
+- #item[Move and Range][Move 30 ft per round, or 20 ft in medium or heavy armor. Melee needs an adjacent target. Thrown weapons reach 30 ft, bows and slings 60 ft, or 120 ft at -2. You cannot target what you cannot see, so light matters.]
+- #item[Morale][When a group of monsters first loses a member, and again when half are down, the GM rolls 1d6: on 1--3 the rest flee or yield. Monsters that cannot flee, or never would, skip this.]
+- #item[Ending a Fight][Combat ends when one side is down, has fled, or yields. Breaking line of sight escapes unless chased at equal speed. A CHA check may turn a fight into a parley, if the enemy can talk.]
 
 == Healing
 
@@ -84,7 +87,7 @@ Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see
 
 == Injury
 
-At 0 HP, roll 1d6 on the Injury table. Each result says what your HP becomes. A player whose character dies or is maimed may retire that character and bring in a replacement at the next room or scene, or play on with what is left.
+At 0 HP, roll 1d6 on the Injury table. Each result states your HP. A player whose character dies or is maimed may bring in a replacement at the next room or scene, or play on.
 
 == Conditions
 
@@ -96,15 +99,24 @@ At 0 HP, roll 1d6 on the Injury table. Each result says what your HP becomes. A 
 - #item[Burning][Take 1d6 damage each round until a round is spent dousing the flames.]
 - #item[Injured][From the Injury table. -2 to all d20 rolls until healed as the result states.]
 
-== Treasure, XP & Leveling
-
-- #item[Looting][Roll on the Treasure table when searching rooms, chests, or boss enemies.]
-- #k[1 GP = 1 XP] once brought safely to town.
-- #item[Thresholds][#k[Lvl 2:] 2,000 XP #bar #k[Lvl 3:] 4,000 XP #bar #k[Lvl 4:] 8,000 XP. Each level after that costs twice the one before.]
-- #item[Level Up][Roll one more Hit Die of your class, add CON, and add the result to your HP. Attacks and saves already add your Level, so they rise by 1. Casters prepare one more spell per day.]
-- #item[Beyond the Tables][A spell of a given AD&D level becomes available at twice that level minus one (2nd level spells at level 3, 3rd at level 5). A new monster has HP of about 5 per HD, attacks at + HD, has AC 11 to 16, and forces saves at TN 10 + HD.]
-
 #pagebreak()
+
+= Spells & Magic
+
+Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see Combat for disruption.
+
+- #item[Clerics][Pray for spells. A Cleric may prepare any Cleric spell.]
+- #item[Magic-Users][Prepare spells only from their spellbook, which starts with two spells of their choice and takes a slot. Without the book, no new spells can be prepared. A Day of study copies a scroll or a captured book's spell into it, using up a scroll. A lost book costs 15 GP and a Day per spell to rewrite from memory.]
+- #item[Cleric Spells][_Cure Light Wounds_ (1d8 HP, ends Poisoned), _Light_ (30 ft radius, 6 turns), _Bless_ (+1 to the party's attacks for one fight), _Protection from Evil_ (+2 AC and saves against one creature type for one fight).]
+- #item[Magic-User Spells][_Magic Missile_ (1d4+1 damage, never misses), _Sleep_ (2d4 HD of creatures of 4 HD or less fall Asleep, no save), _Shield_ (+4 AC for one fight), _Invisibility_ (unseen until you attack or cast), _Charm Person_ (Will save or one person treats you as a trusted friend for a day).]
+
+= Treasure, XP & Leveling
+
+- #item[Looting][Roll on the Treasure table for searched rooms, chests, and bosses.]
+- #item[XP][#k[1 GP = 1 XP] once brought safely to town. Defeating or outwitting a monster earns #k[100 XP per HD], split among the party. Mapping a new dungeon level earns #k[500 XP] once home.]
+- #item[Thresholds][Level 2 needs #k[2,000 XP]. Each level after that costs double the last.]
+- #item[Level Up][Roll one more Hit Die of your class, add CON, and add the result to your HP. Attacks and saves already add your Level, so they rise by 1. Casters prepare one more spell per day.]
+- #item[Beyond the Tables][A spell of a given AD&D spell level opens at twice that level minus one. A new monster: HP 5 per HD, attacks at + HD, AC 11 to 16, saves at TN 10 + HD.]
 
 = Tables & Generators
 
@@ -122,21 +134,21 @@ At 0 HP, roll 1d6 on the Injury table. Each result says what your HP becomes. A 
   item[Orc Patrol][HD 2, HP 9, AC 14, Atk +2 (1d8). 1d4 warriors demanding blood or toll.],
   item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). Mindless. Immune to Sleep, Charm, Poisoned, and Frightened.],
   item[Ghoul][HD 2, HP 10, AC 14, Atk +2 (1d3). A hit forces a Body save or the target is Paralyzed.],
-  item[Rival Adventurers][See below.],
+  item[Rival Adventurers][1d4+1 NPCs of the party's Level, one per class, after the same treasure. On 1d6, 1--2 hostile, 3--4 open to a deal, 5--6 friendly for now.],
   item[Dark Cultist][HD 3, HP 12, AC 12, Atk +3 (1d4). Casts _Cause Light Wounds_ for 1d8 damage on a touch.],
   item[Cursed Trap][Dodge save or take 2d6 damage and become Poisoned. A Thief may find it first with a Class Check.],
   item[Ogre][HD 4, HP 19, AC 15, Atk +4 (2d6 club).],
 ))
 
-=== Rival Adventurers
-
-A rival party has 1d6+1 members. For each, roll 1d4 for class (#k[1] Fighter, #k[2] Cleric, #k[3] Magic-User, #k[4] Thief) and give it the party's average Level, maximum HP, and the gear of its class. Roll 1d6 for what they are after (#k[1--2] the same treasure you are, #k[3--4] a way out, #k[5--6] a bounty on one of you) and 1d6 for their mood (#k[1--2] hostile, #k[3--4] wary and open to a deal, #k[5--6] friendly, for now). Their leader holds a magic item from the Treasure table (roll again on 4 to 7).
-
-#rolltable("1d4", "Location & Environment", (
+#rolltable("1d8", "Location & Environment", (
   item[Ruined Keep][Collapse-prone stone, moldering tapestries, echoing footfalls.],
   item[Sunken Crypt][Stagnant knee-deep water, damp granite, ancient rot smell.],
   item[Fungal Caverns][Bioluminescent spores, slippery terrain, choking haze.],
   item[Defiled Temple][Shattered marble altars, blood-stained pillars, ominous hum.],
+  item[Obsidian Dungeon][Razor-edged black stone, sulfur vents, forgotten sigils that glow when touched.],
+  item[Underground Labyrinth][Shifting corridors, minotaur runes, dust-covered bones.],
+  item[Flooded Mine][Rotten timbers, tunnels that end in black water, the tap of something digging.],
+  item[Giant's Barrow][Doors too tall to reach the handle, grave goods sized for a titan, a cold that does not lift.],
 ))
 
 #rolltable("1d8", "Treasure & Loot", (
