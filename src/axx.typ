@@ -7,8 +7,9 @@
   cols: 3,
 )
 
-= Rules
+= Character Creation
 
+Roll abilities, pick a class, buy gear, and prepare spells if your class casts them. Then roll on the Trinket table.
 == Abilities
 
 Roll #k[3d6 in order] for each. Scores give a modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3.
@@ -19,6 +20,32 @@ Roll #k[3d6 in order] for each. Scores give a modifier: #k[3:] -3 #bar #k[4--5:]
 - #item[INT][Lore and languages. A Magic-User with INT +1 or better prepares one extra spell.]
 - #item[WIS][Perception and Will saves. A Cleric with WIS +1 or better prepares one extra spell.]
 - #item[CHA][Parley, reactions, hireling loyalty.]
+
+== Classes
+
+Every class starts at Level 1 with the #k[maximum] of one Hit Die + CON, and knows its save specialty.
+
+- #item[Fighter][d8 Hit Die. +2 to attacks. Any weapon or armor. +2 to Body saves.]
+- #item[Cleric][d6 Hit Die. +1 to attacks. Blunt weapons, medium or heavy armor. +2 to Will saves. _Turn Undead:_ a Class Check with WIS once per fight; on success, d8 HD of undead flee for 1d4 turns.]
+- #item[Magic-User][d4 Hit Die. +0 to attacks. Dagger or staff, no armor. +2 to saves against spells, wands, and staves.]
+- #item[Thief][d6 Hit Die. +1 to attacks. Light armor. +2 to Dodge saves. Stealth, locks, and traps are Class Checks with DEX, at +2. _Backstab:_ +4 to attack and double damage against an unaware target.]
+
+== Gear List
+
+Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or the armor's value + DEX. You carry slots equal to STR; coins fill one slot per 100.
+
+- #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling with ammunition (1d6, 2 slots) #k[20 GP].]
+- #item[Armor][Light (AC 13, 1 slot) #k[20 GP] #bar Medium (AC 15, 2 slots) #k[75 GP] #bar Heavy (AC 17, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
+- #item[Supplies][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Rope 50 ft (1 slot) #k[1 GP] #bar Iron spikes and hammer (1 slot) #k[3 GP] #bar Thieves' Tools (1 slot) #k[30 GP] #bar Holy Symbol #k[25 GP] #bar Spellbook (1 slot) #k[15 GP].]
+
+== Spells & Magic
+
+Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see Combat for disruption.
+
+- #item[Cleric Spells][_Cure Light Wounds_ (1d8 HP, ends Poisoned), _Light_ (30 ft radius, 6 turns), _Bless_ (+1 to the party's attacks for one fight), _Protection from Evil_ (+2 AC and saves against one creature type for one fight).]
+- #item[Magic-User Spells][_Magic Missile_ (1d4+1 damage, never misses), _Sleep_ (2d4 HD of creatures of 4 HD or less fall Asleep, no save), _Shield_ (+4 AC for one fight), _Invisibility_ (unseen until you attack or cast), _Charm Person_ (Will save or one person treats you as a trusted friend for a day).]
+
+= Playing the Game
 
 == The Core Roll
 
@@ -77,33 +104,18 @@ At 0 HP, roll 1d6 on the Injury table. Each result says what your HP becomes. A 
 - #item[Level Up][Roll one more Hit Die of your class, add CON, and add the result to your HP. Attacks and saves already add your Level, so they rise by 1. Casters prepare one more spell per day.]
 - #item[Beyond the Tables][A spell of a given AD&D level becomes available at twice that level minus one (2nd level spells at level 3, 3rd at level 5). A new monster has HP of about 5 per HD, attacks at + HD, has AC 11 to 16, and forces saves at TN 10 + HD.]
 
-= Classes, Spells & Equipment
-
-== Classes
-
-Every class starts at Level 1 with the #k[maximum] of one Hit Die + CON, and knows its save specialty.
-
-- #item[Fighter][d8 Hit Die. +2 to attacks. Any weapon or armor. +2 to Body saves.]
-- #item[Cleric][d6 Hit Die. +1 to attacks. Blunt weapons, medium or heavy armor. +2 to Will saves. _Turn Undead:_ a Class Check with WIS once per fight; on success, d8 HD of undead flee for 1d4 turns.]
-- #item[Magic-User][d4 Hit Die. +0 to attacks. Dagger or staff, no armor. +2 to saves against spells, wands, and staves.]
-- #item[Thief][d6 Hit Die. +1 to attacks. Light armor. +2 to Dodge saves. Stealth, locks, and traps are Class Checks with DEX, at +2. _Backstab:_ +4 to attack and double damage against an unaware target.]
-
-== Spells & Magic
-
-Prepare #k[1 spell per Level] each day after sleeping. Casting is an action; see Combat for disruption.
-
-- #item[Cleric Spells][_Cure Light Wounds_ (1d8 HP, ends Poisoned), _Light_ (30 ft radius, 6 turns), _Bless_ (+1 to the party's attacks for one fight), _Protection from Evil_ (+2 AC and saves against one creature type for one fight).]
-- #item[Magic-User Spells][_Magic Missile_ (1d4+1 damage, never misses), _Sleep_ (2d4 HD of creatures of 4 HD or less fall Asleep, no save), _Shield_ (+4 AC for one fight), _Invisibility_ (unseen until you attack or cast), _Charm Person_ (Will save or one person treats you as a trusted friend for a day).]
-
-== Gear List
-
-Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or the armor's value + DEX. You carry slots equal to STR; coins fill one slot per 100.
-
-- #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling with ammunition (1d6, 2 slots) #k[20 GP].]
-- #item[Armor][Light (AC 13, 1 slot) #k[20 GP] #bar Medium (AC 15, 2 slots) #k[75 GP] #bar Heavy (AC 17, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
-- #item[Supplies][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Rope 50 ft (1 slot) #k[1 GP] #bar Iron spikes and hammer (1 slot) #k[3 GP] #bar Thieves' Tools (1 slot) #k[30 GP] #bar Holy Symbol #k[25 GP] #bar Spellbook (1 slot) #k[15 GP].]
+#pagebreak()
 
 = Tables & Generators
+
+#rolltable("1d6", "Starting Trinket", note: [Each new character rolls once. Trinkets take no slot.], (
+  item[Holy Water][3 vials. A vial deals 1d6 damage to an undead creature it is thrown at.],
+  item[Silk Rope][50 ft, fine enough to hide under a cloak.],
+  item[Crowbar and Chalk][+2 to checks to force doors or mark a trail.],
+  item[Bullseye Lantern][Throws a 60 ft beam. Comes with 1 flask of oil.],
+  item[Iron Spikes][10 spikes and a mallet. Hold a door shut for 1d4 turns against a monster.],
+  item[Tarnished Silver Ring][Its maker's mark is unknown. The GM knows what it does.],
+))
 
 #rolltable("1d8", "Threat / Encounter", note: [#k[HD] = Hit Dice, #k[AC] = ascending Armor Class, #k[Atk] = Attack Mod and damage. A monster's Attack Mod equals its HD.], (
   item[Goblin Band][HD 1, HP 4, AC 13, Atk +1 (1d6). 1d6 goblins ambush from cover.],

@@ -32,6 +32,7 @@
   set document(title: title)
   set page(
     paper: paper,
+    columns: cols,
     margin: (x: 0.5in, top: 0.5in, bottom: 0.55in),
     footer: context {
       set text(font: body-font, stretch: body-stretch, size: 7pt, fill: luma(40%))
@@ -68,31 +69,27 @@
   set table(stroke: none, inset: (x: 3pt, y: 2pt))
   show table.cell.where(y: 0): set text(font: heading-font, weight: "bold")
 
-  // Title block spans the whole page width.
+  // Title block spans the whole page width, above the columns.
   if title != none {
-    block(width: 100%, below: 0.6em)[
+    place(top, float: true, scope: "parent", clearance: 0.6em, block(width: 100%)[
       #set text(font: heading-font, weight: "bold", size: 30pt, tracking: 0.01em)
       #upper(title)
       #if subtitle != none {
         v(-0.4em)
         text(font: body-font, stretch: body-stretch, weight: "regular", size: 10.5pt, fill: luma(30%), subtitle)
       }
-    ]
+    ])
   }
 
-  set columns(gutter: 0.22in)
-  columns(cols)[
-    #body
-    #if credit != none {
-      v(1fr)
-      block(above: 1em, breakable: false)[
-        #set text(size: 7pt, fill: luma(40%))
-        #line(length: 100%, stroke: 0.5pt + luma(60%))
-        #v(0.2em)
-        #credit
-      ]
-    }
-  ]
+  body
+  if credit != none {
+    block(above: 1.4em, breakable: false)[
+      #set text(size: 7pt, fill: luma(40%))
+      #line(length: 100%, stroke: 0.5pt + luma(60%))
+      #v(0.2em)
+      #credit
+    ]
+  }
 }
 
 // Named stat or key term, printed bold the way 24XX sets rules text.
