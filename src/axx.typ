@@ -69,19 +69,19 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Turn (10 minutes)][The exploration unit: move through a few rooms, search a room, pick a lock, or rest. Every third turn roll 1d6: on a 1, a wandering monster appears (roll Threat).]
   - #k[Rest:] After five turns of activity, rest one turn or take -2 to all d20 rolls until you do. #k[Torches:] 6 turns. Lantern flask: 24 turns.
 - #item[Round (1 minute)][The combat unit. Each combatant moves and takes one action.]
-- #item[Day][Ends with 8 hours of sleep and a ration each. Without the ration, no HP is regained and all d20 rolls take -2 until fed.]
+- #item[Day][Ends with 8 hours of sleep and a ration each. Skip the ration and you heal nothing, and every d20 roll takes -2 until you eat.]
 
 == Exploration
 
 - #item[Search][One turn per 10 ft section, WIS check: find a secret door, trap, or hidden cache. Thieves use their Class Check for traps.]
 - #item[Doors][Stuck: STR check to force. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
 - #item[Noise][Forcing a door, a fight, or shouting triggers a wandering monster roll at once, on 1--2.]
-- #item[Darkness][Attacks on what you cannot see are at -4. Targeted spells need sight.]
+- #item[Darkness][Swinging at what you can't see is -4. Targeted spells need line of sight.]
 - #item[Hirelings][Torchbearer #k[1 GP/day] (HD 1/2, HP 3, AC 10). Man-at-arms #k[5 GP/day] (HD 1, HP 6, AC 13, Atk +1, 1d6). Each takes a half share of XP. When first asked to risk death, make a CHA check or they flee or quit.]
 
 == Encounters
 
-- #item[Surprise][Each side rolls 1d6: on 1--2 it is surprised and loses the first round. A side expecting trouble is not surprised.]
+- #item[Surprise][Each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming isn't.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
 - #item[Morale][When a group first loses a member, and again at half strength, the GM rolls 1d6: on 1--3 the rest flee or yield. Mindless or cornered monsters skip this.]
 
@@ -136,7 +136,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth].]
 - #item[Thresholds][Level 2 needs #k[2,000 XP]. Each level after costs double the last.]
 - #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks, saves, and slots follow Level.]
-- #item[Improvise][This is a skeleton. Rule on anything missing with a Check at TN 12, write the ruling down, and keep it. Anything from 1st Edition converts: AC is 19 minus the old number, HD is HD, saves as above.]
+- #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at TN 12, jot down how you ruled it, and stick with that. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
 
 = Running the Dungeon
 
@@ -205,7 +205,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
   item[Debt][You owe 200 GP to someone who collects.],
   item[Patron][A temple, guild, or noble pays 50 GP for each map you bring back.],
   item[Mentor][An old adventurer. One question answered per delve, by letter.],
-  item[Kin][A relative went into the dungeon and did not return.],
+  item[Kin][A relative went into the dungeon and never came back.],
 ))
 
 #rolltable("1d6", "Injury (at 0 HP)", (
