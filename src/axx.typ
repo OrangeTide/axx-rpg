@@ -68,7 +68,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 - #item[Turn (10 minutes)][The exploration unit: move through a few rooms, search a room, pick a lock, or rest. Every third turn roll 1d6: on a 1, a wandering monster appears (roll Threat).]
   - #k[Rest:] After five turns of activity, rest one turn or take -2 to all d20 rolls until you do. #k[Torches:] 6 turns. Lantern flask: 24 turns.
-- #item[Round (1 minute)][The combat unit. Each combatant moves and takes one action.]
+- #item[Round (10 seconds)][The combat unit. Each combatant moves and takes one action.]
 - #item[Day][Ends with 8 hours of sleep and a ration each. Skip the ration and you heal nothing, and every d20 roll takes -2 until you eat.]
 
 == Exploration
@@ -81,7 +81,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 == Encounters
 
-- #item[Four Answers][A monster is a puzzle, not just a fight. You can Fight, Flee, Talk, or Exploit a weakness. A look, or a Lore check with INT, tells you what cuts it, what it shrugs off, and what it wants, so you can choose while you still can.]
+- #item[Four Answers][A monster is a puzzle, not just a fight: Fight, Flee, Talk, or Exploit a weakness. A look or a Lore check with INT tells you what cuts it, what it shrugs off, and what it wants.]
 - #item[Surprise][Each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming isn't.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
 - #item[Morale][When a group first loses a member, and again at half strength, the GM rolls 1d6: on 1--3 the rest flee or yield. Mindless or cornered monsters skip this.]
@@ -89,14 +89,15 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 == Combat
 
 - #item[Initiative][Each side rolls 1d6 each round, high side first. On a tie, both act at once: resolve everything before anyone drops.]
-- #item[Action][Attack, cast, use an item, aid, or move again. Leaving melee gives each adjacent enemy a free attack.]
+- #item[Action][Each round, move up to #k[30 ft] (20 ft in medium or heavy armor) and take one action: attack, cast, use an item, or aid. #k[Run] doubles the move and forfeits the action.]
+- #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = Level + class bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two attackers on one target: +2 each.]
-- #item[Range][Move 30 ft per round, 20 ft in medium or heavy armor. Thrown 30 ft. Bows and slings 60 ft, 120 ft at -2, or 240 ft at -5. Half cover: -2 to hit. Full cover: no target.]
+- #item[Range][Thrown #k[30 ft]. Bows and slings #k[60 ft], or 120 ft at -2 and 240 ft at -5. Half cover: -2 to hit; full cover, no target.]
 - #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
 - #item[Helpless][Attacks on a sleeping, paralyzed, or bound target hit automatically.]
-- #item[Ending][A side that is down, fled, or yields ends the fight. Breaking line of sight escapes unless chased at equal speed. A CHA check may turn a fight into parley, if the enemy can talk.]
+- #item[Ending][A side that is down, flees, or yields ends it. Break line of sight to escape, unless chased at equal speed. A CHA check may turn a fight to parley, if the enemy can talk.]
 
 == Healing & Injury
 
@@ -108,7 +109,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 == Conditions
 
-- #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it, and the GM can throw it full force.]
+- #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it.]
 - #item[Poisoned][1d6 damage at the end of each turn and -2 to all d20 rolls. Body save at the end of each turn to end it.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes when damaged or after a round of shaking.]
