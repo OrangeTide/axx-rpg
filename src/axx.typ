@@ -57,9 +57,9 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 == The Core Roll
 
-- #item[Check][For a risky action, roll #k[1d20 + Ability Mod] vs #k[TN 12]. Success achieves it. Failure fails, or succeeds at a cost. TN 9 for easy, TN 15 for hard.]
-- #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod] vs TN 12.]
-- #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod] vs #k[TN 12], or TN 10 + HD if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD] vs #k[TN 10 + the caster's Level].]
+- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or succeeds at a cost. 9+ for easy, 15+ for hard.]
+- #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod], 12+.]
+- #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
   - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, wands, traps, falling, blasts. #k[Will (WIS):] spells, charm, fear, illusion.
 - #item[Aid][Spend your action to help an ally's check or attack: +2.]
 - #item[Natural 20 and 1][20 always succeeds, and an attack deals double damage. 1 always fails, with a complication.]
@@ -123,7 +123,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Spell Levels][Spells are level 1 to 3 here. Prepare spells into slots each day after sleeping. Slots by caster Level, as 1st/2nd/3rd: #k[1:] 1 #bar #k[2:] 2 #bar #k[3:] 2/1 #bar #k[4:] 3/2 #bar #k[5:] 4/2/1 #bar #k[6:] 4/2/2. After that, one more slot per Level, and a new spell level opens at each odd Level.]
 - #item[Clerics][Pray. May prepare any Cleric spell of a level they have slots for.]
 - #item[Magic-Users][Prepare only from the spellbook, which starts with two 1st-level spells and takes a slot. A Day of study copies a scroll into it, using the scroll up. A lost book costs 15 GP and a Day per spell to rewrite.]
-- #item[Turn Undead][Once per fight, a Cleric rolls #k[1d20 + Level + WIS] vs #k[TN 10 + HD] of the strongest undead present. On success, #k[2d6 HD] of undead flee for 1d4 turns, weakest first. If the Cleric's Level is 3 or more above their HD, they are destroyed instead.]
+- #item[Turn Undead][Once per fight, a Cleric rolls #k[1d20 + Level + WIS] against the strongest undead present, 10 + its HD or higher. On success, #k[2d6 HD] of undead flee for 1d4 turns, weakest first. If the Cleric's Level is 3 or more above their HD, they are destroyed instead.]
 - #item[Cleric 1][_Cure Light Wounds_ (1d8 HP, ends Poisoned) #bar _Light_ (30 ft, 6 turns) #bar _Bless_ (+1 to the party's attacks and saves, one fight) #bar _Protection from Evil_ (+2 AC and saves against Chaotic creatures, one fight).]
 - #item[Cleric 2][_Hold Person_ (up to 3 people, Body save or Paralyzed 1d4 turns) #bar _Silence_ (15 ft radius, no sound or casting, 6 turns).]
 - #item[Cleric 3][_Cure Serious Wounds_ (2d8 HP) #bar _Remove Curse_ (ends one curse, Charmed, or a cursed item's grip).]
@@ -136,7 +136,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth].]
 - #item[Thresholds][Level 2 needs #k[2,000 XP]. Each level after costs double the last.]
 - #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks, saves, and slots follow Level.]
-- #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at TN 12, jot down how you ruled it, and stick with that. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
+- #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at 12+, jot down how you ruled it, and stick with that. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
 
 = Running the Dungeon
 

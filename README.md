@@ -23,9 +23,9 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 | Area | AD&D 1st Edition | AX&X |
 | --- | --- | --- |
 | Ability modifiers | Different table per ability, with breakpoints at 15 to 18 | One table for all six. 3d6 maps to -3 through +3. |
-| Ability checks | Not a core rule. Roll under the score when used at all | 1d20 + modifier vs TN 12. Class Checks add Level. |
-| Saving throws | Five categories, class tables by level, roll over | Three saves tied to CON, DEX, and WIS. 1d20 + half Level + modifier vs TN 12, or TN 10 + HD of the source. |
-| Monster saves | Save as a Fighter of equal HD | 1d20 + HD vs TN 10 + the caster's Level. |
+| Ability checks | Not a core rule. Roll under the score when used at all | 1d20 + modifier, 12+. Class Checks add Level. |
+| Saving throws | Five categories, class tables by level, roll over | Three saves tied to CON, DEX, and WIS. 1d20 + half Level + modifier, 12+, or 10 + HD of the source if higher. |
+| Monster saves | Save as a Fighter of equal HD | 1d20 + HD, 10 + the caster's Level or higher. |
 | Armor Class | Descending, 10 to -10, with to-hit matrices | Ascending. Attack is 1d20 + Attack Mod vs AC. |
 | Attack progression | Class matrices stepped every few levels | Attack Mod is Level + class bonus + STR or DEX. Monsters attack at + HD. |
 | Hit points | Rolled at level 1, CON bonus only at 15+ | Maximum Hit Die at level 1. CON modifier applies to every Hit Die. |
@@ -39,7 +39,7 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 | Spell disruption | Any damage during casting time | Damage earlier in the round loses the spell. |
 | Spell levels | Nine Magic-User levels, seven Cleric levels | Three levels in the text. Slots follow the Magic-User progression to level 6, one more slot per level after. |
 | Spell lists | Hundreds of spells | Nineteen spells. The Improvise rule covers conversion. |
-| Turn Undead | Matrix of Cleric level against undead type, with 2d6 result | One roll: 1d20 + Level + WIS vs TN 10 + HD. Turns 2d6 HD, or destroys when 3 levels above. |
+| Turn Undead | Matrix of Cleric level against undead type, with 2d6 result | One roll: 1d20 + Level + WIS, 10 + HD or higher. Turns 2d6 HD, or destroys when 3 levels above. |
 | Experience | Gold and monster XP by table, prime requisite bonus, training cost to level | 1 GP is 1 XP. 25 XP per monster HD. 100 XP times depth for a first visit. Thresholds double from 2,000. No training. |
 | Death | Dead at -10, or 0 with optional rules, resurrection survival rolls | 0 HP triggers a 1d6 Injury roll. Slain, Maimed, and Petrified are permanent unless the GM supplies a cure. |
 | Healing | 1 HP per day of rest | Bind Wounds 1d4 once per day, one Hit Die per night, full after a week in town. |
@@ -81,8 +81,8 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 
 ## Known tensions
 
-- Saves still improve with Level while TN 12 does not move. The half Level rate
-  and creature TNs slow this but do not stop it past level 6.
+- Saves still improve with Level while the target stays 12. The half Level rate
+  and creature targets slow this but do not stop it past level 6.
 - The spell slot line follows the Magic-User table for both classes, so Clerics
   gain slots slightly slower than in 1st Edition at levels 5 and 6.
 - Monster XP at 25 per HD is low by design, so that treasure drives play.

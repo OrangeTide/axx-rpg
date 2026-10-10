@@ -1,10 +1,12 @@
 # Typst publishing pipeline.
 #
-# Every src/NAME.typ becomes build/NAME.pdf. The shared page style lives
-# in lib/, project fonts in fonts/.
+# Every .typ under src/ becomes a PDF under build/, mirroring the path.
+# So src/axx.typ builds build/axx.pdf, and src/adv/skyship.typ builds
+# build/adv/skyship.pdf. The shared page style lives in lib/, project
+# fonts in fonts/.
 #
 #   make            build all PDFs
-#   make watch      rebuild on change (first source only, or SRC=src/x.typ)
+#   make watch      rebuild on change (first source, or SRC=src/x.typ)
 #   make png        page previews in build/ for a quick visual check
 #   make clean      remove build/
 
@@ -14,7 +16,7 @@ SRCDIR   := src
 LIBDIR   := lib
 OUTDIR   := build
 
-SOURCES  := $(wildcard $(SRCDIR)/*.typ)
+SOURCES  := $(shell find $(SRCDIR) -name '*.typ')
 PDFS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SOURCES))
 PNGS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%-1.png,$(SOURCES))
 LIBS     := $(wildcard $(LIBDIR)/*.typ)
@@ -32,17 +34,17 @@ pdf: $(PDFS)
 
 png: $(PNGS)
 
-$(OUTDIR):
-	mkdir -p $@
-
-$(OUTDIR)/%.pdf: $(SRCDIR)/%.typ $(LIBS) $(FONTS) | $(OUTDIR)
+$(OUTDIR)/%.pdf: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
+	@mkdir -p $(dir $@)
 	$(TYPST) compile $(TYPSTFLAGS) $< $@
 
-$(OUTDIR)/%-{n}.png $(OUTDIR)/%-1.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS) | $(OUTDIR)
+$(OUTDIR)/%-1.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
+	@mkdir -p $(dir $@)
 	$(TYPST) compile $(TYPSTFLAGS) --format png --ppi 110 $< $(OUTDIR)/$*-{n}.png
 
-watch: | $(OUTDIR)
-	$(TYPST) watch $(TYPSTFLAGS) $(SRC) $(OUTDIR)/$(notdir $(SRC:.typ=.pdf))
+watch:
+	@mkdir -p $(dir $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SRC)))
+	$(TYPST) watch $(TYPSTFLAGS) $(SRC) $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SRC))
 
 # List the fonts Typst can see, to verify the fonts/ directory is picked up.
 fonts:
