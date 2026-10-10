@@ -18,7 +18,7 @@
 //
 //   title:     game title, set large at the top of page one
 //   subtitle:  one line under the title
-//   credit:    attribution line printed in the page footer
+//   credit:    attribution line set small at the end of the document
 //   cols:      column count for the body (24XX uses 2 or 3)
 //   paper:     Typst paper name
 #let xx(
@@ -35,7 +35,6 @@
     margin: (x: 0.5in, top: 0.5in, bottom: 0.55in),
     footer: context {
       set text(font: body-font, stretch: body-stretch, size: 7pt, fill: luma(40%))
-      if credit != none { credit }
       h(1fr)
       counter(page).display()
     },
@@ -82,7 +81,18 @@
   }
 
   set columns(gutter: 0.22in)
-  columns(cols, body)
+  columns(cols)[
+    #body
+    #if credit != none {
+      v(1fr)
+      block(above: 1em, breakable: false)[
+        #set text(size: 7pt, fill: luma(40%))
+        #line(length: 100%, stroke: 0.5pt + luma(60%))
+        #v(0.2em)
+        #credit
+      ]
+    }
+  ]
 }
 
 // Named stat or key term, printed bold the way 24XX sets rules text.

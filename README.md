@@ -1,6 +1,6 @@
 # XD&X
 
-A 24XX refit for 1st Edition. Built with Typst.
+An OSR refit of 1st Edition, laid out in the style of 24XX. Built with Typst.
 
 ## Layout
 
