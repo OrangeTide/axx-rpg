@@ -1,0 +1,12 @@
+name,type,effect,drawback,source
+Magic Weapon,weapon,"+1 to attack and damage. Counts as magic and silver.",,core
+Magic Armor,armor,"+1 AC over its base type.",,core
+Potion of Healing,potion,"Restores 1d8 HP at once.",,core
+Potion of Giant Strength,potion,"+2 melee attack and damage for 6 turns.",,core
+Scroll,scroll,"One random spell of level 1 to 3, single cast by any caster.",,core
+Lantern of the Drowned,named,"Blue flame burns 24 turns without oil and shows invisible things.","Water within 30 ft rises an inch each turn it is lit.",core
+Blade of the First Orc,named,"Edged weapon, +2 to damage.","Howls when drawn: every monster on the level makes a noise check.",core
+Mantle of Ashes,named,"The wearer is immune to fire.","The wearer's own touch chars paper and wood.",core
+Ring of the Shut Door,named,"Once per day, Hold Portal without a slot.","The wearer cannot open any door another person has closed.",core
+Idol of Small Mercies,named,"Once per day, a full Cure Light Wounds on a touch.","It remembers each name, and one day it will ask for something.",core
+Wand of the Unseen Hand,named,"3 charges a day, each a Magic Missile.","Each charge used leaves one of the wielder's fingers numb until sleep.",core

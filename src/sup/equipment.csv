@@ -1,0 +1,25 @@
+category,item,cost_gp,slots,stat,notes
+Weapon,Light weapon,2,1,1d4,"Blunt, edged, or piercing, chosen when bought."
+Weapon,Medium weapon,10,1,1d6,"Blunt, edged, or piercing."
+Weapon,Heavy weapon,15,2,1d10,"Two hands. Blunt, edged, or piercing."
+Weapon,Bow or sling,20,2,1d6,"Piercing. Includes ammunition."
+Armor,Light armor,20,1,AC 13,
+Armor,Medium armor,75,2,AC 15,
+Armor,Heavy armor,100,3,AC 17,
+Armor,Shield,10,1,+1 AC,
+Consumable,Rations (7 days),5,1,,
+Consumable,Torches (6),1,1,,"Each torch burns 6 turns."
+Consumable,Lantern and 3 flasks,12,2,,"A flask burns 24 turns."
+Consumable,Oil flask,2,,1d6 fire,"Thrown. Sets the target Burning."
+Consumable,Blade poison (1 dose),25,,,"One hit: Body save or Poisoned. Applying it is an action."
+Tool,Rope 50 ft,1,1,,
+Tool,Ten-foot pole,1,1,,
+Tool,Spikes and hammer,3,1,,"Hold a door shut 1d4 turns against a monster."
+Tool,Grapnel,5,1,,
+Tool,Sack,1,1,,"Holds 3 slots."
+Tool,Mirror,10,,,
+Tool,Whistle,1,,,
+Tool,Chalk,1,,,
+Class Kit,Thieves' Tools,30,1,,
+Class Kit,Holy Symbol,25,,,
+Class Kit,Spellbook,15,1,,"Starts with two 1st-level spells."
