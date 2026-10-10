@@ -81,6 +81,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 == Encounters
 
+- #item[Four Answers][A monster is a puzzle, not just a fight. You can Fight, Flee, Talk, or Exploit a weakness. A look, or a Lore check with INT, tells you what cuts it, what it shrugs off, and what it wants, so you can choose while you still can.]
 - #item[Surprise][Each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming isn't.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
 - #item[Morale][When a group first loses a member, and again at half strength, the GM rolls 1d6: on 1--3 the rest flee or yield. Mindless or cornered monsters skip this.]
@@ -107,6 +108,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 == Conditions
 
+- #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it, and the GM can throw it full force.]
 - #item[Poisoned][1d6 damage at the end of each turn and -2 to all d20 rolls. Body save at the end of each turn to end it.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes when damaged or after a round of shaking.]
