@@ -8,23 +8,34 @@
 
 = The Contending Powers
 
-The land between dungeons is not empty. It is carved up among powers older and larger than any one party: merchant assemblies, horrors under the hills, hordes, courts, and cults. This supplement gives each a territory, a people, a specialty, and a want, so a party's choices ripple past the dungeon mouth.
+Powers older and larger than any one party have carved up the land between dungeons: merchant assemblies, horrors under the hills, hordes, courts, and cults. This supplement gives each a territory, a people, a specialty, and a want, so a party's choices ripple past the dungeon mouth.
 
 The feel is the old hex-map wargames, a weird continent of kingdoms: ancient, scheming, every border a grudge. None of this is needed to crawl a dungeon. Bring it in when you want the world to push back and keep its own books. The roster is generated from #k[factions.csv], so adding a row raises a new power.
+
+== Running These at the Table
+
+Do not bring all of them in at once. Treat the roster as a map to draw from. You stage only the few you need.
+
+- #item[Start small][Pick two to four powers whose territory touches where the party begins. Leave the rest as rumor, a name on the map, until the party travels into their reach.]
+- #item[Let Ties choose][A character's core Tie binds to a power, as #k[Ties to the World] below sets out. Seat the factions your players already hold a lever on, and the ones that matter pick themselves.]
+- #item[Run rivals in pairs][One near power and the rival its entry names is tension enough for a whole arc. You keep two books, not eleven, and the land still bristles.]
+- #item[Let the Clock promote][When a distant power steps onto the stage, let the #k[Doom Clock] pull it there. Do not parade the whole map past the party up front.]
+- #item[Overlap on purpose][Two powers can share a trade and a border and still read as distinct, like the Gilt Assembly and the Aether Guild over the sky-lanes. Run them as branch houses of one bloodline at odds, as a schism over doctrine, or as two faiths that hate each other most of all. Leave which it is unsaid, and let the party guess wrong.]
 
 == Reading an Entry
 
 - #item[Region][The territory the power holds or haunts. Its home ground, and often an adventure in itself.]
-- #item[People][How many, and of what sort. A rough measure, not a muster roll.]
+- #item[People][How many, and of what sort. A rough measure, not a muster roll. When a power's soldiers come to blows, stat them from the Bestiary.]
 - #item[Specialty][What it trades in, makes, or wields. The reason to deal with it, and the reason to fear it.]
-- #item[Stance][Its default disposition to outsiders, and your starting Standing with it.]
+- #item[Stance][Its mood toward outsiders. The rung named after it is the Standing you begin at.]
+- #item[Rivals][The powers it contends with. Aiding this one slips you a step with each rival named here.]
 
 == Standing
 
-Track your #k[Standing] with each power you deal with: Hostile, Wary, Neutral, Favored, Sworn. Start at the power's Stance and move one step at a time.
+Track your #k[Standing] with each power you deal with: Hostile, Wary, Neutral, Favored, Sworn. Start at the rung its entry gives and move one step at a time.
 
 - #item[Shifting][A deed that serves a power's want raises Standing a step; one that crosses it drops a step. Big deeds, a saved city or a murdered envoy, move two.]
-- #item[Reaction][Standing bends the core Reaction roll. Wary is the baseline #k[2d6 + CHA]. Favored adds +2 and opens doors; Hostile subtracts 2, and may skip the roll for a blade.]
+- #item[Reaction][Standing bends the core #k[2d6 + CHA] Reaction roll: #k[Hostile] -2, and may skip the roll for a blade #bar #k[Wary] +0 #bar #k[Neutral] +1 #bar #k[Favored] +2 #bar #k[Sworn] +4, or friendly with no roll.]
 
 == What They Want
 
@@ -37,7 +48,7 @@ Each power wants something: coin, secrets, blood, worship, land, or the clock to
 
 == Rivals
 
-Powers contend, so your friends make your enemies. Aiding one power shifts you a step against its rival. You cannot befriend the whole map; choose your enemies on purpose, and let two foes spend themselves on each other.
+Powers contend, so your friends make your enemies. Aiding one power shifts you a step against each rival its entry names. You cannot befriend the whole map; choose your enemies deliberately, and let two foes spend themselves on each other.
 
 == Ties to the World
 
@@ -61,8 +72,10 @@ Generated from #k[factions.csv]. Each is a faction of the land.
   let people = r.at(2)
   let specialty = r.at(3)
   let stance = r.at(4)
-  let hook = r.at(5)
-  [#strong(name), #emph(region). #k[People:] #people. #k[Specialty:] #specialty. #k[Stance:] #stance. #hook]
+  let start = r.at(5)
+  let rivals = r.at(6)
+  let hook = r.at(7)
+  [#strong(name), #emph(region). #k[People:] #people. #k[Specialty:] #specialty. #k[Stance:] #stance, start #start. #k[Rivals:] #rivals. #hook]
 }
 
 #let data = csv("factions.csv").slice(1)
