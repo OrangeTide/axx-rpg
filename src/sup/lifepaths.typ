@@ -50,6 +50,8 @@ Key is the ability you roll to Enlist and to Progress. Survival is the ability y
 - #item[Free Company][Fighter or Thief. Key STR, Survival STR. Paid blades on a hard campaign.]
 - #item[Drafted (Peasant)][Any class. No key. Survival CON. The fallback when enlistment fails.]
 
+Militia and Free Company are service under arms, a stint in the kind of host the Warband supplement fields. A veteran keeps those bonds. Hold a Rank and you may call your old company to the banner for a cause or a wage, a warband of men-at-arms from a Free Company or of militia from the Militia. They remember the years you served with them.
+
 #rolltable("1d6", "Benefits", note: [Roll once for each term you Progress.], (
   item[Weapon Training][Pick one weapon type outside your class list. It no longer takes the -2.],
   item[Knack][A background trade, such as riding, herbs, stonework, or forgery. +2 to Checks that use it.],
@@ -85,7 +87,7 @@ Key is the ability you roll to Enlist and to Progress. Survival is the ability y
   item[Trade Share][A stake in a merchant venture. 2d6 x 10 GP comes in each season you are home to collect it.],
   item[Freehold][A stone tower, a mill, or a walled steading. A base with a cellar, a servant or two, and a name.],
   item[A Ship][A river barge or a small coaster, yours outright, though it eats coin and wants a crew.],
-  item[Warrant][A title, a commission, or a guild mastership. Standing that opens doors, and brings duties.],
+  item[Warrant][A title, a commission, or a guild mastership, with leave to levy troops. Standing that opens doors and musters a warband at need, and the duties that come with both.],
 ))
 
 = Example
