@@ -54,6 +54,21 @@ The keywords a stat block leans on.
 
 Reskin a line with a new name and one ability, or build from scratch: #k[HP 5 per HD], #k[Atk + HD], AC 10 to 18, saves at #k[10 + HD]. One strong trick is plenty. See the core Improvise rule.
 
+#rolltable("1d12", "Rare Encounters", note: [Not an everyday fight, a legend crossed. Roll or pick one when a long journey or a deep delve has earned a wonder or a terror, then stat it from the lines that follow.], (
+  item[Dragon][Aloft on the high wind, or coiled on a hoard that could ransom a kingdom.],
+  item[Lich][A dead archmage at its work, wardens around it and its phylactery near.],
+  item[Treant][An old wood that moves, and will not forgive the axe.],
+  item[Roc][A shadow the size of a field, and the herds gone silent.],
+  item[Sphinx][A riddle cut into the only pass, and the bones of wrong answers below.],
+  item[Pegasus][A wild winged horse at a high spring, watching, poised to bolt.],
+  item[Will-o'-Wisp][A kindly light bobbing over the bog, where no road runs.],
+  item[Unicorn][A white glimmer in a hidden glade that heals, and judges.],
+  item[Medusa][A garden of statues caught mid-step, and a veiled figure among them.],
+  item[Basilisk][A lair of stone beasts, frozen where the gaze found them.],
+  item[Chimera][Three-headed death quartering the crags, fire on its breath.],
+  item[Manticore][A ridge strewn with spent tail-spikes, and more on the wing.],
+))
+
 #pagebreak()
 
 = The Beasts

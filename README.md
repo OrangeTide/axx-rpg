@@ -6,6 +6,12 @@ combat, healing, and conditions. Page two is the GM's game: magic, advancement,
 dungeon procedure, and the tables. The layout borrows the terse two-page format
 of Jason Tocci's 24XX games. The rules come from somewhere else.
 
+The two-page core runs a dungeon crawl, but that is the starting point, not the
+whole game. The supplements open it into the sandbox and overland play that light
+and medium systems are usually run as: travel by land, sea, and sky, factions and
+downtime, mass battle, hex-crawling a wilderness, and the rare encounters waiting
+out in it.
+
 ## Design goals
 
 - One roll. Everything a player does is 1d20 plus a modifier against a target
@@ -43,8 +49,9 @@ live in the conversion supplement, *Out of the Old Books* (`src/sup/conversion.t
   roll do the work.
 - **Secondary skills, languages by INT table, and aging.** INT lists lore and
   languages and leaves the details to the GM.
-- **Wilderness travel, strongholds, and domain play.** The game is a dungeon
-  crawl with a town outside it.
+- **Stronghold and domain play.** Building a castle, attracting a following, and
+  ruling a domain are not detailed yet. The Lifepath (Freehold, Warrant), Warband,
+  and Factions supplements lean toward it; the rest is the GM's to run for now.
 - **Movement rates by race and encumbrance bands.** Move is 30 ft, or 20 ft in
   heavy armor.
 - **Resurrection and raise dead.** Death is permanent unless the GM provides a
