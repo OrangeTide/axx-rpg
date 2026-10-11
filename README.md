@@ -38,7 +38,7 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 | Initiative | Side-based d6 with segments, weapon speed, and casting time | Side-based d6 once as the fight starts, or by fiction. Ties act at once. |
 | Spell disruption | Any damage during casting time | Damage earlier in the round loses the spell. |
 | Spell levels | Nine Magic-User levels, seven Cleric levels | Three levels in the text. Slots follow the Magic-User progression to level 6, one more slot per level after. |
-| Spell lists | Hundreds of spells | Nineteen spells. The Improvise rule covers conversion. |
+| Spell lists | Hundreds of spells | A starter list in the core; about seventy spells across three levels in the Spellbook. The Improvise rule covers conversion. |
 | Turn Undead | Matrix of Cleric level against undead type, with 2d6 result | One roll: 1d20 + Level + WIS, 10 + HD or higher. Turns 2d6 HD, or destroys when 3 levels above. |
 | Experience | Gold and monster XP by table, prime requisite bonus, training cost to level | 1 GP is 1 XP. 25 XP per monster HD. 100 XP times depth for a first visit. Thresholds double from 2,000. No training. |
 | Death | Dead at -10, or 0 with optional rules, resurrection survival rolls | 0 HP triggers a 1d6 Brush with Death roll. Slain, Maimed, and Petrified are permanent unless the GM supplies a cure, though a maiming can mend over weeks if the party escapes the dungeon, by the downtime supplement. |
@@ -97,8 +97,9 @@ The project splits into a small core and a set of supplements, each its own PDF.
   conditions, a starter spell and monster list, and the dungeon procedure. The
   two-page budget is a hard constraint, not an accident.
 - **Supplements.** `src/sup/*.typ` carry everything that would crowd the core: a
-  lifepath system, travel, the full bestiary, the spellbook, and a combat and
-  tactics module. Each is a standalone PDF in the same house style.
+  lifepath system, travel, downtime and healing, the full bestiary, the
+  spellbook, equipment, combat and tactics, mass combat with warbands, factions,
+  and the campaign Doom Clock. Each is a standalone PDF in the same house style.
 - **Adventures.** `src/adv/*.typ` are standalone modules, also in the house style,
   sharing one structure (hook, three acts, a choice, rewards, threats).
 - **Master data.** The CSV files in `src/sup/` are the source of record for game
@@ -132,7 +133,9 @@ decisions:
 - `src/axx.typ`: the core game. Each `.typ` under `src/` becomes a PDF under `build/`.
 - `src/adv/`, `src/sup/`: adventures and supplements.
 - `lib/24xx.typ`: the page style and helpers (`xx`, `rolltable`, `item`, `k`, `bar`).
-- `fonts/`: D-DIN (SIL OFL) and Roboto Condensed (Apache 2.0).
+- `fonts/`: D-DIN (SIL OFL) and Roboto Condensed (Apache 2.0) for the body and
+  chrome; Goudy Bookletter 1911, Sorts Mill Goudy, and Courier Prime (all SIL
+  OFL) for titles, section heads, and the zine index.
 
 ## Building
 

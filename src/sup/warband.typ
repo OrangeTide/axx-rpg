@@ -31,7 +31,7 @@ Build the host from one member's Bestiary profile and run it as a single creatur
 - #item[Keywords][It keeps what the member has. A skeleton legion stays Mindless, immune to Sleep and Fear, and resistant to edged and piercing; wolves harry; a winged host flies.]
 - #item[Recount at the top of its turn][As files fall, HD, HP, attack, and damage all drop together. Only work them out when the host's turn comes round, never after each hit.]
 
-Example: forty men-at-arms are eight files, #k[Warband HD 8]: HP 40, AC 13, attacking at +8 for 1d8+8. Against a dragon, 8 HD and 40 HP, that is an even match, about four rounds, while the dragon's breath scatters a few files each use.
+Example: forty men-at-arms are eight files, #k[Warband HD 8]: HP 40, AC 13, attacking at +8 for 1d6+8. Against a dragon, 8 HD and 40 HP, that is an even match, about four rounds, while the dragon's breath scatters a few files each use.
 
 = Striking a Foe
 
@@ -101,7 +101,7 @@ To stat an enemy host or a lent ally, the GM works five steps:
 One member line each. Derive Files, HD, and the rest at the table.
 
 - #item[Town Militia][Member HD 1/2, HP 2, AC 11, d6. Grudging, quick to break. Musters 2d6 times five.]
-- #item[Men-at-Arms][Member HD 1, HP 6, AC 13, d8. Paid and drilled. 5 to 20 under a captain.]
+- #item[Men-at-Arms][Member HD 1, HP 6, AC 13, d6. Paid and drilled. 5 to 20 under a captain.]
 - #item[Veteran Company][Member HD 2, HP 12, AC 15, d8. 10 to 40, slow to rout.]
 - #item[Wolf Pack][Member HD 1, HP 5, AC 13, d4. 2d6 strong, harries and surrounds.]
 - #item[Orc Warhost][Member HD 2, HP 9, AC 14, d8. 20 to 60 off the Red March.]

@@ -43,7 +43,7 @@ For grabs, tackles, and bare hands, when a blade is the wrong tool.
 
 = Ranged Combat
 
-- #item[Point Blank][Within 10 ft, a clear shot hits at +1. A sling or thrown weapon serves here. A bow or crossbow does not: with a foe in melee you shoot at -4 and draw a free attack, so drop it for a blade.]
+- #item[Point Blank][Within 10 ft, a clear shot hits at +1. A sling or thrown weapon serves here. A bow does not: with a foe in melee you shoot at -4 and draw a free attack, so drop it for a blade.]
 - #item[Into the Scrum][Shooting a target locked in melee with your friends is -4 to pick it out. A natural 1 or 2 hits a random fighter in that knot instead, friend or foe.]
 - #item[Cover][Something solid in the way: a low wall, a corner, a pillar. Half cover is -2 to hit; full cover, no shot. It shields you from a foe's arrows the same way.]
 - #item[Concealment][Smoke, fog, foliage, or gloom hides a target without stopping an arrow. Lightly hidden is -2, heavily hidden -4, and a target you cannot see at all takes no aimed shot or targeted spell.]
