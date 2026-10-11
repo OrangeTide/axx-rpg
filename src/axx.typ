@@ -49,7 +49,7 @@ Any kindred, any class. One trait each.
 Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only the nimble keep: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling, piercing, with ammunition (1d6, 2 slots) #k[20 GP].]
-- #item[Armor][Light (AC 13, 1 slot) #k[20 GP] #bar Medium (AC 15, 2 slots) #k[75 GP] #bar Heavy (AC 17, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
+- #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
 - #item[Consumables][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Oil flask (thrown: 1d6 fire and Burning) #k[2 GP] #bar Blade poison, 1 dose #k[25 GP].]
 - #item[Tools][Rope 50 ft (1 slot) #k[1 GP] #bar Ten-foot pole (1 slot) #k[1 GP] #bar Spikes and hammer (1 slot) #k[3 GP] #bar Grapnel (1 slot) #k[5 GP] #bar Sack (holds 3 slots, 1 slot) #k[1 GP] #bar Mirror #k[10 GP] #bar Whistle, chalk #k[1 GP].]
 - #item[Class Kit][Thieves' Tools (1 slot) #k[30 GP] #bar Holy Symbol #k[25 GP] #bar Spellbook (1 slot) #k[15 GP].]

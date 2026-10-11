@@ -3,9 +3,9 @@ Weapon,Light weapon,2,1,1d4,"Blunt, edged, or piercing, chosen when bought."
 Weapon,Medium weapon,10,1,1d6,"Blunt, edged, or piercing."
 Weapon,Heavy weapon,15,2,1d10,"Two hands. Blunt, edged, or piercing."
 Weapon,Bow or sling,20,2,1d6,"Piercing. Includes ammunition."
-Armor,Light armor,20,1,AC 13,
-Armor,Medium armor,75,2,AC 15,
-Armor,Heavy armor,100,3,AC 17,
+Armor,Light armor,20,1,AC 11,
+Armor,Medium armor,75,2,AC 14,
+Armor,Heavy armor,100,3,AC 16,
 Armor,Shield,10,1,+1 AC,
 Consumable,Rations (7 days),5,1,,
 Consumable,Torches (6),1,1,,"Each torch burns 6 turns."
