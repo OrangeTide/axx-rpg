@@ -2,7 +2,7 @@ name,type,hd,hp,ac,atk,damage,damage_type,source,notes
 Giant Rats,beast,1/2,2,12,+0,1d3,piercing,core,"2d6 rats. A bite on a natural 20 also gives disease (Poisoned)."
 Goblin Band,humanoid,1,4,13,+1,1d6,,core,"1d6 goblins ambush from cover."
 Skeleton Guard,undead,1,5,13,+1,1d6,,core,"Mindless. Resistant to piercing and edged, vulnerable to blunt."
-Orc Patrol,humanoid,2,9,14,+2,1d8,,core,"1d4 warriors demanding blood or toll."
+Orc Patrol,humanoid,1,5,13,+1,1d8,,core,"1d4 warriors demanding blood or toll."
 Ghoul,undead,2,10,14,+2,1d3/1d3/1d3,,core,"Two claws and a bite; any hit forces a Body save or Paralyzed. Mindless. Tell: gnawed bones and a carrion stink. Want: fresh meat, living or not."
 Giant Spider,beast,2,9,14,+2,1d6,piercing,core,"Poison on a hit (Body save). Webs: Dodge save or stuck 1d4 rounds."
 Rival Adventurers,humanoid,,,,,,,core,"1d4+1 NPCs of the party's Level, one per class. Roll Reaction."

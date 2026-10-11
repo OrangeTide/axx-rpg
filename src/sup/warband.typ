@@ -104,7 +104,7 @@ One member line each. Derive Files, HD, and the rest at the table.
 - #item[Men-at-Arms][Member HD 1, HP 6, AC 13, d6. Paid and drilled. 5 to 20 under a captain.]
 - #item[Veteran Company][Member HD 2, HP 12, AC 15, d8. 10 to 40, slow to rout.]
 - #item[Wolf Pack][Member HD 1, HP 5, AC 13, d4. 2d6 strong, harries and surrounds.]
-- #item[Orc Warhost][Member HD 2, HP 9, AC 14, d8. 20 to 60 off the Red March.]
+- #item[Orc Warhost][Member HD 1, HP 5, AC 13, d8. 20 to 60 off the Red March.]
 - #item[Skeleton Legion][Member HD 1, HP 5, AC 13, d6. Mindless, never breaks, as many as the necromancer raised.]
 
 #rolltable("1d8", "Warband Goals", note: [Why a host is in the field. It tells you what the warband wants, and whether it fights, captures, or deals.], (

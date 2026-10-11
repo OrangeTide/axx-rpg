@@ -148,7 +148,7 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
   item[Giant Rats][HD 1/2, HP 2, AC 12, Atk +0 (1d3 piercing). 2d6 rats. A bite on a 20 also gives disease: Poisoned.],
   item[Goblin Band][HD 1, HP 4, AC 13, Atk +1 (1d6). 1d6 goblins ambush from cover.],
   item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). 1d6. Mindless. Resistant to piercing and edged, vulnerable to blunt. Immune to Sleep, Charmed, Poisoned, Frightened.],
-  item[Orc Patrol][HD 2, HP 9, AC 14, Atk +2 (1d8). 1d4 warriors demanding blood or toll.],
+  item[Orc Patrol][HD 1, HP 5, AC 13, Atk +1 (1d8). 1d4 warriors demanding blood or toll.],
   item[Ghoul][HD 2, HP 10, AC 14, Atk +2, two claws and a bite (1d3). Any hit: Body save or Paralyzed. Immune as skeletons.],
   item[Giant Spider][HD 2, HP 9, AC 14, Atk +2 (1d6 piercing). A hit: Body save or Poisoned. Webs: Dodge save or stuck 1d4 rounds.],
 ))
