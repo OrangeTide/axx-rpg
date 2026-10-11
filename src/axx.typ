@@ -112,7 +112,7 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 == Conditions
 
 - #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it.]
-- #item[Poisoned][1d6 damage at the end of each turn and -2 to all d20 rolls. Body save at the end of each turn to end it.]
+- #item[Poisoned][1d6 damage at the end of each round and -2 to all d20 rolls. Body save at the end of each round to end it.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes when damaged or after a round of shaking.]
 - #item[Charmed][Treats the caster as a trusted friend for a day. Harm from the caster ends it.]
