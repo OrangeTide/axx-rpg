@@ -107,6 +107,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Safe Haven][A week in town restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
 - #item[At 0 HP][Roll 1d6 on Brush with Death; each result states your HP. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
+- #item[The Long Road][Between delves a party lives off the land and lays up to heal, and with time and safety even a maiming can mend. The downtime supplement runs it, or rule it at the table.]
 
 == Conditions
 
