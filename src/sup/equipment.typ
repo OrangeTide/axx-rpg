@@ -58,6 +58,12 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 - #item[Spikes and Hammer][Spike a door shut for 1d4 turns against a monster, or pin a bridge, or mark a wall.]
 - #item[Odds and Ends][A whistle signals across a room; chalk maps a maze; a sack hauls the loot.]
 
+== For the Wild
+
+- #item[Living off the Land][Line and hooks, a set of snares, a herbalist's pouch, and a curing kit turn a long road into food and physic. The #k[Hearth and Harvest] supplement gives the rules; these are the tools they ask for.]
+- #item[Camp][A tent and bedroll keep the weather out, so a cold or wet night is no longer a Body save against Exposure.]
+- #item[The Dog][A hunting dog earns its ration: +2 to Hunt or Trap, and a growl in the dark.]
+
 == Class Kits
 
 - #item[Thieves' Tools][A Thief needs them for the best shot at locks and traps; without them the Class Check suffers.]
@@ -93,6 +99,7 @@ Printed from #k[equipment.csv]. Each line is one good.
   ("Armor", "Armor"),
   ("Consumable", "Consumables"),
   ("Tool", "Kit and Tools"),
+  ("Provision", "For the Wild"),
   ("Class Kit", "Class Kits"),
 )
 

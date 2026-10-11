@@ -23,3 +23,12 @@ Tool,Chalk,1,,,
 Class Kit,Thieves' Tools,30,1,,
 Class Kit,Holy Symbol,25,,,
 Class Kit,Spellbook,15,1,,"Starts with two 1st-level spells."
+Consumable,Remedy (herbal),15,,,"Heals 1d6 HP or ends one condition. One use. Brewed from herbs or bought from a healer."
+Provision,Fishing line and hooks,1,,,"Needed to Fish."
+Provision,Snares (set of 6),3,1,,"Needed to Trap. The wild may claim them."
+Provision,Herbalist's pouch,10,,,"Needed to Gather Herbs and brew a Remedy."
+Provision,Forager's basket,1,1,,"+2 to Forage, and hauls what you find."
+Provision,Curing kit,5,1,,"Salt and twine to smoke a kill. Keeps a hunt as rations."
+Provision,Tent and bedroll,5,1,,"Shelter for a camp. No Exposure save in cold or wet."
+Provision,Skinning knife,2,,,"Dresses game and hide."
+Provision,Hunting dog,20,,,"A hireling of a sort. +2 to Hunt or Trap, eats a ration, tests morale."
