@@ -28,7 +28,7 @@ Build the host from one member's Bestiary profile and run it as a single creatur
 - #item[Attack][Once per round, #k[1d20 + HD] against the target.]
 - #item[Damage][The member's damage die #k[\+ the Warband HD]. One roll. A bigger host hits harder because it has more HD, not more dice to total.]
 - #item[Save][10 + HD, like any creature.]
-- #item[Keywords][It keeps what the member has. A skeleton legion stays Mindless, immune to Sleep and Fear, and resistant to edged and piercing; wolves harry; a winged host flies.]
+- #item[Keywords][It keeps what the member has. A skeleton legion stays Mindless and resistant to edged and piercing; wolves harry; a winged host flies.]
 - #item[Recount at the top of its turn][As files fall, HD, HP, attack, and damage all drop together. Only work them out when the host's turn comes round, never after each hit.]
 
 Example: forty men-at-arms are eight files, #k[Warband HD 8]: HP 40, AC 13, attacking at +8 for 1d6+8. Against a dragon, 8 HD and 40 HP, that is an even match, about four rounds, while the dragon's breath scatters a few files each use.

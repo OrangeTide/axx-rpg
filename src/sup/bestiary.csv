@@ -48,7 +48,7 @@ Giant Toad,beast,2,9,13,+2,1d4,,common,"Tongue 10 ft drags you in; the next bite
 Green Slime,ooze,2,9,10,+0,special,,common,"Drops from above. Devours flesh and wood: fire or a STR Check scrapes it off before it eats through. Only fire and cold kill it. Mindless."
 Grey Ooze,ooze,3,14,12,+3,2d6,,common,"Like wet stone. Rust: corrodes metal on a hit. Immune to cold and lightning. Mindless."
 Ochre Jelly,ooze,5,24,11,+5,2d6,,common,"Split by a blunt or edged blow, each half the HP. Fire or cold kills it whole. Mindless."
-Gelatinous Cube,ooze,4,18,10,+4,2d6,,common,"Fills a corridor, near-invisible: Surprise. A hit Paralyzes (Body save) and swallows. Immune to Sleep, Charmed, lightning. Mindless. Tell: a too-clean hall, with bones hanging in the air. Want: nothing, so just do not walk into it."
+Gelatinous Cube,ooze,4,18,10,+4,2d6,,common,"Fills a corridor, near-invisible: Surprise. A hit Paralyzes (Body save) and swallows. Immune to lightning. Mindless. Tell: a too-clean hall, with bones hanging in the air. Want: nothing, so just do not walk into it."
 Black Pudding,ooze,10,45,11,+10,3d6,,common,"Dissolves metal and wood. Splits under blows like an ochre jelly; only fire harms it whole. Mindless."
 Owlbear,monster,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite, a hug for 2d8 more if both claws land. Never checks morale. Tell: torn trees and drifting feathers mark its ground. Want: nothing but its range, though it can be drawn off."
 Rust Monster,monster,5,24,16,+5,special,,common,"Rust: a touch corrodes metal armor or a weapon to flakes. It wants iron, not blood. Tell: it passes over flesh and noses toward your iron. Want: your metal, so feed it a spare blade to pass."
