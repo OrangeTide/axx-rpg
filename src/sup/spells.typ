@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Spellbook",
+  title: "AX&X: Spellbook",
   subtitle: "The source of truth for spells in AX&X.",
   cols: 2,
 )

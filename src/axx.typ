@@ -1,8 +1,9 @@
 #import "../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "AX&X",
+  title: "AX&X: Core Rules",
   cols: 3,
+  cover: true,
 )
 
 = Character Creation
@@ -118,8 +119,6 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Burning][1d6 fire damage each round until a round is spent dousing.]
 - #item[Petrified][Stone. Out of play, permanent unless cured.]
 - #item[Injured][-2 to all d20 rolls until healed as the Brush with Death result states.]
-
-#pagebreak()
 
 = Magic
 

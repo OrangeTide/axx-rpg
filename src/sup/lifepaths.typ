@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Lifepaths",
+  title: "AX&X: Lifepaths",
   subtitle: "Play the years before the dungeon. A character supplement for AX&X.",
   cols: 2,
 )

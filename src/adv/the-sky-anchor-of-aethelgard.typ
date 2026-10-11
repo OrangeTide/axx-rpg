@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "The Sky-Anchor of Aethelgard",
+  title: "AX&X: The Sky-Anchor of Aethelgard",
   subtitle: "A fantasy adventure for AX&X, for 4 to 6 characters of levels 4 to 5",
   cols: 2,
 )

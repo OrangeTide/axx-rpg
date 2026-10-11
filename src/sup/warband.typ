@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Warbands",
+  title: "AX&X: Warbands",
   subtitle: "Fight as one host, and bring down huge foes. A mass-combat supplement for AX&X.",
   cols: 2,
 )

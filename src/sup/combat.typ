@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Combat & Tactics",
+  title: "AX&X: Combat & Tactics",
   subtitle: "Positioning, maneuvers, and ground. A combat supplement for AX&X.",
   cols: 2,
 )

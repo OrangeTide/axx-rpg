@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Bestiary",
+  title: "AX&X: Bestiary",
   subtitle: "The source of truth for monsters in AX&X.",
   cols: 2,
 )

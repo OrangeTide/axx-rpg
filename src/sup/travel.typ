@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Travel",
+  title: "AX&X: Travel",
   subtitle: "Overland, sea, and sky. A journey supplement for AX&X.",
   cols: 2,
 )

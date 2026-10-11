@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Powers of the Land",
+  title: "AX&X: Powers of the Land",
   subtitle: "Factions, territory, and standing. A factions supplement for AX&X.",
   cols: 2,
 )

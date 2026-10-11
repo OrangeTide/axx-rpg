@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "The Skyship in the Hollow Peak",
+  title: "AX&X: The Skyship in the Hollow Peak",
   subtitle: "A fantasy adventure for AX&X, for 4 to 6 characters of levels 2 to 3",
   cols: 2,
 )

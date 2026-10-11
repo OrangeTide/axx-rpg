@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "The Doom Clock",
+  title: "AX&X: The Doom Clock",
   subtitle: "Time, decline, and the end of the campaign. A countdown supplement for AX&X.",
   cols: 2,
 )

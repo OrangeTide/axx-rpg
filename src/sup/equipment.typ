@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Mungo's Marvelous Emporium",
+  title: "AX&X: Mungo's Marvelous Emporium",
   subtitle: "Gear, goods, and sundries. The equipment supplement for AX&X.",
   cols: 2,
 )

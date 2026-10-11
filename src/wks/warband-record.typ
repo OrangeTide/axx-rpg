@@ -1,7 +1,7 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "Warband Record",
+  title: "AX&X: Warband Record",
   subtitle: "A printable tracker for the Warbands supplement. Copy one per host.",
   cols: 1,
 )
