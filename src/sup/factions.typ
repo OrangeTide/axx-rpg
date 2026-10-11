@@ -19,7 +19,7 @@ Do not bring all of them in at once. Treat the roster as a map to draw from. You
 - #item[Start small][Pick two to four powers whose territory touches where the party begins. Leave the rest as rumor, a name on the map, until the party travels into their reach.]
 - #item[Let Ties choose][A character's core Tie binds to a power, as #k[Ties to the World] below sets out. Seat the factions your players already hold a lever on, and the ones that matter pick themselves.]
 - #item[Run rivals in pairs][One near power and the rival its entry names is tension enough for a whole arc. You keep two books, not eleven, and the land still bristles.]
-- #item[Let the Clock promote][When a distant power steps onto the stage, let the #k[Doom Clock] pull it there, one power at a time.]
+- #item[Let the Doom promote][When a distant power steps onto the stage, let the #k[Foretold Doom] pull it there, one power at a time.]
 - #item[Overlap on purpose][Two powers can share a trade and a border and still read as distinct, like the Gilt Assembly and the Aether Guild over the sky-lanes. Run them as branch houses of one bloodline at odds, as a schism over doctrine, or as two faiths that hate each other most of all. Leave which it is unsaid, and let the party guess wrong.]
 
 == Reading an Entry
@@ -39,11 +39,11 @@ Track your #k[Standing] with each power you deal with: Hostile, Wary, Neutral, F
 
 == What They Want
 
-Each power wants something: coin, secrets, blood, worship, land, or the clock to run out. The hook in each entry names it. Serve the want to rise, thwart it to fall. A power that gets what it wants from you will overlook a great deal else.
+Each power wants something: coin, secrets, blood, worship, land, or the Doom to run out. The hook in each entry names it. Serve the want to rise, thwart it to fall. A power that gets what it wants from you will overlook a great deal else.
 
 == Favor and Enmity
 
-- #item[Favored][Their region is a Safe Haven to you. Expect a discount, a hireling, a thread of lore, or a shot at a named item held back from the market.]
+- #item[Favored][Their region is a Haven to you. Expect a discount, a hireling, a thread of lore, or a shot at a named item held back from the market.]
 - #item[Hostile][Their region is a threat. Patrols, bounties, barred gates, and a knife at your back while you crawl someone else's dungeon.]
 
 == Rivals
@@ -54,9 +54,9 @@ Powers contend, so your friends make your enemies. Aiding one power shifts you a
 
 A character's core Tie, an ally, enemy, patron, mentor, or contact, belongs to a power. Roll or pick which, and that bond gains a banner, a region, and a want behind it. Now the favor owed to one name is a lever on a whole faction.
 
-== The Doom Clock
+== The Foretold Doom
 
-If you run the Doom Clock, the powers answer to it. At each Decline step, one rises and one falls: a horde crosses a border, an assembly packs its gold and flees, a hooded cult throws back its hoods. The Comet's Faithful and the Bone Clerks swell with the dark. The rest must choose a side, and will remember which side you chose.
+If you run the Foretold Doom, the powers answer to it. At each Decline step, one rises and one falls: a horde crosses a border, an assembly packs its gold and flees, a hooded cult throws back its hoods. The Comet's Faithful and the Bone Clerks swell with the dark. The rest must choose a side, and will remember which side you chose.
 
 == Raising a Power
 

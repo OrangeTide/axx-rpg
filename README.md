@@ -77,7 +77,7 @@ The project splits into a small core and a set of supplements, each its own PDF.
 - **Supplements.** `src/sup/*.typ` carry everything that would crowd the core: a
   lifepath system, zero-level funnels with hirelings and henchmen, travel,
   downtime and healing, the full bestiary, the spellbook, equipment, combat and
-  tactics, mass combat with warbands, factions, the campaign Doom Clock, and a
+  tactics, mass combat with warbands, factions, the campaign Foretold Doom, and a
   guide to converting first-edition material. Each is a standalone PDF in the same
   house style.
 - **Adventures.** `src/adv/*.typ` are standalone modules, also in the house style,

@@ -51,7 +51,7 @@ Each builds to a standalone PDF in the shared house style.
   and terrain.
 - `warband.typ`: mass combat, running a crowd as one combatant by Hit Dice.
 - `factions.typ`: factions, territory, and standing, generated from `factions.csv`.
-- `doom.typ`: the campaign Doom Clock, a countdown over the whole game.
+- `doom.typ`: the Foretold Doom, a campaign countdown over the whole game.
 - `conversion.typ`: converting first-edition material, with the deviation map and
   the stat-block formulas.
 - `bestiary.typ`: the bestiary. Page one is the monster rules and the ability

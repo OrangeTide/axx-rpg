@@ -8,16 +8,16 @@
 
 = At the Hearth
 
-A week in a Safe Haven mends the body. The core already clears all HP and ends Injured for a week in town, so downtime is what the week is otherwise for. Each character takes #k[2 Downtime Actions] per haven week, and each follows one shape, like a harvest: what it spends, the roll if any, and what it wins.
+A week in a Haven, call it a refuge, a sanctuary, or a safe town as you like, mends the body. The core already clears all HP and ends Injured for a week in town, so downtime is what the week is otherwise for. Each character takes #k[2 Downtime Actions] per haven week, and each follows one shape, like a harvest: what it spends, the roll if any, and what it wins.
 
-- #item[Recover][Tend a lasting wound: fill a #k[Mending] segment, or two with a healer or an Infirmary. The free week already clears HP and Injured; this is for the hurts that outlast them. See Wounds and Mending.]
+- #item[Recover][Tend a lasting wound: fill a #k[Mending] mark, or two with a healer or an Infirmary. The free week already clears HP and Injured; this is for the hurts that outlast them. See Wounds and Mending.]
 - #item[Work][A trade for the lean weeks: a Class or background Check, 12+, earns #k[2d6 x Level x 10] GP to live on. Wages buy bread and gear, not XP. Your Lifepath names the trade.]
 - #item[Carouse][A bender, 2d6 x 10 GP a night and more in a city. Body save, 12+: win a boon, a rumor, a contact, or a step of Standing. Fail and roll the Carousing table. Gold bought XP when you hauled it to town, so this buys connection and trouble, not levels.]
 - #item[Craft & Repair][Mend gear and shields, fletch ammunition, cut snares, brew poison or a Remedy, preserve a hunt. Needs the tools, and a Check only for something new.]
 - #item[Study][Copy a scroll into the book, research a question, or learn a tongue. A Day to the scroll, as the core says; a harder lesson takes the week.]
 - #item[Court][Work a power: shift one faction's Standing a step, chase a rumor to a lead, or call in a Tie. Factions and the core Ties table name who answers.]
 
-The week has a price. A resupply stay between delves is free, as the Doom Clock counts it, but a whole season at the hearth, or a long Mending, fills a tick of the Decline. Rest too long and the doom gains while you heal.
+The week has a price. A resupply stay between delves is free, as the Foretold Doom counts it, but a whole season at the hearth, or a long Mending, fills a mark of the Decline. Rest too long and the doom gains while you heal.
 
 #rolltable("1d8", "Carousing", note: [Roll on a failed Body save after a bender.], (
   item[Robbed and Beaten][Your purse is gone, and you start the next delve at half HP.],
@@ -32,13 +32,13 @@ The week has a price. A resupply stay between delves is free, as the Doom Clock 
 
 = Wounds and Mending
 
-The core mends the day to day: Bind Wounds, a night's sleep, a week's Safe Haven. This is for the deeper hurts, the ones that outlast a night. It is the slow healing of 1st Edition, bent so that a maiming is a setback and not an ending, if you can get your friend home.
+The core mends the day to day: Bind Wounds, a night's sleep, a week's Haven. This is for the deeper hurts, the ones that outlast a night. It is the slow healing of 1st Edition, bent so that a maiming is a setback and not an ending, if you can get your friend home.
 
-- #item[Convalescence][A lasting wound, a Maimed limb, a Grievous Wound, a bad Exposure, carries a #k[Mending] clock of #k[2 to 6 weeks], the GM setting it by how bad. A week of true rest at a haven fills a segment; a healer, an Infirmary, or a course of Remedies fills two; a Cure spell skips the clock. When it fills, the Injured lifts: the scar stays, a lost eye or a limp the GM keeps, but you fight at full again.]
-- #item[Escape First][The clock runs only where it is safe to lie still. A Maimed or Grievous character carried out of the dungeon can mend; one who falls and is left behind cannot. Death in the dark is still death, so getting the wounded home is the new goal, and often the harder one.]
+- #item[Convalescence][A lasting wound, a Maimed limb, a Grievous Wound, a bad Exposure, carries a #k[Mending] Count of #k[2 to 6 weeks], the GM setting it by how bad. A week of true rest at a haven fills a mark; a healer, an Infirmary, or a course of Remedies fills two; a Cure spell skips the Count. When it fills, the Injured lifts: the scar stays, a lost eye or a limp the GM keeps, but you fight at full again.]
+- #item[Escape First][The Count runs only where it is safe to lie still. A Maimed or Grievous character carried out of the dungeon can mend; one who falls and is left behind cannot. Death in the dark is still death, so getting the wounded home is the new goal, and often the harder one.]
 - #item[The Remedy][The herbalist's dose, gathered in the wild or bought at market: one use, heals 1d6 or ends one condition, no magic needed. A party without a Cleric lives on these, and a steady course of them is what mends a wound in half the weeks.]
 - #item[First Aid][Once per wound, a WIS Check or a Thief or Cleric Class Check, 12+: steady a Grievous or Shaken ally at 1 HP without magic, or add #k[+1 Hit Die] to a patient's next night of healing. Bind it now, mend it later.]
-- #item[The Infirmary][A haven's healer, shrine, or sickhouse. For a fee or a favor it tends the Injured and fills two Mending segments a week. A Favored power often keeps one, and a lost Haven takes it with them.]
+- #item[The Infirmary][A haven's healer, shrine, or sickhouse. For a fee or a favor it tends the Injured and fills two Mending marks a week. A Favored power often keeps one, and a lost Haven takes it with them.]
 
 = Living off the Land
 
@@ -62,7 +62,7 @@ Where and when you work the land bends the roll, the way the roads bend a Travel
 - #item[The Country][#k[Rich] forest, river shire, or green plain: +2, and game is thick #bar #k[Lean] hills, moor, or scrub: +0 #bar #k[Barren] mountain, desert, or salt waste: -2 to -4, and some harvests simply fail.]
 - #item[The Season][Growing weather gives as the Country says. In #k[deep winter, drought, or dearth] drop the Country a step, and the green harvests, Forage and Herbs, fail under snow or dust. A verdant land in a hard winter is slow starvation for the unready.]
 - #item[Exposure][Cold, storm, and wet bite the body. Without shelter and warm gear, a night in the open is a Body save, 12+, or -2 to all d20 rolls until warm and dry, as a Forced March.]
-- #item[Water][Fresh water is assumed where a stream runs. In waste or dry heat, finding it is a Forage of its own, or a clock that fills as the skins run dry.]
+- #item[Water][Fresh water is assumed where a stream runs. In waste or dry heat, finding it is a Forage of its own, or a Count that fills as the skins run dry.]
 
 == The Harvests
 
@@ -79,4 +79,4 @@ Each reads in one order: the ability and what it feeds, the ground it needs, whe
 - #item[A Ration a Day][Each traveler eats one ration per Day or leg, bought in town or won from the land. A camp that cannot feed everyone goes short, and short camps heal nothing. Carried food fills slots like any good, a ration to the slot, or a few days dried and salted to the slot at the GM's call.]
 - #item[Keep the Kill][Fresh meat feeds today and spoils by tomorrow. Salt or smoke it, a Craft task with the gear, to carry a good hunt forward as rations.]
 - #item[Count or Wave][Counting rations by the head is the point, and the pressure, so keep it if you can. A table that would rather not may wave it: a good day feeds the camp, a bad one leaves it hungry and healing nothing.]
-- #item[The Long Wait][Days spent provisioning or laid up in the wild pass like any downtime. The Doom Clock does not care that you were only resting, and time bought from the land is still spent.]
+- #item[The Long Wait][Days spent provisioning or laid up in the wild pass like any downtime. The Foretold Doom does not care that you were only resting, and time bought from the land is still spent.]
