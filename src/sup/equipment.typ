@@ -23,8 +23,16 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 
 - #item[Starting Purse][A new adventurer rolls #k[3d6 x 10 GP] and spends it here.]
 - #item[Coins][Heavy. A big hoard is a load you carry: the GM calls when coin costs a slot or slows you, about one slot per 100.]
-- #item[Slots][You carry slots equal to your #k[STR] score. Go over and you move at half speed and take -2 to all d20 rolls until you drop the weight. A sack holds 3 slots; a mule or a hireling holds more.]
+- #item[Slots][You carry slots equal to your #k[STR] score. That is a soft cap, not a wall: pile on more and you are Overloaded, below. A sack holds 3 slots; a mule or a hireling holds more.]
 - #item[Availability][A town stocks the common lines. Anything rare wants a bigger city, a favor, or a search, at the GM's call.]
+
+== Overloading
+
+Greed and good hauls both outweigh a strong back. You may take up more than you carry well and pay the weight for it. Worn armor and the weapon in hand count against your slots like anything else.
+
+- #item[Overloaded][One slot over #k[STR] or more: the load drags and tires you. Move at #k[half speed] with no Run, and -2 to all d20 rolls, until you drop back within your slots.]
+- #item[Immovable][Past #k[double] your slots you only shuffle the pile a few feet. No fighting, climbing, swimming, or running. Set it down to act.]
+- #item[Lighten Up][Dropping a sack or pack is free and instant: ditch the haul, fight light, come back for it. Spread a load across packs, a mule, and strong backs; #k[Travel] runs the mounts and wagons that carry treasure out.]
 
 == Arms
 
@@ -70,10 +78,6 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 - #item[Holy Symbol][The Cleric's focus for prayers and for Turn Undead. Lose it and you cannot prepare spells.]
 - #item[Spellbook][The Magic-User's focus, opening with two 1st-level spells. A scroll or a captured book copies in with a Day of study.]
 
-== Stock Your Own Shelf
-
-Price new gear by slot and effect. A mundane tool is a coin or two and one slot. A one-use trick runs a few GP up to 25, the cost of a dose. If it would swing a fight on its own, it is not gear, it is treasure. Keep the names a little strange; Mungo would.
-
 #pagebreak()
 
 = On the Shelves
@@ -110,3 +114,7 @@ Printed from #k[equipment.csv]. Each line is one good.
     list(..rows.map(fmt))
   }
 }
+
+== Stock Your Own Shelf
+
+Price new gear by slot and effect. A mundane tool is a coin or two and one slot; a one-use trick runs a few GP up to 25. If it would swing a fight on its own, it is treasure, not gear. Keep the names strange; Mungo would.
