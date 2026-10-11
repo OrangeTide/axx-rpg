@@ -35,6 +35,7 @@
   paper: "us-letter",
   cover: false,
   cover-art: none,
+  dense: false,
   body,
 ) = {
   set document(title: title)
@@ -49,8 +50,10 @@
     },
     footer-descent: 0.2in,
   )
-  set text(font: body-font, stretch: body-stretch, size: 9pt, fill: black, hyphenate: false)
-  set par(leading: 0.58em, spacing: 0.54em, justify: false)
+  // Dense restores the condensed two-page 24XX density; the readable default
+  // suits the supplements, where space is cheap.
+  set text(font: body-font, stretch: body-stretch, size: if dense { 8.3pt } else { 9pt }, fill: black, hyphenate: false)
+  set par(leading: if dense { 0.4em } else { 0.58em }, spacing: if dense { 0.4em } else { 0.54em }, justify: false)
 
   // Level 1: major section in big heavy caps with a rule above.
   show heading.where(level: 1): it => context {
@@ -86,8 +89,8 @@
     }
   }
 
-  set list(indent: 0.4em, body-indent: 0.4em, spacing: 0.52em, marker: text(size: 7pt, sym.bullet))
-  set enum(indent: 0em, body-indent: 0.5em, spacing: 0.52em, numbering: n => text(font: heading-font, weight: "bold")[#n])
+  set list(indent: 0.4em, body-indent: 0.4em, spacing: if dense { 0.42em } else { 0.52em }, marker: text(size: 7pt, sym.bullet))
+  set enum(indent: 0em, body-indent: 0.5em, spacing: if dense { 0.42em } else { 0.52em }, numbering: n => text(font: heading-font, weight: "bold")[#n])
   set table(stroke: none, inset: (x: 3pt, y: 2pt))
   show table.cell.where(y: 0): set text(font: heading-font, weight: "bold")
 
