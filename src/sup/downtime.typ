@@ -53,7 +53,7 @@ Each day in the wild, a character may work the land instead of, or alongside, pr
 - #item[The Roll][#k[1d20 + the harvest's ability], 12+. The Country and the Season lift or drop it, as terrain bends a Travel Check. Another hand may Aid for +2.]
 - #item[The Yield][A success makes #k[rations], food for that many travelers for one day, or for herbs a #k[Remedy]. Each harvest says how many it feeds. Several hands stack, and lean ground takes many to feed a party.]
 - #item[While You Travel][Some work rides along with the journey and some spends the day, as each harvest says. A march still crawls at the #k[Cautious] pace while it forages, a ship trails a line as it sails, and aloft the land is out of reach, so an airship crosses on its stores alone.]
-- #item[Failure][Nothing from that harvest today. Out of food, every traveler takes -2 and heals nothing until the camp is fed, as Travel and the core both warn.]
+- #item[Failure][Nothing from that harvest today. Out of food, every traveler is Weakened and heals nothing until the camp is fed, as Travel and the core both warn.]
 
 == The Country and the Season
 
@@ -61,7 +61,7 @@ Where and when you work the land bends the roll, the way the roads bend a Travel
 
 - #item[The Country][#k[Rich] forest, river shire, or green plain: +2, and game is thick #bar #k[Lean] hills, moor, or scrub: +0 #bar #k[Barren] mountain, desert, or salt waste: -2 to -4, and some harvests simply fail.]
 - #item[The Season][Growing weather gives as the Country says. In #k[deep winter, drought, or dearth] drop the Country a step, and the green harvests, Forage and Herbs, fail under snow or dust. A verdant land in a hard winter is slow starvation for the unready.]
-- #item[Exposure][Cold, storm, and wet bite the body. Without shelter and warm gear, a night in the open is a Body save, 12+, or -2 to all d20 rolls until warm and dry, as a Forced March.]
+- #item[Exposure][Cold, storm, and wet bite the body. Without shelter and warm gear, a night in the open is a Body save, 12+, or Weakened until warm and dry, as a Forced March.]
 - #item[Water][Fresh water is assumed where a stream runs. In waste or dry heat, finding it is a Forage of its own, or a Count that fills as the skins run dry.]
 
 == The Harvests
@@ -69,7 +69,7 @@ Where and when you work the land bends the roll, the way the roads bend a Travel
 Each reads in one order: the ability and what it feeds, the ground it needs, when it fits the journey, and its catch.
 
 - #item[Forage][#k[WIS], feeds #k[1d4]. Roots, greens, nuts, and berries from wood and field. Worked on the march, at the #k[Cautious] pace. On a natural 1 a foul find hides in the basket: Body save or any who eat it are Poisoned.]
-- #item[Hunt][#k[DEX] or #k[STR], feeds #k[1d6]. Needs a bow or a sling and country that holds game. A dedicated outing that spends the day or the leg. The kill carries far, so roll a wandering monster at once, as Noise, on 1--2.]
+- #item[Hunt][#k[DEX] or #k[STR], feeds #k[1d6]. Needs a bow or a sling and country that holds game. A dedicated outing that spends the day or the leg. The kill carries far, so roll a wandering monster at once, on 1--2.]
 - #item[Fish][#k[WIS], feeds #k[1d3]. Needs line and hooks and water to cast on. Worked at a shore camp, or over the rail of a ship underway for no cost to the leg. Quiet and sure, if slow.]
 - #item[Trap][#k[Thief Class Check] or #k[INT], feeds #k[1d4]. Needs a set of snares and runs or burrows to lay them on. Set at dusk and read at dawn, so it costs no daylight and rides along with march or rest. The wild may claim the snares: recover them on a Check, or lose them.]
 - #item[Gather Herbs][#k[WIS], yields a #k[Remedy], not food. Needs a herbalist's pouch and something growing. Worked on the march, like foraging. It fills no bellies, so another hand must still find the meal; the Remedy heals 1d6 or ends one condition once, or makes a poison. Full herb-lore is in Wounds and Mending.]

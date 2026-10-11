@@ -23,13 +23,13 @@ Name a #k[guide] for the leg, the one breaking trail or at the helm. Only the gu
 
 A standing choice, and the #k[slowest traveler sets it].
 
-- #item[Forced March][Cover half again the distance, but at day's end make a Body save, 12+, or take -2 to all d20 rolls until a full night's rest.]
+- #item[Forced March][Cover half again the distance, but at day's end make a Body save, 12+, or be Weakened until a full night's rest.]
 - #item[Steady][The baseline.]
 - #item[Cautious][Half the distance, and +2 to the Travel Check. Scout ahead, mark the trail, reef the sails.]
 
 = On the Road
 
-- #item[Rations][Each leg costs one ration per traveler, like any Day. Out of food, every further day takes -2 and heals nothing until you resupply.]
+- #item[Rations][Each leg costs one ration per traveler, like any Day. Out of food, every further day you are Weakened and heal nothing until you resupply.]
 - #item[Carriers][Mounts, wagons, and ships carry more and go faster, and each can be lost or wrecked on a Mishap. Strand or scuttle one to turn a hazard aside, once.]
 - #item[The Journey Count][A long or risky crossing is a Count of 4 to 6 marks, named for what runs out: the snows closing the pass, a pursuit, the stores. Each Mishap, each detour, and each night camped in the open fills one. When it fills, the named thing happens with no roll to stop it. The Check says whether today went well; the Count says how long you have. Do not spend one bad roll on both.]
 - #item[Arriving][You arrive as worn as the road left you. Carry any fatigue and wounds into what waits. A safe arrival lets you rest as a Day or a Haven; a hot one does not.]
@@ -56,11 +56,11 @@ A leg is a day aloft, and the guide rolls #k[DEX] at the helm. An airship makes 
 
 #rolltable("1d8", "Mishaps", note: [Roll on a failed Travel Check, or when the Journey Count fills.], (
   item[Lost][Add a day finding the way. At sea you are off course; aloft, blown off heading.],
-  item[Weather Turns][Everything is -2 until it breaks, or hole up and lose a day. At sea or aloft, a storm, as that road says.],
+  item[Weather Turns][You are Weakened until it breaks, or hole up and lose a day. At sea or aloft, a storm, as that road says.],
   item[Breakdown][A mount goes lame, an axle breaks, a sail tears, the engine coughs. Mend it with a Check or go on slower.],
   item[Not Alone][A wandering monster on open ground or deep water. Roll on the Threat table.],
   item[The Ground Turns][A flood, a rockfall, a ravine, a reef, a downdraft. A Check to cross, or a day the long way around.],
   item[Spoiled Stores][A day's rations ruined, or the water fouled.],
-  item[Hard Going][Someone is hurt or loses heart. A traveler takes -2 until the next safe rest, or a hireling tests morale.],
+  item[Hard Going][Someone is hurt or loses heart. A traveler is Weakened until the next safe rest, or a hireling tests morale.],
   item[A Find][A shrine, a ruin, a wreck, a hermit with news. A chance for aid, a rumor, or a side delve.],
 ))

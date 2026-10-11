@@ -15,7 +15,7 @@ Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Tie.
 Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3.
 
 - #item[STR][Melee attack and damage. Item #k[slots] equal to the score.]
-- #item[DEX][Missile attack. AC bonus only at 16+.]
+- #item[DEX][Missile attack. AC edge at high DEX, see Gear.]
 - #item[CON][HP per Hit Die. Body saves.]
 - #item[INT][Lore, languages. Magic-User with +1 or better: one extra 1st-level slot.]
 - #item[WIS][Perception, Will saves. Cleric with +1 or better: one extra 1st-level slot.]
@@ -67,16 +67,16 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 
 == Time
 
-- #item[Turn (10 minutes)][The exploration unit: move through a few rooms, search a room, pick a lock, or rest. Every third turn roll 1d6: on a 1, a wandering monster appears (roll Threat).]
-  - #k[Rest:] After five turns of activity, rest one turn or take -2 to all d20 rolls until you do. #k[Torches:] 6 turns. Lantern flask: 24 turns.
+- #item[Turn (10 minutes)][The exploration unit: move through a few rooms, search a room, pick a lock, or rest.]
+  - #k[Rest:] After five turns of activity, rest one turn or be Weakened until you do. #k[Torches:] 6 turns. Lantern flask: 24 turns.
 - #item[Round (10 seconds)][The combat unit. Each combatant moves and takes one action.]
-- #item[Day][Ends with 8 hours of sleep and a ration each. Skip the ration and you heal nothing, and every d20 roll takes -2 until you eat.]
+- #item[Day][Ends with 8 hours of sleep and a ration each. Skip the ration and you heal nothing and are Weakened until you eat.]
 
 == Exploration
 
 - #item[Search][One turn per 10 ft section, WIS check: find a secret door, trap, or hidden cache. Thieves use their Class Check for traps.]
 - #item[Doors][Stuck: STR check to force. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
-- #item[Noise][Forcing a door, a fight, or shouting triggers a wandering monster roll at once, on 1--2.]
+- #item[Wandering Monsters][Roll 1d6 every third turn, and at once after a fight, a forced door, or a shout: a #k[1], or #k[1--2] after noise, brings a wanderer from the Threat table.]
 - #item[Darkness][Swinging at what you can't see is -4. Targeted spells need line of sight.]
 - #item[Hirelings][Torchbearer #k[1 GP/day] (HD 1/2, HP 3, AC 10). Man-at-arms #k[5 GP/day] (HD 1, HP 6, AC 13, Atk +1, 1d6). Each takes a half share of XP. When first asked to risk death, make a CHA check or they flee or quit.]
 
@@ -103,7 +103,7 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 == Healing & Injury
 
 - #item[Bind Wounds][During a rest turn, once per day, regain 1d4 HP.]
-- #item[Sleep][A Day regains one Hit Die + CON. Needs the ration.]
+- #item[Sleep][A Day regains one Hit Die + CON.]
 - #item[Haven][A week in a safe town or refuge restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
 - #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[6+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
@@ -112,14 +112,15 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 == Conditions
 
 - #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it.]
-- #item[Poisoned][1d6 damage at the end of each round and -2 to all d20 rolls. Body save at the end of each round to end it.]
+- #item[Weakened][-2 to all d20 rolls. It stacks across separate sources, so hunger and a wound together is -4, but any one source counts once.]
+- #item[Poisoned][1d6 damage at the end of each round and Weakened. Body save at the end of each round to end it.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes when damaged or after a round of shaking.]
 - #item[Charmed][Treats the caster as a trusted friend for a day. Harm from the caster ends it.]
 - #item[Frightened][Must flee from the source for 1d4 rounds.]
 - #item[Burning][1d6 fire damage each round until a round is spent dousing.]
 - #item[Petrified][Stone. Out of play, permanent unless cured.]
-- #item[Injured][-2 to all d20 rolls until healed as the Brush with Death result states.]
+- #item[Injured][Weakened until healed as the Brush with Death result states.]
 
 = Magic
 
@@ -144,12 +145,12 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 - #item[Stocking][For each room roll 1d6: #k[1--3] empty (1-in-6 chance of hidden treasure, found by Search) #bar #k[4] monster (1-in-2 chance it guards treasure) #bar #k[5] trap or trick (Dodge save or 2d6 damage, or a puzzle; below level 3, gas: Body save or Petrified) #bar #k[6] treasure, with a guard on 1--2 on 1d6.]
 - #item[Handing Out Treasure][Treasure comes from stocking, not from fights. Defeated monsters carry 1d6 x 10 GP on a 1--2 on 1d6, else nothing but XP. A leader of 3+ HD carries one Treasure roll.]
 
-#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. The heavier foes of the deeper levels are in the Bestiary.], (
+#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. #k[Mindless] is immune to Sleep, Charmed, Poisoned, and Frightened. The heavier foes of the deeper levels are in the Bestiary.], (
   item[Giant Rats][HD 1/2, HP 2, AC 12, Atk +0 (1d3 piercing). 2d6 rats. A bite on a 20 also gives disease: Poisoned.],
   item[Goblin Band][HD 1, HP 4, AC 13, Atk +1 (1d6). 1d6 goblins ambush from cover.],
-  item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). 1d6. Mindless. Resistant to piercing and edged, vulnerable to blunt. Immune to Sleep, Charmed, Poisoned, Frightened.],
+  item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). 1d6. Mindless. Resistant to piercing and edged, vulnerable to blunt.],
   item[Orc Patrol][HD 1, HP 5, AC 13, Atk +1 (1d8). 1d4 warriors demanding blood or toll.],
-  item[Ghoul][HD 2, HP 10, AC 14, Atk +2, two claws and a bite (1d3). Any hit: Body save or Paralyzed. Immune as skeletons.],
+  item[Ghoul][HD 2, HP 10, AC 14, Atk +2, two claws and a bite (1d3). Any hit: Body save or Paralyzed. Mindless.],
   item[Giant Spider][HD 2, HP 9, AC 14, Atk +2 (1d6 piercing). A hit: Body save or Poisoned. Webs: Dodge save or stuck 1d4 rounds.],
 ))
 
@@ -193,7 +194,7 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
   item[Kin][A relative went into the dungeon and never came back.],
 ))
 
-#rolltable("1d6", "Brush with Death", note: [Roll #k[1d6 + 1 per earlier Brush this day] at 0 HP. #k[6+] is Slain. A new day clears the count.], (
+#rolltable("1d6", "Brush with Death", note: [Rolled at 0 HP, as Healing & Injury sets out.], (
   item[Close Call][The blow is turned aside. Negate the attack that felled you: its damage, and any effect that same blow carried.],
   item[Scarred][Marked for life: -1 to CHA checks, or +1 to intimidate. The shock snaps you back to full HP.],
   item[Shaken][Drop what you hold. 1 HP. Injured until a Haven rest.],

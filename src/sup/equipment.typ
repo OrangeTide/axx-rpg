@@ -30,7 +30,7 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 
 Greed and good hauls both outweigh a strong back. You may take up more than you carry well and pay the weight for it. Worn armor and the weapon in hand count against your slots like anything else.
 
-- #item[Overloaded][One slot over #k[STR] or more: the load drags and tires you. Move at #k[half speed] with no Run, and -2 to all d20 rolls, until you drop back within your slots.]
+- #item[Overloaded][One slot over #k[STR] or more: the load drags and tires you. Move at #k[half speed] with no Run, and you are Weakened, until you drop back within your slots.]
 - #item[Immovable][Past #k[double] your slots you only shuffle the pile a few feet. No fighting, climbing, swimming, or running. Set it down to act.]
 - #item[Lighten Up][Dropping a sack or pack is free and instant: ditch the haul, fight light, come back for it. Spread a load across packs, a mule, and strong backs; #k[Travel] runs the mounts and wagons that carry treasure out.]
 
