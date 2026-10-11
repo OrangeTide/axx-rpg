@@ -14,6 +14,12 @@
 #let body-font = ("Roboto", "Liberation Sans", "DejaVu Sans")
 #let body-stretch = 75%
 
+// TSR nod: a Goudy Old Style serif carries the section titles, and the
+// heavier Goudy Bookletter sets the title wordmark. The sans above stays
+// on the body and the lean mechanics chrome (list numbers, table heads).
+#let section-font = ("Sorts Mill Goudy", "Goudy Bookletter 1911", "Liberation Serif", "DejaVu Serif")
+#let title-font = ("Goudy Bookletter 1911", "Sorts Mill Goudy", "Liberation Serif", "DejaVu Serif")
+
 // Document wrapper.
 //
 //   title:     game title, set large at the top of page one
@@ -27,6 +33,8 @@
   credit: none,
   cols: 3,
   paper: "us-letter",
+  cover: false,
+  cover-art: none,
   body,
 ) = {
   set document(title: title)
@@ -41,44 +49,114 @@
     },
     footer-descent: 0.2in,
   )
-  set text(font: body-font, stretch: body-stretch, size: 8.3pt, fill: black, hyphenate: false)
-  set par(leading: 0.4em, spacing: 0.4em, justify: false)
+  set text(font: body-font, stretch: body-stretch, size: 9pt, fill: black, hyphenate: false)
+  set par(leading: 0.58em, spacing: 0.54em, justify: false)
 
   // Level 1: major section in big heavy caps with a rule above.
-  show heading.where(level: 1): it => {
-    set text(font: heading-font, weight: "bold", size: 15pt, tracking: 0.02em)
-    block(above: 1.0em, below: 0.45em, breakable: false)[
-      #line(length: 100%, stroke: 1.2pt + black)
-      #v(0.15em)
-      #upper(it.body)
-    ]
+  show heading.where(level: 1): it => context {
+    // HTML export gets a semantic heading (offset so the title can be h1);
+    // the print layout keeps the big caps over a rule.
+    if target() == "html" {
+      html.elem("h2", it.body)
+    } else {
+      set text(font: section-font, weight: "regular", size: 16pt, tracking: 0.06em)
+      block(above: 1.0em, below: 0.45em, breakable: false)[
+        #line(length: 100%, stroke: 1.2pt + black)
+        #v(0.12em)
+        #upper(it.body)
+      ]
+    }
   }
   // Level 2: topic within a section.
-  show heading.where(level: 2): it => {
-    set text(font: heading-font, weight: "bold", size: 10.5pt, tracking: 0.03em)
-    block(above: 0.9em, below: 0.3em, breakable: false, upper(it.body))
+  show heading.where(level: 2): it => context {
+    if target() == "html" {
+      html.elem("h3", it.body)
+    } else {
+      set text(font: section-font, weight: "regular", size: 12pt, tracking: 0.05em)
+      block(above: 0.9em, below: 0.3em, breakable: false, upper(it.body))
+    }
   }
-  // Level 3: run-in minor heading.
-  show heading.where(level: 3): it => {
-    set text(font: heading-font, weight: "bold", size: 9pt)
-    block(above: 0.6em, below: 0.2em, breakable: false, it.body)
+  // Level 3: run-in minor heading, set in the serif italic.
+  show heading.where(level: 3): it => context {
+    if target() == "html" {
+      html.elem("h4", it.body)
+    } else {
+      set text(font: section-font, weight: "regular", style: "italic", size: 10pt)
+      block(above: 0.6em, below: 0.2em, breakable: false, it.body)
+    }
   }
 
-  set list(indent: 0.4em, body-indent: 0.4em, spacing: 0.42em, marker: text(size: 7pt, sym.bullet))
-  set enum(indent: 0em, body-indent: 0.5em, spacing: 0.42em, numbering: n => text(font: heading-font, weight: "bold")[#n])
+  set list(indent: 0.4em, body-indent: 0.4em, spacing: 0.52em, marker: text(size: 7pt, sym.bullet))
+  set enum(indent: 0em, body-indent: 0.5em, spacing: 0.52em, numbering: n => text(font: heading-font, weight: "bold")[#n])
   set table(stroke: none, inset: (x: 3pt, y: 2pt))
   show table.cell.where(y: 0): set text(font: heading-font, weight: "bold")
 
+  // Cover page: a dedicated art page for the core book.
+  if cover and title != none {
+    let parts = title.split(": ")
+    let series = parts.at(0)
+    let volume = if parts.len() > 1 { parts.slice(1).join(": ") } else { none }
+    page(columns: 1, footer: none, margin: (x: 0.75in, top: 0.75in, bottom: 0.75in))[
+      #set align(center)
+      #line(length: 100%, stroke: 3pt + black)
+      #v(0.03in)
+      #line(length: 100%, stroke: 1pt + black)
+      #v(0.55in)
+      #text(font: title-font, size: 74pt, tracking: 0.02em, upper(series))
+      #if volume != none {
+        v(0.18in)
+        block(fill: black, inset: (x: 14pt, y: 7pt),
+          text(font: section-font, fill: white, size: 19pt, tracking: 0.18em, upper(volume)))
+      }
+      #v(0.4in)
+      #if cover-art != none {
+        block(width: 100%, stroke: 1.5pt + black, clip: true,
+          image(cover-art, width: 100%, height: 4.7in, fit: "cover"))
+      } else {
+        rect(width: 100%, height: 4.7in, stroke: 1.5pt + black)[
+          #set align(center + horizon)
+          #text(font: section-font, size: 13pt, fill: luma(55%), tracking: 0.12em)[COVER ILLUSTRATION]
+        ]
+      }
+      #v(1fr)
+      #if subtitle != none {
+        text(font: body-font, stretch: body-stretch, size: 12pt, fill: luma(25%), subtitle)
+        v(0.18in)
+      }
+      #line(length: 100%, stroke: 1pt + black)
+      #v(0.03in)
+      #line(length: 100%, stroke: 3pt + black)
+      #if credit != none {
+        v(0.14in)
+        text(size: 9pt, fill: luma(35%), credit)
+      }
+    ]
+    counter(page).update(1)
+  }
+
   // Title block spans the whole page width, above the columns.
-  if title != none {
+  if title != none and not cover {
     place(top, float: true, scope: "parent", clearance: 0.6em, block(width: 100%)[
-      #set text(font: heading-font, weight: "bold", size: 30pt, tracking: 0.01em)
+      #set text(font: title-font, weight: "regular", size: 34pt, tracking: 0.03em)
       #upper(title)
       #if subtitle != none {
-        v(-0.4em)
+        v(-0.1em)
         text(font: body-font, stretch: body-stretch, weight: "regular", size: 10.5pt, fill: luma(30%), subtitle)
       }
+      #v(0.18em)
+      #line(length: 100%, stroke: 0.6pt + black)
     ])
+  }
+
+  // HTML export: the print title block and cover rely on place/page, which
+  // HTML drops, so emit the title and subtitle as a plain document header.
+  context {
+    if target() == "html" and title != none {
+      html.elem("header", {
+        html.elem("h1", title)
+        if subtitle != none { html.elem("p", subtitle) }
+      })
+    }
   }
 
   body
