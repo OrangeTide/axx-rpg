@@ -6,31 +6,44 @@
 # fonts in fonts/.
 #
 #   make            build all PDFs
+#   make html       reflowable HTML of every document (experimental Typst export)
+#   make thumbs     first-page PNG cover thumbnails
+#   make site       assemble the GitHub Pages site under _site/
 #   make watch      rebuild on change (first source, or SRC=src/x.typ)
 #   make png        page previews in build/ for a quick visual check
-#   make clean      remove build/
+#   make clean      remove build/ and _site/
 
 TYPST    ?= typst
 FONTDIR  := fonts
 SRCDIR   := src
 LIBDIR   := lib
 OUTDIR   := build
+PAGESDIR := pages
+SITEDIR  := _site
 
 SOURCES  := $(shell find $(SRCDIR) -name '*.typ')
 PDFS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SOURCES))
+HTMLS    := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.html,$(SOURCES))
+THUMBS   := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.thumb.png,$(SOURCES))
 PNGS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%-1.png,$(SOURCES))
 LIBS     := $(wildcard $(LIBDIR)/*.typ)
 FONTS    := $(wildcard $(FONTDIR)/*.otf $(FONTDIR)/*.ttf)
 
-TYPSTFLAGS ?= --root . --font-path $(FONTDIR)
+# --features html enables the experimental HTML export and the target()
+# query the page style uses to branch between its print and web layouts.
+TYPSTFLAGS ?= --root . --font-path $(FONTDIR) --features html
 
 SRC ?= $(firstword $(SOURCES))
 
-.PHONY: all pdf png watch fonts clean
+.PHONY: all pdf html thumbs site png watch fonts clean
 
 all: pdf
 
 pdf: $(PDFS)
+
+html: $(HTMLS)
+
+thumbs: $(THUMBS)
 
 png: $(PNGS)
 
@@ -38,9 +51,21 @@ $(OUTDIR)/%.pdf: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)
 	$(TYPST) compile $(TYPSTFLAGS) $< $@
 
+$(OUTDIR)/%.html: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
+	@mkdir -p $(dir $@)
+	$(TYPST) compile $(TYPSTFLAGS) --format html $< $@
+
+$(OUTDIR)/%.thumb.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
+	@mkdir -p $(dir $@)
+	$(TYPST) compile $(TYPSTFLAGS) --format png --ppi 96 --pages 1 $< $@
+
 $(OUTDIR)/%-1.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)
 	$(TYPST) compile $(TYPSTFLAGS) --format png --ppi 110 $< $(OUTDIR)/$*-{n}.png
+
+# Assemble the static site: PDFs, HTML, thumbnails, and a generated index.
+site: pdf html thumbs
+	sh $(PAGESDIR)/gen-site.sh "$(SRCDIR)" "$(OUTDIR)" "$(PAGESDIR)" "$(SITEDIR)"
 
 watch:
 	@mkdir -p $(dir $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SRC)))
@@ -48,7 +73,7 @@ watch:
 
 # List the fonts Typst can see, to verify the fonts/ directory is picked up.
 fonts:
-	$(TYPST) fonts --font-path $(FONTDIR) | grep -iE 'D-DIN|Roboto Condensed' || true
+	$(TYPST) fonts --font-path $(FONTDIR) | grep -iE 'Goudy|Roboto Condensed|Courier Prime|D-DIN' || true
 
 clean:
-	rm -rf $(OUTDIR)
+	rm -rf $(OUTDIR) $(SITEDIR)
