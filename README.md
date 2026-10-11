@@ -75,10 +75,11 @@ The project splits into a small core and a set of supplements, each its own PDF.
   conditions, a starter spell and monster list, and the dungeon procedure. The
   two-page budget is a hard constraint, not an accident.
 - **Supplements.** `src/sup/*.typ` carry everything that would crowd the core: a
-  lifepath system, travel, downtime and healing, the full bestiary, the
-  spellbook, equipment, combat and tactics, mass combat with warbands, factions,
-  the campaign Doom Clock, and a guide to converting first-edition material. Each
-  is a standalone PDF in the same house style.
+  lifepath system, zero-level funnels with hirelings and henchmen, travel,
+  downtime and healing, the full bestiary, the spellbook, equipment, combat and
+  tactics, mass combat with warbands, factions, the campaign Doom Clock, and a
+  guide to converting first-edition material. Each is a standalone PDF in the same
+  house style.
 - **Adventures.** `src/adv/*.typ` are standalone modules, also in the house style,
   sharing one structure (hook, three acts, a choice, rewards, threats).
 - **Master data.** The CSV files in `src/sup/` are the source of record for game

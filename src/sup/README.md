@@ -33,16 +33,25 @@ pages. They stay untouched by `make`.
 
 ## Supplements
 
-- `lifepaths.typ`: the lifepath character supplement. Builds to a PDF.
+Each builds to a standalone PDF in the shared house style.
+
+- `lifepaths.typ`: the lifepath character supplement, playing the years before
+  the dungeon.
+- `funnel.typ`: zero-level funnels, hirelings, and henchmen, all sharing one
+  level-0 baseline.
 - `travel.typ`: the travel and journey supplement, covering overland, sea, and
-  airship crossings. Builds to a PDF.
-- `bestiary.typ`: the bestiary supplement. Page one is the monster rules and the
-  ability glossary; the stat blocks that follow are generated from `bestiary.csv`.
-  Builds to a PDF.
-- `spells.typ`: the spellbook supplement. Page one is the magic rules and casting
+  airship crossings.
+- `downtime.typ`: downtime, healing and convalescence, and living off the land.
+- `equipment.typ`: the equipment shop, with prose on gear and a listing generated
+  from `equipment.csv`.
+- `combat.typ`: the combat and tactics supplement, with positioning, maneuvers,
+  and terrain.
+- `warband.typ`: mass combat, running a crowd as one combatant by Hit Dice.
+- `factions.typ`: factions, territory, and standing, generated from `factions.csv`.
+- `doom.typ`: the campaign Doom Clock, a countdown over the whole game.
+- `conversion.typ`: converting first-edition material, with the deviation map and
+  the stat-block formulas.
+- `bestiary.typ`: the bestiary. Page one is the monster rules and the ability
+  glossary; the stat blocks that follow are generated from `bestiary.csv`.
+- `spells.typ`: the spellbook. Page one is the magic rules and casting
   conventions; the spell entries that follow are generated from `spells.csv`.
-  Builds to a PDF.
-
-## Planned
-
-- A level-0 funnel supplement (see the project backlog).
