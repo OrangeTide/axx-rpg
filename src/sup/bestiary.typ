@@ -26,7 +26,7 @@ A monster is a problem to solve, not just a sack of HP. Every fight offers four 
 - #item[HD][Hit Dice. Also the attack bonus, and the number appearing often scales with it.]
 - #item[HP][A typical total. Roll 1d6 per HD for variety, or just use this.]
 - #item[AC][Ascending. The target an attacker needs.]
-- #item[Atk][The attack bonus, equal to HD, and the damage in parentheses with its type.]
+- #item[Atk][The attack bonus, equal to HD, and the damage in parentheses with its type. Slashed dice, as claw/claw/bite, are several attacks a round, one roll each at the same bonus.]
 - #item[Notes][Number appearing, behavior, and the abilities below, named by keyword.]
 
 Number appearing and treasure are the GM's call, guided by the core Stocking and Treasure tables. Morale is the core rule: when a group first loses one and again at half strength, roll 1d6, and on 1 to 3 the rest break.
