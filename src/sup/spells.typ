@@ -30,7 +30,7 @@ Clerics pray and may prepare any Cleric spell of a level they have slots for. Ma
 
 == Beyond Level 3
 
-The core game stops at 3rd-level spells. To carry a campaign further, a spell of a given AD&D spell level opens at twice that level minus one: 4th-level spells at caster Level 7, 5th at Level 9. Convert any 1st Edition spell by giving it a save from Body, Dodge, or Will, a duration in the shorthand above, and damage near #k[1d6 per two caster Levels] for a blast.
+The core runs spells of levels 1 to 3. Carrying a campaign past that, and converting an old edition's spells into the book, is covered in the conversion supplement, _Out of the Old Books_.
 
 #pagebreak()
 
