@@ -26,7 +26,7 @@ of Jason Tocci's 24XX games. The rules come from somewhere else.
 | Ability checks | Not a core rule. Roll under the score when used at all | 1d20 + modifier, 12+. Class Checks add Level. |
 | Saving throws | Five categories, class tables by level, roll over | Three saves tied to CON, DEX, and WIS. 1d20 + half Level + modifier, 12+, or 10 + HD of the source if higher. |
 | Monster saves | Save as a Fighter of equal HD | 1d20 + HD, 10 + the caster's Level or higher. |
-| Armor Class | Descending, 10 to -10, with to-hit matrices | Ascending. Attack is 1d20 + Attack Mod vs AC. |
+| Armor Class | Descending, 10 to -10, with to-hit matrices | Ascending. Attack is 1d20 + Attack Mod vs AC. DEX adds to AC only at 16+ (+1) or 18 (+2), keeping 1st Edition's small dodge bonus. |
 | Attack progression | Class matrices stepped every few levels | Attack Mod is Level + class bonus + STR or DEX. Monsters attack at + HD. |
 | Hit points | Rolled at level 1, CON bonus only at 15+ | Maximum Hit Die at level 1. CON modifier applies to every Hit Die. |
 | Classes | Eleven classes with subclasses and level limits | Fighter, Cleric, Magic-User, Thief. |
