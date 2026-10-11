@@ -90,6 +90,15 @@ Militia and Free Company are service under arms, a stint in the kind of host the
   item[Warrant][A title, a commission, or a guild mastership, with leave to levy troops. Standing that opens doors and musters a warband at need, and the duties that come with both.],
 ))
 
+#rolltable("1d6", "Trinket", note: [Every new character rolls one, over and above the mustering-out gear. No slot.], (
+  item[Holy Water][3 vials. Thrown: 1d6 damage to an undead creature.],
+  item[Silk Rope][50 ft, hides under a cloak.],
+  item[Crowbar][+2 to force doors.],
+  item[Bullseye Lantern][A 60 ft beam. One flask of oil.],
+  item[Iron Spikes][10 spikes and a mallet.],
+  item[Tarnished Silver Ring][Its maker's mark is unknown. The GM knows what it does.],
+))
+
 = Example
 
 Rolls STR 14, DEX 15, CON 12, INT 11, WIS 9, CHA 10. DEX 15 is +1, so she enlists in the Thieves' Guild on a 1d20+1, and makes it. Term one: Survival on DEX, a 12, clear. Progress on DEX, an 8, clear, so 500 XP and a Benefits roll of 3, a War Chest of 80 GP. Term two: Survival comes up a 4, +1 is 5, short of 12. She rolls on Brush with Death and gets Slain. The watch catches her, and she hangs before ever seeing a dungeon. New character.
