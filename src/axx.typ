@@ -83,13 +83,13 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 == Encounters
 
 - #item[Four Answers][A monster is a puzzle, not just a fight: Fight, Flee, Talk, or Exploit a weakness. A look or a Lore check with INT tells you what cuts it, what it shrugs off, and what it wants.]
-- #item[Surprise][Each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming isn't.]
+- #item[Surprise][When an encounter begins, each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming, or that scouted ahead, isn't; a side that sneaks in unseen, on a won stealth check, surprises outright.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
 - #item[Morale][When a group first loses a member, and again at half strength, the GM rolls 1d6: on 1--3 the rest flee or yield. Mindless or cornered monsters skip this.]
 
 == Combat
 
-- #item[Initiative][Roll 1d6 per side once as the fight breaks out, high side first, or let the fiction set the order. On a tie, both act at once: resolve everything before anyone drops.]
+- #item[Initiative][Each round, roll 1d6 per side, high side first, or let the fiction set the order. On a tie, both act at once: resolve everything before anyone drops.]
 - #item[Action][Each round, move up to #k[30 ft] (20 ft in medium or heavy armor) and take one action: attack, cast, use an item, or aid. #k[Run] doubles the move and forfeits the action.]
 - #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = Level + class bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two attackers on one target: +2 each.]

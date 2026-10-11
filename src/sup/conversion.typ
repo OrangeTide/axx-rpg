@@ -43,7 +43,7 @@ The left is the old way, the right is AX&X.
   [Weapon proficiency], [Proficiency slots, non-proficiency penalties, weapon vs armor table, speed factors], [Weapons outside the class list attack at -2. Weapons are blunt, edged, or piercing for resistances.],
   [Weapons and armor], [Dozens of entries with individual damage and cost], [Light, medium, heavy, and missile. Light, medium, heavy armor, and shield.],
   [Encumbrance], [Weight in gold pieces], [Item slots equal to STR. A heavy hoard of coin costs slots at the GM's call, about one per 100.],
-  [Initiative], [Side-based d6 with segments, weapon speed, and casting time], [Side-based d6 once as the fight starts, or by fiction. Ties act at once.],
+  [Initiative], [Side-based d6 with segments, weapon speed, and casting time], [Side-based d6 each round, or by fiction. Ties act at once.],
   [Spell disruption], [Any damage during casting time], [Damage earlier in the round loses the spell.],
   [Spell levels], [Nine Magic-User levels, seven Cleric levels], [Three levels in the text. Slots follow the Magic-User progression to level 6, one more slot per level after.],
   [Spell lists], [Hundreds of spells], [A starter list in the core; about seventy spells across three levels in the Spellbook. The Improvise rule and this supplement cover conversion.],
