@@ -23,12 +23,15 @@ Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #
 
 == Classes
 
-Level 1 HP is the #k[maximum] of one Hit Die + CON. Weapons outside your class list attack at -2.
+Level 1 HP is the #k[maximum] of one Hit Die + CON. A weapon outside your class list attacks at -2. Your #k[track] sets attack bonus and XP; your class adds a Hit Die, a save boon, a kit, and a signature.
 
-- #item[Fighter][d8. +2 to attacks. Any weapon or armor. +2 to Body saves.]
-- #item[Cleric][d6. +1 to attacks. Blunt weapons, medium or heavy armor. +2 to Will saves. Must be Lawful or Chaotic. Turns undead (see Magic).]
-- #item[Magic-User][d4. +0 to attacks. Dagger or staff, no armor. +2 to saves against magic. Spellbook with two 1st-level spells.]
-- #item[Thief][d6. +1 to attacks. Light weapons and armor. +2 to Dodge saves. Stealth, locks, traps, and climbing are Class Checks with DEX at +2. _Backstab:_ +4 to attack and double damage against an unaware target.]
+- #item[Tracks][Attack by Level: #k[Warrior] +Level, a 2nd attack at Level 6 and a 3rd at 11 #bar #k[Expert] and #k[Priest] +half Level (round up) #bar #k[Mage] +half Level (round down). Level 2: #k[Expert 1,500], #k[Warrior and Priest 2,000], #k[Mage 2,500] XP; each later Level doubles.]
+- #item[Fighter][Warrior, d8. Any weapon and armor. +2 Body. Kit: weapon, shield, medium armor.]
+- #item[Barbarian][Warrior, d10. No heavy armor; 40 ft unarmored. +2 Body. #k[Rage] once per fight: a round at +2 damage and half damage taken. Kit: heavy weapon, hide armor.]
+- #item[Ranger][Warrior, d8. +2 Body. Surprised only on a 1, surprises on 1--3. Tracks, hunts, forages as a Class Check, +2 in a chosen wild. Kit: bow, blade, woodcraft gear.]
+- #item[Cleric][Priest, d6. Blunt weapons, medium or heavy armor. +2 Will. Divine spells; Turns undead. Lawful or Chaotic. Kit: holy symbol, mace, medium armor.]
+- #item[Thief][Expert, d6. Light weapons and armor. +2 Dodge. Stealth, locks, traps, climbing are Class Checks with DEX +2. #k[Backstab:] +4 and double damage on the unaware. Kit: thieves' tools, light weapon, light armor.]
+- #item[Magic-User][Mage, d4. Dagger or staff, no armor. +2 against magic. Spellbook of two 1st-level spells. Kit: spellbook, dagger.]
 
 == Kindred
 
@@ -46,13 +49,12 @@ Any kindred, any class. One trait each.
 
 == Gear
 
-Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only the nimble keep: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
+Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge only the nimble keep: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling, piercing, with ammunition (1d6, 2 slots) #k[20 GP].]
 - #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
 - #item[Consumables][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Oil flask (thrown: 1d6 fire and Burning) #k[2 GP] #bar Blade poison, 1 dose #k[25 GP].]
 - #item[Tools][Rope 50 ft (1 slot) #k[1 GP] #bar Ten-foot pole (1 slot) #k[1 GP] #bar Spikes and hammer (1 slot) #k[3 GP] #bar Grapnel (1 slot) #k[5 GP] #bar Sack (holds 3 slots, 1 slot) #k[1 GP] #bar Mirror #k[10 GP] #bar Whistle, chalk #k[1 GP].]
-- #item[Class Kit][Thieves' Tools (1 slot) #k[30 GP] #bar Holy Symbol #k[25 GP] #bar Spellbook (1 slot) #k[15 GP].]
 
 = Playing the Game
 
@@ -92,7 +94,7 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 - #item[Initiative][Each round, roll 1d6 per side, high side first, or let the fiction set the order. On a tie, both act at once: resolve everything before anyone drops.]
 - #item[Action][Each round, move up to #k[30 ft] (20 ft in medium or heavy armor) and take one action: attack, cast, use an item, or aid. #k[Run] doubles the move and forfeits the action.]
 - #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
-- #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = Level + class bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two attackers on one target: +2 each.]
+- #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = your track bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two on one target: +2 each.]
 - #item[Range][Thrown #k[30 ft]. Bows and slings #k[60 ft], or 120 ft at -2 and 240 ft at -5. Half cover: -2 to hit; full cover, no target.]
 - #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
@@ -134,9 +136,8 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
 
 = Advancement
 
-- #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth].]
-- #item[Thresholds][Level 2 needs #k[2,000 XP]. Each level after costs double the last.]
-- #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks, saves, and slots follow Level.]
+- #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth]. Level 2 costs by track (see Classes); each later Level doubles the last.]
+- #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks follow your track; saves and slots follow Level.]
 - #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at 12+, jot down how you ruled it, and stick with that. Trust the fiction over the sheet: a sound ruling can stand in for a roll, and a foe can run on a look and a want. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
 
 = Running the Dungeon
@@ -172,17 +173,6 @@ Start with #k[3d6 x 10 GP]. AC is 10, or the armor value, plus a DEX edge only t
   item[Ring of the Shut Door][Once per day, Hold Portal without a slot. The wearer cannot open any door another person has closed.],
   item[Idol of Small Mercies][Once per day, a full Cure Light Wounds on a touch. The idol remembers each name, and one day it will ask for something.],
   item[Wand of the Unseen Hand][3 charges a day: a Magic Missile. Each charge used leaves one of the wielder's fingers numb until sleep.],
-))
-
-#rolltable("1d8", "Location", (
-  item[Ruined Keep][Collapse-prone stone, moldering tapestries, echoing footfalls.],
-  item[Sunken Crypt][Knee-deep water, damp granite, the smell of rot.],
-  item[Fungal Caverns][Glowing spores, slick floors, choking haze.],
-  item[Defiled Temple][Shattered altars, blood-stained pillars, a low hum.],
-  item[Obsidian Dungeon][Razor-edged black stone, sulfur vents, sigils that glow when touched.],
-  item[Labyrinth][Shifting corridors, minotaur runes, dust-covered bones.],
-  item[Flooded Mine][Rotten timbers, tunnels ending in black water, the tap of digging.],
-  item[Giant's Barrow][Doors too tall to reach, grave goods sized for titans, a cold that does not lift.],
 ))
 
 #rolltable("1d6", "Ties to the World", note: [Roll once. Also roll 1d6 for home: #k[1] the Free City #bar #k[2] a hill fort #bar #k[3] the dwarf halls #bar #k[4] the elf wood #bar #k[5] the river shires #bar #k[6] the orc marches. Home gives shelter and one named contact.], (

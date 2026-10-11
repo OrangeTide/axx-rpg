@@ -18,7 +18,8 @@ out in it.
   number, usually 12, or against Armor Class.
 - Every rule fits on one line. Anything that needs its own table gets folded
   into a line or dropped.
-- Keep the shape of 1st Edition. Six abilities rolled in order, four classes,
+- Keep the shape of 1st Edition. Six abilities rolled in order, six classes on
+  divergent progression tracks,
   kindred, alignment, Hit Dice, Vancian spells, gold for experience, turns and
   rounds, wandering monsters, morale, and lethal combat.
 - Make the GM's side complete. Stocking, depth, reaction, surprise, and treasure
@@ -32,8 +33,9 @@ AX&X one, and the line-by-line map of where AX&X departs from the first edition,
 live in the conversion supplement, *Out of the Old Books* (`src/sup/conversion.typ`).
 ## What we leave out on purpose
 
-- **Subclasses and extra classes.** Paladin, Ranger, Druid, Illusionist, Assassin,
-  Monk, and Bard. A kindred trait or a named item covers the flavor.
+- **Some subclasses.** Illusionist, Assassin, Druid, Paladin, Monk, and Bard.
+  Barbarian and Ranger are core classes now; the rest wait for the Classes
+  supplement, or a kindred trait and a named item cover the flavor.
 - **Multi-classing and dual-classing.** Any kindred may take any class, which
   removes the reason the elf fighter/magic-user existed.
 - **Level limits by race.** Nothing stops a Halfling Fighter at level 4.

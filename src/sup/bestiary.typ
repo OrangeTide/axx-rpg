@@ -116,3 +116,14 @@ Generated from #k[bestiary.csv]. Each block is one creature.
     list(..rows.map(fmt))
   }
 }
+
+#rolltable("1d8", "Lairs and Haunts", note: [Dungeon dressing. Roll or pick the shape of the place a thing has made its own.], (
+  item[Ruined Keep][Collapse-prone stone, moldering tapestries, echoing footfalls.],
+  item[Sunken Crypt][Knee-deep water, damp granite, the smell of rot.],
+  item[Fungal Caverns][Glowing spores, slick floors, choking haze.],
+  item[Defiled Temple][Shattered altars, blood-stained pillars, a low hum.],
+  item[Obsidian Dungeon][Razor-edged black stone, sulfur vents, sigils that glow when touched.],
+  item[Labyrinth][Shifting corridors, minotaur runes, dust-covered bones.],
+  item[Flooded Mine][Rotten timbers, tunnels ending in black water, the tap of digging.],
+  item[Giant's Barrow][Doors too tall to reach, grave goods sized for titans, a cold that does not lift.],
+))
