@@ -3,12 +3,12 @@
 #show: xx.with(
   title: "AX&X: Core Rules",
   cols: 3,
-  cover: true,
+  dense: true,
 )
 
 = Character Creation
 
-Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Trinket and a Tie.
+Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Tie. Lifepaths adds a Trinket and a fuller past.
 
 == Abilities
 
@@ -128,11 +128,8 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[Magic-Users][Prepare only from the spellbook, which starts with two 1st-level spells and takes a slot. A Day of study copies a scroll into it, using the scroll up. A lost book costs 15 GP and a Day per spell to rewrite.]
 - #item[Turn Undead][Once per fight, a Cleric rolls #k[1d20 + Level + WIS] against the strongest undead present, 10 + its HD or higher. On success, #k[2d6 HD] of undead flee for 1d4 turns, weakest first. If the Cleric's Level is 3 or more above their HD, they are destroyed instead.]
 - #item[Cleric 1][_Cure Light Wounds_ (1d8 HP, ends Poisoned) #bar _Light_ (30 ft, 6 turns) #bar _Bless_ (+1 to the party's attacks and saves, one fight) #bar _Protection from Evil_ (+2 AC and saves against Chaotic creatures, one fight).]
-- #item[Cleric 2][_Hold Person_ (up to 3 people, Body save or Paralyzed 1d4 turns) #bar _Silence_ (15 ft radius, no sound or casting, 6 turns).]
-- #item[Cleric 3][_Cure Serious Wounds_ (2d8 HP) #bar _Remove Curse_ (ends one curse, Charmed, or a cursed item's grip).]
 - #item[Magic-User 1][_Magic Missile_ (1d4+1 force, never misses) #bar _Sleep_ (2d4 HD of creatures of 4 HD or less, Asleep, no save) #bar _Shield_ (+4 AC, one fight) #bar _Charm Person_ (Will save or Charmed) #bar _Hold Portal_ (a door stays shut 6 turns).]
-- #item[Magic-User 2][_Invisibility_ (unseen until you attack or cast) #bar _Web_ (20 ft, Dodge save or stuck 1d4 turns; burns away in a round) #bar _Knock_ (opens one lock or stuck door).]
-- #item[Magic-User 3][_Fireball_ (5d6 fire in 20 ft, Dodge save for half) #bar _Lightning Bolt_ (5d6 lightning in a 60 ft line, Dodge for half) #bar _Fly_ (6 turns).]
+- #item[Higher Spells][Spell levels 2 and 3, and the full spell list, are in the Spellbook supplement.]
 
 = Advancement
 
@@ -143,23 +140,17 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 = Running the Dungeon
 
-- #item[Depth][Dungeon level 1 is nearest the surface. On level N, roll Threat as #k[1d12 + N - 1] (12 or more is 12), and multiply coin results by N.]
+- #item[Depth][Dungeon level 1 is nearest the surface. On levels 1 and 2, roll Threat on the #k[1d6] table below; deeper, add the level and read the heavier foes from the Bestiary. Coin results multiply by the level.]
 - #item[Stocking][For each room roll 1d6: #k[1--3] empty (1-in-6 chance of hidden treasure, found by Search) #bar #k[4] monster (1-in-2 chance it guards treasure) #bar #k[5] trap or trick (Dodge save or 2d6 damage, or a puzzle; below level 3, gas: Body save or Petrified) #bar #k[6] treasure, with a guard on 1--2 on 1d6.]
 - #item[Handing Out Treasure][Treasure comes from stocking, not from fights. Defeated monsters carry 1d6 x 10 GP on a 1--2 on 1d6, else nothing but XP. A leader of 3+ HD carries one Treasure roll.]
 
-#rolltable("1d12", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD.], (
+#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. The heavier foes of the deeper levels are in the Bestiary.], (
   item[Giant Rats][HD 1/2, HP 2, AC 12, Atk +0 (1d3 piercing). 2d6 rats. A bite on a 20 also gives disease: Poisoned.],
   item[Goblin Band][HD 1, HP 4, AC 13, Atk +1 (1d6). 1d6 goblins ambush from cover.],
   item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). 1d6. Mindless. Resistant to piercing and edged, vulnerable to blunt. Immune to Sleep, Charmed, Poisoned, Frightened.],
   item[Orc Patrol][HD 2, HP 9, AC 14, Atk +2 (1d8). 1d4 warriors demanding blood or toll.],
   item[Ghoul][HD 2, HP 10, AC 14, Atk +2 (1d3). A hit: Body save or Paralyzed. Immune as skeletons.],
   item[Giant Spider][HD 2, HP 9, AC 14, Atk +2 (1d6 piercing). A hit: Body save or Poisoned. Webs: Dodge save or stuck 1d4 rounds.],
-  item[Rival Adventurers][1d4+1 NPCs of the party's Level, one per class, after the same treasure. Roll Reaction.],
-  item[Dark Cultist][HD 3, HP 12, AC 12, Atk +3 (1d4). Casts _Cause Light Wounds_, 1d8 on a touch. Chaotic.],
-  item[Ogre][HD 4, HP 19, AC 15, Atk +4 (2d6 blunt).],
-  item[Wight][HD 3, HP 14, AC 15, Atk +3 (1d4). A hit: Body save or Injured. Resistant to all but blunt, silver, and magic. Immune as skeletons.],
-  item[Troll][HD 6, HP 30, AC 16, Atk +6 (1d8 edged). Regains 3 HP each round unless the damage was fire.],
-  item[Young Dragon][HD 8, HP 40, AC 18, Atk +8 (2d8). On first sight, Will save or Frightened. Breath once per fight: 6d6 fire in 30 ft, Dodge for half. Immune to fire. Sleeps on a hoard.],
 ))
 
 #rolltable("1d6", "Treasure", (
@@ -191,15 +182,6 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
   item[Labyrinth][Shifting corridors, minotaur runes, dust-covered bones.],
   item[Flooded Mine][Rotten timbers, tunnels ending in black water, the tap of digging.],
   item[Giant's Barrow][Doors too tall to reach, grave goods sized for titans, a cold that does not lift.],
-))
-
-#rolltable("1d6", "Trinket", note: [Each new character rolls once. No slot.], (
-  item[Holy Water][3 vials. Thrown: 1d6 damage to an undead creature.],
-  item[Silk Rope][50 ft, hides under a cloak.],
-  item[Crowbar][+2 to force doors.],
-  item[Bullseye Lantern][A 60 ft beam. One flask of oil.],
-  item[Iron Spikes][10 spikes and a mallet.],
-  item[Tarnished Silver Ring][Its maker's mark is unknown. The GM knows what it does.],
 ))
 
 #rolltable("1d6", "Ties to the World", note: [Roll once. Also roll 1d6 for home: #k[1] the Free City #bar #k[2] a hill fort #bar #k[3] the dwarf halls #bar #k[4] the elf wood #bar #k[5] the river shires #bar #k[6] the orc marches. Home gives shelter and one named contact.], (
