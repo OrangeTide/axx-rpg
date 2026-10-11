@@ -22,7 +22,7 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 == Coin & Carrying
 
 - #item[Starting Purse][A new adventurer rolls #k[3d6 x 10 GP] and spends it here.]
-- #item[Coins][Heavy. Every 100 coins fill one slot, so a hoard is a problem you carry.]
+- #item[Coins][Heavy. A big hoard is a load you carry: the GM calls when coin costs a slot or slows you, about one slot per 100.]
 - #item[Slots][You carry slots equal to your #k[STR] score. Go over and you move at half speed and take -2 to all d20 rolls until you drop the weight. A sack holds 3 slots; a mule or a hireling holds more.]
 - #item[Availability][A town stocks the common lines. Anything rare wants a bigger city, a favor, or a search, at the GM's call.]
 

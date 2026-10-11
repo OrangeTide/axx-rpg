@@ -46,7 +46,7 @@ Any kindred, any class. One trait each.
 
 == Gear
 
-Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal STR; coins fill one slot per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
+Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal STR; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling, piercing, with ammunition (1d6, 2 slots) #k[20 GP].]
 - #item[Armor][Light (AC 13, 1 slot) #k[20 GP] #bar Medium (AC 15, 2 slots) #k[75 GP] #bar Heavy (AC 17, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
@@ -89,7 +89,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 
 == Combat
 
-- #item[Initiative][Each side rolls 1d6 each round, high side first. On a tie, both act at once: resolve everything before anyone drops.]
+- #item[Initiative][Roll 1d6 per side once as the fight breaks out, high side first, or let the fiction set the order. On a tie, both act at once: resolve everything before anyone drops.]
 - #item[Action][Each round, move up to #k[30 ft] (20 ft in medium or heavy armor) and take one action: attack, cast, use an item, or aid. #k[Run] doubles the move and forfeits the action.]
 - #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = Level + class bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two attackers on one target: +2 each.]
@@ -136,7 +136,7 @@ Start with #k[3d6 x 10 GP]. AC is 10 + DEX, or armor value + DEX. Slots equal ST
 - #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth].]
 - #item[Thresholds][Level 2 needs #k[2,000 XP]. Each level after costs double the last.]
 - #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks, saves, and slots follow Level.]
-- #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at 12+, jot down how you ruled it, and stick with that. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
+- #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at 12+, jot down how you ruled it, and stick with that. Trust the fiction over the sheet: a sound ruling can stand in for a roll, and a foe can run on a look and a want. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
 
 = Running the Dungeon
 
