@@ -17,6 +17,9 @@ generate stat blocks or tables from them.
   in gold pieces and item slots.
 - `magic.csv`: magic items, both the generic treasure items and the one-of-a-kind
   named items with their drawback.
+- `occupations.csv`: the zero-level past lives, each with a knack and the one odd
+  thing it left behind. `funnel.typ` reads this file and generates the Occupations
+  table, so adding a row adds a past life to the funnel.
 - `spells.csv`: the spell compendium, by class and level, with the save a target
   rolls and the damage type where one applies. `spells.typ` reads this file and
   generates the spell entries, so adding a row adds a spell.

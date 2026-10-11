@@ -10,40 +10,27 @@
 
 Before a character is a Fighter or a Thief they are just a person with a trade and a bad idea. That is the #k[zero level], and it is one statline shared by three kinds of nobody: the peasant mob of a funnel, the torchbearer you hire at the gate, and the porter who hauls your loot. All three are built the same.
 
-- #item[Abilities][Roll #k[3d6 in order], the usual six and the usual modifiers.]
+- #item[Abilities and Kindred][Roll #k[3d6 in order] for the six, and take a kindred. Its one trait applies even now: a dwarf still sees in the dark, an elf still shrugs off Sleep.]
 - #item[Hit Points][#k[1d4 + CON], minimum 1. A zero level is one bad blow from the grave.]
 - #item[Defense and Attack][#k[AC 10], or better with scraps of armor. Attacks at #k[+0]: no class, no Level. A pitchfork, sling, or torch is a light weapon, improvised at -2 unless it is a real one.]
-- #item[Saves][#k[1d20 + ability, 12+]. No Level to add, and no class bonus.]
-- #item[A Trade][Roll one. It grants a tool or improvised weapon and a #k[knack]: +2 to Checks that trade would cover. It is who they were before the dark took an interest.]
-- #item[No Luck][At 0 HP a zero level is simply #k[dead], with no Brush with Death. That roll is a privilege of the Leveled. A kinder GM may grant it.]
+- #item[Saves][#k[1d20 + ability, 12+]. No Level to add and no class bonus, though a kindred save still counts.]
+- #item[A Past Life][Roll on #k[Occupations] below. It grants a #k[knack], +2 to Checks that life would cover, and the one odd thing you carried out of it.]
+- #item[They Leave the Story][A zero level never pops back up to fight on. At 0 HP they are out of the tale for good; the roll only tells how they go. Roll #k[Brush with Death], or a table of your own, and read it as their exit: #k[Slain] is a death, and every other result is a maiming, a breaking, or a body dragged from the field, retired from the funnel all the same, a survivor if the party wins free, a corpse if it does not. The day's +1 per Brush still climbs toward Slain. Draw your next body from your own mob first; roll up fresh zero levels only when a player's pool runs dry.]
 
-#rolltable("1d12", "Trades", note: [What they were before. Gear and a knack, for funnel peasant and hireling alike.], (
-  item[Farmer][A sickle or a sling. Knack: long labor, weather, beasts.],
-  item[Hunter][A bow and a knife. Knack: tracking, game, the wild.],
-  item[Woodcutter][An axe, and the arms for it. Knack: timber, climbing, brute work.],
-  item[Fisher][A net and hooks. Knack: water, boats, patience.],
-  item[Blacksmith][A hammer and a strong back. Knack: metal, mending, force.],
-  item[Mason][A maul and chisel. Knack: stone, walls, what is sound and what is not.],
-  item[Tanner][A flensing knife and a stench. Knack: hides, knots, foul work others refuse.],
-  item[Herbalist][A pouch of simples. Knack: herbs, poisons, a Remedy at need.],
-  item[Beggar][Rags and sharp eyes. Knack: cities, rumor, going unseen.],
-  item[Minstrel][An instrument and a tongue. Knack: performance, lore, winning a room.],
-  item[Cutpurse][A hidden blade. Knack: locks, pockets, slipping a grip.],
-  item[Acolyte][A holy token. Knack: rites, letters, the names of the dead.],
-))
+#rolltable("1d20", "Occupations", csv("occupations.csv").slice(1).map(r => [#strong(r.at(0) + ".") #r.at(1) #emph(r.at(2))]), note: [Your past life. A knack and the one strange thing you kept. Generated from #k[occupations.csv].])
 
 = Running a Funnel
 
-A funnel opens a campaign with a crowd of zero levels and ends it with a few heroes. Each player rolls up #k[three or four] of them, a dozen or more to the table, and marches the lot into one deadly adventure. The dungeon does the choosing. Whoever crawls out the far side has earned a class.
+A funnel opens a campaign with a crowd of zero levels and ends it with a few heroes. Each player rolls up a little mob of #k[three or four], a dozen or more to the table, and marches the lot into one deadly dungeon. The dungeon does the choosing. Whoever crawls out the far side has earned a class.
 
 - #item[The Mob][Everyone runs their handful at once. Track them in a row and expect to cross names out. A zero level hauls light, fights poorly, and dies easily, so the play is cleverness, caution, and numbers, not heroics.]
 - #item[Spend the Bodies][Send the expendable to prod the floor and open the door. That is the funnel's grim joke and its honest lesson: the survivors learn the dungeon is the enemy, long before the goblins are.]
-- #item[Graduation][Live to the end and the character #k[becomes Level 1]: pick a class and a kindred, take the class Hit Die at maximum plus CON for new HP, gain its features, keep your Trade as a knack and whatever gear and scars you carried out, and roll a Tie. The funnel's XP carries to that character.]
-- #item[One Survivor, or Several][A player left with one runs that one as their PC. A lucky player with two or three keeps one and may take the rest on as henchmen.]
+- #item[The Dungeon][It ships as rules, not a map. Bring your own deadly place and stock it with the core procedure, pitched a notch crueller than a Level 1 party would meet.]
+- #item[Graduation][Live to the end and the character #k[becomes Level 1]. Pick a class, your kindred and past life already yours: take the class Hit Die at maximum plus CON for new HP, gain its features, keep the knack and whatever gear and scars you carried out, and roll a Tie. The past life colors the choice, a cutpurse leans Thief, an acolyte Cleric, but never binds it. The funnel's XP carries over.]
 
 = Hirelings
 
-A hireling is a zero level you pay by the day. Build a torchbearer or a porter exactly as a funnel peasant, Trade and all; a man-at-arms is a cut above, a trained hand at Level 1.
+A hireling is a zero level you pay by the day. Build a torchbearer or a porter exactly as a funnel peasant, kindred, past life, and all; a man-at-arms is a cut above, a trained hand at Level 1.
 
 - #item[The Hired][Torchbearer or porter #k[1 GP/day], a zero level. Link-boy, bearer, and camp-hand are the same. A #k[man-at-arms] at #k[5 GP/day] is Level 1: HD 1, a weapon and light armor, Atk +1.]
 - #item[Shares][A hireling draws its wage and a #k[half share] of XP. Let that XP ride and a hireling can reach the Level 1 threshold and graduate just as a funnel survivor does, choosing a class and coming up a henchman.]
