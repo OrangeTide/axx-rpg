@@ -167,18 +167,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
   item[Chest][1d6 x 100 GP and 1d4 gems (50 GP each). Locked.],
   item[Art][Silverware, idols, or a tapestry worth 300 GP. Two slots.],
   item[Gems][2d6 cut stones at 50 GP each, in one pouch. One slot.],
-  item[Magic Item][Roll on Magic Items, with 1d6 x 100 GP.],
-))
-
-#rolltable("1d8", "Magic Items", note: [The find on a Magic Item result. Each named relic is one of a kind; the full roster is magic.csv.], (
-  item[Potion][Healing (1d8 HP), or Giant Strength (+2 melee attack and damage, 6 turns). GM picks.],
-  item[Charm][A Scroll (one random spell of level 1--3, a single cast by any caster), or a +1 weapon or +1 armor. A +1 weapon counts as magic and silver.],
-  item[Lantern of the Drowned][Its blue flame burns 24 turns without oil and shows invisible things. Water within 30 ft rises an inch each turn it is lit.],
-  item[Blade of the First Orc][Edged, +2 to damage. Howls when drawn: every monster on the level makes a noise check.],
-  item[Mantle of Ashes][Immune to fire. The wearer's own touch chars paper and wood.],
-  item[Ring of the Shut Door][Once per day, Hold Portal without a slot. The wearer cannot open any door another person has closed.],
-  item[Idol of Small Mercies][Once per day, a full Cure Light Wounds on a touch. The idol remembers each name, and one day it will ask for something.],
-  item[Wand of the Unseen Hand][3 charges a day: a Magic Missile. Each charge used leaves one of the wielder's fingers numb until sleep.],
+  item[Magic Item][Roll #k[1d6]: #k[1--4] a Potion (Healing 1d8 HP, or Giant Strength, +2 melee attack and damage for 6 turns) #bar #k[5--6] a Charm (a Scroll of one level 1--3 spell, or a +1 weapon or armor, which counts as magic and silver). Plus 1d6 x 100 GP. Named relics and the full roster are in the Relics and Wonders supplement.],
 ))
 
 #rolltable("1d6", "Ties to the World", note: [Roll once. Also roll 1d6 for home: #k[1] the Free City #bar #k[2] a hill fort #bar #k[3] the dwarf halls #bar #k[4] the elf wood #bar #k[5] the river shires #bar #k[6] the orc marches. Home gives shelter and one named contact.], (
