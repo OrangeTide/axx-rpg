@@ -30,7 +30,7 @@ A standing choice, and the #k[slowest traveler sets it].
 = On the Road
 
 - #item[Rations][Each leg costs one ration per traveler, like any Day. Out of food, every further day you are Weakened and heal nothing until you resupply.]
-- #item[Carriers][Mounts, wagons, and ships carry more and go faster, and each can be lost or wrecked on a Mishap. Strand or scuttle one to turn a hazard aside, once.]
+- #item[Carriers][A mount, wagon, or ship can be lost or wrecked on a Mishap. Strand or scuttle one to turn a hazard aside, once. What each one hauls and how fast is set by its road below.]
 - #item[The Journey Count][A long or risky crossing is a Count of 4 to 6 marks, named for what runs out: the snows closing the pass, a pursuit, the stores. Each Mishap, each detour, and each night camped in the open fills one. When it fills, the named thing happens with no roll to stop it. The Check says whether today went well; the Count says how long you have. Do not spend one bad roll on both.]
 - #item[Arriving][You arrive as worn as the road left you. Carry any fatigue and wounds into what waits. A safe arrival lets you rest as a Day or a Haven; a hot one does not.]
 
@@ -38,13 +38,42 @@ A standing choice, and the #k[slowest traveler sets it].
 
 == Overland
 
-A leg is a day, and the guide rolls #k[STR] to march and force the way. Mounts double the distance and need grazing or feed. Once per day in the wild, roll 1d6: on a 1, an encounter, so roll on the Threat table. A Lost Mishap or a filled Count calls for an #k[INT Check] to read the land and pick up the trail; fail and lose another day astray.
+A leg is a day, and the guide rolls #k[STR] to march and force the way. What you ride sets the distance and the load, below. Once per day in the wild, roll 1d6: on a 1, an encounter, so roll on the Threat table. A Lost Mishap or a filled Count calls for an #k[INT Check] to read the land and pick up the trail; fail and lose another day astray.
 
 - #item[Road or trail][24 miles. +4 to Travel.]
 - #item[Open plain][20 miles. +2 to Travel.]
 - #item[Forest or hills][12 miles. No change.]
 - #item[Mountains or desert][8 miles. -2 to Travel.]
 - #item[Swamp or jungle][6 miles. -4 to Travel.]
+
+=== By Cart and Mount
+
+On foot is the baseline above, and a walker goes anywhere a person can and carries their own slots. A mount or a cart changes the distance and the load, and adds one more thing to lose on a Mishap. The distance scales the terrain line: double of 24 miles is 48 on the road, double of 12 is 24 in the hills.
+
+#table(
+  columns: (auto, auto, 1fr),
+  stroke: (y: 0.4pt + luma(80%)),
+  inset: (x: 4pt, y: 3pt),
+  table.header([Mode], [Distance], [Notes]),
+  [On foot], [As above], [Any terrain. Each marcher carries their own slots.],
+  [Riding horse], [Double], [Road, trail, and open ground. In forest, swamp, or mountains it is led at foot distance.],
+  [Warhorse or pony], [Half again], [Bred for the charge or the steep path, not the long haul. Steady where a light horse balks.],
+  [Mule or pack train], [Foot distance], [Hauls the party's heavy gear and frees slots on the marchers. Sure-footed in hill and mountain.],
+  [Cart or wagon], [Foot distance], [Road or trail only. Hauls a great load and the footsore. Off a made road it bogs: a Breakdown, or a day the long way.],
+)
+
+- #item[Feed][A mount eats like a traveler. Green country grazes it free; waste, snow, or a ship's hold costs a slot of feed a day.]
+- #item[Forced march][A mount can force the march, but at day's end it makes the Body save in its rider's place, 12+, or goes lame.]
+- #item[Going lame][On a Breakdown that falls on a mount, or a failed forced march, roll The Beast Falters.]
+
+#rolltable("1d6", "The Beast Falters", note: [Roll when a mount goes lame on a Breakdown or a failed forced march.], (
+  item[Thrown shoe][Lead it at foot distance until reshod. A smith, or a Class Check with tools and an hour, sets it right.],
+  item[Pulled up lame][Half distance for 1d3 days, or trade it down to a pack load.],
+  item[Spooked][It bolts with a saddlebag. Lose 1d4 slots of gear unless someone makes a DEX Check to catch the rein.],
+  item[Winded][No forced march and no gallop until a full day's rest and good feed.],
+  item[Colic or fever][It sickens. A WIS Check or a Remedy saves it, else it is down a day and may be lost.],
+  item[Foundered][It can go no farther. Put it to pasture, pack what it carried onto the others, and walk.],
+))
 
 == By Sea
 

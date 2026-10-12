@@ -52,6 +52,16 @@ Key is the ability you roll to Enlist and to Progress. Survival is the ability y
 
 Militia and Free Company are service under arms, a stint in the kind of host the Warband supplement fields. A veteran keeps those bonds. Hold a Rank and you may call your old company to the banner for a cause or a wage, a warband of men-at-arms from a Free Company or of militia from the Militia. They remember the years you served with them.
 
+= Example
+
+Rolls STR 14, DEX 15, CON 12, INT 11, WIS 9, CHA 10. DEX 15 is +1, so she enlists in the Thieves' Guild on a 1d20+1, and makes it. Term one: Survival on DEX, a 12, clear. Progress on DEX, an 8, clear, so 500 XP and a Benefits roll of 3, a War Chest of 80 GP. Term two: Survival comes up a 4, +1 is 5, short of 12. She rolls on Brush with Death and gets Slain. The watch catches her, and she hangs before ever seeing a dungeon. New character.
+
+#pagebreak()
+
+= The Tables
+
+Roll on these as each term of service calls for them. Benefits and Events come up during play; Mustering Out, Legacy, and Trinket are rolled as you leave service and enter the dungeon.
+
 #rolltable("1d6", "Benefits", note: [Roll once for each term you Progress.], (
   item[Weapon Training][Pick one weapon type outside your class list. It no longer takes the -2.],
   item[Knack][A background trade, such as riding, herbs, stonework, or forgery. +2 to Checks that use it.],
@@ -71,6 +81,8 @@ Militia and Free Company are service under arms, a stint in the kind of host the
   item[A Boon][A letter of passage, a guild token, or a sigil that opens certain doors.],
   item[A Loss][A friend died on your watch. You carry their blade, or their name.],
 ))
+
+#colbreak()
 
 #rolltable("1d6", "Mustering Out", note: [Roll once for each term you served.], (
   item[Purse][3d6 x 10 GP.],
@@ -98,7 +110,3 @@ Militia and Free Company are service under arms, a stint in the kind of host the
   item[Iron Spikes][10 spikes and a mallet.],
   item[Tarnished Silver Ring][Its maker's mark is unknown. The GM knows what it does.],
 ))
-
-= Example
-
-Rolls STR 14, DEX 15, CON 12, INT 11, WIS 9, CHA 10. DEX 15 is +1, so she enlists in the Thieves' Guild on a 1d20+1, and makes it. Term one: Survival on DEX, a 12, clear. Progress on DEX, an 8, clear, so 500 XP and a Benefits roll of 3, a War Chest of 80 GP. Term two: Survival comes up a 4, +1 is 5, short of 12. She rolls on Brush with Death and gets Slain. The watch catches her, and she hangs before ever seeing a dungeon. New character.

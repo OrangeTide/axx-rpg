@@ -32,8 +32,6 @@ Clerics pray and may prepare any Cleric spell of a level they have slots for. Ma
 
 The core runs spells of levels 1 to 3. Carrying a campaign past that, and converting an old edition's spells into the book, is covered in the conversion supplement, _Out of the Old Books_.
 
-#pagebreak()
-
 #let fmt(r) = {
   let comp = r.at(6)
   if comp == "" {
@@ -44,12 +42,7 @@ The core runs spells of levels 1 to 3. Carrying a campaign past that, and conver
 }
 #let data = csv("spells.csv").slice(1)
 
-#let classes = (
-  ("Cleric", "Cleric Spells"),
-  ("Magic-User", "Magic-User Spells"),
-)
-
-#for (key, label) in classes {
+#let spell-list(key, label) = {
   heading(level: 1, label)
   for lvl in ("1", "2", "3") {
     let rows = data.filter(r => r.at(1) == key and r.at(2) == lvl).sorted(key: r => r.at(0))
@@ -59,3 +52,9 @@ The core runs spells of levels 1 to 3. Carrying a campaign past that, and conver
     }
   }
 }
+
+// The Cleric list follows the intro on page one; the longer Magic-User list
+// takes page two on its own.
+#spell-list("Cleric", "Cleric Spells")
+#pagebreak()
+#spell-list("Magic-User", "Magic-User Spells")

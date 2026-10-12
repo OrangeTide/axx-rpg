@@ -23,7 +23,7 @@ Tool,Chalk,1,,,
 Class Kit,Thieves' Tools,30,1,,
 Class Kit,Holy Symbol,25,,,
 Class Kit,Spellbook,15,1,,"Starts with two 1st-level spells."
-Consumable,Remedy (herbal),15,,,"Heals 1d6 HP or ends one condition. One use. Brewed from herbs or bought from a healer."
+Consumable,Remedy (herbal),15,,,"Heals 1d6 HP or ends one condition. One use. Brewed from herbs for 1 hour or bought from a healer."
 Provision,Fishing line and hooks,1,,,"Needed to Fish."
 Provision,Snares (set of 6),3,1,,"Needed to Trap. The wild may claim them."
 Provision,Herbalist's pouch,10,,,"Needed to Gather Herbs and brew a Remedy."
@@ -32,3 +32,25 @@ Provision,Curing kit,5,1,,"Salt and twine to smoke a kill. Keeps a hunt as ratio
 Provision,Tent and bedroll,5,1,,"Shelter for a camp. No Exposure save in cold or wet."
 Provision,Skinning knife,2,,,"Dresses game and hide."
 Provision,Hunting dog,20,,,"A hireling of a sort. +2 to Hunt or Trap, eats a ration, tests morale."
+Tool,Crowbar,2,1,,
+Tool,Caltrops (bag),3,1,,"Scatter to foul a floor."
+Tool,Silk rope 50 ft,10,1,,"Light and strong."
+Tool,Iron chain 10 ft,10,1,,
+Tool,Lock and key,15,,,
+Tool,Manacles,5,,,
+Tool,Tinderbox,1,,,
+Tool,Candles (10),1,1,,
+Tool,Waterskin,1,1,,
+Tool,Bell,1,,,
+Tool,Marbles,1,,,"Scatter to trip a chase."
+Tool,Hunting horn,5,1,,
+Tool,"Ink, quill, and parchment",2,,,
+Tool,Belt pouch,1,,,
+Tool,Large sack,1,1,,"Holds 6 slots."
+Tool,Oilskin bag,1,,,"Keeps a scroll or map dry."
+Tool,Spyglass,100,,,
+Tool,Hourglass,25,,,
+Tool,Wolfsbane sprig,5,,,"Wards the wolf."
+Tool,Garlic braid,1,,,"Wards the dead."
+Tool,Wooden stakes and mallet,1,1,,"For a staked heart."
+Consumable,Holy water (vial),25,,1d6 vs undead,"Thrown. Splashes the undead like burning oil."

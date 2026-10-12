@@ -4,6 +4,7 @@
   title: "AX&X: Bestiary",
   subtitle: "The source of truth for monsters in AX&X.",
   cols: 2,
+  dense: true,
 )
 
 = The Bestiary

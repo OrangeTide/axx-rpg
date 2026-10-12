@@ -84,8 +84,6 @@ Five or more of one troop type under a banner, with a Commander over them. A pla
 - #item[Rally the Willing][A CHA check raises 2d6 times five townsfolk or refugees as militia: cheap, HD 1/2, quick to break.]
 - #item[Old Comrades][A Lifepath veteran of the Militia or a Free Company may call the old company to the banner. The funnel's survivors muster as one warband too.]
 
-#pagebreak()
-
 = Fielding a Warband
 
 To stat an enemy host or a lent ally, the GM works five steps:

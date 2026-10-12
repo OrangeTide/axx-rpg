@@ -115,6 +115,21 @@ Printed from #k[equipment.csv]. Each line is one good.
   }
 }
 
+#rolltable("d12", "Mungo's Curiosities", (
+  [A brass key that fits no lock Mungo will name.],
+  [A hand mirror that fogs near the dead.],
+  [A jar of fireflies, good for an hour of dim light.],
+  [A single die that always seems to win.],
+  [A map to somewhere, drawn by a known liar.],
+  [A tin whistle that only dogs, and worse, seem to hear.],
+  [A finger bone that always points downhill.],
+  [A sealed letter, never sent, still warm.],
+  [A child's tooth set in a silver band.],
+  [A folding knife with a blade bent to a hook.],
+  [A purse of foreign coins, a king long dead.],
+  [A locket holding the face of a stranger.],
+), note: [The odd shelf at the back. Roll when a pocket is picked, a pack is dumped, or Mungo owes you change. What it does is for the table to decide.])
+
 == Stock Your Own Shelf
 
 Price new gear by slot and effect. A mundane tool is a coin or two and one slot; a one-use trick runs a few GP up to 25. If it would swing a fight on its own, it is treasure, not gear. Keep the names strange; Mungo would.
