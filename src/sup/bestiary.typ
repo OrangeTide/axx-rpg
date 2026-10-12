@@ -28,6 +28,7 @@ A monster is a problem to solve, not just a sack of HP. Every fight offers four 
 - #item[AC][Ascending. The target an attacker needs.]
 - #item[Atk][The attack bonus, equal to HD, and the damage in parentheses with its type. Slashed dice, as claw/claw/bite, are several attacks a round, one roll each at the same bonus.]
 - #item[Notes][Number appearing, behavior, and the abilities below, named by keyword.]
+- #item[Trick][One line on the puzzle of the fight: the defense to get past, or the weakness to exploit. The notable foes carry one; a plain fight needs none.]
 
 Number appearing and treasure are the GM's call, guided by the core Stocking and Treasure tables. Morale is the core rule: when a group first loses one and again at half strength, roll 1d6, and on 1 to 3 the rest break.
 
@@ -92,7 +93,8 @@ Generated from #k[bestiary.csv]. Each block is one creature.
     " (" + dmg + " " + dt + ")"
   }
   let stats = "HD " + hd + ", HP " + r.at(3) + ", AC " + r.at(4) + ", Atk " + r.at(5) + paren + "."
-  [#strong(name) #stats #r.at(9)]
+  let trick = if r.len() > 10 and r.at(10) != "" { [ #strong[Trick:] #r.at(10)] } else { [] }
+  [#strong(name) #stats #r.at(9)#trick]
 }
 
 #let data = csv("bestiary.csv").slice(1)

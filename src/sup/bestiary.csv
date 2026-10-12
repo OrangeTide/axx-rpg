@@ -1,81 +1,81 @@
-name,type,hd,hp,ac,atk,damage,damage_type,source,notes
-Giant Rats,beast,1/2,2,12,+0,1d3,piercing,core,"2d6 rats. A bite on a natural 20 also gives disease (Poisoned)."
-Goblin Band,humanoid,1,4,13,+1,1d6,,core,"1d6 goblins ambush from cover."
-Skeleton Guard,undead,1,5,13,+1,1d6,,core,"Mindless. Resistant to piercing and edged, vulnerable to blunt."
-Orc Patrol,humanoid,1,5,13,+1,1d8,,core,"1d4 warriors demanding blood or toll."
-Ghoul,undead,2,10,14,+2,1d3/1d3/1d3,,core,"Two claws and a bite; any hit forces a Body save or Paralyzed. Mindless. Tell: gnawed bones and a carrion stink. Want: fresh meat, living or not."
-Giant Spider,beast,2,9,14,+2,1d6,piercing,core,"Poison on a hit (Body save). Webs: Dodge save or stuck 1d4 rounds."
-Rival Adventurers,humanoid,,,,,,,core,"1d4+1 NPCs of the party's Level, one per class. Roll Reaction."
-Dark Cultist,humanoid,3,12,12,+3,1d4,,core,"Casts Cause Light Wounds for 1d8 on a touch. Chaotic."
-Ogre,giant,4,19,15,+4,2d6,blunt,core,"Heavy club. Keeps a crude hoard. Tell: a reeking club and a tally of skulls. Want: food, bright coin, or a fight it can win."
-Wight,undead,3,14,15,+3,1d4,,core,"Drain on a hit (Body save or Injured). Silver or magic only. Mindless. Tell: a barrow chill, and its victims rising behind it. Want: to drag you under, and it rarely talks."
-Troll,monster,6,30,16,+6,1d4/1d4/1d8,edged,core,"Two claws and a bite. Regeneration 3 each round unless the wound was fire or acid. Tell: wounds knitting shut as you watch. Want: a toll of meat, or your slowest companion."
-Young Dragon,dragon,8,40,18,+8,2d8,,core,"Fear on first sight (Will save). Breath 6d6 fire in 30 ft, Dodge for half. Immune to fire. Tell: scorched ground, a sulphur reek, bones picked clean. Want: tribute, flattery, or word of a richer hoard."
-Gargoyle,construct,4,18,16,+4,1d6,,"skyship; sky-anchor","Flies. Mindless. Silver or magic only. Tell: stone that waits stock-still until you pass. Want: tribute, or just to guard its roost."
-Engine Guardian,construct,5,24,16,+5,1d8,,skyship,"A gargoyle grown fat on stray magic. Will not leave its post."
-Restless Sailor,undead,2,9,13,+2,1d6,,skyship,"Chilling touch. Silver or magic only. Passive unless disturbed."
-Animated Rigging,construct,2,10,12,+2,special,,skyship,"Grab: Dodge save or stuck 1d4 rounds. Mindless. Fire frees the caught."
-Wick the Pseudodragon,dragon,1,4,15,+1,1d3,,skyship,"Sting: Body save or Asleep. Flies. A friend, not a fight, once fed."
-Gargoyle Chieftain,construct,6,28,17,+6,1d8,,sky-anchor,"Flies. Mindless. Silver or magic only. Proud, and open to tribute."
-Harpy,monster,3,13,13,+3,1d4,,sky-anchor,"Flies. Song: Will save or walk toward it, even off a ledge, until struck. Tell: a sweet song on the wind you cannot place. Want: to lure and feast, but it hushes for shiny trade."
-Wraith-Librarian,undead,5,22,15,+5,1d6,,sky-anchor,"Drain on a hit (Body save or Injured). Silver or magic only. Hushes a caster for 1d4 rounds (Will save)."
-Clockwork Sentinel,construct,4,20,17,+4,1d8,,sky-anchor,"Mindless. Vulnerable to lightning."
-Thalros the Cloud Giant,giant,8,40,17,+8,2d8,,sky-anchor,"Slam. Thunder-call: a 20 ft burst, Dodge save or 3d6 and shoved to the deck's edge."
-Kobold,humanoid,1/2,2,13,+0,1d4,,common,"Scheming and cowardly. Warrens of 4d6, thick with traps. Breaks morale fast."
-Hobgoblin,humanoid,1,6,14,+1,1d8,,common,"Disciplined soldier. 1d6 patrol under a 2 HD sergeant."
-Bugbear,humanoid,3,14,15,+3,1d8,,common,"Surprise despite its bulk. Hits like an ogre."
-Gnoll,humanoid,2,9,14,+2,1d8,,common,"Hyena-headed raiders. 1d6 pack, cruel to captives. Tell: hyena laughter and captives roped in a line. Want: loot, slaves, or a cut of your spoils."
-Lizardfolk,humanoid,2,11,15,+2,1d6,,common,"Swamp hunters. Hold their breath 10 turns. 2d4 near water. Tell: reed nests and fish-bones at the water edge. Want: their eggs safe, or tribute of fish and meat."
-Berserker,humanoid,2,11,12,+2,1d10,,common,"Berserk, so +2 more to hit; never breaks and fights to the death. 1d6 frenzied raiders, heedless of wounds. Tell: old scars, a foaming fury, a warband that will not stop. Want: slaughter and glory, seldom plunder."
-Hill Giant,giant,8,36,16,+8,2d8,blunt,common,"Hurls rocks 60 ft for 2d8. Keeps a cave hoard."
-Stone Giant,giant,9,40,17,+9,3d6,blunt,common,"Hurls boulders 120 ft for 3d6, and can catch one thrown back."
-Frost Giant,giant,10,45,17,+10,2d10,blunt,common,"Immune to cold. Hurls ice for 2d10."
-Fire Giant,giant,11,50,18,+11,2d10,blunt,common,"Immune to fire. Hurls burning rock for 2d10."
-Zombie,undead,2,9,12,+2,1d8,,common,"Mindless and slow, always acts last."
-Wraith,undead,4,18,15,+4,1d6,,common,"Drain on a hit. Flies. Silver or magic only. Mindless."
-Spectre,undead,6,28,16,+6,1d8,,common,"Drains two Levels on a hit. Flies. Magic only. Mindless."
-Mummy,undead,5,24,16,+5,1d12,,common,"Touch brings rot: wounds heal at quarter rate until Remove Curse. Fear on sight. Fire or magic only. Tell: dry rot, bandage dust, a curse cut over the door. Want: its tomb left undisturbed."
-Vampire,undead,7,32,17,+7,1d10,,common,"Drain on a hit. Charm gaze (Will save). Regeneration. Becomes mist or a bat. A stake, sunlight, or running water undoes it; else magic only. Tell: no reflection, a graveyard cold, charmed thralls. Want: blood, servants, and its secret kept."
-Wolf,beast,1,5,13,+1,1d4,piercing,common,"2d6 pack. Harries and surrounds. Breaks if the leader falls."
-Dire Wolf,beast,3,14,14,+3,1d6,piercing,common,"Great pack-hunter. 1d4+1 run together."
-Brown Bear,beast,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite. A hug for 2d8 more if both claws land."
-Boar,beast,3,14,14,+3,1d6,,common,"Charges. Fights on for a round past 0 HP."
-Giant Bat,beast,2,9,14,+2,1d4,,common,"Flies. A swarm fouls the air: -2 to anyone within."
-Giant Centipede,beast,1/2,2,12,+0,1,,common,"A bite brings weak Poison: Body save or Poisoned, though the venom only sickens."
-Constrictor Snake,beast,4,18,13,+4,1d6,,common,"A hit coils: automatic 1d6 each round until a STR Check breaks the grip."
-Stirge,beast,1,4,14,+1,1d3,piercing,common,"Flies. Blood Drain: latches on a hit, 1d3 each round until torn off."
-Giant Scorpion,beast,4,18,16,+4,1d4/1d4/1d6,,common,"Two claws and a sting. Sting Poison (Body save)."
-Giant Toad,beast,2,9,13,+2,1d4,,common,"Tongue 10 ft drags you in; the next bite hits free. Swallows a small creature."
-Green Slime,ooze,2,9,10,+0,special,,common,"Drops from above. Devours flesh and wood: fire or a STR Check scrapes it off before it eats through. Only fire and cold kill it. Mindless."
-Grey Ooze,ooze,3,14,12,+3,2d6,,common,"Like wet stone. Rust: corrodes metal on a hit. Immune to cold and lightning. Mindless."
-Ochre Jelly,ooze,5,24,11,+5,2d6,,common,"Split by a blunt or edged blow, each half the HP. Fire or cold kills it whole. Mindless."
-Gelatinous Cube,ooze,4,18,10,+4,2d6,,common,"Fills a corridor, near-invisible: Surprise. A hit Paralyzes (Body save) and swallows. Immune to lightning. Mindless. Tell: a too-clean hall, with bones hanging in the air. Want: nothing, so just do not walk into it."
-Black Pudding,ooze,10,45,11,+10,3d6,,common,"Dissolves metal and wood. Splits under blows like an ochre jelly; only fire harms it whole. Mindless."
-Owlbear,monster,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite, a hug for 2d8 more if both claws land. Never checks morale. Tell: torn trees and drifting feathers mark its ground. Want: nothing but its range, though it can be drawn off."
-Rust Monster,monster,5,24,16,+5,special,,common,"Rust: a touch corrodes metal armor or a weapon to flakes. It wants iron, not blood. Tell: it passes over flesh and noses toward your iron. Want: your metal, so feed it a spare blade to pass."
-Carrion Crawler,monster,3,14,14,+3,special,,common,"Eight tentacles, each a strike at +3; any hit Paralyzes (Body save) 1d4 turns, then it feeds."
-Cockatrice,monster,5,22,14,+5,1d6,,common,"Flies. A peck Petrifies (Body save)."
-Basilisk,monster,6,28,15,+6,1d10,,common,"Gaze Petrifies (Body save). Turn its own gaze on it with a mirror. Tell: creatures frozen mid-step around its lair. Want: only to feed, though a mirror turns it."
-Medusa,monster,4,18,15,+4,1d6,,common,"Gaze Petrifies (Body save). Snake-hair Poison. Fight her blind at -4. Tell: terror-faced statues, and she keeps veiled. Want: to be left alone, or a gift of fine things."
-Minotaur,monster,6,28,14,+6,1d6/1d6,,common,"Gore and bite. Never lost in a maze. Charges for double damage. Tell: tally-scratched walls and a bellow down the maze. Want: to keep its maze, though a true way out may turn it."
-Manticore,monster,6,28,15,+6,1d3/1d3/1d8,,common,"Flies. Two claws and a bite in reach. Looses 1d6 tail spikes 90 ft, 1d6 each."
-Chimera,monster,9,40,15,+9,1d4/1d4/2d4,,common,"Flies. Three heads strike together. The dragon head breathes fire 3d6 (Dodge for half)."
-Wyvern,monster,7,32,15,+7,1d8/1d6,,common,"Flies. Tail sting Poison: Body save or Poisoned and 2d6 more."
-Hydra,monster,8,40,15,+8,1d10,,common,"Bites once per living head, eight at full, each +8 for 1d10. A head falls to 8 damage in one blow; two regrow unless the stump is burned."
-Gorgon,monster,8,36,17,+8,1d6,,common,"Iron-scaled bull. Breath Petrifies in a 60 ft cone (Body save)."
-Griffon,monster,7,32,15,+7,1d4/1d4/1d6,,common,"Flies. Two claws and a bite. Hunts horses above all."
-Unicorn,monster,4,18,15,+4,1d8/1d6/1d6,,common,"Horn and hooves. Immune to Charmed and Poison. Its horn cures. Serves only the pure."
-Werewolf,lycanthrope,4,18,14,+4,2d4,,common,"Silver or magic only. A bite may pass the curse. A man by day."
-Wererat,lycanthrope,3,13,14,+3,1d4,,common,"Silver or magic only. Commands rats and slips into shadow."
-Dryad,fey,2,9,15,+2,1d4,,common,"Charm (Will save) to lure you deep into the wood. Dies if her tree dies."
-Pixie,fey,1,4,16,+1,1d4,,common,"Flies. Invisible at will, often unseen until it strikes."
-Centaur,fey,4,18,14,+4,1d6/1d6,,common,"Hooves and a bow. 2d10 roam the open plains."
-Fire Elemental,elemental,8,36,15,+8,1d8,fire,common,"Sets all it touches alight. Immune to fire; water wounds it. Cannot cross water."
-Earth Elemental,elemental,8,36,16,+8,1d8,blunt,common,"Rises from stone and moves through it. Slow but relentless. Cannot cross water."
-Dragon,dragon,10,50,18,+10,1d8/1d8/2d8,,common,"Flies. Fear on sight (Will save). Breath once in 1d4 rounds: 10d6 in a 40 ft cone or line (Dodge for half), of its element, fire, frost, acid, lightning, or gas, which it is immune to. Claws and bite, or a breath, each round. A vast hoard, and cunning enough to bargain. Scale by age: a wyrmling near HD 5, a great wyrm HD 14 with breath to match. Tell: the reek of its element and a mountain of plundered gold. Want: tribute, flattery, and its hoard untouched."
-Treant,fey,8,40,16,+8,2d6/2d6,blunt,common,"Two slams. Wakes 1d2 nearby trees to fight at its side. Vulnerable to fire. Looks a weathered tree until it steps. Tell: a grove gone silent, deep-pressed roots like footfalls. Want: the wood unharmed; axe or torch makes a patient enemy."
-Lich,undead,11,50,18,+11,1d10,,common,"A dead archmage, cunning and cold. Casts as a Magic-User of its HD, the full book. Touch: 1d10 and a Body save or Paralyzed. Fear on sight (Will save). Silver or magic only. Its life hides in a phylactery; unmade, it reforms in days unless that is found and broken. Tell: a chill that gutters small flames, coal-light in a dry skull. Want: lore, the dead multiplied, and its phylactery kept secret."
-Roc,beast,12,60,15,+12,1d8/1d8/2d6,,common,"Flies. A titan eagle. Two talons and a bite; a talon hit snatches a rider or mount aloft, STR Check or be carried off and dropped. Nests on high crags among bright wreckage. Tell: a shadow sweeping the fields, herds gone in the night. Want: meat and glittering things for the nest."
-Pegasus,monster,4,18,15,+4,1d6/1d6,,common,"Flies. A noble winged horse, shy of the cruel and the loud. Two hooves. Will bear a rider it judges worthy, won by patience, never by force. Tell: hoofprints that run to a cliff and lift away. Want: to stay wild, or be gentled by a kind hand."
-Sphinx,monster,9,45,16,+9,2d4/2d4,,common,"Flies. Lion-bodied, grave, and old. Sets a riddle: answer true and it may aid you or wave you past; answer false and it falls on you. Roar once a day: all within 30 ft Body save or deafened and -2 for the fight. Tell: a riddle cut into the pass, bones of wrong answers beneath. Want: a riddle well met, or a finer one in trade."
-Will-o'-Wisp,monster,3,14,18,+3,2d8,,common,"Flies and darts, almost impossible to strike (AC 18). A bobbing light that lures travelers into bog and mire, then feeds on their terror as they sink. Can snuff itself dark to vanish. Tell: a warm lantern where no road or house stands. Want: to drown you, and drink the fear of it."
+name,type,hd,hp,ac,atk,damage,damage_type,source,notes,trick
+Giant Rats,beast,1/2,2,12,+0,1d3,piercing,core,"2d6 rats. A bite on a natural 20 also gives disease (Poisoned).",
+Goblin Band,humanoid,1,4,13,+1,1d6,,core,"1d6 goblins ambush from cover.",
+Skeleton Guard,undead,1,5,13,+1,1d6,,core,"Mindless. Resistant to piercing and edged, vulnerable to blunt.",
+Orc Patrol,humanoid,1,5,13,+1,1d8,,core,"1d4 warriors demanding blood or toll.",
+Ghoul,undead,2,10,14,+2,1d3/1d3/1d3,,core,"Two claws and a bite; any hit forces a Body save or Paralyzed. Mindless. Tell: gnawed bones and a carrion stink. Want: fresh meat, living or not.",
+Giant Spider,beast,2,9,14,+2,1d6,piercing,core,"Poison on a hit (Body save). Webs: Dodge save or stuck 1d4 rounds.",
+Rival Adventurers,humanoid,,,,,,,core,"1d4+1 NPCs of the party's Level, one per class. Roll Reaction.",
+Dark Cultist,humanoid,3,12,12,+3,1d4,,core,"Casts Cause Light Wounds for 1d8 on a touch. Chaotic.",
+Ogre,giant,4,19,15,+4,2d6,blunt,core,"Heavy club. Keeps a crude hoard. Tell: a reeking club and a tally of skulls. Want: food, bright coin, or a fight it can win.",
+Wight,undead,3,14,15,+3,1d4,,core,"Drain on a hit (Body save or Injured). Silver or magic only. Mindless. Tell: a barrow chill, and its victims rising behind it. Want: to drag you under, and it rarely talks.","Silver or magic weapons only."
+Troll,monster,6,30,16,+6,1d4/1d4/1d8,edged,core,"Two claws and a bite. Regeneration 3 each round unless the wound was fire or acid. Tell: wounds knitting shut as you watch. Want: a toll of meat, or your slowest companion.","Regenerates each round; only fire or acid keeps it down."
+Young Dragon,dragon,8,40,18,+8,2d8,,core,"Fear on first sight (Will save). Breath 6d6 fire in 30 ft, Dodge for half. Immune to fire. Tell: scorched ground, a sulphur reek, bones picked clean. Want: tribute, flattery, or word of a richer hoard.","Immune to fire; take the breath on a Dodge, then close so it cannot line up another."
+Gargoyle,construct,4,18,16,+4,1d6,,"skyship; sky-anchor","Flies. Mindless. Silver or magic only. Tell: stone that waits stock-still until you pass. Want: tribute, or just to guard its roost.","Silver or magic only; plain steel skids off stone."
+Engine Guardian,construct,5,24,16,+5,1d8,,skyship,"A gargoyle grown fat on stray magic. Will not leave its post.",
+Restless Sailor,undead,2,9,13,+2,1d6,,skyship,"Chilling touch. Silver or magic only. Passive unless disturbed.",
+Animated Rigging,construct,2,10,12,+2,special,,skyship,"Grab: Dodge save or stuck 1d4 rounds. Mindless. Fire frees the caught.",
+Wick the Pseudodragon,dragon,1,4,15,+1,1d3,,skyship,"Sting: Body save or Asleep. Flies. A friend, not a fight, once fed.",
+Gargoyle Chieftain,construct,6,28,17,+6,1d8,,sky-anchor,"Flies. Mindless. Silver or magic only. Proud, and open to tribute.",
+Harpy,monster,3,13,13,+3,1d4,,sky-anchor,"Flies. Song: Will save or walk toward it, even off a ledge, until struck. Tell: a sweet song on the wind you cannot place. Want: to lure and feast, but it hushes for shiny trade.",
+Wraith-Librarian,undead,5,22,15,+5,1d6,,sky-anchor,"Drain on a hit (Body save or Injured). Silver or magic only. Hushes a caster for 1d4 rounds (Will save).",
+Clockwork Sentinel,construct,4,20,17,+4,1d8,,sky-anchor,"Mindless. Vulnerable to lightning.",
+Thalros the Cloud Giant,giant,8,40,17,+8,2d8,,sky-anchor,"Slam. Thunder-call: a 20 ft burst, Dodge save or 3d6 and shoved to the deck's edge.",
+Kobold,humanoid,1/2,2,13,+0,1d4,,common,"Scheming and cowardly. Warrens of 4d6, thick with traps. Breaks morale fast.",
+Hobgoblin,humanoid,1,6,14,+1,1d8,,common,"Disciplined soldier. 1d6 patrol under a 2 HD sergeant.",
+Bugbear,humanoid,3,14,15,+3,1d8,,common,"Surprise despite its bulk. Hits like an ogre.",
+Gnoll,humanoid,2,9,14,+2,1d8,,common,"Hyena-headed raiders. 1d6 pack, cruel to captives. Tell: hyena laughter and captives roped in a line. Want: loot, slaves, or a cut of your spoils.",
+Lizardfolk,humanoid,2,11,15,+2,1d6,,common,"Swamp hunters. Hold their breath 10 turns. 2d4 near water. Tell: reed nests and fish-bones at the water edge. Want: their eggs safe, or tribute of fish and meat.",
+Berserker,humanoid,2,11,12,+2,1d10,,common,"Berserk, so +2 more to hit; never breaks and fights to the death. 1d6 frenzied raiders, heedless of wounds. Tell: old scars, a foaming fury, a warband that will not stop. Want: slaughter and glory, seldom plunder.",
+Hill Giant,giant,8,36,16,+8,2d8,blunt,common,"Hurls rocks 60 ft for 2d8. Keeps a cave hoard.",
+Stone Giant,giant,9,40,17,+9,3d6,blunt,common,"Hurls boulders 120 ft for 3d6, and can catch one thrown back.",
+Frost Giant,giant,10,45,17,+10,2d10,blunt,common,"Immune to cold. Hurls ice for 2d10.",
+Fire Giant,giant,11,50,18,+11,2d10,blunt,common,"Immune to fire. Hurls burning rock for 2d10.",
+Zombie,undead,2,9,12,+2,1d8,,common,"Mindless and slow, always acts last.",
+Wraith,undead,4,18,15,+4,1d6,,common,"Drain on a hit. Flies. Silver or magic only. Mindless.","Silver or magic only; kill it fast before it drains your Levels."
+Spectre,undead,6,28,16,+6,1d8,,common,"Drains two Levels on a hit. Flies. Magic only. Mindless.","Magic weapons only; it drains two Levels a hit."
+Mummy,undead,5,24,16,+5,1d12,,common,"Touch brings rot: wounds heal at quarter rate until Remove Curse. Fear on sight. Fire or magic only. Tell: dry rot, bandage dust, a curse cut over the door. Want: its tomb left undisturbed.","Fire or magic only; its rot heals at a quarter rate until Remove Curse."
+Vampire,undead,7,32,17,+7,1d10,,common,"Drain on a hit. Charm gaze (Will save). Regeneration. Becomes mist or a bat. A stake, sunlight, or running water undoes it; else magic only. Tell: no reflection, a graveyard cold, charmed thralls. Want: blood, servants, and its secret kept.","A stake, sunlight, or running water undoes it; else it reforms."
+Wolf,beast,1,5,13,+1,1d4,piercing,common,"2d6 pack. Harries and surrounds. Breaks if the leader falls.",
+Dire Wolf,beast,3,14,14,+3,1d6,piercing,common,"Great pack-hunter. 1d4+1 run together.",
+Brown Bear,beast,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite. A hug for 2d8 more if both claws land.",
+Boar,beast,3,14,14,+3,1d6,,common,"Charges. Fights on for a round past 0 HP.",
+Giant Bat,beast,2,9,14,+2,1d4,,common,"Flies. A swarm fouls the air: -2 to anyone within.",
+Giant Centipede,beast,1/2,2,12,+0,1,,common,"A bite brings weak Poison: Body save or Poisoned, though the venom only sickens.",
+Constrictor Snake,beast,4,18,13,+4,1d6,,common,"A hit coils: automatic 1d6 each round until a STR Check breaks the grip.",
+Stirge,beast,1,4,14,+1,1d3,piercing,common,"Flies. Blood Drain: latches on a hit, 1d3 each round until torn off.",
+Giant Scorpion,beast,4,18,16,+4,1d4/1d4/1d6,,common,"Two claws and a sting. Sting Poison (Body save).",
+Giant Toad,beast,2,9,13,+2,1d4,,common,"Tongue 10 ft drags you in; the next bite hits free. Swallows a small creature.",
+Green Slime,ooze,2,9,10,+0,special,,common,"Drops from above. Devours flesh and wood: fire or a STR Check scrapes it off before it eats through. Only fire and cold kill it. Mindless.","Only fire and cold kill it; a blade or bare hand just feeds it."
+Grey Ooze,ooze,3,14,12,+3,2d6,,common,"Like wet stone. Rust: corrodes metal on a hit. Immune to cold and lightning. Mindless.",
+Ochre Jelly,ooze,5,24,11,+5,2d6,,common,"Split by a blunt or edged blow, each half the HP. Fire or cold kills it whole. Mindless.","Blunt or edged blows split it; only fire or cold kills it whole."
+Gelatinous Cube,ooze,4,18,10,+4,2d6,,common,"Fills a corridor, near-invisible: Surprise. A hit Paralyzes (Body save) and swallows. Immune to lightning. Mindless. Tell: a too-clean hall, with bones hanging in the air. Want: nothing, so just do not walk into it.","Near-invisible: prod ahead with a pole or the lead walker is swallowed."
+Black Pudding,ooze,10,45,11,+10,3d6,,common,"Dissolves metal and wood. Splits under blows like an ochre jelly; only fire harms it whole. Mindless.","It splits under blows and eats metal; only fire harms it whole."
+Owlbear,monster,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite, a hug for 2d8 more if both claws land. Never checks morale. Tell: torn trees and drifting feathers mark its ground. Want: nothing but its range, though it can be drawn off.",
+Rust Monster,monster,5,24,16,+5,special,,common,"Rust: a touch corrodes metal armor or a weapon to flakes. It wants iron, not blood. Tell: it passes over flesh and noses toward your iron. Want: your metal, so feed it a spare blade to pass.","It devours metal; strike with wood, stone, or fists or lose your gear."
+Carrion Crawler,monster,3,14,14,+3,special,,common,"Eight tentacles, each a strike at +3; any hit Paralyzes (Body save) 1d4 turns, then it feeds.",
+Cockatrice,monster,5,22,14,+5,1d6,,common,"Flies. A peck Petrifies (Body save).","A touch petrifies; keep it at spear reach."
+Basilisk,monster,6,28,15,+6,1d10,,common,"Gaze Petrifies (Body save). Turn its own gaze on it with a mirror. Tell: creatures frozen mid-step around its lair. Want: only to feed, though a mirror turns it.","Its gaze petrifies; avert your eyes at -4, or turn it with a mirror."
+Medusa,monster,4,18,15,+4,1d6,,common,"Gaze Petrifies (Body save). Snake-hair Poison. Fight her blind at -4. Tell: terror-faced statues, and she keeps veiled. Want: to be left alone, or a gift of fine things.","Its gaze turns flesh to stone; fight with averted eyes at -4, or a mirror."
+Minotaur,monster,6,28,14,+6,1d6/1d6,,common,"Gore and bite. Never lost in a maze. Charges for double damage. Tell: tally-scratched walls and a bellow down the maze. Want: to keep its maze, though a true way out may turn it.",
+Manticore,monster,6,28,15,+6,1d3/1d3/1d8,,common,"Flies. Two claws and a bite in reach. Looses 1d6 tail spikes 90 ft, 1d6 each.",
+Chimera,monster,9,40,15,+9,1d4/1d4/2d4,,common,"Flies. Three heads strike together. The dragon head breathes fire 3d6 (Dodge for half).",
+Wyvern,monster,7,32,15,+7,1d8/1d6,,common,"Flies. Tail sting Poison: Body save or Poisoned and 2d6 more.",
+Hydra,monster,8,40,15,+8,1d10,,common,"Bites once per living head, eight at full, each +8 for 1d10. A head falls to 8 damage in one blow; two regrow unless the stump is burned.","Each head attacks; cut or burn them down one at a time."
+Gorgon,monster,8,36,17,+8,1d6,,common,"Iron-scaled bull. Breath Petrifies in a 60 ft cone (Body save).","Its breath petrifies in a cone; scatter and take it from the flank."
+Griffon,monster,7,32,15,+7,1d4/1d4/1d6,,common,"Flies. Two claws and a bite. Hunts horses above all.",
+Unicorn,monster,4,18,15,+4,1d8/1d6/1d6,,common,"Horn and hooves. Immune to Charmed and Poison. Its horn cures. Serves only the pure.",
+Werewolf,lycanthrope,4,18,14,+4,2d4,,common,"Silver or magic only. A bite may pass the curse. A man by day.","Silver or magic only; a bite may pass the curse."
+Wererat,lycanthrope,3,13,14,+3,1d4,,common,"Silver or magic only. Commands rats and slips into shadow.",
+Dryad,fey,2,9,15,+2,1d4,,common,"Charm (Will save) to lure you deep into the wood. Dies if her tree dies.",
+Pixie,fey,1,4,16,+1,1d4,,common,"Flies. Invisible at will, often unseen until it strikes.",
+Centaur,fey,4,18,14,+4,1d6/1d6,,common,"Hooves and a bow. 2d10 roam the open plains.",
+Fire Elemental,elemental,8,36,15,+8,1d8,fire,common,"Sets all it touches alight. Immune to fire; water wounds it. Cannot cross water.","Immune to fire; water wounds it, and it cannot cross a stream."
+Earth Elemental,elemental,8,36,16,+8,1d8,blunt,common,"Rises from stone and moves through it. Slow but relentless. Cannot cross water.",
+Dragon,dragon,10,50,18,+10,1d8/1d8/2d8,,common,"Flies. Fear on sight (Will save). Breath once in 1d4 rounds: 10d6 in a 40 ft cone or line (Dodge for half), of its element, fire, frost, acid, lightning, or gas, which it is immune to. Claws and bite, or a breath, each round. A vast hoard, and cunning enough to bargain. Scale by age: a wyrmling near HD 5, a great wyrm HD 14 with breath to match. Tell: the reek of its element and a mountain of plundered gold. Want: tribute, flattery, and its hoard untouched.","Immune to its own element; survive the breath, deny it the line for another, or bargain."
+Treant,fey,8,40,16,+8,2d6/2d6,blunt,common,"Two slams. Wakes 1d2 nearby trees to fight at its side. Vulnerable to fire. Looks a weathered tree until it steps. Tell: a grove gone silent, deep-pressed roots like footfalls. Want: the wood unharmed; axe or torch makes a patient enemy.",
+Lich,undead,11,50,18,+11,1d10,,common,"A dead archmage, cunning and cold. Casts as a Magic-User of its HD, the full book. Touch: 1d10 and a Body save or Paralyzed. Fear on sight (Will save). Silver or magic only. Its life hides in a phylactery; unmade, it reforms in days unless that is found and broken. Tell: a chill that gutters small flames, coal-light in a dry skull. Want: lore, the dead multiplied, and its phylactery kept secret.","Cut down, it reforms in days unless its phylactery is found and broken."
+Roc,beast,12,60,15,+12,1d8/1d8/2d6,,common,"Flies. A titan eagle. Two talons and a bite; a talon hit snatches a rider or mount aloft, STR Check or be carried off and dropped. Nests on high crags among bright wreckage. Tell: a shadow sweeping the fields, herds gone in the night. Want: meat and glittering things for the nest.",
+Pegasus,monster,4,18,15,+4,1d6/1d6,,common,"Flies. A noble winged horse, shy of the cruel and the loud. Two hooves. Will bear a rider it judges worthy, won by patience, never by force. Tell: hoofprints that run to a cliff and lift away. Want: to stay wild, or be gentled by a kind hand.",
+Sphinx,monster,9,45,16,+9,2d4/2d4,,common,"Flies. Lion-bodied, grave, and old. Sets a riddle: answer true and it may aid you or wave you past; answer false and it falls on you. Roar once a day: all within 30 ft Body save or deafened and -2 for the fight. Tell: a riddle cut into the pass, bones of wrong answers beneath. Want: a riddle well met, or a finer one in trade.",
+Will-o'-Wisp,monster,3,14,18,+3,2d8,,common,"Flies and darts, almost impossible to strike (AC 18). A bobbing light that lures travelers into bog and mire, then feeds on their terror as they sink. Can snuff itself dark to vanish. Tell: a warm lantern where no road or house stands. Want: to drown you, and drink the fear of it.","It lures you into the mire; ignore the light and it finds no prey."
