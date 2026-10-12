@@ -6,7 +6,7 @@
   flipped: true,
   columns: 3,
   margin: (x: 0.4in, top: 0.4in, bottom: 0.4in),
-  footer: context [#h(1fr)#box(baseline: 25%, image("/lib/cc0.svg", height: 8pt))],
+  footer: context [#h(1fr)#box(baseline: 28%, image("/lib/cc0.svg", height: 9pt))],
 )
 #set text(font: body-font, stretch: body-stretch, size: 8pt, fill: black, hyphenate: false)
 #set par(leading: 0.45em, spacing: 0.5em)
