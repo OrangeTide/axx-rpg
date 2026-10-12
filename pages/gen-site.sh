@@ -123,6 +123,28 @@ done
 printf '</div>\n</section>\n' >> "$INDEX"
 
 cat >> "$INDEX" <<'FOOT'
+<section class="lineage">
+<h2>Lineage</h2>
+<p>AX&amp;X is built on AD&amp;D first edition, but it does not reprint it. Every roll is
+1d20 plus a modifier against 12, so there are no attack matrices and no saving-throw
+tables. Armor Class counts up instead of down. The five old save categories collapse
+into three, Body, Dodge, and Will, chosen by what an effect does to you rather than
+how it reaches you. Any kindred may take any class, with no level caps and no class
+limits. A character starts with maximum hit points and adds CON to every Hit Die.
+Alignment is the older three-fold Law, Neutrality, and Chaos, not the nine-box grid.
+Humans get a +1 to one ability score, which is an AX&amp;X invention, not a
+first-edition rule.</p>
+<p>Some of that is borrowed, and it should be named plainly. Ascending Armor Class
+and the single d20 check against a target number come from the third edition family.
+The three effect-based saves are third edition's Fortitude, Reflex, and Will wearing
+old-school names. The optional critical hit, maximum damage then doubled against a
+vulnerability, is a fourth edition idea. What AX&amp;X keeps from the old school is the
+texture: side-based d6 initiative, 2d6 reactions, 1d6 morale, d6 dungeon stocking,
+and wandering monsters on a 1 in 6. It deliberately leaves out the modern opportunity
+attack. Withdraw is just the first edition's careful retreat under a shorter name. The
+conversion supplement carries the full line-by-line map for running old modules at the
+table.</p>
+</section>
 <p class="colophon">Set in Goudy and Courier Prime. Built from Typst, run off on the office machine.
 The dice owe you nothing.</p>
 </div>
