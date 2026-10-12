@@ -242,6 +242,7 @@ body.doc {
   font-size: 0.72rem;
 }
 .docnav a { text-decoration: none; }
+.docnav .dls { display: flex; gap: 0.6rem; }
 .docnav .home:hover { text-decoration: underline; }
 .docnav .dl {
   border: 1.5px solid var(--ink);

@@ -23,6 +23,9 @@ SITEDIR  := _site
 
 SOURCES  := $(shell find $(SRCDIR) -name '*.typ')
 PDFS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SOURCES))
+# The core also ships as a landscape tri-fold pamphlet, built from the same
+# source with the fold input. It has no own .typ, so it needs an explicit rule.
+FOLDPDF  := $(OUTDIR)/axx-fold.pdf
 HTMLS    := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.html,$(SOURCES))
 THUMBS   := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.thumb.png,$(SOURCES))
 PNGS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%-1.png,$(SOURCES))
@@ -39,7 +42,7 @@ SRC ?= $(firstword $(SOURCES))
 
 all: pdf
 
-pdf: $(PDFS)
+pdf: $(PDFS) $(FOLDPDF)
 
 html: $(HTMLS)
 
@@ -50,6 +53,11 @@ png: $(PNGS)
 $(OUTDIR)/%.pdf: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)
 	$(TYPST) compile $(TYPSTFLAGS) $< $@
+
+# The tri-fold pamphlet layout of the core, same source, fold input.
+$(FOLDPDF): $(SRCDIR)/axx.typ $(LIBS) $(FONTS)
+	@mkdir -p $(dir $@)
+	$(TYPST) compile $(TYPSTFLAGS) --input fold=trifold $< $@
 
 $(OUTDIR)/%.html: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)
