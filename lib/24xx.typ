@@ -36,19 +36,30 @@
   cover: false,
   cover-art: none,
   dense: false,
+  fold: none,
   body,
 ) = {
   set document(title: title)
+  // Fold mode lays the document out as a landscape pamphlet: the sheet turns
+  // on its side, the columns become fold panels, and light dashed guides mark
+  // the folds. "trifold" is three panels per side. Portrait is the default and
+  // is untouched when fold is none.
+  let is-fold = fold != none
   set page(
     paper: paper,
+    flipped: is-fold,
     columns: cols,
-    margin: (x: 0.5in, top: 0.5in, bottom: 0.55in),
+    margin: if is-fold { (x: 0.45in, y: 0.4in) } else { (x: 0.5in, top: 0.5in, bottom: 0.55in) },
     footer: context {
       set text(font: body-font, stretch: body-stretch, size: 7pt, fill: luma(40%))
       h(1fr)
       counter(page).display()
     },
     footer-descent: 0.2in,
+    background: if is-fold {
+      place(line(start: (33.333%, 0%), end: (33.333%, 100%), stroke: (paint: luma(75%), thickness: 0.4pt, dash: "dashed")))
+      place(line(start: (66.667%, 0%), end: (66.667%, 100%), stroke: (paint: luma(75%), thickness: 0.4pt, dash: "dashed")))
+    } else { none },
   )
   // Dense restores the condensed two-page 24XX density; the readable default
   // suits the supplements, where space is cheap.
@@ -138,7 +149,7 @@
   }
 
   // Title block spans the whole page width, above the columns.
-  if title != none and not cover {
+  if title != none and not cover and not is-fold {
     place(top, float: true, scope: "parent", clearance: 0.6em, block(width: 100%)[
       #set text(font: title-font, weight: "regular", size: 34pt, tracking: 0.03em)
       #upper(title)
@@ -149,6 +160,21 @@
       #v(0.18em)
       #line(length: 100%, stroke: 0.6pt + black)
     ])
+  }
+
+  // In fold mode a page-wide title would span all panels, so the masthead
+  // sits in flow at the top of the first panel instead.
+  if title != none and not cover and is-fold {
+    block(width: 100%, below: 0.45em)[
+      #set text(font: title-font, weight: "regular", size: 20pt, tracking: 0.02em)
+      #upper(title)
+      #if subtitle != none {
+        v(-0.1em)
+        text(font: body-font, stretch: body-stretch, weight: "regular", size: 9pt, fill: luma(30%), subtitle)
+      }
+      #v(0.12em)
+      #line(length: 100%, stroke: 0.6pt + black)
+    ]
   }
 
   // HTML export: the print title block and cover rely on place/page, which
