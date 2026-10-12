@@ -34,7 +34,7 @@ The left is the old way, the right is AX&X.
   [Ability checks], [Not a core rule. Roll under the score when used at all], [1d20 + modifier, 12+. Class Checks add Level.],
   [Saving throws], [Five categories, class tables by level, roll over], [Three saves tied to CON, DEX, and WIS. 1d20 + half Level + modifier, 12+, or 10 + HD of the source if higher.],
   [Monster saves], [Save as a Fighter of equal HD], [1d20 + HD, 10 + the caster's Level or higher.],
-  [Armor Class], [Descending, 10 to -10, with to-hit matrices], [Ascending. Attack is 1d20 + Attack Mod vs AC. DEX adds to AC only at 16+ (+1) or 18 (+2), keeping the old game's small dodge bonus.],
+  [Armor Class], [Descending, 10 to -10, with to-hit matrices], [Ascending. Attack is 1d20 + Attack Mod vs AC. DEX adds to AC only at 16+ (+1) or 18 (+2).],
   [Attack progression], [Class matrices stepped every few levels], [A track bonus plus STR or DEX: Warrior +Level, Expert and Priest +half Level up, Mage +half Level down. Monsters attack at + HD.],
   [Hit points], [Rolled at level 1, CON bonus only at 15+], [Maximum Hit Die at level 1. CON modifier applies to every Hit Die.],
   [Classes], [Eleven classes with subclasses and level limits], [Six: Fighter, Barbarian, Ranger, Cleric, Thief, Magic-User. More in the Classes supplement.],
@@ -44,6 +44,7 @@ The left is the old way, the right is AX&X.
   [Weapons and armor], [Dozens of entries with individual damage and cost], [Light, medium, heavy, and missile. Light, medium, heavy armor, and shield.],
   [Encumbrance], [Weight in gold pieces], [Item slots equal to STR. A heavy hoard of coin costs slots at the GM's call, about one per 100.],
   [Initiative], [Side-based d6 with segments, weapon speed, and casting time], [Side-based d6 each round, or by fiction. Ties act at once.],
+  [Disengaging], [Fighting withdrawal; fleeing melee draws a free attack], [No opportunity attacks. Withdraw breaks off at half speed with no parting blow; a flee draws one.],
   [Spell disruption], [Any damage during casting time], [Damage earlier in the round loses the spell.],
   [Spell levels], [Nine Magic-User levels, seven Cleric levels], [Three levels in the text. Slots follow the Magic-User progression to level 6, one more slot per level after.],
   [Spell lists], [Hundreds of spells], [A starter list in the core; about seventy spells across three levels in the Spellbook. The Improvise rule and this supplement cover conversion.],
@@ -59,7 +60,6 @@ The left is the old way, the right is AX&X.
   [Treasure], [Treasure types A to Z by monster], [From stocking. Defeated monsters carry coin on a 1 to 2, otherwise XP only.],
   [Magic items], [Hundreds, many as pluses], [+1 weapon and armor, two potions, scrolls, and six named items with a cost each.],
   [Hirelings], [Henchmen, hirelings, loyalty, and morale subsystems], [Zero-level hirelings for a wage and leveling henchmen for a share, loyalty by one CHA check and morale. The Funnel supplement.],
-  [Character ties], [None], [A Ties table and a home roll give each character an NPC and a place.],
 )
 
 = Spells Past Level 3
@@ -68,7 +68,7 @@ The core runs spells of levels 1 to 3. To carry a campaign further, an old spell
 
 = Reading the Old Saves
 
-AX&X keeps three saves where the first edition kept five. The old five sorted by how an attack arrived, a wand, a breath, a spell, with Paralyzation, Poison, and Death Magic as one catch-all beside Petrification and Polymorph. AX&X sorts instead by what the attack does to you: body, footing, or mind.
+AX&X keeps three saves where the first edition kept five. The old five sorted by how an attack arrived; AX&X sorts by what the attack does to you: body, footing, or mind.
 
 Be plain about the lineage. This effect-based split is close to third edition's Fortitude, Reflex, and Will. AX&X takes that structure and keeps old-school names for it. To run an old monster or spell, map its save by this table, or name the AX&X save that fits and roll.
 
@@ -77,11 +77,10 @@ Be plain about the lineage. This effect-based split is close to third edition's 
   stroke: (y: 0.4pt + luma(80%)),
   inset: (x: 4pt, y: 4pt),
   table.header([Old category], [AX&X save]),
-  [Paralyzation, Poison, Death Magic], [Body],
-  [Petrification, Polymorph], [Body],
+  [Paralyzation, Poison, Death, Petrification, Polymorph], [Body],
   [Breath Weapon], [Dodge],
-  [Rod, Staff, Wand], [By the effect: a blast is Dodge, a charm is Will, a flesh-to-stone is Body],
-  [Spell], [By the effect: Will for charm, fear, and illusion; Dodge for a blast; Body for poison or withering],
+  [Rod, Staff, Wand], [By the effect: blast Dodge, charm Will, flesh-to-stone Body],
+  [Spell], [By the effect: Will for the mind, Dodge for a blast, Body for poison or withering],
 )
 
-Two old threats carried no save at all: a fall was flat damage, now a Dodge save to halve it or catch an edge, and energy drain was automatic on a hit, now a Body save against the Drain keyword. Where the old book says save or die, keep the stakes at 10 + HD, failure the Slain result or a hard condition.
+Two old threats had no save: a fall (now a Dodge save to halve it) and energy drain (now a Body save vs the Drain keyword). Save-or-die becomes a save at 10 + HD.
