@@ -9,7 +9,7 @@
 
 A caster prepares spells into slots each day after sleeping, as the core slot table sets by Level. Casting is an action; a wound taken earlier in the round loses the spell. The spells here run from level 1 to 3, the range of the core game. The entries on the following pages are generated from #k[spells.csv], so adding a row adds a spell to the book.
 
-Clerics pray and may prepare any Cleric spell of a level they have slots for. Magic-Users prepare only from a spellbook, which starts with two 1st-level spells; a Day of study copies a scroll or a captured book's spell into it. Druids prepare the nature spells on the last page through a sprig of mistletoe; the Druid class is in the Classes supplement.
+Clerics pray and may prepare any Cleric spell of a level they have slots for. When a Cleric casts a spell's dark reverse, Cure to Cause and the like, that is evil work: a Chaotic Cleric does it freely, a Lawful one needs good cause. Magic-Users prepare only from a spellbook, which starts with two 1st-level spells; a Day of study copies a scroll or a captured book's spell into it. Druids prepare the nature spells on the last page through a sprig of mistletoe; the Druid class is in the Classes supplement.
 
 == Reading a Spell
 
@@ -19,13 +19,10 @@ Clerics pray and may prepare any Cleric spell of a level they have slots for. Ma
 
 == Conventions
 
-- #item[Duration][#k[One fight] lasts until the fight ends. #k[6 turns] is one hour. A #k[Day] is until your next sleep. Anything else says so.]
-- #item[Range][#k[Touch] needs a hand on the target. #k[Near] is 30 ft. Longer ranges are stated. A targeted spell needs line of sight.]
-- #item[Per Level][Where an effect scales "per Level," count your caster Level. Damage spells grow as the entry says.]
-- #item[Reversible][Some Cleric spells reverse into their mirror: Cure becomes Cause, Light becomes Darkness, Remove Curse becomes Bestow. A Chaotic Cleric leans on the dark side; a Lawful one must have cause.]
-- #item[Concentration][A spell with a lasting effect you steer ends if you are Paralyzed, Asleep, or slain, or if you cast another.]
+- #item[Range][#k[Touch] needs a hand on the target. #k[Near] is 30 ft. A targeted spell needs line of sight.]
+- #item[Concentration][Holding up a spell you steer is your action each round. You may still move, even be carried. Do anything else, or be unable to act, and the spell ends.]
 - #item[Foci][A caster works through a focus: the Magic-User a spellbook, the Cleric a holy symbol. Lose it and you cannot prepare spells until you replace it.]
-- #item[Components][A few spells list a _Component_, a material spent in the casting. The core game ignores them. Use them for color, or let the costly ones drain a purse. No Component listed means none is needed.]
+- #item[Components][A few spells list a _Component_, a material spent in the casting. The core game ignores them. Use them for color, or let the costly ones drain a purse.]
 
 == Beyond Level 3
 
