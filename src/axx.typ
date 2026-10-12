@@ -42,10 +42,10 @@ Level 1 HP is the #k[maximum] of one Hit Die + CON. A weapon outside your class 
 
 Any kindred, any class. One trait each.
 
-- #item[Human][+1 to one ability score after rolling.]
+- #item[Human][+1 to one ability score after rolling, and a 10% bonus to all XP earned, rising fastest.]
 - #item[Dwarf][+2 to Body saves. Sees 60 ft in the dark. Notes sloping passages and new stonework.]
-- #item[Elf][Immune to Sleep and Charmed. Sees 60 ft in the dark. Spots secret doors on 1--2 on 1d6 when passing within 10 ft.]
-- #item[Halfling][+2 to Dodge saves and stealth checks. Light weapons only.]
+- #item[Elf][Immune to Sleep and Charmed. Sees 60 ft in the dark.]
+- #item[Halfling][Once per day, reroll a failed d20. +2 to stealth checks. +1 AC against foes larger than human. No two-handed weapons.]
 - #item[Half-Orc][+1 to melee damage. Sees 60 ft in the dark.]
 
 == Alignment
