@@ -17,6 +17,7 @@ rm -rf "$SITEDIR"
 mkdir -p "$SITEDIR/assets/fonts" "$SITEDIR/thumbs"
 
 cp "$PAGESDIR/style.css" "$SITEDIR/assets/style.css"
+cp "lib/cc0.svg" "$SITEDIR/assets/cc0.svg"
 for f in GoudyBookletter1911.ttf SortsMillGoudy-Regular.ttf SortsMillGoudy-Italic.ttf \
          CourierPrime-Regular.ttf CourierPrime-Bold.ttf CourierPrime-Italic.ttf CourierPrime-BoldItalic.ttf; do
   cp "fonts/$f" "$SITEDIR/assets/fonts/$f"
@@ -159,6 +160,11 @@ attack. Withdraw is just the first edition's careful retreat under a shorter nam
 conversion supplement carries the full line-by-line map for running old modules at the
 table.</p>
 </section>
+<p class="license">
+<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license"><img class="cc0" src="assets/cc0.svg" alt="CC0 1.0 Public Domain" width="88" height="33"></a>
+AX&amp;X is dedicated to the public domain under
+<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license">CC0 1.0 Universal</a>.
+To the extent possible under law, all copyright and related rights are waived. No rights reserved.</p>
 <p class="colophon">Set in Goudy and Courier Prime. Built from Typst, run off on the office machine.
 The dice owe you nothing.</p>
 </div>

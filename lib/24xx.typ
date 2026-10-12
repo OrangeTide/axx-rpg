@@ -52,6 +52,7 @@
     margin: if is-fold { (x: 0.45in, y: 0.4in) } else { (x: 0.5in, top: 0.5in, bottom: 0.55in) },
     footer: context {
       set text(font: body-font, stretch: body-stretch, size: 7pt, fill: luma(40%))
+      box(baseline: 25%, image("/lib/cc0.svg", height: 8pt))
       h(1fr)
       counter(page).display()
     },

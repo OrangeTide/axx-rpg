@@ -185,10 +185,29 @@ section.lineage p {
 }
 section.lineage p:last-child { margin-bottom: 0; }
 
-.colophon {
+.license {
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 2px solid var(--ink);
+  text-align: center;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.74rem;
+  color: var(--ink-2);
+}
+.license .cc0 {
+  display: block;
+  width: 88px;
+  height: auto;
+  margin: 0 auto 0.6rem;
+}
+.license a { color: var(--ink); }
+
+.colophon {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
   text-align: center;
   font-size: 0.72rem;
   color: var(--ink-3);
