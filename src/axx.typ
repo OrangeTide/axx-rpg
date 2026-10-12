@@ -76,7 +76,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 - #item[Turn (10 minutes)][The exploration unit: move through a few rooms, search a room, pick a lock, or rest.]
   - #k[Rest:] After five turns of activity, rest one turn or be Weakened until you do. #k[Torches:] 6 turns. Lantern flask: 24 turns.
-- #item[Round (10 seconds)][The combat unit. Each combatant moves and takes one action.]
+- #item[Round (10 seconds)][The combat unit. On your turn you act or move, as Combat sets out.]
 - #item[Day][Ends with 8 hours of sleep and a ration each. Skip the ration and you heal nothing and are Weakened until you eat.]
 
 == Exploration
