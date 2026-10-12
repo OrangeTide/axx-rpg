@@ -98,11 +98,11 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 == Combat
 
 - #item[Initiative][Each round, roll 1d6 per side, high side first, or let the fiction set the order. On a tie, both act at once: resolve everything before anyone drops.]
-- #item[Action][Each round, move up to #k[30 ft] (20 ft in medium or heavy armor) and take one action: attack, cast, use an item, or aid. #k[Run] doubles the move and forfeits the action.]
+- #item[Action][Each round, either #k[act], attack, cast, use an item, or aid, with a short step, or #k[move] up to #k[30 ft] (20 in medium or heavy armor). #k[Run] doubles it. Reaching a far foe is a move; you strike next round, or #k[Charge]: close and attack at once, +2 to hit and -2 AC until your next turn.]
 - #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = your track bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two on one target: +2 each.]
-- #item[Range][#k[Near] is 30 ft, a thrown weapon's reach. A bow, sling, or crossbow carries #k[60 ft], 120 ft at -2, 240 ft at -5. #k[Shots a round:] darts 3, bow 2, sling 1; a crossbow fires once, then an action to reload. Half cover: -2 to hit; full cover, no target. Loosing into a melee: a miss strikes a random figure in that fight, friend or foe.]
-- #item[Reach & Thrown][A spear or polearm strikes from the second rank, behind a front-line ally, and holds off a foe closing in; an enemy must beat the front rank to reach you. A spear or javelin throws to Near, and any one-handed weapon throws to Near at -2.]
+- #item[Range][#k[Near] is 30 ft, a thrown weapon's reach. A bow, sling, or crossbow carries #k[60 ft], 120 ft at -2, 240 ft at -5. #k[Shots a round:] darts 3, bow 2, sling 1; a crossbow fires once, then reloads an action. Half cover: -2 to hit; full cover, no target. Loose into a melee and a miss hits a random figure, friend or foe.]
+- #item[Reach & Thrown][A spear or polearm strikes from the second rank, behind a front-line ally, and keeps a closing foe at bay. A spear or javelin throws to Near; any one-handed weapon at -2.]
 - #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
