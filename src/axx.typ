@@ -12,7 +12,7 @@ Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Tie.
 
 == Abilities
 
-Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3. Round down everywhere a value splits, such as half Level.
+Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3. Round down on any split; a bonus or penalty counts once per source.
 
 - #item[STR][Melee attack and damage. Item #k[slots] equal to the score.]
 - #item[DEX][Missile attack. AC edge at high DEX, see Gear.]
@@ -49,7 +49,7 @@ Any kindred, any class. One trait each.
 
 == Gear
 
-Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge only the nimble keep: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
+Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling, piercing, with ammunition (1d6, 2 slots) #k[20 GP].]
 - #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
@@ -65,7 +65,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
   - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, darts. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
 - #item[Aid][Spend your action to help an ally's check or attack: +2.]
-- #item[Natural 20 and 1][20 always succeeds, and an attack deals double damage. 1 always fails, with a complication.]
+- #item[Natural 20 and 1][20 always succeeds; 1 always fails, with a complication. #k[Optional crit:] a 20 deals #k[maximum] damage, doubled if vulnerable.]
 
 == Time
 
@@ -115,7 +115,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 == Conditions
 
 - #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it.]
-- #item[Weakened][-2 to all d20 rolls. It stacks across separate sources, so hunger and a wound together is -4, but any one source counts once.]
+- #item[Weakened][-2 to all d20 rolls; -4 from two separate sources.]
 - #item[Poisoned][1d6 damage at the end of each round and Weakened. Body save at the end of each round to end it.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes when damaged or after a round of shaking.]
@@ -185,11 +185,11 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
   item[Kin][A relative went into the dungeon and never came back.],
 ))
 
-#rolltable("1d6", "Brush with Death", note: [Rolled at 0 HP. Add +1 per earlier Brush that day; #k[7+] is always Slain.], (
-  item[Close Call][The blow is turned aside. Negate the attack that felled you: its damage, and any effect that same blow carried.],
-  item[Close Call][As above: the fate that reached for you misses.],
-  item[Scarred][Marked for life: -1 to CHA checks, or +1 to intimidate. The shock snaps you back to full HP and clears any lingering ailment.],
-  item[Shaken][Drop what you hold. 1 HP. Injured until a Haven rest.],
-  item[Grievous Wound][Unconscious until healed by magic or sleep. Injured until a Haven rest.],
-  item[Maimed][Lose a limb or an eye. Unconscious 1d4 turns, then 1 HP. Injured for good.],
+#rolltable("1d6", "Brush with Death", note: [Rolled at 0 HP. +1 per earlier Brush today; #k[7+] is Slain.], (
+  item[Close Call][Negate the blow that felled you and any effect it carried.],
+  item[Close Call][As above.],
+  item[Scarred][-1 CHA checks or +1 intimidate. Back to full HP, ailments cleared.],
+  item[Shaken][Drop your gear. 1 HP. Injured until a Haven.],
+  item[Grievous Wound][Out until healed by magic or sleep. Injured until a Haven.],
+  item[Maimed][Lose a limb or eye. Out 1d4 turns, then 1 HP. Injured for good.],
 ))
