@@ -26,6 +26,7 @@ Hobgoblin,humanoid,1,6,14,+1,1d8,,common,"Disciplined soldier. 1d6 patrol under 
 Bugbear,humanoid,3,14,15,+3,1d8,,common,"Surprise despite its bulk. Hits like an ogre."
 Gnoll,humanoid,2,9,14,+2,1d8,,common,"Hyena-headed raiders. 1d6 pack, cruel to captives. Tell: hyena laughter and captives roped in a line. Want: loot, slaves, or a cut of your spoils."
 Lizardfolk,humanoid,2,11,15,+2,1d6,,common,"Swamp hunters. Hold their breath 10 turns. 2d4 near water. Tell: reed nests and fish-bones at the water edge. Want: their eggs safe, or tribute of fish and meat."
+Berserker,humanoid,2,11,12,+2,1d10,,common,"Berserk, so +2 more to hit; never breaks and fights to the death. 1d6 frenzied raiders, heedless of wounds. Tell: old scars, a foaming fury, a warband that will not stop. Want: slaughter and glory, seldom plunder."
 Hill Giant,giant,8,36,16,+8,2d8,blunt,common,"Hurls rocks 60 ft for 2d8. Keeps a cave hoard."
 Stone Giant,giant,9,40,17,+9,3d6,blunt,common,"Hurls boulders 120 ft for 3d6, and can catch one thrown back."
 Frost Giant,giant,10,45,17,+10,2d10,blunt,common,"Immune to cold. Hurls ice for 2d10."

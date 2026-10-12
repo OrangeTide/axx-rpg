@@ -27,7 +27,7 @@ Level 1 HP is the #k[maximum] of one Hit Die + CON. A weapon outside your class 
 
 - #item[Tracks][Attack by Level: #k[Warrior] +Level, a 2nd attack at Level 6 and a 3rd at 11 #bar #k[Expert] and #k[Priest] +half Level (round up) #bar #k[Mage] +half Level (round down). Level 2: #k[Expert 1,500], #k[Warrior and Priest 2,000], #k[Mage 2,500] XP; each later Level doubles.]
 - #item[Fighter][Warrior, d8. Any weapon and armor. +2 Body. Kit: weapon, shield, medium armor.]
-- #item[Barbarian][Warrior, d10. No heavy armor; 40 ft unarmored. +2 Body. #k[Rage] once per fight: a round at +2 damage and half damage taken. Kit: heavy weapon, hide armor.]
+- #item[Barbarian][Warrior, d10, the hardiest class. +2 against magic, and distrusts magic items: will not wield one. No heavy armor; 40 ft on foot. Kit: a heavy weapon, hide armor, a slain beast's trophy.]
 - #item[Ranger][Warrior, d8. +2 Body. Surprised only on a 1, surprises on 1--3. Tracks, hunts, forages as a Class Check, +2 in a chosen wild. Kit: bow, blade, woodcraft gear.]
 - #item[Cleric][Priest, d6. Blunt weapons, medium or heavy armor. +2 Will. Divine spells; Turns undead. Lawful or Chaotic. Kit: holy symbol, mace, medium armor.]
 - #item[Thief][Expert, d6. Light weapons and armor. +2 Dodge. Stealth, locks, traps, climbing are Class Checks with DEX +2. #k[Backstab:] +4 and double damage on the unaware. Kit: thieves' tools, light weapon, light armor.]

@@ -36,6 +36,7 @@ Number appearing and treasure are the GM's call, guided by the core Stocking and
 The keywords a stat block leans on.
 
 - #item[Mindless][Immune to Sleep, Charmed, Poisoned, and Frightened. Most undead, oozes, and constructs.]
+- #item[Berserk][Fights in a fury: #k[+2 to attack], never tests morale, and never yields, fighting to the death. Immune to Frightened. A fury it cannot switch off, it attacks the nearest target, friend or foe, if no enemy stands.]
 - #item[Silver or Magic][Only silver or magic weapons bite it. Plain steel passes through.]
 - #item[Regeneration][Regains the listed HP each round, unless the wound came from its bane, usually fire or acid. Damage past 0 only keeps it down if the bane did it.]
 - #item[Drain][A hit, Body save or lose a Level: its HP, and a point from attacks and saves. A week of rest or a Remove Curse restores one Level.]
