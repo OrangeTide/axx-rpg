@@ -54,5 +54,5 @@ The coffer's brass lining holds a map to the observatory, and a second green sig
 - #item[Gargoyle][HD 4, HP 18, AC 16, Atk +4 (1d6 claws). Flies. A Mindless construct. Resistant to all but magic weapons.]
 - #item[Engine Guardian][HD 5, HP 24, AC 16, Atk +5 (1d8 claws). A gargoyle grown fat on the coffer's magic. Won't leave the engine room.]
 - #item[Restless Sailor][HD 2, HP 9, AC 13, Atk +2 (1d6 chilling touch). Harmed only by magic or silver. Passive unless the party disturbs the watch.]
-- #item[Animated Rigging][HD 2, HP 10, AC 12, Atk +2 (Dodge save or stuck 1d4 rounds). Immune to Charmed and Frightened. Fire frees anyone caught.]
+- #item[Animated Rigging][HD 2, HP 10, AC 12, Atk +2 (Dodge save or stuck 1d4 rounds). A Mindless construct. Fire frees anyone caught.]
 - #item[Wick the Pseudodragon][HD 1, HP 4, AC 15, Atk +1 (1d3 sting, Body save or Asleep). Flies. A friend, not a fight, once fed.]
