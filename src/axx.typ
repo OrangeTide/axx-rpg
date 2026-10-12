@@ -56,7 +56,7 @@ Any kindred, any class. One trait each.
 
 Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
-- #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling, piercing, with ammunition (1d6, 2 slots) #k[20 GP].]
+- #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Darts, thrown (1d3, 1 slot) #k[1 GP] #bar Sling (1d4, 1 slot) #k[2 GP] #bar Bow, with arrows (1d6, 2 slots) #k[20 GP] #bar Crossbow, with bolts (1d6+1, 2 slots) #k[25 GP].]
 - #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]
 - #item[Consumables][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Oil flask (thrown: 1d6 fire and Burning) #k[2 GP] #bar Blade poison, 1 dose #k[25 GP].]
 - #item[Tools][Rope 50 ft (1 slot) #k[1 GP] #bar Ten-foot pole (1 slot) #k[1 GP] #bar Spikes and hammer (1 slot) #k[3 GP] #bar Grapnel (1 slot) #k[5 GP] #bar Sack (holds 3 slots, 1 slot) #k[1 GP] #bar Mirror #k[10 GP] #bar Whistle, chalk #k[1 GP].]
@@ -81,7 +81,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == Exploration
 
-- #item[Search][One turn per 10 ft section, WIS check: find a secret door, trap, or hidden cache. Thieves use their Class Check for traps.]
+- #item[Search][One turn per 10 ft section, WIS check: find a secret door, trap, or hidden cache. A Thief uses a Class Check, and can disarm a trap they find. A trap left unfound springs when triggered, forcing its Dodge save.]
 - #item[Doors][Stuck: STR check to force. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
 - #item[Wandering Monsters][Roll 1d6 every third turn, and at once after a fight, a forced door, or a shout: a #k[1], or #k[1--2] after noise, brings a wanderer from the Threat table.]
 - #item[Darkness][Swinging at what you can't see is -4. Targeted spells need line of sight.]
@@ -101,7 +101,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Action][Each round, move up to #k[30 ft] (20 ft in medium or heavy armor) and take one action: attack, cast, use an item, or aid. #k[Run] doubles the move and forfeits the action.]
 - #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = your track bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two on one target: +2 each.]
-- #item[Range][Thrown #k[30 ft]. Bows and slings #k[60 ft], or 120 ft at -2 and 240 ft at -5. Half cover: -2 to hit; full cover, no target.]
+- #item[Range][#k[Near] is 30 ft, a thrown weapon's reach. A bow, sling, or crossbow carries #k[60 ft], 120 ft at -2, 240 ft at -5. #k[Shots a round:] darts 3, bow 2, sling 1; a crossbow fires once, then an action to reload. Half cover: -2 to hit; full cover, no target.]
 - #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
