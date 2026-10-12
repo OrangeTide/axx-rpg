@@ -37,7 +37,9 @@ order_of() {
     "Adventures") echo 2 ;; "Worksheets") echo 3 ;; *) echo 9 ;;
   esac
 }
-title_of() { grep -m1 '  title: "' "$1" | sed 's/.*title: "\(.*\)",.*/\1/'; }
+# Match both the xx show-rule form (  title: "...",) and a bare
+# #set document(title: "..."). Take the first title line and the quoted value.
+title_of() { grep -m1 'title: "' "$1" | sed 's/.*title: "\([^"]*\)".*/\1/'; }
 pages_of() {
   if command -v pdfinfo >/dev/null 2>&1; then
     pdfinfo "$1" 2>/dev/null | awk '/Pages/{print $2}'
@@ -71,7 +73,11 @@ for src in $(find "$SRCDIR" -name '*.typ' | sort); do
 
   cp "$OUTDIR/$base.pdf" "$SITEDIR/$slug.pdf"
   cp "$OUTDIR/$base.thumb.png" "$SITEDIR/thumbs/$slug.png"
-  wrap_html "$OUTDIR/$base.html" "$slug" > "$SITEDIR/$slug.html"
+  # Worksheets are fill-in forms built from boxes and rules; the experimental
+  # HTML export collapses the layout into unusable text, so serve the PDF only.
+  if [ "$cat" != "Worksheets" ]; then
+    wrap_html "$OUTDIR/$base.html" "$slug" > "$SITEDIR/$slug.html"
+  fi
 
   printf '%s\t%s\t%s\t%s\t%s\n' "$ord" "$cat" "$slug" "$title" "${pg:-}" >> "$MAN"
 done
@@ -112,11 +118,19 @@ sort -t "$(printf '\t')" -k1,1n -k4,4 "$MAN" | while IFS="$(printf '\t')" read -
   disp=$(printf '%s' "$disp" | sed 's/&/\&amp;/g')
   meta=""
   [ -n "$pg" ] && meta="${pg} pp &middot; "
+  # Worksheets have no browser-readable page; point the cover and card at the PDF.
+  if [ "$cat" = "Worksheets" ]; then
+    href="${slug}.pdf"
+    links="<a href=\"${slug}.pdf\">pdf to print</a>"
+  else
+    href="${slug}.html"
+    links="<a href=\"${slug}.html\">read</a> &middot; <a href=\"${slug}.pdf\">pdf</a>"
+  fi
   cat >> "$INDEX" <<CARD
 <div class="card">
-  <a class="cover" href="${slug}.html"><img src="thumbs/${slug}.png" alt="${disp} cover" loading="lazy"></a>
-  <a class="ct" href="${slug}.html">${disp}</a>
-  <span class="cm">${meta}<a href="${slug}.html">read</a> &middot; <a href="${slug}.pdf">pdf</a></span>
+  <a class="cover" href="${href}"><img src="thumbs/${slug}.png" alt="${disp} cover" loading="lazy"></a>
+  <a class="ct" href="${href}">${disp}</a>
+  <span class="cm">${meta}${links}</span>
 </div>
 CARD
 done
