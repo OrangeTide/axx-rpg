@@ -106,7 +106,7 @@
 
 // ===== BACK: inventory in Post-it-sized slots =====
 #text(font: section-font, size: 12pt, tracking: 0.04em, upper("Inventory"))
-#h(0.6em)#text(size: 7pt, fill: luma(45%))[One slot per box. Slots = STR. 100 coin fills a slot. Over STR: Weakened, half speed, no Run.]
+#h(0.6em)#text(size: 7pt, fill: luma(45%))[One slot per box. Slots = STR with a pack, fewer without. 100 coin fills a slot. Over STR: Weakened, half speed, no Run.]
 #v(0.15em)
 #line(length: 100%, stroke: 0.8pt + black)
 #v(0.3em)

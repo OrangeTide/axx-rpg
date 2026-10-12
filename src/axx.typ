@@ -49,7 +49,7 @@ Any kindred, any class. One trait each.
 
 == Gear
 
-Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge only the nimble keep: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
+Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge only the nimble keep: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Bow or sling, piercing, with ammunition (1d6, 2 slots) #k[20 GP].]
 - #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP].]

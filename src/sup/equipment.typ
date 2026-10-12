@@ -23,12 +23,12 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 
 - #item[Starting Purse][A new adventurer rolls #k[3d6 x 10 GP] and spends it here.]
 - #item[Coins][Heavy. A big hoard is a load you carry: the GM calls when coin costs a slot or slows you, about one slot per 100.]
-- #item[Slots][You carry slots equal to your #k[STR] score. That is a soft cap, not a wall: pile on more and you are Overloaded, below. A sack holds 3 slots; a mule or a hireling holds more.]
+- #item[Slots][You carry slots equal to your #k[STR] score when a pack is worn, fewer without one: just what you wear and hold. A soft cap, not a wall: pile on more and you are Overloaded, below. A sack holds 3 slots; a mule or hireling holds more.]
 - #item[Availability][A town stocks the common lines. Anything rare wants a bigger city, a favor, or a search, at the GM's call.]
 
 == Overloading
 
-Greed and good hauls both outweigh a strong back. You may take up more than you carry well and pay the weight for it. Worn armor and the weapon in hand count against your slots like anything else.
+Greed and good hauls both outweigh a strong back. You may take up more than you carry well and pay the weight for it.
 
 - #item[Overloaded][One slot over #k[STR] or more: the load drags and tires you. Move at #k[half speed] with no Run, and you are Weakened, until you drop back within your slots.]
 - #item[Immovable][Past #k[double] your slots you only shuffle the pile a few feet. No fighting, climbing, swimming, or running. Set it down to act.]
