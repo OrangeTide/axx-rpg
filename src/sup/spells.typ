@@ -7,7 +7,7 @@
 
 = Magic
 
-A caster prepares spells into slots each day after sleeping, as the core slot table sets by Level. Casting is an action; a wound taken earlier in the round loses the spell. The spells here run from level 1 to 3, the range of the core game. The entries on the following pages are generated from #k[spells.csv], so adding a row adds a spell to the book.
+A caster prepares spells into slots each day after sleeping, as the core slot table sets by Level. Casting is an action, so you cannot cast and move in the same round; a wound taken earlier in the round loses the spell, and casting a new spell ends any you were concentrating on. The spells here run from level 1 to 3, the range of the core game. The entries on the following pages are generated from #k[spells.csv], so adding a row adds a spell to the book.
 
 Clerics pray and may prepare any Cleric spell of a level they have slots for. When a Cleric casts a spell's dark reverse, Cure to Cause and the like, that is evil work: a Chaotic Cleric does it freely, a Lawful one needs good cause. Magic-Users prepare only from a spellbook, which starts with two 1st-level spells; a Day of study copies a scroll or a captured book's spell into it. Druids prepare the nature spells on the last page through a sprig of mistletoe; the Druid class is in the Classes supplement.
 
@@ -20,7 +20,7 @@ Clerics pray and may prepare any Cleric spell of a level they have slots for. Wh
 == Conventions
 
 - #item[Range][#k[Touch] needs a hand on the target. #k[Near] is 30 ft. A targeted spell needs line of sight.]
-- #item[Concentration][Holding up a spell you steer is your action each round. You may still move, even be carried. Do anything else, or be unable to act, and the spell ends.]
+- #item[Concentration][A spell you steer lasts while you can keep hold of it. You may move and act as normal, even be carried, but it ends if you are kept from acting at all: Paralyzed, Asleep, or slain.]
 - #item[Foci][A caster works through a focus: the Magic-User a spellbook, the Cleric a holy symbol. Lose it and you cannot prepare spells until you replace it.]
 - #item[Components][A few spells list a _Component_, a material spent in the casting. The core game ignores them. Use them for color, or let the costly ones drain a purse.]
 
