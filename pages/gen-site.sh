@@ -13,7 +13,11 @@ OUTDIR=$2
 PAGESDIR=$3
 SITEDIR=$4
 
-rm -rf "$SITEDIR"
+# Empty the site dir in place rather than removing it, so a preview server
+# serving this directory keeps working across rebuilds (removing the directory
+# leaves the server holding a deleted inode, which then 404s everything).
+mkdir -p "$SITEDIR"
+find "$SITEDIR" -mindepth 1 -delete
 mkdir -p "$SITEDIR/assets/fonts" "$SITEDIR/thumbs"
 
 cp "$PAGESDIR/style.css" "$SITEDIR/assets/style.css"
