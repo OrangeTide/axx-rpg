@@ -2,7 +2,6 @@
 
 #show: xx.with(
   title: "AX&X: Spellbook",
-  subtitle: "The source of truth for spells in AX&X.",
   cols: 2,
 )
 

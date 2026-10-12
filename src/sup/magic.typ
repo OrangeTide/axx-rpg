@@ -2,7 +2,6 @@
 
 #show: xx.with(
   title: "AX&X: Relics and Wonders",
-  subtitle: "The source of truth for magic items in AX&X.",
   cols: 2,
 )
 
