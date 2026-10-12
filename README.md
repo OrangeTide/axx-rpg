@@ -109,6 +109,9 @@ decisions:
 - Tactical depth stays out of the core. Positioning, charging, grappling,
   terrain, and ranged nuance live in the Combat & Tactics supplement, so the core
   keeps its beginner-friendly four-line fight.
+- The Bestiary is the source of truth for monster keywords and their rules. The
+  core picks up only the tags its starter foes need (such as Mindless) and
+  summarizes them in a line; the full list of tags lives in the Bestiary.
 
 ## Files
 

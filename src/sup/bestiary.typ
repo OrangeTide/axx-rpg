@@ -33,7 +33,7 @@ Number appearing and treasure are the GM's call, guided by the core Stocking and
 
 == Monster Abilities
 
-The keywords a stat block leans on.
+The full list of monster keywords, and the source of truth for them. The core picks up the few its starter foes need and summarizes them; every tag and its rule lives here.
 
 - #item[Mindless][Immune to Sleep, Charmed, Poisoned, and Frightened. Most undead, oozes, and constructs.]
 - #item[Berserk][Fights in a fury: #k[+2 to attack], never tests morale, and never yields, fighting to the death. Immune to Frightened. A fury it cannot switch off, it attacks the nearest target, friend or foe, if no enemy stands.]

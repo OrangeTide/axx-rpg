@@ -146,7 +146,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Stocking][For each room roll 1d6: #k[1--3] empty (1-in-6 chance of hidden treasure, found by Search) #bar #k[4] monster (1-in-2 chance it guards treasure) #bar #k[5] trap or trick (Dodge save or 2d6 damage, or a puzzle; below level 3, gas: Body save or Petrified) #bar #k[6] treasure, with a guard on 1--2 on 1d6.]
 - #item[Handing Out Treasure][Treasure comes from stocking, not from fights. Defeated monsters carry 1d6 x 10 GP on a 1--2 on 1d6, else nothing but XP. A leader of 3+ HD carries one Treasure roll.]
 
-#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. #k[Mindless] is immune to Sleep, Charmed, Poisoned, and Frightened. The heavier foes of the deeper levels are in the Bestiary.], (
+#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. #k[Mindless] is immune to Sleep, Charmed, Poisoned, and Frightened. The Bestiary holds the heavier foes and the full list of keywords.], (
   item[Giant Rats][HD 1/2, HP 2, AC 12, Atk +0 (1d3 piercing). 2d6 rats. A bite on a 20 also gives disease: Poisoned.],
   item[Goblin Band][HD 1, HP 4, AC 13, Atk +1 (1d6). 1d6 goblins ambush from cover.],
   item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). 1d6. Mindless. Resistant to piercing and edged, vulnerable to blunt.],
