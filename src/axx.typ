@@ -109,7 +109,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Sleep][A Day regains one Hit Die + CON.]
 - #item[Haven][A week in a safe town or refuge restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
-- #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[6+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
+- #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[7+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
 - #item[The Long Road][Between delves a party lives off the land and lays up to heal, and with time and safety even a maiming can mend. The downtime supplement runs it, or rule it at the table.]
 
 == Conditions
@@ -185,11 +185,11 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
   item[Kin][A relative went into the dungeon and never came back.],
 ))
 
-#rolltable("1d6", "Brush with Death", note: [Rolled at 0 HP, as Healing & Injury sets out.], (
+#rolltable("1d6", "Brush with Death", note: [Rolled at 0 HP. Add +1 per earlier Brush that day; #k[7+] is always Slain.], (
   item[Close Call][The blow is turned aside. Negate the attack that felled you: its damage, and any effect that same blow carried.],
-  item[Scarred][Marked for life: -1 to CHA checks, or +1 to intimidate. The shock snaps you back to full HP.],
+  item[Close Call][As above: the fate that reached for you misses.],
+  item[Scarred][Marked for life: -1 to CHA checks, or +1 to intimidate. The shock snaps you back to full HP and clears any lingering ailment.],
   item[Shaken][Drop what you hold. 1 HP. Injured until a Haven rest.],
   item[Grievous Wound][Unconscious until healed by magic or sleep. Injured until a Haven rest.],
   item[Maimed][Lose a limb or an eye. Unconscious 1d4 turns, then 1 HP. Injured for good.],
-  item[Slain][Dead.],
 ))
