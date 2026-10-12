@@ -58,7 +58,7 @@
 #v(0.6em)
 #lbl("Attack mod")#h(0.3em)#ul(20%)
 #v(-0.1em)
-#text(size: 6.5pt, fill: luma(45%))[Track bonus + STR (melee) or DEX (missile). Warrior +Level and a 2nd attack at Level 6, a 3rd at 11; Expert and Priest +half Level up; Mage +half Level down.]
+#text(size: 6.5pt, fill: luma(45%))[Track bonus + STR (melee) or DEX (missile). Warrior +Level and a 2nd attack at Level 6, a 3rd at 11; Specialist and Priest +half Level up; Mage +half Level down.]
 #v(0.5em)
 #lbl("Weapons")
 #v(0.2em)

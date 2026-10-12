@@ -35,7 +35,7 @@ The left is the old way, the right is AX&X.
   [Saving throws], [Five categories, class tables by level, roll over], [Three saves tied to CON, DEX, and WIS. 1d20 + half Level + modifier, 12+, or 10 + HD of the source if higher.],
   [Monster saves], [Save as a Fighter of equal HD], [1d20 + HD, 10 + the caster's Level or higher.],
   [Armor Class], [Descending, 10 to -10, with to-hit matrices], [Ascending. Attack is 1d20 + Attack Mod vs AC. DEX adds to AC only at 16+ (+1) or 18 (+2).],
-  [Attack progression], [Class matrices stepped every few levels], [A track bonus plus STR or DEX: Warrior +Level, Expert and Priest +half Level up, Mage +half Level down. Monsters attack at + HD.],
+  [Attack progression], [Class matrices stepped every few levels], [A track bonus plus STR or DEX: Warrior +Level, Specialist and Priest +half Level up, Mage +half Level down. Monsters attack at + HD.],
   [Hit points], [Rolled at level 1, CON bonus only at 15+], [Maximum Hit Die at level 1. CON modifier applies to every Hit Die.],
   [Classes], [Eleven classes with subclasses and level limits], [Six: Fighter, Barbarian, Ranger, Cleric, Thief, Magic-User. More in the Classes supplement.],
   [Race], [Seven races with ability adjustments, class limits, level caps, and multi-classing], [Five kindred. Any kindred, any class. One trait each. No limits.],
