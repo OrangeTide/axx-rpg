@@ -28,6 +28,8 @@ PDFS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.pdf,$(SOURCES))
 LANDSCAPEPDF := $(OUTDIR)/axx-landscape.pdf
 HTMLS    := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.html,$(SOURCES))
 THUMBS   := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%.thumb.png,$(SOURCES))
+# Landscape-build thumbnail for the core, so its home-page card shows the wide layout.
+LANDSCAPETHUMB := $(OUTDIR)/axx-landscape.thumb.png
 PNGS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%-1.png,$(SOURCES))
 LIBS     := $(wildcard $(LIBDIR)/*.typ)
 FONTS    := $(wildcard $(FONTDIR)/*.otf $(FONTDIR)/*.ttf)
@@ -46,7 +48,7 @@ pdf: $(PDFS) $(LANDSCAPEPDF)
 
 html: $(HTMLS)
 
-thumbs: $(THUMBS)
+thumbs: $(THUMBS) $(LANDSCAPETHUMB)
 
 png: $(PNGS)
 
@@ -66,6 +68,11 @@ $(OUTDIR)/%.html: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 $(OUTDIR)/%.thumb.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)
 	$(TYPST) compile $(TYPSTFLAGS) --format png --ppi 96 --pages 1 $< $@
+
+# The core's landscape thumbnail, from the same source with the landscape input.
+$(LANDSCAPETHUMB): $(SRCDIR)/axx.typ $(LIBS) $(FONTS)
+	@mkdir -p $(dir $@)
+	$(TYPST) compile $(TYPSTFLAGS) --input landscape=true --format png --ppi 96 --pages 1 $< $@
 
 $(OUTDIR)/%-1.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)

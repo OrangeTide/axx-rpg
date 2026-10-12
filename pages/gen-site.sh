@@ -80,7 +80,12 @@ for src in $(find "$SRCDIR" -name '*.typ' | sort); do
   pg=$(pages_of "$OUTDIR/$base.pdf" || true)
 
   cp "$OUTDIR/$base.pdf" "$SITEDIR/$slug.pdf"
-  cp "$OUTDIR/$base.thumb.png" "$SITEDIR/thumbs/$slug.png"
+  # Prefer a landscape build's thumbnail when one exists, so the card shows the wide layout.
+  if [ -f "$OUTDIR/$base-landscape.thumb.png" ]; then
+    cp "$OUTDIR/$base-landscape.thumb.png" "$SITEDIR/thumbs/$slug.png"
+  else
+    cp "$OUTDIR/$base.thumb.png" "$SITEDIR/thumbs/$slug.png"
+  fi
   # The core also ships as a flat landscape reference PDF, same content,
   # built from the same source. Carry it alongside the portrait PDF.
   landscapepdf=""
@@ -142,8 +147,11 @@ sort -t "$(printf '\t')" -k1,1n -k4,4 "$MAN" | while IFS="$(printf '\t')" read -
     links="<a href=\"${slug}.html\">read</a> &middot; <a href=\"${slug}.pdf\">pdf</a>"
     [ -n "$landscape" ] && links="${links} &middot; <a href=\"${landscape}\">landscape</a>"
   fi
+  # A document with a landscape build gets a wide cover so the thumbnail shows it whole.
+  cardclass="card"
+  [ -n "$landscape" ] && cardclass="card wide"
   cat >> "$INDEX" <<CARD
-<div class="card">
+<div class="${cardclass}">
   <a class="cover" href="${href}"><img src="thumbs/${slug}.png" alt="${disp} cover" loading="lazy"></a>
   <a class="ct" href="${href}">${disp}</a>
   <span class="cm">${meta}${links}</span>
