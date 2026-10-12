@@ -53,12 +53,12 @@ pages_of() {
 
 # Wrap a Typst HTML export: add the stylesheet, a body class, and a nav bar.
 wrap_html() {
-  awk -v slug="$2" -v fold="$3" '
+  awk -v slug="$2" -v landscape="$3" '
     /<\/head>/ { print "<link rel=\"stylesheet\" href=\"assets/style.css\">"; print; next }
     /<body>/ {
       print "<body class=\"doc\">";
       nav = "<nav class=\"docnav\"><a class=\"home\" href=\"index.html\">&#8592; All AX&amp;X</a><span class=\"dls\"><a class=\"dl\" href=\"" slug ".pdf\">Download PDF</a>";
-      if (fold != "") nav = nav "<a class=\"dl\" href=\"" fold "\">Fold PDF</a>";
+      if (landscape != "") nav = nav "<a class=\"dl\" href=\"" landscape "\">Landscape PDF</a>";
       nav = nav "</span></nav>";
       print nav;
       print "<main>";
@@ -81,20 +81,20 @@ for src in $(find "$SRCDIR" -name '*.typ' | sort); do
 
   cp "$OUTDIR/$base.pdf" "$SITEDIR/$slug.pdf"
   cp "$OUTDIR/$base.thumb.png" "$SITEDIR/thumbs/$slug.png"
-  # The core also ships as a landscape tri-fold pamphlet PDF, same content,
+  # The core also ships as a flat landscape reference PDF, same content,
   # built from the same source. Carry it alongside the portrait PDF.
-  foldpdf=""
-  if [ "$slug" = "axx" ] && [ -f "$OUTDIR/axx-fold.pdf" ]; then
-    foldpdf="$slug-fold.pdf"
-    cp "$OUTDIR/axx-fold.pdf" "$SITEDIR/$foldpdf"
+  landscapepdf=""
+  if [ "$slug" = "axx" ] && [ -f "$OUTDIR/axx-landscape.pdf" ]; then
+    landscapepdf="$slug-landscape.pdf"
+    cp "$OUTDIR/axx-landscape.pdf" "$SITEDIR/$landscapepdf"
   fi
   # Worksheets are fill-in forms built from boxes and rules; the experimental
   # HTML export collapses the layout into unusable text, so serve the PDF only.
   if [ "$cat" != "Worksheets" ]; then
-    wrap_html "$OUTDIR/$base.html" "$slug" "$foldpdf" > "$SITEDIR/$slug.html"
+    wrap_html "$OUTDIR/$base.html" "$slug" "$landscapepdf" > "$SITEDIR/$slug.html"
   fi
 
-  printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$ord" "$cat" "$slug" "$title" "${pg:-}" "$foldpdf" >> "$MAN"
+  printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$ord" "$cat" "$slug" "$title" "${pg:-}" "$landscapepdf" >> "$MAN"
 done
 
 # ---- index.html ----
@@ -123,7 +123,7 @@ HEAD
 
 # Emit groups in category order, cards sorted by title within each.
 prev=""
-sort -t "$(printf '\t')" -k1,1n -k4,4 "$MAN" | while IFS="$(printf '\t')" read -r ord cat slug title pg fold; do
+sort -t "$(printf '\t')" -k1,1n -k4,4 "$MAN" | while IFS="$(printf '\t')" read -r ord cat slug title pg landscape; do
   if [ "$cat" != "$prev" ]; then
     [ -n "$prev" ] && printf '</div>\n</section>\n' >> "$INDEX"
     printf '<section class="group">\n<h2>%s</h2>\n<div class="grid">\n' "$cat" >> "$INDEX"
@@ -140,7 +140,7 @@ sort -t "$(printf '\t')" -k1,1n -k4,4 "$MAN" | while IFS="$(printf '\t')" read -
   else
     href="${slug}.html"
     links="<a href=\"${slug}.html\">read</a> &middot; <a href=\"${slug}.pdf\">pdf</a>"
-    [ -n "$fold" ] && links="${links} &middot; <a href=\"${fold}\">fold</a>"
+    [ -n "$landscape" ] && links="${links} &middot; <a href=\"${landscape}\">landscape</a>"
   fi
   cat >> "$INDEX" <<CARD
 <div class="card">

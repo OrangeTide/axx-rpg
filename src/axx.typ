@@ -1,14 +1,14 @@
 #import "../lib/24xx.typ": *
 
-// Opt-in landscape pamphlet build: `typst compile --input fold=trifold ...`.
+// Opt-in landscape reference build: `typst compile --input landscape=true ...`.
 // With no input the core builds as the default two-page portrait document.
-#let fold = sys.inputs.at("fold", default: none)
+#let landscape = sys.inputs.at("landscape", default: none) != none
 
 #show: xx.with(
   title: "AX&X: Core Rules",
   cols: 3,
   dense: true,
-  fold: fold,
+  landscape: landscape,
 )
 
 = Character Creation

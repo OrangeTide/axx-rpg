@@ -36,20 +36,17 @@
   cover: false,
   cover-art: none,
   dense: false,
-  fold: none,
+  landscape: false,
   body,
 ) = {
   set document(title: title)
-  // Fold mode lays the document out as a landscape pamphlet: the sheet turns
-  // on its side, the columns become fold panels, and light dashed guides mark
-  // the folds. "trifold" is three panels per side. Portrait is the default and
-  // is untouched when fold is none.
-  let is-fold = fold != none
+  // Landscape mode turns the sheet on its side and keeps the columns, for a
+  // wide flat reference sheet. Portrait is the default.
   set page(
     paper: paper,
-    flipped: is-fold,
+    flipped: landscape,
     columns: cols,
-    margin: if is-fold { (x: 0.45in, y: 0.4in) } else { (x: 0.5in, top: 0.5in, bottom: 0.55in) },
+    margin: if landscape { (x: 0.45in, y: 0.4in) } else { (x: 0.5in, top: 0.5in, bottom: 0.55in) },
     footer: context {
       set text(font: body-font, stretch: body-stretch, size: 7pt, fill: luma(40%))
       box(baseline: 28%, image("/lib/cc0.svg", height: 9pt))
@@ -57,10 +54,6 @@
       counter(page).display()
     },
     footer-descent: 0.2in,
-    background: if is-fold {
-      place(line(start: (33.333%, 0%), end: (33.333%, 100%), stroke: (paint: luma(75%), thickness: 0.4pt, dash: "dashed")))
-      place(line(start: (66.667%, 0%), end: (66.667%, 100%), stroke: (paint: luma(75%), thickness: 0.4pt, dash: "dashed")))
-    } else { none },
   )
   // Dense restores the condensed two-page 24XX density; the readable default
   // suits the supplements, where space is cheap.
@@ -149,8 +142,8 @@
     counter(page).update(1)
   }
 
-  // Title block spans the whole page width, above the columns.
-  if title != none and not cover and not is-fold {
+  // Portrait: the title block spans the whole page width, above the columns.
+  if title != none and not cover and not landscape {
     place(top, float: true, scope: "parent", clearance: 0.6em, block(width: 100%)[
       #set text(font: title-font, weight: "regular", size: 34pt, tracking: 0.03em)
       #upper(title)
@@ -163,9 +156,10 @@
     ])
   }
 
-  // In fold mode a page-wide title would span all panels, so the masthead
-  // sits in flow at the top of the first panel instead.
-  if title != none and not cover and is-fold {
+  // Landscape: a page-wide masthead would cost a whole band of the wide sheet,
+  // so the masthead sits in flow at the top of the first column and the
+  // reference starts right beside it.
+  if title != none and not cover and landscape {
     block(width: 100%, below: 0.45em)[
       #set text(font: title-font, weight: "regular", size: 20pt, tracking: 0.02em)
       #upper(title)
