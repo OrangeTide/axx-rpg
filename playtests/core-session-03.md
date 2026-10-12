@@ -144,6 +144,17 @@ Three runs, same dungeon, same monster HP:
 - **Session 02:** two dead, one grievously wounded, routed before the boss, about 225 XP. (Current AC, old 6-is-Slain Brush table, mismatched classes, aggressive GM.)
 - **Session 03:** no deaths, one grievous and one injured, a chosen retreat from the boss, about 900 XP and 600 gold. (Current AC, softened Brush table, classes fit to rolls, neutral GM.)
 
+**Caveat: the party composition also changed, and it is a large variable.** Session
+02 ran the fixed Fighter, Cleric, Thief, and Magic-User. Session 03's roll-first
+method produced a **Barbarian in place of the Thief**, so the front line was two
+Warriors and there was no soft melee body to lose. That is a substantially tankier
+and better-optimized starting condition, not only a rules or GM change. The jump
+from two dead to none therefore cannot be credited to the softened Brush table and
+neutral adjudication alone; a stronger party build is a third reason, and across a
+single run each the three cannot be separated. To isolate the rules changes, a
+future run should hold the party composition fixed and vary only the table and the
+adjudication. As it stands, Session 03 changed three things at once.
+
 ## Playtest Notes
 
 1. **The softened Brush table did its job.** Three characters hit 0 HP and none
