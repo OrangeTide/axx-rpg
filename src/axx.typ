@@ -63,7 +63,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or succeeds at a cost. 9+ for easy, 15+ for hard.]
 - #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod], 12+.]
 - #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
-  - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, wands, traps, falling, blasts. #k[Will (WIS):] spells, charm, fear, illusion.
+  - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, darts. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
 - #item[Aid][Spend your action to help an ally's check or attack: +2.]
 - #item[Natural 20 and 1][20 always succeeds, and an attack deals double damage. 1 always fails, with a complication.]
 

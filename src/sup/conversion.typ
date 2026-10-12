@@ -17,7 +17,7 @@ Most of it is a few rules and a shrug.
 - #item[Armor Class][The old descending AC becomes #k[19 minus the old number]. AC 2 is 17, AC 5 is 14, AC 8 is 11.]
 - #item[Hit Dice][Hit Dice carry over whole. A creature keeps its HD, attacks at #k[+ HD], and saves at #k[10 + HD].]
 - #item[Hit Points][Old monster HP work as printed, or reroll at #k[5 per HD].]
-- #item[Saving Throws][Drop the old categories. Pick the AX&X save that fits the threat: #k[Body] for poison, death, and petrification; #k[Dodge] for breath and blasts; #k[Will] for magic and the mind. An old save-or-die becomes a save at 10 + HD, or a condition.]
+- #item[Saving Throws][Drop the old categories. Pick the AX&X save that fits the threat: #k[Body] for poison, death, and petrification; #k[Dodge] for breath, blasts, and falling; #k[Will] for magic and the mind. Save against the effect, not the thing that delivers it. An old save-or-die becomes a save at 10 + HD, or a condition. Reading the Old Saves, below, maps the five old categories in full.]
 - #item[To Hit][No matrices. Everyone rolls #k[1d20 + Attack Mod vs AC]; a monster attacks at #k[+ HD]. A creature with several attacks keeps them, one roll each.]
 - #item[The Shrug][When a number has no clean home, call a Check at 12+ and move on. The old books are a quarry, not scripture.]
 
@@ -65,3 +65,23 @@ The left is the old way, the right is AX&X.
 = Spells Past Level 3
 
 The core runs spells of levels 1 to 3. To carry a campaign further, an old spell of a given level opens at #k[twice that level minus one]: 4th-level spells at caster Level 7, 5th at Level 9, and up. Convert any old spell by giving it one save from Body, Dodge, or Will, a duration (one fight, 6 turns, a Day, or a stated span), and, for a blast, damage near #k[1d6 per two caster Levels]. The Spellbook supplement holds the native list and its conventions.
+
+= Reading the Old Saves
+
+AX&X keeps three saves where the first edition kept five. The old five sorted by how an attack arrived, a wand, a breath, a spell, with Paralyzation, Poison, and Death Magic as one catch-all beside Petrification and Polymorph. AX&X sorts instead by what the attack does to you: body, footing, or mind.
+
+Be plain about the lineage. This effect-based split is close to third edition's Fortitude, Reflex, and Will. AX&X takes that structure and keeps old-school names for it. To run an old monster or spell, map its save by this table, or name the AX&X save that fits and roll.
+
+#table(
+  columns: (auto, 1fr),
+  stroke: (y: 0.4pt + luma(80%)),
+  inset: (x: 4pt, y: 4pt),
+  table.header([Old category], [AX&X save]),
+  [Paralyzation, Poison, Death Magic], [Body],
+  [Petrification, Polymorph], [Body],
+  [Breath Weapon], [Dodge],
+  [Rod, Staff, Wand], [By the effect: a blast is Dodge, a charm is Will, a flesh-to-stone is Body],
+  [Spell], [By the effect: Will for charm, fear, and illusion; Dodge for a blast; Body for poison or withering],
+)
+
+Two old threats carried no save at all: a fall was flat damage, now a Dodge save to halve it or catch an edge, and energy drain was automatic on a hit, now a Body save against the Drain keyword. Where the old book says save or die, keep the stakes at 10 + HD, failure the Slain result or a hard condition.
