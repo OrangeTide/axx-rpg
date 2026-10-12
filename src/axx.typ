@@ -17,7 +17,7 @@ Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Tie.
 
 == Abilities
 
-Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3. Round down by default; a bonus or penalty counts once per source.
+Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3.
 
 - #item[STR][Melee attack and damage. Item #k[slots] equal to the score, with a pack worn.]
 - #item[DEX][Missile attack. AC edge at high DEX, see Gear.]
@@ -32,7 +32,7 @@ Level 1 HP is the #k[maximum] of one Hit Die + CON. A weapon outside your class 
 
 - #item[Tracks][Attack by Level: #k[Warrior] +Level, a 2nd attack at Level 6 and a 3rd at 11 #bar #k[Expert] and #k[Priest] +half Level (round up) #bar #k[Mage] +half Level (round down). Level 2: #k[Expert 1,500], #k[Warrior and Priest 2,000], #k[Mage 2,500] XP; each later Level doubles.]
 - #item[Fighter][Warrior, d8. Any weapon and armor. +2 Body. Kit: weapon, shield, medium armor.]
-- #item[Barbarian][Warrior, d10, the hardiest class. +2 against magic, and distrusts magic items: will not wield one. No heavy armor; 40 ft on foot. Kit: a heavy weapon, hide armor, a slain beast's trophy.]
+- #item[Barbarian][Warrior, d10. +2 against magic, and distrusts magic items: will not wield one. No heavy armor; 40 ft on foot. Kit: a heavy weapon, hide armor, a slain beast's trophy.]
 - #item[Ranger][Warrior, d8. +2 Body. Surprised only on a 1, surprises on 1--3. Tracks, hunts, forages as a Class Check, +2 in a chosen wild. Kit: bow, blade, woodcraft gear.]
 - #item[Cleric][Priest, d6. Blunt weapons, medium or heavy armor. +2 Will. Divine spells; Turns undead. Lawful or Chaotic. Kit: holy symbol, mace, medium armor.]
 - #item[Thief][Expert, d6. Light weapons and armor. +2 Dodge. Stealth, locks, traps, climbing are Class Checks with DEX +2. #k[Backstab:] +4 and double damage on the unaware. Kit: thieves' tools, light weapon, light armor.]
@@ -65,7 +65,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == The Core Roll
 
-- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or succeeds at a cost. 9+ for easy, 15+ for hard.]
+- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or succeeds at a cost. 9+ for easy, 15+ for hard. Round down by default; a bonus or penalty counts once per source.]
 - #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod], 12+.]
 - #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
   - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, darts. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
@@ -89,7 +89,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == Encounters
 
-- #item[Four Answers][A monster is a puzzle, not just a fight: Fight, Flee, Talk, or Exploit a weakness. A look or a Lore check with INT tells you what cuts it, what it shrugs off, and what it wants.]
+- #item[Four Answers][Meet a monster four ways: Fight, Flee, Talk, or Exploit a weakness. A look or a Lore check with INT tells you what cuts it, what it shrugs off, and what it wants.]
 - #item[Surprise][When an encounter begins, each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming, or that scouted ahead, isn't; a side that sneaks in unseen, on a won stealth check, surprises outright.]
 - #item[Distance][An encounter opens about #k[2d6 x 10 ft] apart, less in tight quarters or on a surprise, more in the open. Then roll reaction and set the order.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
