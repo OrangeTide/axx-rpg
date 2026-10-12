@@ -16,7 +16,8 @@ generate stat blocks or tables from them.
 - `equipment.csv`: weapons, armor, consumables, tools, and class gear, with cost
   in gold pieces and item slots.
 - `magic.csv`: magic items, both the generic treasure items and the one-of-a-kind
-  named items with their drawback.
+  named items with their drawback. `magic.typ` reads this file and generates the
+  item roster, so adding a row adds an item.
 - `occupations.csv`: the zero-level past lives, each with a knack and the one odd
   thing it left behind. `funnel.typ` reads this file and generates the Occupations
   table, so adding a row adds a past life to the funnel.
@@ -58,3 +59,6 @@ Each builds to a standalone PDF in the shared house style.
   glossary; the stat blocks that follow are generated from `bestiary.csv`.
 - `spells.typ`: the spellbook. Page one is the magic rules and casting
   conventions; the spell entries that follow are generated from `spells.csv`.
+- `magic.typ`: Relics and Wonders, the magic-item reference. Page one is the
+  item rules; the roster of common finds and named relics is generated from
+  `magic.csv`.
