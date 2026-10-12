@@ -32,11 +32,11 @@ Level 1 HP is the #k[maximum] of one Hit Die + CON. A weapon outside your class 
 
 - #item[Tracks][Attack by Level: #k[Warrior] +Level, a 2nd attack at Level 6 and a 3rd at 11 #bar #k[Specialist] and #k[Priest] +half Level (round up) #bar #k[Mage] +half Level (round down). Level 2: #k[Specialist 1,500], #k[Warrior and Priest 2,000], #k[Mage 2,500] XP; each later Level doubles.]
 - #item[Fighter][Warrior, d8. Any weapon and armor. +2 Body. Kit: weapon, shield, medium armor.]
-- #item[Barbarian][Warrior, d10. +2 against magic, and distrusts magic items: will not wield one. No heavy armor; 40 ft on foot. Kit: a heavy weapon, hide armor, a slain beast's trophy.]
+- #item[Barbarian][Warrior, d10. +2 to saves vs magic, and distrusts magic items: will not wield one. No heavy armor; 40 ft on foot. Kit: a heavy weapon, hide armor, a slain beast's trophy.]
 - #item[Ranger][Warrior, d8. +2 Body. Surprised only on a 1, surprises on 1--3. Tracks, hunts, forages as a Class Check, +2 in a chosen wild. Kit: bow, blade, woodcraft gear.]
 - #item[Cleric][Priest, d6. Blunt weapons, medium or heavy armor. +2 Will. Divine spells; Turns undead. Lawful or Chaotic. Kit: holy symbol, mace, medium armor.]
 - #item[Thief][Specialist, d6. Light weapons and armor. +2 Dodge. Stealth, locks, traps, climbing are Class Checks with DEX +2. #k[Backstab:] +4 and double damage on the unaware. Kit: thieves' tools, light weapon, light armor.]
-- #item[Magic-User][Mage, d4. Dagger or staff, no armor. +2 against magic. Spellbook of two 1st-level spells. Kit: spellbook, dagger.]
+- #item[Magic-User][Mage, d4. Dagger or staff, no armor. +2 to saves vs magic. Spellbook of two 1st-level spells. Kit: spellbook, dagger.]
 
 == Kindred
 
@@ -56,7 +56,7 @@ Any kindred, any class. One trait each.
 
 Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
-- #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Spear (1d6, 1 slot) #k[3 GP] #bar Polearm, two hands (1d8, 2 slots) #k[8 GP] #bar Javelin (1d4, 1 slot) #k[1 GP] #bar Darts, thrown (1d3, 1 slot) #k[1 GP] #bar Sling (1d4, 1 slot) #k[2 GP] #bar Bow, with arrows (1d6, 2 slots) #k[20 GP] #bar Crossbow, with bolts (1d6+1, 2 slots) #k[25 GP].]
+- #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Spear (1d6, 1 slot) #k[3 GP] #bar Polearm, two hands (1d8, 2 slots) #k[8 GP] #bar Javelin (1d4, 1 slot) #k[1 GP] #bar Darts (1d3, 1 slot) #k[1 GP] #bar Sling (1d4, 1 slot) #k[2 GP] #bar Bow, with arrows (1d6, 2 slots) #k[20 GP] #bar Crossbow, with bolts (1d6+1, 2 slots) #k[25 GP].]
 - #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP]. A shield's bonus counts only against foes you face; splinter it to negate one hit, then it is gone.]
 - #item[Consumables][Rations (7 days, 1 slot) #k[5 GP] #bar Torches (6, 1 slot) #k[1 GP] #bar Lantern and 3 flasks (2 slots) #k[12 GP] #bar Oil flask (thrown: 1d6 fire and Burning) #k[2 GP] #bar Blade poison, 1 dose #k[25 GP].]
 - #item[Tools][Rope 50 ft (1 slot) #k[1 GP] #bar Ten-foot pole (1 slot) #k[1 GP] #bar Spikes and hammer (1 slot) #k[3 GP] #bar Grapnel (1 slot) #k[5 GP] #bar Sack (holds 3 slots, 1 slot) #k[1 GP] #bar Mirror #k[10 GP] #bar Whistle, chalk #k[1 GP].]
@@ -68,7 +68,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or succeeds at a cost. 9+ for easy, 15+ for hard. Round down by default; a bonus or penalty counts once per source.]
 - #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod], 12+.]
 - #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
-  - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, darts. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
+  - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, dart traps. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
 - #item[Aid][Spend your action to help an ally's check or attack: +2.]
 - #item[Natural 20 and 1 (optional)][20 auto-succeeds, an attack dealing #k[maximum] damage, doubled if vulnerable; 1 auto-fails, badly. Omit for 1e.]
 
@@ -133,7 +133,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 = Magic
 
-- #item[Spell Levels][Spells are level 1 to 3 here. Prepare spells into slots each day after sleeping. Slots by caster Level, as 1st/2nd/3rd: #k[1:] 1 #bar #k[2:] 2 #bar #k[3:] 2/1 #bar #k[4:] 3/2 #bar #k[5:] 4/2/1 #bar #k[6:] 4/2/2. After that, one more slot per Level, and a new spell level opens at each odd Level.]
+- #item[Spell Levels][Spells are level 1 to 3 here. Prepare spells into slots each day after sleeping. Slots by caster Level, as 1st/2nd/3rd: #k[1:] 1 #bar #k[2:] 2 #bar #k[3:] 2/1 #bar #k[4:] 3/2 #bar #k[5:] 4/2/1 #bar #k[6:] 4/2/2. Beyond Level 6, add one slot per Level.]
 - #item[Clerics][Pray. May prepare any Cleric spell of a level they have slots for.]
 - #item[Magic-Users][Prepare only from the spellbook, which starts with two 1st-level spells and takes a slot. A Day of study copies a scroll into it, using the scroll up. A lost book costs 15 GP and a Day per spell to rewrite.]
 - #item[Turn Undead][Once per fight, a Cleric rolls #k[1d20 + Level + WIS] against the strongest undead present, 10 + its HD or higher. On success, #k[2d6 HD] of undead flee for 1d4 turns, weakest first. If the Cleric's Level is 3 or more above their HD, they are destroyed instead.]
