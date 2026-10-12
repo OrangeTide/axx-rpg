@@ -86,6 +86,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 - #item[Four Answers][A monster is a puzzle, not just a fight: Fight, Flee, Talk, or Exploit a weakness. A look or a Lore check with INT tells you what cuts it, what it shrugs off, and what it wants.]
 - #item[Surprise][When an encounter begins, each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming, or that scouted ahead, isn't; a side that sneaks in unseen, on a won stealth check, surprises outright.]
+- #item[Distance][An encounter opens about #k[2d6 x 10 ft] apart, less in tight quarters or on a surprise, more in the open. Then roll reaction and set the order.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
 - #item[Morale][When a group first loses a member, and again at half strength, the GM rolls 1d6: on 1--3 the rest flee or yield. Mindless or cornered monsters skip this.]
 

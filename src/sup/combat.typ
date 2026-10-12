@@ -14,6 +14,7 @@ It adds options, not new dice. Every rule here is still #k[1d20 + a flat modifie
 
 = Position
 
+- #item[Range Without a Map][For theater-of-the-mind play, track three bands, not feet: #k[engaged] (in reach), #k[near] (a move off, about 30 ft), and #k[far] (a Run or a bowshot away). A move shifts one band, reaching engaged lets you strike, and leaving engaged draws the free attack unless you Withdraw. Missiles carry to far at the core's range steps.]
 - #item[Difficult Ground][Rubble, mud, deep snow, thick brush, a steep slope, or shallow water. Moving through it costs double, so 30 ft becomes 15. You cannot charge or run across it.]
 - #item[High Ground][An attacker above the target, on a ledge, a stair, or a saddle, strikes at +1, and holds reach against anyone climbing up.]
 - #item[Prone][Knocked flat by a shove, a trip, a charge, or a fall. A prone creature attacks at -2, is hit in melee at +2, and is a poor target at range, -2 to shoot. Standing up spends half your move.]
@@ -63,10 +64,10 @@ For grabs, tackles, and bare hands, when a blade is the wrong tool.
 
 = Optional: Heroes of the Line
 
-For a longer campaign, let martial skill show in volume, not only in bigger numbers.
+Martial skill shows in volume, not only in bigger numbers. The extra attacks are already core; cleave is the optional flourish.
 
-- #item[Extra Attack][A Fighter makes a second melee attack at level 5 and a third at level 10. Each is a full attack roll at the same Attack Mod.]
-- #item[Cleave][When a Fighter's melee attack drops a foe, the swing carries into another within reach, once per turn.]
+- #item[Extra Attack][A core #k[Warrior], Fighter, Barbarian, or Ranger, makes a second attack at Level 6 and a third at 11, each a full roll at the same Attack Mod.]
+- #item[Cleave][When a Warrior's melee attack drops a foe, the swing carries into another within reach, once per turn.]
 
 #rolltable("1d8", "Battlefield Features", note: [Roll one or two to give a fight its shape. Each is a prize for both sides.], (
   item[Choke Point][A door, bridge, or ledge only one or two can hold. Flanking is denied, and a braced line rules.],
