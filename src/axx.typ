@@ -12,7 +12,7 @@ Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Tie.
 
 == Abilities
 
-Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3. Round down on any split; a bonus or penalty counts once per source.
+Roll #k[3d6 in order]. Modifier: #k[3:] -3 #bar #k[4--5:] -2 #bar #k[6--8:] -1 #bar #k[9--12:] 0 #bar #k[13--15:] +1 #bar #k[16--17:] +2 #bar #k[18:] +3. Round down by default; a bonus or penalty counts once per source.
 
 - #item[STR][Melee attack and damage. Item #k[slots] equal to the score.]
 - #item[DEX][Missile attack. AC edge at high DEX, see Gear.]
