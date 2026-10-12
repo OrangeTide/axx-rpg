@@ -10,7 +10,7 @@
 
 A caster prepares spells into slots each day after sleeping, as the core slot table sets by Level. Casting is an action; a wound taken earlier in the round loses the spell. The spells here run from level 1 to 3, the range of the core game. The entries on the following pages are generated from #k[spells.csv], so adding a row adds a spell to the book.
 
-Clerics pray and may prepare any Cleric spell of a level they have slots for. Magic-Users prepare only from a spellbook, which starts with two 1st-level spells; a Day of study copies a scroll or a captured book's spell into it.
+Clerics pray and may prepare any Cleric spell of a level they have slots for. Magic-Users prepare only from a spellbook, which starts with two 1st-level spells; a Day of study copies a scroll or a captured book's spell into it. Druids prepare the nature spells on the last page through a sprig of mistletoe; the Druid class is in the Classes supplement.
 
 == Reading a Spell
 
@@ -53,8 +53,10 @@ The core runs spells of levels 1 to 3. Carrying a campaign past that, and conver
   }
 }
 
-// The Cleric list follows the intro on page one; the longer Magic-User list
-// takes page two on its own.
+// Cleric follows the intro on page one, Magic-User takes page two, and the
+// Druid's nature list takes page three.
 #spell-list("Cleric", "Cleric Spells")
 #pagebreak()
 #spell-list("Magic-User", "Magic-User Spells")
+#pagebreak()
+#spell-list("Druid", "Druid Spells")

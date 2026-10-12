@@ -22,8 +22,9 @@ generate stat blocks or tables from them.
   thing it left behind. `funnel.typ` reads this file and generates the Occupations
   table, so adding a row adds a past life to the funnel.
 - `spells.csv`: the spell compendium, by class and level, with the save a target
-  rolls and the damage type where one applies. `spells.typ` reads this file and
-  generates the spell entries, so adding a row adds a spell.
+  rolls and the damage type where one applies. `spells.typ` generates the Cleric,
+  Magic-User, and Druid entries; `classes.typ` also prints the Druid list beside
+  the class. Adding a row adds a spell.
 
 The build only compiles `.typ` files, so these CSV lists are data, not published
 pages. They stay untouched by `make`.
@@ -62,3 +63,5 @@ Each builds to a standalone PDF in the shared house style.
 - `magic.typ`: Relics and Wonders, the magic-item reference. Page one is the
   item rules; the roster of common finds and named relics is generated from
   `magic.csv`.
+- `classes.typ`: More Classes, four classes on the three tracks (Druid, Paladin,
+  Monk, Bard), with the Druid's nature spells generated from `spells.csv`.
