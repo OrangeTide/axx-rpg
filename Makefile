@@ -34,13 +34,19 @@ PNGS     := $(patsubst $(SRCDIR)/%.typ,$(OUTDIR)/%-1.png,$(SOURCES))
 LIBS     := $(wildcard $(LIBDIR)/*.typ)
 FONTS    := $(wildcard $(FONTDIR)/*.otf $(FONTDIR)/*.ttf)
 
+# Revision stamp for document footers: a clean tag when HEAD is on one, else
+# tag-count-ghash, with -dirty for an uncommitted build, and a bare hash before
+# any tag exists. Empty when git is unavailable, which prints no stamp.
+REV      := $(shell git describe --tags --always --dirty 2>/dev/null)
+REVFILE  := $(OUTDIR)/rev.txt
+
 # --features html enables the experimental HTML export and the target()
 # query the page style uses to branch between its print and web layouts.
 TYPSTFLAGS ?= --root . --font-path $(FONTDIR) --features html
 
 SRC ?= $(firstword $(SOURCES))
 
-.PHONY: all pdf html thumbs site png watch fonts clean
+.PHONY: all pdf html thumbs site png watch fonts clean FORCE
 
 all: pdf
 
@@ -52,14 +58,24 @@ thumbs: $(THUMBS) $(LANDSCAPETHUMB)
 
 png: $(PNGS)
 
-$(OUTDIR)/%.pdf: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
+$(OUTDIR)/%.pdf: $(SRCDIR)/%.typ $(LIBS) $(FONTS) $(REVFILE)
 	@mkdir -p $(dir $@)
-	$(TYPST) compile $(TYPSTFLAGS) $< $@
+	$(TYPST) compile $(TYPSTFLAGS) --input rev="$(REV)" $< $@
 
 # The landscape reference layout of the core, same source, landscape input.
-$(LANDSCAPEPDF): $(SRCDIR)/axx.typ $(LIBS) $(FONTS)
+$(LANDSCAPEPDF): $(SRCDIR)/axx.typ $(LIBS) $(FONTS) $(REVFILE)
 	@mkdir -p $(dir $@)
-	$(TYPST) compile $(TYPSTFLAGS) --input landscape=true $< $@
+	$(TYPST) compile $(TYPSTFLAGS) --input landscape=true --input rev="$(REV)" $< $@
+
+# Revision stamp file: rewritten only when the revision string changes, so a new
+# commit rebuilds the PDFs while an unchanged tree leaves them untouched.
+$(REVFILE): FORCE
+	@mkdir -p $(dir $@)
+	@printf '%s' '$(REV)' > $@.tmp
+	@cmp -s $@.tmp $@ 2>/dev/null || mv $@.tmp $@
+	@rm -f $@.tmp
+
+FORCE:
 
 $(OUTDIR)/%.html: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)

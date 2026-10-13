@@ -49,7 +49,10 @@
     margin: if landscape { (x: 0.45in, y: 0.4in) } else { (x: 0.5in, top: 0.5in, bottom: 0.55in) },
     footer: context {
       set text(font: body-font, stretch: body-stretch, size: 7pt, fill: luma(40%))
+      let rev = sys.inputs.at("rev", default: none)
       box(baseline: 28%, image("/lib/cc0.svg", height: 9pt))
+      h(1fr)
+      if rev != none and rev != "" { rev }
       h(1fr)
       counter(page).display()
     },
