@@ -15,7 +15,7 @@ It is built for the kind of play where a line of heroes races one deadline, and 
 = Setting the Doom
 
 - #item[Marks][Start with #k[12]. Each mark is one expedition, a dungeon delve, or one overland journey. Draw the Count where every player can see it.]
-- #item[Name the Doom][One sentence the table agrees on: the Lich's rite, the comet's fall, the drowning of the coast. That is what the Count counts down to.]
+- #item[Name the Doom][One sentence the table agrees on, picked or rolled on #k[What Is the Doom?] below: the lich's rite, the comet's fall, the drowning of the coast. That is what the Count counts down to.]
 - #item[Scale][Roughly the number of expeditions you expect the campaign to run, plus a little slack. A grim sprint is 6, a standard arc 12, a long saga 18 to 24.]
 
 = Spending Time
@@ -28,10 +28,10 @@ It is built for the kind of play where a line of heroes races one deadline, and 
 
 The world does not wait for zero. Each quarter of the Count that empties advances the Decline one step: a named milestone the whole table feels, telegraphed a tick before by a Sign. A Stronghold takes a raid at each step, and the Powers of the Land rise and fall with it, so the milestones are the campaign's shared clock.
 
-- #item[The Stirring][First quarter gone. Omens and refugees, the enemy awake at the edges. Rumor, not yet ruin.]
-- #item[The Breaking][Halfway. A region or an ally falls, a village burned or a trade road closed. Journey Counts start one mark shorter, and prices climb.]
-- #item[Nightfall][Three quarters gone. The heartland is threatened and a Haven is lost. Resupply is dear, and the wandering-monster roll comes up one face easier for the dark.]
-- #item[The End][Empty. The doom lands, as the next section sets out.]
+- #item[The Carrion Wind][First quarter gone. Birds fall from the sky, the dead sleep ill, and refugees crowd the roads. Rumor, not yet ruin.]
+- #item[The Breaking][Halfway. A city burns or a river runs foul, and a region or an ally falls. Journey Counts start one mark shorter, and prices climb.]
+- #item[The Guttering][Three quarters gone. The last Havens go dark one by one and the heartland is overrun. Resupply is dear, and the wandering-monster roll comes up one face easier.]
+- #item[The Unmaking][Empty. The Doom lands, as The End sets out below.]
 
 = The End
 
@@ -61,4 +61,41 @@ Give the reset a reason in the fiction, so it reads as more than a mulligan. The
   item[Deserters][A hireling or contact abandons you, too afraid to go on.],
   item[The Enemy Named][The doom's agent is seen in the open, bolder than before.],
   item[Too Quiet][No wandering monsters for a stretch, because something worse cleared them out.],
+))
+
+#pagebreak()
+
+#rolltable("1d8", "What Is the Doom?", note: [Roll or pick the end the Count counts down to. Name it in a sentence, then draw the Count beneath it.], (
+  item[The Pale Comet][Its light draws nearer, and where that light falls the dead rise and walk.],
+  item[The Sleeping God][A god is dying in its sleep, and the world unravels thread by thread as it goes.],
+  item[The Drowning][The sea climbs the land, a league of coast taken each season, and it does not stop.],
+  item[The Last Verse][A sorcerer-king's rite to unmake death itself nears its final word.],
+  item[The Guttering Sun][The sun dims one shade a year, and the coming winter will never break.],
+  item[The Thing Beneath][Something vast wakes under the mountains, and the stone has begun to dream.],
+  item[The Grey Tide][A plague of unmaking spreads, turning the living to dust and silence.],
+  item[The Wound in the Sky][A rent opens overhead, and the old and hungry gods are coming home.],
+))
+
+#rolltable("1d8", "The Hand of the Doom", note: [Who or what serves it, the agent the Signs name and the Stronghold raids answer to. Pick one, or roll.], (
+  item[The Prophet][A mad saint who welcomes the end and labors to hurry it on.],
+  item[The Deathless][A lich or sorcerer-king who wrote the rite and means to outlast the world.],
+  item[The Fallen Crown][A ruler who bargained to save the realm and damned it instead.],
+  item[The Faceless][No single head, but a thousand hooded hands in court and cellar alike.],
+  item[The Harbinger][A thing from outside, sent ahead to make the way ready.],
+  item[The Betrayer][An ally you trust, or a power you courted, already turned.],
+  item[The Hollow Legion][The risen dead themselves, needing no master to march.],
+  item[No Hand at All][The Doom is a tide or a turning wheel, with no face to kill, only to outrun.],
+))
+
+#colbreak()
+
+#rolltable("1d8", "The World After", note: [The dark age the Doom leaves, if you play on in it as a harder game. See Succession and the reset variant.], (
+  item[Ash and Ember][The land burned to cinders, and the survivors pick through the ash.],
+  item[The Drowned Reach][Water over everything, life clinging to the high and dwindling places.],
+  item[The Long Winter][An endless cold, the sun a dim coin, and nothing will grow.],
+  item[Reign of the Dead][The risen hold the cities, and the living hide, scavenge, and run.],
+  item[The Great Silence][Most are simply gone. The world stands empty and echoing.],
+  item[The New Gods][The hungry powers rule in the open now, and come to collect their due.],
+  item[The Shards][The world broken into drifting pieces, each one adrift with its own small doom.],
+  item[Begun Again][The wheel turned to a dim dawn, and the survivors half-remember walking this road before.],
 ))
