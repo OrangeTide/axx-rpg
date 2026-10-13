@@ -45,7 +45,8 @@ Each builds to a standalone PDF in the shared house style.
 - `funnel.typ`: zero-level funnels, hirelings, and henchmen, all sharing one
   level-0 baseline.
 - `travel.typ`: the travel and journey supplement, covering overland, sea, and
-  airship crossings.
+  airship crossings, the mounts and carts and ships you cross in, and how a ship
+  hauls loot and Salvage home.
 - `downtime.typ`: downtime, healing and convalescence, and living off the land.
 - `equipment.typ`: the equipment shop, with prose on gear and a listing generated
   from `equipment.csv`.

@@ -79,6 +79,41 @@ On foot is the standard above, and a walker goes anywhere a person can and carri
 
 A leg is a day afloat, and the guide rolls #k[WIS] to navigate. Wind sets the distance: a fair wind carries a sailing ship #k[72 miles], a crosswind #k[36], and dead against or becalmed is #k[0], a leg lost. A rowed galley makes 36 miles with no wind but tires its crew. A storm is a Travel Check at #k[-4]: fail and the ship is blown a day off course and springs a plank or tears a sail, and each soul aboard makes a Dodge save or is swept overboard. A storm or a filled Count calls for a #k[CHA Check] to command the crew and hold them to their stations; fail and they falter, costing a day or balking at the next hard leg.
 
+=== Ships
+
+The By Sea leg above runs the crossing. This is the hull you cross in: a berth bought, a ship chartered, or one you command.
+
+- #item[Passage][Pay per head and ride her route, about #k[2 GP a leg] in the hold, more for a cabin. The captain sets the course and the schedule and makes the ship's Travel Checks. You bring only your own slots.]
+- #item[Charter][Hire the whole hull: set the route and the cargo, crew her or pay a crew, and own every Mishap. Reckon it near a crew's wages for the voyage. Now your guide makes the navigation Check, and you fill her hold.]
+- #item[Buy Her][A ship is a campaign prize, not a shop line. Set the price with the GM, or win one, and take on her upkeep, her crew's wages, and a home port. The strongholds supplement runs a port as a base.]
+- #item[The Hold][A hull hauls like a wagon writ large, far past what a party can carry, which is how loot and Salvage come home. Count the hold in #k[loads], as strongholds counts Salvage. Load her past full and she rides low: a step slower, and -2 to every storm Check.]
+- #item[Crew][She needs hands to make her distance. Short-crewed, she sails a step slower and a storm Check is at a further -2. Wages run a man-at-arms' #k[5 GP a day] each, or press and volunteers as the Hirelings and Warbands rules allow. A galley's rowers are its muscle and its morale both.]
+- #item[Stores][Crew and passengers eat a ration a day, and water runs dry at sea. On a long crossing, name the Journey Count for the water casks; empty stores are the core's Weakened until a landfall.]
+- #item[Wrecking][As Carriers above, beach or scuttle her to turn one hazard aside, once. Else track a named hull like a creature at #k[5 HP per HD] of its Warband HD, below: a reef, a ram, a fire, or storm on storm wears her down, and at 0 she founders.]
+- #item[Naval Combat][Ship against ship is a #k[Warband clash]. Run each hull as a vehicle-combatant of its own Warband HD, set by size and crew, trading HD against HD per the Warbands supplement, a ram or a ballista for its attack and the crew for its pool. #k[Boarding] is a warband clash on the decks, each crew a host under its captain, and the beaten hull is taken, not sunk. A lone ship against a dragon turtle or a sea serpent runs off the Bestiary and the core.]
+
+#table(
+  columns: (auto, auto, 1fr),
+  stroke: (y: 0.4pt + luma(80%)),
+  inset: (x: 4pt, y: 3pt),
+  table.header([Vessel], [Speed], [Hold and crew]),
+  [Boat or skiff], [Coast and river], [A few loads, 1 to 3 hands. Ferry, fishing, the last mile upriver.],
+  [Sailing ship], [Fair 72, cross 36, calm 0], [A wagon's hold, 8 to 20 crew. The By Sea baseline.],
+  [Galley], [36 rowed, no wind], [Light hold, many oars. Fast in a calm, tires the crew, shallow water.],
+  [Cog or merchantman], [A step slower], [The largest hold, small crew. Built to haul Salvage home.],
+  [Longship], [Fast, beaches anywhere], [Small hold, large crew. The raider's shallow hull.],
+  [Warship], [As a sailing ship], [Hold given to a ram, engines, and marines.],
+)
+
+#rolltable("1d6", "The Ship Flounders", note: [Roll when a vessel is wrecked on a Mishap, or a storm Check fails hard.], (
+  item[Sprung Plank][She takes water. Bail and patch with a Class Check and tools, or lose a day and a few loads spoiled.],
+  item[Torn Rigging][No full sail until mended. Half distance, or a day in a lee to repair.],
+  item[Off Course][Blown or set a day astray. A WIS Check to find the sea-road again, or lose another.],
+  item[Fever Below][Sickness in the crew. She is short-crewed, a step slower, until a week ashore.],
+  item[Mutiny Brewing][Pay, plunder, or fear splits the crew. A CHA Check to hold them, or they balk at the next hard leg.],
+  item[Holed and Sinking][A reef or a ram opens her. Run her aground to save the souls and some cargo, or she goes down.],
+))
+
 == By Air
 
 A leg is a day aloft, and the guide rolls #k[DEX] at the helm. An airship makes #k[120 miles] a day and flies straight over mountain and ocean, which is why the far spires are days away, not months. It answers to no terrain, but it answers to weather and its engine. A storm aloft is a Travel Check at #k[-4]: fail and the ship is flung off heading, loses height, and anyone on deck makes a Dodge save or goes over the rail. When the Count fills, or a Mishap breaks the engine, an #k[INT Check] keeps the aether-engine lit; fail and it costs a day of repairs, or sets you down to go on overland.
