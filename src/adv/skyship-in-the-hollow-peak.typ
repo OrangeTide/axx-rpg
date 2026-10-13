@@ -6,13 +6,13 @@
   cols: 2,
 )
 
-= The Hook
+= Background
 
 For three nights a green star has hung over the mountains, and each dawn it sits lower in the sky. In the village of Brackenford, the old mapmaker Orla Venn knows it for what it is. No star at all, but a signal lantern, shining from the lost skyship _Gale's Promise_.
 
 The ship vanished thirty years ago while carrying a sealed brass coffer to the wizard's observatory at Hollow Peak. Orla offers the party #k[500 GP] to find it and bring the coffer back. She warns them the captain was a proud man, and that he would sooner burn his vessel than hand it over.
 
-= Act I: The Journey
+= Part 1: The Journey
 
 The mountain trail climbs through pine forest, then narrows along sheer cliffs. Strange gusts sweep up from below, carrying whispers in a tongue no one knows.
 
@@ -20,7 +20,7 @@ The mountain trail climbs through pine forest, then narrows along sheer cliffs. 
 - #item[The Wind-Bridge][At dawn a thunderstorm rolls in under a clear sky. The wind will carry a character across a broken ravine on a #k[DEX Check, 12+]. Fight the gust and you find another way over or risk a fall into the mist.]
 - #item[Hollow Peak][A stone arch opens into the mountain's hollow heart. The _Gale's Promise_ hangs above an underground lake, held by a cracked crystal engine, its hull wedged between two spires and a green lantern at the mast. Three ways aboard: narrow ledges, a fraying rope bridge, or a skiff tied beneath the stern.]
 
-= Act II: Aboard the Gale's Promise
+= Part 2: Aboard the Gale's Promise
 
 The ship is quiet. Dust lies thick on the decks, yet fresh footprints lead toward the captain's cabin.
 
@@ -29,7 +29,7 @@ The ship is quiet. Dust lies thick on the decks, yet fresh footprints lead towar
 - #item[Captain's Cabin][A journal names the cargo: a small cloud caught in a glass sphere, meant to be loosed at the observatory to break a drought.]
 - #item[Engine Room][The crystal engine is splitting. The captain's skeleton still grips the controls, and a gargoyle keeps watch beside it.]
 
-= Act III: The Opened Coffer
+= Part 3: The Opened Coffer
 
 The brass coffer rests in the engine room. Open it and a storm the size of a fist spills out: the cloud swells, thunder shakes the ship, and the engine begins to fail. The captain's ghost appears at once, begging them to save his ship, though he can no longer remember whether his orders were to deliver the cloud or keep it sealed. Then the engine ruptures. The _Gale's Promise_ tears free of the spires, ropes part, the engine's gargoyle lunges, and the deck tilts underfoot.
 

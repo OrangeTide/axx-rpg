@@ -73,7 +73,7 @@ A hoard is no good to you in the dungeon. Treasure is heavy, as the core's slots
 Walls do not fight; soldiers do. A hold is held by a #k[Warband], mustered and run by that supplement, standing watch while the party is in the field.
 
 - #item[Who Mans It][The funnel's survivors, men-at-arms hired by the day, a levy a #k[Favored] power lends you, or henchmen too green to delve. Five or more under a banner is a warband, as ever.]
-- #item[The Castellan][Someone holds it while you delve: a #k[henchman] Commander, or a #k[retired veteran] who has hung up their delving boots. A mustered-out character does not vanish. Their gear and one knack or feature stay with the company as the castellan's, a trainer, a quartermaster, or a captain of the watch, seeding the garrison they now command.]
+- #item[The Castellan][Someone holds it while you delve: a #k[henchman] Commander, or a #k[retired veteran] who has hung up their delving boots. A mustered-out character does not vanish. Their gear and one knack or special ability stay with the company as the castellan's, a trainer, a quartermaster, or a captain of the watch, seeding the garrison they now command.]
 - #item[Upkeep][Wages are coin, as the core hirelings rule, a man-at-arms at #k[5 GP a day]. A season's garrison is a real purse, and the first drain a hold puts on the party. A hold with a Stable and worked land feeds itself and pays part of its own keep, the GM's call.]
 
 = The Raid

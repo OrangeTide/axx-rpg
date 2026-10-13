@@ -9,7 +9,7 @@
 
 = New Classes
 
-These four extend the core six. Each is built on one of the three progression tracks, so read them exactly as the core classes: the #k[track] sets attack bonus and XP, the class adds a Hit Die, a save boon, a kit, and a signature. Nothing here changes a track. A character is one class, as ever.
+These four extend the core six. Each is built on one of the three progression tracks, so read them exactly as the core classes: the #k[track] sets attack bonus and XP, the class adds a Hit Die, a save boon, a kit, and a special ability. Nothing here changes a track. A character is one class, as ever.
 
 - #item[Druid][Priest, d6. Neutral by calling. Wooden and stone weapons, leather armor and a wooden shield, no metal. +2 Body. Prepares nature spells through mistletoe, below. Speaks with beasts, moves through brush unhindered, and is immune to the charm of woodland folk. Kit: sickle, sling, leather, wooden shield, a sprig of mistletoe.]
 - #item[Paladin][Warrior, d8. Lawful only, sworn to an oath; a broken oath strips these boons until atonement. Any weapon and armor. +2 Will. #k[Lay on Hands] heals twice your Level in HP a day by touch, or cures one disease. Senses Chaos at will and is never sick. Allies within Near gain +1 on saves against Chaotic magic. Kit: weapon, shield, medium armor, holy symbol.]

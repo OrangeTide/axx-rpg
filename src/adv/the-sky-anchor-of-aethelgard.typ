@@ -6,11 +6,11 @@
   cols: 2,
 )
 
-= The Hook
+= Background
 
 A frantic gnome named Pipkin, Archivist of Oakhaven, hires the party on the strength of a torn star-chart. It points to the Cloud-Spires, a range of floating peaks that broke from the mainland during the Great Sundering and drifted off centuries ago. Pipkin is sure the _Sovereign of the Zephyr_, a gnomish airship that once crossed oceans in days, still sits docked at the highest spire, held fast by an old binding-spell that keeps it out of time. He offers #k[1,000 GP] for its safe return, and first claim on whatever else the party can carry off.
 
-= Act I: The Ascent
+= Part 1: The Ascent
 
 The party starts at the foot of the Cloud-Spires and has to reach the floating islands.
 
@@ -18,7 +18,7 @@ The party starts at the foot of the Cloud-Spires and has to reach the floating i
 - #item[The Gargoyles][A colony of gargoyles roosts on the platform and treats it as an ancestral throne. Their chieftain wants a tribute of gems or a tale of real bravery before he lets anyone pass. Offer one and the party rolls Reaction at +2; refuse and they fight for the binding crystals.]
 - #item[The Rise][Starting the lift trips an alarm in the spire above. As the platform climbs through the mist, harpies swoop in and sing, trying to coax characters off the edge.]
 
-= Act II: The Spire of Whispers
+= Part 2: The Spire of Whispers
 
 The lift reaches a jagged island of obsidian and marble, overgrown with glowing flora. The way to the airship runs up through the Spire of Whispers, a vertical dungeon of crumbling libraries and floating stairs.
 
@@ -26,7 +26,7 @@ The lift reaches a jagged island of obsidian and marble, overgrown with glowing 
 - #item[Wraith-Librarians][The spire is haunted by wraiths that attack anyone who reads the forbidden scrolls. A wraith can hush a caster: #k[Will save] or no casting for 1d4 rounds. They are harmed only by magic or silver.]
 - #item[The Solar Mirrors][The hangar doors open only to concentrated moonlight. Three mirrors on three platforms must be turned to throw the beam into a central prism, each a character's action, while Clockwork Sentinels rush in, rank after rank. Three aligned beams and the doors grind open.]
 
-= Act III: The Sovereign of the Zephyr
+= Part 3: The Sovereign of the Zephyr
 
 Beyond the doors waits the _Sovereign of the Zephyr_, a ship of brass and mahogany. It is not empty.
 

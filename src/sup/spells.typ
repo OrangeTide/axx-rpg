@@ -21,7 +21,7 @@ Clerics pray and may prepare any Cleric spell of a level they have slots for. Wh
 
 - #item[Range][#k[Touch] needs a hand on the target. #k[Near] is 30 ft. A targeted spell needs line of sight.]
 - #item[Concentration][A spell you steer lasts while you can keep hold of it. You may move and act as normal, even be carried, but it ends if you are kept from acting at all: Paralyzed, Asleep, or slain.]
-- #item[Foci][A caster works through a focus: the Magic-User a spellbook, the Cleric a holy symbol. Lose it and you cannot prepare spells until you replace it.]
+- #item[Book and Symbol][The Magic-User works through a spellbook, the Cleric through a holy symbol. Lose it and you cannot prepare spells until you replace it.]
 - #item[Components][A few spells list a _Component_, a material spent in the casting. The core game ignores them. Use them for color, or let the costly ones drain a purse.]
 
 == Beyond Level 3

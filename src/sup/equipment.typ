@@ -75,8 +75,8 @@ Greed and good hauls both outweigh a strong back. You may take up more than you 
 == Class Kits
 
 - #item[Thieves' Tools][A Thief needs them for the best shot at locks and traps; without them the Class Check suffers.]
-- #item[Holy Symbol][The Cleric's focus for prayers and for Turn Undead. Lose it and you cannot prepare spells.]
-- #item[Spellbook][The Magic-User's focus, opening with two 1st-level spells. A scroll or a captured book copies in with a Day of study.]
+- #item[Holy Symbol][A Cleric needs it for prayers and for Turn Undead. Lose it and you cannot prepare spells.]
+- #item[Spellbook][The Magic-User's book, opening with two 1st-level spells. A scroll or a captured book copies in with a Day of study.]
 
 #pagebreak()
 
@@ -101,7 +101,7 @@ Printed from #k[equipment.csv]. Each line is one good.
 #let groups = (
   ("Weapon", "Arms"),
   ("Armor", "Armor"),
-  ("Consumable", "Consumables"),
+  ("Consumable", "Supplies"),
   ("Tool", "Kit and Tools"),
   ("Provision", "For the Wild"),
   ("Class Kit", "Class Kits"),

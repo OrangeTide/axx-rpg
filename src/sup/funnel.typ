@@ -26,7 +26,7 @@ A funnel opens a campaign with a crowd of zero levels and ends it with a few her
 - #item[The Mob][Everyone runs their handful at once. Track them in a row and expect to cross names out. A zero level hauls light, fights poorly, and dies easily, so the play is cleverness, caution, and numbers, not heroics.]
 - #item[Spend the Bodies][Send the expendable to prod the floor and open the door. That is the funnel's grim joke and its honest lesson: the survivors learn the dungeon is the enemy, long before the goblins are.]
 - #item[The Dungeon][It ships as rules, not a map. Bring your own deadly place and stock it with the core procedure, pitched a notch crueller than a Level 1 party would meet.]
-- #item[Graduation][Live to the end and the character #k[becomes Level 1]. Pick a class, your kindred and past life already yours: take the class Hit Die at maximum plus CON for new HP, gain its features, keep the knack and whatever gear and scars you carried out, and roll a Tie. The past life colors the choice, a cutpurse leans Thief, an acolyte Cleric, but never binds it. The funnel's XP carries over.]
+- #item[Graduation][Live to the end and the character #k[becomes Level 1]. Pick a class, your kindred and past life already yours: take the class Hit Die at maximum plus CON for new HP, gain its abilities, keep the knack and whatever gear and scars you carried out, and roll a Tie. The past life colors the choice, a cutpurse leans Thief, an acolyte Cleric, but never binds it. The funnel's XP carries over.]
 
 = Hirelings
 
