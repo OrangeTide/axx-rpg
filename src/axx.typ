@@ -65,7 +65,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == The Core Roll
 
-- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or succeeds at a cost. 9+ for easy, 15+ for hard. Round down by default; a bonus or penalty counts once per source.]
+- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or the GM may grant it at a price. 9+ for easy, 15+ for hard. Round down by default; a bonus or penalty counts once per source.]
 - #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod], 12+.]
 - #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
   - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, dart traps. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
@@ -115,7 +115,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Sleep][A Day regains one Hit Die + CON.]
 - #item[Haven][A week in a safe town or refuge restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
-- #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[7+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement at the next room or scene.]
+- #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[7+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement when the GM judges the moment fitting.]
 - #item[The Long Road][Between delves a party lives off the land and lays up to heal, and with time and safety even a maiming can mend. The downtime supplement runs it, or rule it at the table.]
 
 == Conditions
