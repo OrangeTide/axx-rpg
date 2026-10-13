@@ -64,7 +64,7 @@ For grabs, tackles, and bare hands, when a blade is the wrong tool.
 
 = Optional: Heroes of the Line
 
-Martial skill shows in volume, not only in bigger numbers. The extra attacks are already core; cleave is the optional flourish.
+Martial skill shows in volume, not only in bigger numbers. The extra attacks are already core, and the High Level Play supplement runs them in full, with sweep, two weapons, and weapon mastery. A quick reference:
 
 - #item[Extra Attack][A core #k[Warrior], Fighter, Barbarian, or Ranger, makes a second attack at Level 6 and a third at 11, each a full roll at the same Attack Mod.]
 - #item[Cleave][When a Warrior's melee attack drops a foe, the swing carries into another within reach, once per turn.]

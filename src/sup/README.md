@@ -51,6 +51,9 @@ Each builds to a standalone PDF in the shared house style.
   from `equipment.csv`.
 - `combat.typ`: the combat and tactics supplement, with positioning, maneuvers,
   and terrain.
+- `high-level-combat.typ`: multiple attacks and the high-level warrior, the
+  Warrior's extra-attack progression, sweep, two weapons, weapon mastery, and why
+  missiles keep their own rate of fire.
 - `warband.typ`: mass combat, running a crowd as one combatant by Hit Dice.
 - `factions.typ`: factions, territory, and standing, generated from `factions.csv`.
 - `doom.typ`: the Foretold Doom, a campaign countdown over the whole game.
