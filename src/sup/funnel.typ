@@ -8,14 +8,14 @@
 
 = The Zero Level
 
-Before a character is a Fighter or a Thief they are just a person with a trade and a bad idea. That is the #k[zero level], and it is one statline shared by three kinds of nobody: the peasant mob of a funnel, the torchbearer you hire at the gate, and the porter who hauls your loot. All three are built the same.
+Before a character is a Fighter or a Thief they are just a person with a trade and a bad idea. That is the #k[zero level], and it is one stat block shared by three kinds of nobody: the peasant mob of a funnel, the torchbearer you hire at the gate, and the porter who hauls your loot. All three are built the same.
 
 - #item[Abilities and Kindred][Roll #k[3d6 in order] for the six, and take a kindred. Its one trait applies even now: a dwarf still sees in the dark, an elf still shrugs off Sleep.]
 - #item[Hit Points][#k[1d4 + CON], minimum 1. A zero level is one bad blow from the grave.]
 - #item[Defense and Attack][#k[AC 10], or better with scraps of armor. Attacks at #k[+0]: no class, no Level. A pitchfork, sling, or torch is a light weapon, improvised at -2 unless it is a real one.]
 - #item[Saves][#k[1d20 + ability, 12+]. No Level to add and no class bonus, though a kindred save still counts.]
 - #item[A Past Life][Roll on #k[Occupations] below. It grants a #k[knack], +2 to Checks that life would cover, and the one odd thing you carried out of it.]
-- #item[They Leave the Story][A zero level never pops back up to fight on. At 0 HP they are out of the tale for good; the roll only tells how they go. Roll #k[Brush with Death], or a table of your own, and read it as their exit: #k[Slain] is a death, and every other result is a maiming, a breaking, or a body dragged from the field, retired from the funnel all the same, a survivor if the party wins free, a corpse if it does not. Draw your next body from your own mob first; roll up fresh zero levels only when a player's pool runs dry.]
+- #item[They Leave the Story][A zero level never rises again to fight on. At 0 HP they are out of the tale for good; the roll only tells how they go. Roll #k[Brush with Death], or a table of your own, and read it as their exit: #k[Slain] is a death, and every other result is a maiming, a breaking, or a body dragged from the field, retired from the funnel all the same, a survivor if the party wins free, a corpse if it does not. Draw your next body from your own mob first; roll up fresh zero levels only when a player's pool runs dry.]
 
 #rolltable("1d20", "Occupations", csv("occupations.csv").slice(1).map(r => [#strong(r.at(0) + ".") #r.at(1) #emph(r.at(2))]), note: [Your past life. A knack and the one strange thing you kept. Generated from #k[occupations.csv].])
 
@@ -35,7 +35,7 @@ A hireling is a zero level you pay by the day. Build a torchbearer or a porter e
 - #item[The Hired][Torchbearer or porter #k[1 GP/day], a zero level. Link-boy, bearer, and camp-hand are the same. A #k[man-at-arms] at #k[5 GP/day] is Level 1: HD 1, a weapon and light armor, Atk +1.]
 - #item[Shares][A hireling draws its wage and a #k[half share] of XP. Let that XP ride and a hireling can reach the Level 1 threshold and graduate just as a funnel survivor does, choosing a class and coming up a henchman.]
 - #item[Loyalty][Asked first to risk death, a hireling makes a #k[CHA check], yours, or balks, flees, or quits. After that it tests #k[morale] like any creature: 1d6, breaking on 1 to 3 when the blood runs. Fair pay, fair shares, and not being spent as bait all weigh for you, and the GM may shade the roll.]
-- #item[Specialists][A trade expert, an alchemist, a sage, a sapper, costs more and bargains harder, but brings a knack no slot-filler has. Price it to the job.]
+- #item[Specialists][A trade expert, an alchemist, a sage, a sapper, costs more and bargains harder, but brings a knack no common hireling has. Price it to the job.]
 
 = Henchmen
 

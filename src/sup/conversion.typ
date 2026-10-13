@@ -30,7 +30,7 @@ The left is the old way, the right is AX&X.
   stroke: (y: 0.4pt + luma(80%)),
   inset: (x: 4pt, y: 4pt),
   table.header([Area], [1st Edition], [AX&X]),
-  [Ability modifiers], [Different table per ability, with breakpoints at 15 to 18], [One table for all six. 3d6 maps to -3 through +3.],
+  [Ability modifiers], [Different table per ability, with thresholds at 15 to 18], [One table for all six. 3d6 maps to -3 through +3.],
   [Ability checks], [Not a core rule. Roll under the score when used at all], [1d20 + modifier, 12+. Class Checks add Level.],
   [Saving throws], [Five categories, class tables by level, roll over], [Three saves tied to CON, DEX, and WIS. 1d20 + half Level + modifier, 12+, or 10 + HD of the source if higher.],
   [Monster saves], [Save as a Fighter of equal HD], [1d20 + HD, 10 + the caster's Level or higher.],
@@ -59,7 +59,7 @@ The left is the old way, the right is AX&X.
   [Dungeon stocking], [d20 room contents table in the appendix], [1d6: empty, monster, trap or trick, treasure.],
   [Treasure], [Treasure types A to Z by monster], [From stocking. Defeated monsters carry coin on a 1 to 2, otherwise XP only.],
   [Magic items], [Hundreds, many as pluses], [+1 weapon and armor, two potions, scrolls, and six named items with a cost each.],
-  [Hirelings], [Henchmen, hirelings, loyalty, and morale subsystems], [Zero-level hirelings for a wage and leveling henchmen for a share, loyalty by one CHA check and morale. The Funnel supplement.],
+  [Hirelings], [Henchmen, hirelings, loyalty, and morale rules], [Zero-level hirelings for a wage and leveling henchmen for a share, loyalty by one CHA check and morale. The Funnel supplement.],
 )
 
 = Spells Past Level 3

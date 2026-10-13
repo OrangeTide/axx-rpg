@@ -8,7 +8,7 @@
 
 = How It Works
 
-Instead of a fresh Level 1 with rolled gold, you play out the life that came first. You start at 18 and serve four-year terms, gambling survival for XP, coin, training, and scars. Quit while you are ahead, or push your luck for another term and risk dying in your own backstory. When you walk away, you enter play as a veteran: usually still Level 1, but richer for it, with a purse, old training, a few heirlooms, and a past full of people who remember you. Serve long and rank high, and you may muster out with a horse and cart, a library of scrolls, a passage on a trader's ship, even a ship of your own.
+Instead of a fresh Level 1 with rolled gold, you play out the life that came first. You start at 18 and serve four-year terms, gambling survival for XP, coin, training, and scars. Quit while you are ahead, or push your luck for another term and risk dying before your tale begins. When you walk away, you enter play as a veteran: usually still Level 1, but richer for it, with a purse, old training, a few heirlooms, and a past full of people who remember you. Serve long and rank high, and you may muster out with a horse and cart, a library of scrolls, a passage on a trader's ship, even a ship of your own.
 
 = Make Your Veteran
 
@@ -97,7 +97,7 @@ Roll on these as each term of service calls for them. Benefits and Events come u
   item[Scroll Case][1d4 spell scrolls. Roll each on the core Scroll result.],
   item[A Passage][A token or letter for free travel on a named caravan or captain's ship, there and back, once.],
   item[Trade Share][A stake in a merchant venture. 2d6 x 10 GP comes in each season you are home to collect it.],
-  item[Freehold][A stone tower, a mill, or a walled steading. A base with a cellar, a servant or two, and a name.],
+  item[Freehold][A stone tower, a mill, or a walled steading. A holding with a cellar, a servant or two, and a name.],
   item[A Ship][A river barge or a small coaster, yours outright, though it eats coin and wants a crew.],
   item[Warrant][A title, a commission, or a guild mastership, with leave to levy troops. Standing that opens doors and musters a warband at need, and the duties that come with both.],
 ))

@@ -80,7 +80,7 @@ Walls do not fight; soldiers do. A hold is held by a #k[Warband], mustered and r
 
 The hold has value, so the land comes for it. At each #k[Decline] step the Foretold Doom turns an enemy toward your walls, and a #k[Sign] can telegraph it a tick before. Who comes is a Hostile power, the Doom's own agent, or a beast lord whose ground you took.
 
-- #item[The Raiders][Stat them as a #k[Warband] at the region's tier: a starter frontier sends a raiding file or two, a fallen heartland sends a legion. The deeper and darker the country, the heavier the host.]
+- #item[The Raiders][Stat them as a #k[Warband] at the region's tier: a tame frontier sends a raiding file or two, a fallen heartland sends a legion. The deeper and darker the country, the heavier the host.]
 - #item[Home, You Hold the Walls][If the party is there, run it as a #k[Warband] fight from fortified ground. A #k[Stronghold wall] is hard cover, the garrison strikes from behind it, and the raiders must breach or scale before their numbers tell. A Commander's Focus and the high ground are yours to spend.]
 - #item[Away, One Roll at the Gate][If the party is delving when the raid lands, the castellan holds alone. Make one #k[defense roll]: the castellan's Command check, #k[1d20 + CHA + Level], or the garrison's #k[Warband HD] against the raiders', 12+. The wall adds #k[+2], a full garrison its weight. Success holds the gate for the loss of a file or a season's stores. Failure sacks something: roll on #k[At the Gates], below.]
 - #item[After][A raid beaten earns Standing with the powers it threatened and the Spoils of a Warband field. A raid lost costs Salvage, a building, or a Haven, and the Doom reads the fall as its own.]

@@ -14,17 +14,17 @@ A frantic gnome named Pipkin, Archivist of Oakhaven, hires the party on the stre
 
 The party starts at the foot of the Cloud-Spires and has to reach the floating islands.
 
-- #item[The Gravity Lift][A massive stone platform, powered by a dormant elemental core, still stands at the base. Wake the core and it will carry the party up.]
-- #item[The Gargoyles][A colony of gargoyles roosts on the platform and treats it as an ancestral throne. Their chieftain wants a tribute of gems or a tale of real bravery before he lets anyone pass. Offer one and the party rolls Reaction at +2; refuse and they fight for the control crystals.]
+- #item[The Rising Dais][A massive stone platform, borne up by a sleeping bound elemental, still stands at the base. Wake it and it will carry the party up.]
+- #item[The Gargoyles][A colony of gargoyles roosts on the platform and treats it as an ancestral throne. Their chieftain wants a tribute of gems or a tale of real bravery before he lets anyone pass. Offer one and the party rolls Reaction at +2; refuse and they fight for the binding crystals.]
 - #item[The Rise][Starting the lift trips an alarm in the spire above. As the platform climbs through the mist, harpies swoop in and sing, trying to coax characters off the edge.]
 
 = Act II: The Spire of Whispers
 
 The lift reaches a jagged island of obsidian and marble, overgrown with glowing flora. The way to the airship runs up through the Spire of Whispers, a vertical dungeon of crumbling libraries and floating stairs.
 
-- #item[Weightless Zones][Some halls have lost their gravity. Crossing one is a #k[STR or DEX Check, 12+], or you drift into the ceiling spikes or out into open air.]
+- #item[The Floating Halls][Some halls float free of all weight. Crossing one is a #k[STR or DEX Check, 12+], or you drift into the ceiling spikes or out into open air.]
 - #item[Wraith-Librarians][The spire is haunted by wraiths that attack anyone who reads the forbidden scrolls. A wraith can hush a caster: #k[Will save] or no casting for 1d4 rounds. They are harmed only by magic or silver.]
-- #item[The Solar Mirrors][The hangar doors open only to concentrated moonlight. Three mirrors on three platforms must be turned to throw the beam into a central prism, each a character's action, while Clockwork Sentinels come in waves. Three aligned beams and the doors grind open.]
+- #item[The Solar Mirrors][The hangar doors open only to concentrated moonlight. Three mirrors on three platforms must be turned to throw the beam into a central prism, each a character's action, while Clockwork Sentinels rush in, rank after rank. Three aligned beams and the doors grind open.]
 
 = Act III: The Sovereign of the Zephyr
 

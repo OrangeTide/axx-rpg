@@ -23,7 +23,7 @@ The core lists the same essentials in a sentence. This supplement is the long ve
 
 - #item[Starting Purse][A new adventurer rolls #k[3d6 x 10 GP] and spends it here.]
 - #item[Coins][Heavy. A big hoard is a load you carry: the GM calls when coin costs a slot or slows you, about one slot per 100.]
-- #item[Slots][You carry slots equal to your #k[STR] score when a pack is worn, fewer without one: just what you wear and hold. A soft cap, not a wall: pile on more and you are Overloaded, below. A sack holds 3 slots; a mule or hireling holds more.]
+- #item[Slots][You carry slots equal to your #k[STR] score when a pack is worn, fewer without one: just what you wear and hold. A limit you can push past, not a wall: pile on more and you are Overloaded, below. A sack holds 3 slots; a mule or hireling holds more.]
 - #item[Availability][A town stocks the common lines. Anything rare wants a bigger city, a favor, or a search, at the GM's call.]
 
 == Overloading
@@ -56,7 +56,7 @@ Greed and good hauls both outweigh a strong back. You may take up more than you 
 == Doses & Vials
 
 - #item[Blade Poison][One coat lasts one hit: Body save or Poisoned. Applying it is an action, so do it before the fight, not during.]
-- #item[One-Use Vials][Holy water and the like follow the same shape: one action to use, kept in a kit or a belt loop. Costly ones double as a treasure sink.]
+- #item[One-Use Vials][Holy water and the like follow the same shape: one action to use, kept in a kit or a belt loop. Costly ones double as a drain on a fat purse.]
 
 == Tools in Play
 

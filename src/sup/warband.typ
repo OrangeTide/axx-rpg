@@ -48,12 +48,12 @@ Against a lone Medium or smaller foe it is the reverse. A host does not splatter
 
 A blast does not wipe an army: soldiers shield one another, and a crowd scatters rather than take one stomp whole. A warband is also never itself Poisoned, Paralyzed, Charmed, or Petrified. None of it sits on the host; it all takes out #k[files].
 
-- #item[Footprint][A breath, a Fireball, a gaze cone, or a gas catches a limited span of files, about its radius in 5-ft steps, not the whole host.]
+- #item[The Span][A breath, a Fireball, a gaze cone, or a gas catches a limited span of files, about its radius in 5-ft steps, not the whole host.]
 - #item[Scatter Save][The warband makes one save. On a success the caught files #k[scatter], out of the fight a round, then reform; on a failure they are lost. Files outside the span are untouched.]
 - #item[Single-Target][A touch, a bite, one Charm, or a one-on-one gaze takes out a single file, or, if aimed there, the Commander, who saves alone. A well-placed Hold or Charm on the banner breaks a host without fighting it.]
-- #item[By Hit Dice][An effect that works on so many HD of creatures spends that budget here: Sleep drops a militia's worth of HD, Turn Undead routs Hit Dice of a skeleton legion, each felling whole files.]
+- #item[By Hit Dice][An effect that works on so many HD of creatures spends those Hit Dice here: Sleep drops a militia's worth of HD, Turn Undead routs Hit Dice of a skeleton legion, each felling whole files.]
 - #item[Mass Fear][A dragon's Fear or a mass Charm is a #k[Morale check], not a hundred Frightened soldiers. The Commander may Rally against it.]
-- #item[Lasting Harm][Burning and Poison become attrition: a file's worth of loss each round until it ends or is doused, no status to track.]
+- #item[Lasting Harm][Burning and Poison become attrition: a file's worth of loss each round until it ends or is doused, nothing to track.]
 
 = Losses, Morale, and Recovery
 

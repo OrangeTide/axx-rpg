@@ -35,17 +35,17 @@ The world does not wait for zero. Each quarter of the Count that empties advance
 
 = The End
 
-At zero the doom lands. The rite completes, the comet falls, the sea comes in. The campaign is lost, in the way the Decline had been writing on the wall for hours of play. It is not a twist; it is the bill. The GM narrates the dark age that follows. From there you can roll credits, or carry survivors into that fallen world as a different, harder game.
+At zero the doom lands. The rite completes, the comet falls, the sea comes in. The campaign is lost, in the way the Decline had been writing on the wall for hours of play. It is not a twist; it is the bill. The GM narrates the dark age that follows. From there you can call it an ending, or carry survivors into that fallen world as a different, harder game.
 
 = Succession
 
 A party wipe does not wind the Count back. The years still passed, and now they are shorter. Bring in a fresh party at the current number and press on. The dungeon remembers: the fallen lie where they fell, their maps and gear still in the dark for the next hands to find. In solo play you are the line itself, each hero taking up the last one's unfinished march.
 
-= Variant: Death Resets the Doom
+= Variant: Death Winds the Doom Back
 
 For a kinder campaign you can lose and begin again, let a total party wipe wind the Count back to full, or back by half if full is too soft. The campaign becomes a cycle you can lose and try again, not a single falling line. The pressure now comes from wanting to reach the end before you run out of heroes you care about, rather than from the calendar alone.
 
-Give the reset a reason in the world, so it reads as more than a convenient escape. The age is caught in recurrence: a prophecy that re-rolls when its champions die, a god of time that rewinds to its last chosen, a cycle the villain's unfinished rite forces on the world. Each new party wakes at the dawn of the twelve years with the dim sense they have walked this road before, and now and then a memory that proves true: a trap they already know, a face they should not recognize, a door that should not be open.
+Give it a reason in the world, so it reads as more than a convenient escape. The age is caught in recurrence: a prophecy that re-rolls when its champions die, a god of time that rewinds to its last chosen, a cycle the villain's unfinished rite forces on the world. Each new party wakes at the dawn of the twelve years with the dim sense they have walked this road before, and now and then a memory that proves true: a trap they already know, a face they should not recognize, a door that should not be open.
 
 = Tuning
 
@@ -89,7 +89,7 @@ Give the reset a reason in the world, so it reads as more than a convenient esca
 
 #colbreak()
 
-#rolltable("1d8", "The World After", note: [The dark age the Doom leaves, if you play on in it as a harder game. See Succession and the reset variant.], (
+#rolltable("1d8", "The World After", note: [The dark age the Doom leaves, if you play on in it as a harder game. See Succession and the variant above.], (
   item[Ash and Ember][The land burned to cinders, and the survivors pick through the ash.],
   item[The Drowned Reach][Water over everything, life clinging to the high and dwindling places.],
   item[The Long Winter][An endless cold, the sun a dim coin, and nothing will grow.],

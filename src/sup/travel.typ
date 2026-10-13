@@ -16,7 +16,7 @@ It adds no new dice. Break a crossing into #k[legs], usually a day each, and mak
 
 Name a #k[guide] for the leg, the one breaking trail or at the helm. Only the guide rolls, and the whole party shares what happens. The guide rolls #k[1d20 + the leg's ability, 12+]. A road, fair weather, or an easy route lifts it; a storm, rough ground, or no way marked drops it, as each road says below. Another traveler may Aid for +2. Each road leans on one ability for the leg and a second when things go wrong.
 
-- #item[Success][The leg goes clean. You reach the next waypoint on time and whole.]
+- #item[Success][The leg goes clean. You reach the next stop on time and whole.]
 - #item[Failure][You still get there, but it costs a day and a roll on Mishaps. Press on from where it leaves you. A natural 1 also fills a mark of the Journey Count.]
 
 = Pace
@@ -24,7 +24,7 @@ Name a #k[guide] for the leg, the one breaking trail or at the helm. Only the gu
 A standing choice, and the #k[slowest traveler sets it].
 
 - #item[Forced March][Cover half again the distance, but at day's end make a Body save, 12+, or be Weakened until a full night's rest.]
-- #item[Steady][The baseline.]
+- #item[Steady][The standard.]
 - #item[Cautious][Half the distance, and +2 to the Travel Check. Scout ahead, mark the trail, reef the sails.]
 
 = On the Road
@@ -38,7 +38,7 @@ A standing choice, and the #k[slowest traveler sets it].
 
 == Overland
 
-A leg is a day, and the guide rolls #k[STR] to march and force the way. What you ride sets the distance and the load, below. Once per day in the wild, roll 1d6: on a 1, an encounter, read off the Terrain Matrix below, not a flat Threat roll, so the ground and the region decide what you meet. A Lost Mishap or a filled Count calls for an #k[INT Check] to read the land and pick up the trail; fail and lose another day astray.
+A leg is a day, and the guide rolls #k[STR] to march and force the way. What you ride sets the distance and the load, below. Once per day in the wild, roll 1d6: on a 1, an encounter, read off the Terrain Table below, not a flat Threat roll, so the ground and the region decide what you meet. A Lost Mishap or a filled Count calls for an #k[INT Check] to read the land and pick up the trail; fail and lose another day astray.
 
 - #item[Road or trail][24 miles. +4 to Travel.]
 - #item[Open plain][20 miles. +2 to Travel.]
@@ -48,7 +48,7 @@ A leg is a day, and the guide rolls #k[STR] to march and force the way. What you
 
 === By Cart and Mount
 
-On foot is the baseline above, and a walker goes anywhere a person can and carries their own slots. A mount or a cart changes the distance and the load, and adds one more thing to lose on a Mishap. The distance scales the terrain line: double of 24 miles is 48 on the road, double of 12 is 24 in the hills.
+On foot is the standard above, and a walker goes anywhere a person can and carries their own slots. A mount or a cart changes the distance and the load, and adds one more thing to lose on a Mishap. The distance scales the terrain line: double of 24 miles is 48 on the road, double of 12 is 24 in the hills.
 
 #table(
   columns: (auto, auto, 1fr),
@@ -83,7 +83,7 @@ A leg is a day afloat, and the guide rolls #k[WIS] to navigate. Wind sets the di
 
 A leg is a day aloft, and the guide rolls #k[DEX] at the helm. An airship makes #k[120 miles] a day and flies straight over mountain and ocean, which is why the far spires are days away, not months. It answers to no terrain, but it answers to weather and its engine. A storm aloft is a Travel Check at #k[-4]: fail and the ship is flung off heading, loses height, and anyone on deck makes a Dodge save or goes over the rail. When the Count fills, or a Mishap breaks the engine, an #k[INT Check] keeps the aether-engine lit; fail and it costs a day of repairs, or sets you down to go on overland.
 
-= The Terrain Matrix
+= The Terrain Table
 
 A wandering monster should fit the ground and the region, not drop in from a harder game. Where the dungeon has depth, the overland has #k[Tier] and terrain: the Tier sets how dangerous the country is, the terrain sets what lives there, and a single d6 nudges the night's luck one step either way.
 
@@ -106,7 +106,7 @@ Each terrain reads low to high, Tier I to IV. Pick the entry at the Step's Tier.
   item[Lost][Add a day finding the way. At sea you are off course; aloft, blown off heading.],
   item[Weather Turns][You are Weakened until it breaks, or hole up and lose a day. At sea or aloft, a storm, as that road says.],
   item[Breakdown][A mount goes lame, an axle breaks, a sail tears, the engine coughs. Mend it with a Check or go on slower.],
-  item[Not Alone][A wandering monster on open ground, deep water, or high air. Read it off the Terrain Matrix.],
+  item[Not Alone][A wandering monster on open ground, deep water, or high air. Read it off the Terrain Table.],
   item[The Ground Turns][A flood, a rockfall, a ravine, a reef, a downdraft. A Check to cross, or a day the long way around.],
   item[Spoiled Stores][A day's rations ruined, or the water fouled.],
   item[Hard Going][Someone is hurt or loses heart. A traveler is Weakened until the next safe rest, or a hireling tests morale.],

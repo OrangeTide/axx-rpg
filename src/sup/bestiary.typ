@@ -15,7 +15,7 @@ The conventions match the core rules. A monster has about #k[5 HP per Hit Die], 
 
 == Encounters as Puzzles
 
-A monster is a problem to solve, not just a sack of HP. Every fight offers four answers: Fight, Flee, Talk, or Exploit a weakness. The job of a stat block is to arm that choice before it is made.
+A monster is a problem to solve, not just a heap of hit points. Every fight offers four answers: Fight, Flee, Talk, or Exploit a weakness. The job of a stat block is to arm that choice before it is made.
 
 - #item[Read the Foe][A look at the scene, or a Lore check with INT, tells the party what the creature shrugs off, what cuts it deep, and what it wants. The notes carry this: an #k[Immune] line it ignores, a #k[Resistant] or #k[vulnerable] line for damage, a weakness to name, and often a Tell (how it reads on sight) and a Want (what might buy it off).]
 - #item[Fight or Run][Armor the decision with the numbers. HD and damage say how hard it hits; an immunity may make a fight hopeless, a vulnerability may make it quick. Let the players weigh this while they still can, not after the first blow.]

@@ -21,7 +21,7 @@ Magic turns up as treasure, rolled on the core's stocking and the Magic Item res
 - #item[Learning][You learn what a relic does by using it, by a Day of study, or from a sage. An obvious item, a glowing blade, may speak for itself at the GM's call.]
 - #item[Spent][Potions and scrolls are used up. A scroll's spell casts once, at the writer's Level, then the ink fades.]
 - #item[Worth][Magic is not coin, so it is not XP by itself. Keep it, or sell it to someone who wants it at the GM's call, and then that gold is XP like any other.]
-- #item[Stacking][A bonus counts once with its like: two wards of the same kind do not add. Bonuses from different sources still stack, as the core's same-source rule sets.]
+- #item[Bonuses of a Kind][A bonus counts once with its like: two wards of the same kind do not add. Bonuses from different sources still add, as the core's same-source rule sets.]
 
 #let data = csv("magic.csv").slice(1)
 #let fmt(r) = {

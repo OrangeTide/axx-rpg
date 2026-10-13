@@ -18,8 +18,8 @@ Do not bring all of them in at once. Treat the roster as a map to draw from. You
 
 - #item[Start small][Pick two to four powers whose territory touches where the party begins. Leave the rest as rumor, a name on the map, until the party travels into their reach.]
 - #item[Let Ties choose][A character's core Tie binds to a power, as #k[Ties to the World] below sets out. Seat the factions your players already hold a lever on, and the ones that matter pick themselves.]
-- #item[Run rivals in pairs][One near power and the rival its entry names is tension enough for a whole arc. You keep two books, not eleven, and the land still bristles.]
-- #item[Let the Doom promote][When a distant power steps onto the stage, let the #k[Foretold Doom] pull it there, one power at a time.]
+- #item[Run rivals in pairs][One near power and the rival its entry names is tension enough for a whole campaign. You keep two books, not eleven, and the land still bristles.]
+- #item[Let the Doom call it forth][When a distant power steps onto the stage, let the #k[Foretold Doom] pull it there, one power at a time.]
 - #item[Overlap on purpose][Two powers can share a trade and a border and still read as distinct, like the Gilt Assembly and the Aether Guild over the sky-lanes. Run them as branch houses of one bloodline at odds, as a schism over doctrine, or as two faiths that hate each other most of all. Leave which it is unsaid, and let the party guess wrong.]
 
 == Reading an Entry

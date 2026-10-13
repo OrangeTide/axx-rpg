@@ -11,7 +11,7 @@
 A week in a Haven, call it a refuge, a sanctuary, or a safe town as you like, mends the body. The core already clears all HP and ends Injured for a week in town, so downtime is what the week is otherwise for. Each character takes #k[2 Downtime Actions] per haven week, and each follows one shape, like a harvest: what it spends, the roll if any, and what it wins.
 
 - #item[Recover][Tend a lasting wound: fill a #k[Mending] mark, or two with a healer or an Infirmary. The free week already clears HP and Injured; this is for the hurts that outlast them. See Wounds and Mending.]
-- #item[Work][A trade for the lean weeks: a Class or background Check, 12+, earns #k[2d6 x Level x 10] GP to live on. Wages buy bread and gear, not XP. Your Lifepath names the trade.]
+- #item[Work][A trade for the lean weeks: a Class or Lifepath Check, 12+, earns #k[2d6 x Level x 10] GP to live on. Wages buy bread and gear, not XP. Your Lifepath names the trade.]
 - #item[Carouse][A bender, 2d6 x 10 GP a night and more in a city. Body save, 12+: win a boon, a rumor, a contact, or a step of Standing. Fail and roll the Carousing table. Gold bought XP when you hauled it to town, so this buys connection and trouble, not levels.]
 - #item[Craft & Repair][Mend gear and shields, fletch ammunition, cut snares, brew poison or a Remedy, preserve a hunt. Needs the tools, and a Check only for something new.]
 - #item[Study][Copy a scroll into the book, research a question, or learn a tongue. A Day to the scroll, as the core says; a harder lesson takes the week.]
