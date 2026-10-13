@@ -26,12 +26,12 @@ It is built for the kind of play where a line of heroes races one deadline, and 
 
 = The Decline
 
-The world does not wait for zero. Each quarter of the Count that empties advances the Decline one step, and each step is telegraphed a tick before by a Sign, so the party sees the fall coming and chooses what to spend their dwindling time on.
+The world does not wait for zero. Each quarter of the Count that empties advances the Decline one step: a named milestone the whole table feels, telegraphed a tick before by a Sign. A Stronghold takes a raid at each step, and the Powers of the Land rise and fall with it, so the milestones are the campaign's shared clock.
 
-- #item[First Quarter Gone][Omens and refugees. The enemy stirs at the edges. Rumor, not yet ruin.]
-- #item[Halfway][A region or an ally falls. Roads turn dangerous and prices climb, and Journey Counts start one mark shorter.]
-- #item[Three Quarters Gone][The heartland is threatened. A Haven is lost, resupply is dear, and the wandering-monster roll comes up one face easier for the dark.]
-- #item[Empty][The End. See below.]
+- #item[The Stirring][First quarter gone. Omens and refugees, the enemy awake at the edges. Rumor, not yet ruin.]
+- #item[The Breaking][Halfway. A region or an ally falls, a village burned or a trade road closed. Journey Counts start one mark shorter, and prices climb.]
+- #item[Nightfall][Three quarters gone. The heartland is threatened and a Haven is lost. Resupply is dear, and the wandering-monster roll comes up one face easier for the dark.]
+- #item[The End][Empty. The doom lands, as the next section sets out.]
 
 = The End
 
