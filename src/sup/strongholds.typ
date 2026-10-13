@@ -42,7 +42,7 @@ A hold is not bought with gold. Gold is experience the moment it reaches town, a
 
 Building is #k[Downtime]. A #k[Build] action, one of a character's two in a haven week, puts a season's labor and a store of Salvage into the hold. It wants the Salvage in the cache, hands to swing the hammers, the hirelings, the funnel's mob, or a hired crew, and a season safe enough to work.
 
-- #item[Outpost][Clear and hold the ground, then spend #k[3 loads] and a season. The ground must be yours first: a dungeon cleared to its roots, or land a patron grants, below.]
+- #item[Outpost][Clear and hold the ground, then spend #k[3 loads] and a season. You must hold the ground first: a dungeon cleared to its roots, or land a patron grants, below.]
 - #item[The Wall][#k[5 loads] turns an Outpost into a Stronghold and earns it hard cover against a raid. Raise it before the first building, or the building has nothing to stand behind.]
 - #item[Buildings][#k[2 to 4 loads] each, one raised or advanced per Build action. A Stronghold holds as many as its walls have room for, the GM's call, often #k[the founder's CHA modifier plus one].]
 - #item[The Cost in Time][A season at the hearth fills a mark of the #k[Decline], as Downtime warns. Building is that season. Raise your walls while the Doom still has slack, because every wall is time the dark gains.]
@@ -81,7 +81,7 @@ Walls do not fight; soldiers do. A hold is held by a #k[Warband], mustered and r
 The hold has value, so the land comes for it. At each #k[Decline] step the Foretold Doom turns an enemy toward your walls, and a #k[Sign] can telegraph it a tick before. Who comes is a Hostile power, the Doom's own agent, or a beast lord whose ground you took.
 
 - #item[The Raiders][Stat them as a #k[Warband] at the region's tier: a tame frontier sends a raiding file or two, a fallen heartland sends a legion. The deeper and darker the country, the heavier the host.]
-- #item[Home, You Hold the Walls][If the party is there, run it as a #k[Warband] fight from fortified ground. A #k[Stronghold wall] is hard cover, the garrison strikes from behind it, and the raiders must breach or scale before their numbers tell. A Commander's Focus and the high ground are yours to spend.]
+- #item[Home, You Hold the Walls][If the party is there, run it as a #k[Warband] fight from fortified ground. A #k[Stronghold wall] is hard cover, the garrison strikes from behind it, and the raiders must breach or scale before their numbers tell. You can spend a Commander's Focus and the high ground.]
 - #item[Away, One Roll at the Gate][If the party is delving when the raid lands, the castellan holds alone. Make one #k[defense roll]: the castellan's Command check, #k[1d20 + CHA + Level], or the garrison's #k[Warband HD] against the raiders', 12+. The wall adds #k[+2], a full garrison its weight. Success holds the gate for the loss of a file or a season's stores. Failure sacks something: roll on #k[At the Gates], below.]
 - #item[After][A raid beaten earns Standing with the powers it threatened and the Spoils of a Warband field. A raid lost costs Salvage, a building, or a Haven, and the Doom reads the fall as its own.]
 
@@ -89,8 +89,8 @@ The hold has value, so the land comes for it. At each #k[Decline] step the Foret
 
 Land has owners, even the wild. How you come to hold ground sets who your first enemy is.
 
-- #item[By the Sword][Clear a dungeon to its roots and the ground above it is yours by right of the last one standing. Expect the thing you evicted, or its kin, to want it back.]
-- #item[By Grant][A #k[Favored] or #k[Sworn] power deeds you land and a charter, and lends a levy to hold it. Now the hold is theirs as much as yours, a forward post in their war, and its enemies are the ones they name.]
+- #item[By the Sword][Clear a dungeon to its roots and you hold the ground above it by right of the last one standing. Expect the thing you evicted, or its kin, to want it back.]
+- #item[By Grant][A #k[Favored] or #k[Sworn] power deeds you land and a charter, and lends a levy to hold it. Now they share the hold with you, a forward post in their war, and its enemies are the ones they name.]
 - #item[By Taking It][Seize a standing keep, a bandit hold, or an abandoned tower, and inherit its walls and its grudges both. Faster than building, and never quite yours until the old claim is settled.]
 
 #rolltable("1d8", "At the Gates", note: [Who comes for the hold, or what a lost defense costs. Roll when the Doom turns an enemy toward your walls.], (
