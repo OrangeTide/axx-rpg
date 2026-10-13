@@ -10,7 +10,7 @@
 
 A lone hero cannot fell a giant, and a dragon eats a party of four for breakfast. But fifty spears can bring either down, and so can a wolf pack, a levy of the funnel's survivors, or a company a faction loans you. This supplement runs a crowd as one combatant, a Warband, measured in Hit Dice like any monster, so a group can trade blows with a foe far above its weight.
 
-The idea is borrowed from Mausritter's warbands, fitted to the Hit Dice math AX&X already uses. Nothing here changes an ordinary fight. Reach for it when one side is too many to track one body at a time, or when the thing they face is too big for any single blade.
+Running a whole band as one combatant is old wargame practice, fitted here to the Hit Dice math AX&X already uses. Nothing here changes an ordinary fight. Reach for it when one side is too many to track one body at a time, or when the thing they face is too big for any single blade.
 
 = Mustering a Warband
 
