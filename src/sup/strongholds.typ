@@ -2,7 +2,7 @@
 
 #show: xx.with(
   title: "AX&X: Towns, Keeps, and Marches",
-  subtitle: "A base of operations, the loot run, and the hold you raise. A strongholds supplement for AX&X.",
+  subtitle: "A home base, the loot run, and the hold you raise. A strongholds supplement for AX&X.",
   cols: 2,
 )
 
@@ -12,12 +12,12 @@ The dungeon is a place you raid and leave. A hold is a place you keep. It is whe
 
 It is built from pieces the other books already carry. The garrison is a #k[Warband]; the patron who grants your charter and the raiders who covet your walls are #k[Powers of the Land]; the clock the raids keep is the #k[Foretold Doom]; the season you spend raising a wall is #k[Downtime]; the hands that man it are the funnel's survivors and your hirelings. None of this is needed to crawl a dungeon. Bring it in when the party stops being wanderers and wants a place on the map.
 
-= The Base and the Loop
+= The Home Base
 
-Every expedition runs from a #k[base], a safe place you set out from and haul the take back to, and the game is the loop between the base and the dangerous ground beyond. That is a West Marches game, and this supplement runs one.
+Every expedition runs from a #k[base], a safe place you set out from and haul the take back to. The party ventures into dangerous country and returns to spend what it won, then sets out again. That is a West Marches game, and this supplement runs one.
 
 - #item[The Base Is a Haven][It can be a town you borrow or a hold you build. A #k[borrowed Haven], a market town or a friendly refuge, is where most tables start and many stay: you do not own it, but you rest, resupply, hire, and turn loot to XP there. The Three Rungs below are the base you raise for yourself when a borrowed one is not enough.]
-- #item[The Loop][Set out toward a known or rumored site, delve, haul the take out, make the night call, and carry it home. Loot buys levels, Salvage and Standing buy a better base, and a better base opens deeper, higher-Tier ground. Then again.]
+- #item[Out and Back][Set out toward a known or rumored site, delve, haul the take out, make the night call, and carry it home. Loot buys levels, Salvage and Standing buy a better base, and a better base opens deeper, higher-Tier ground. Then again.]
 - #item[Growing a Borrowed Base][You cannot build in a town you do not own, so you grow it by #k[Standing] instead. A Favored power opens its market, its healers, and its hireling hall, as Powers of the Land sets out. Earn the town, and it serves you like a hold you never had to raise.]
 - #item[No Fixed Party][Take who is free that session and strike out from the shared base. The base, its Standing, its buildings, and the map charted so far are the campaign's memory, not any one character.]
 - #item[Distance Is Danger][The region #k[Tier] in Travel grades the frontier, tame near the base and direr the farther you range. Players choose how deep to reach for how rich a haul.]
