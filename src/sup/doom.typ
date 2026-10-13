@@ -43,9 +43,9 @@ A party wipe does not wind the Count back. The years still passed, and now they 
 
 = Variant: Death Resets the Doom
 
-For a kinder, more replayable loop, let a total party wipe wind the Count back to full, or back by half if full is too soft. The campaign becomes a cycle you can lose and retry, not a single falling line. The pressure now comes from wanting to reach the end before you run out of heroes you care about, rather than from the calendar alone.
+For a kinder campaign you can lose and begin again, let a total party wipe wind the Count back to full, or back by half if full is too soft. The campaign becomes a cycle you can lose and try again, not a single falling line. The pressure now comes from wanting to reach the end before you run out of heroes you care about, rather than from the calendar alone.
 
-Give the reset a reason in the fiction, so it reads as more than a mulligan. The age is caught in recurrence: a prophecy that re-rolls when its champions die, a god of time that rewinds to its last chosen, a loop forced on the world by the villain's unfinished rite. Each new party wakes at the dawn of the twelve years with the dim sense they have walked this road before, and now and then a memory that proves true: a trap they already know, a face they should not recognize, a door that should not be open.
+Give the reset a reason in the world, so it reads as more than a convenient escape. The age is caught in recurrence: a prophecy that re-rolls when its champions die, a god of time that rewinds to its last chosen, a cycle the villain's unfinished rite forces on the world. Each new party wakes at the dawn of the twelve years with the dim sense they have walked this road before, and now and then a memory that proves true: a trap they already know, a face they should not recognize, a door that should not be open.
 
 = Tuning
 

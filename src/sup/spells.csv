@@ -43,7 +43,7 @@ Sleep,Magic-User,1,,,"2d4 HD of creatures of 4 HD or less fall Asleep, no save."
 Spider Climb,Magic-User,1,,,"Climb walls and ceilings like a spider for 6 turns.",
 Unseen Servant,Magic-User,1,,,"An invisible force fetches, carries, and does simple tasks for an hour.",
 Continual Light,Magic-User,2,Body,,"A permanent bright light, or blind a creature (Body save).","a firefly or a pinch of phosphorus"
-Darkness 15 ft,Magic-User,2,,,"A 15 ft globe of dark no darkvision pierces, 6 turns.",
+Darkness 15 ft,Magic-User,2,,,"A 15 ft globe of dark that no sight in the dark pierces, 6 turns.",
 Detect Invisibility,Magic-User,2,,,"See invisible, hidden, and phased things within 30 ft for 6 turns.",
 ESP,Magic-User,2,Will,,"Hear the surface thoughts of creatures within 60 ft (Will save to shield a mind).",
 Forget,Magic-User,2,Will,,"Up to four creatures forget the last few minutes (Will save).",
