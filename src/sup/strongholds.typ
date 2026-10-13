@@ -2,7 +2,7 @@
 
 #show: xx.with(
   title: "AX&X: Towns, Keeps, and Marches",
-  subtitle: "A home base, the loot run, and the hold you raise. A strongholds supplement for AX&X.",
+  subtitle: "A town to adventure from, and the stronghold you raise. A strongholds supplement for AX&X.",
   cols: 2,
 )
 
@@ -12,19 +12,19 @@ The dungeon is a place you raid and leave. A hold is a place you keep. It is whe
 
 It is built from pieces the other books already carry. The garrison is a #k[Warband]; the patron who grants your charter and the raiders who covet your walls are #k[Powers of the Land]; the clock the raids keep is the #k[Foretold Doom]; the season you spend raising a wall is #k[Downtime]; the hands that man it are the funnel's survivors and your hirelings. None of this is needed to crawl a dungeon. Bring it in when the party stops being wanderers and wants a place on the map.
 
-= The Home Base
+= The Town and the Wilds
 
-Every expedition runs from a #k[base], a safe place you set out from and haul the take back to. The party ventures into dangerous country and returns to spend what it won, then sets out again. That is a West Marches game, and this supplement runs one.
+A party adventures out from a safe place and bears its winnings back to it. At the start that place is a #k[town], the farthest outpost of law before the wilds begin: a taproom to plan in, a market to outfit at, a temple to mend you, and men to hire. You do not own it, but you rest, resupply, and tally your treasure as experience there, then set out again. This runs that open, player-driven campaign the West Marches made its name on: the party chooses where in the wilds to dare, and the country, not a plot, decides what it finds.
 
-- #item[The Base Is a Haven][It can be a town you borrow or a hold you build. A #k[borrowed Haven], a market town or a friendly refuge, is where most tables start and many stay: you do not own it, but you rest, resupply, hire, and turn loot to XP there. The Three Rungs below are the base you raise for yourself when a borrowed one is not enough.]
-- #item[Out and Back][Set out toward a known or rumored site, delve, haul the take out, make the night call, and carry it home. Loot buys levels, Salvage and Standing buy a better base, and a better base opens deeper, higher-Tier ground. Then again.]
-- #item[Growing a Borrowed Base][You cannot build in a town you do not own, so you grow it by #k[Standing] instead. A Favored power opens its market, its healers, and its hireling hall, as Powers of the Land sets out. Earn the town, and it serves you like a hold you never had to raise.]
-- #item[No Fixed Party][Take who is free that session and strike out from the shared base. The base, its Standing, its buildings, and the map charted so far are the campaign's memory, not any one character.]
-- #item[Distance Is Danger][The region #k[Tier] in Travel grades the frontier, tame near the base and direr the farther you range. Players choose how deep to reach for how rich a haul.]
+- #item[The Wilds][Beyond the last field lies frontier, regions each with its own tone and hazards: known landmarks, rumored ruins, and ground no one has yet walked. The party picks where to go and the GM stocks what is there. The players make the adventures; the land does not come to them.]
+- #item[The Farther Out, the Deadlier][Danger rises with the walking distance from town, not as the crow flies. The region #k[Tier] in Travel sets it, each region harder than the last, so a party reaches as far as it dares for as rich a haul. A prize beyond their strength is marked and left for when they are higher Level.]
+- #item[Rumors][Every foray begins with a lead traded in the taproom: a landmark, a rumored ruin, a region to be first into. Rumors of the Frontier, below, is where the next expedition is chosen.]
+- #item[No Fixed Party][Take whoever has gathered to go, and set out. The town, its rumors, the map drawn so far, and the holds raised are the campaign's memory, not any one party.]
+- #item[Winning the Town][You cannot build in a town you do not own, so you earn its favor instead. A Favored power opens its market, its healers, and the men it has to hire, as Powers of the Land sets out. Win the town over, and it serves you like a hold you never had to raise.]
 
 = The Three Rungs
 
-A party that wants more than a borrowed town raises a base of its own. It climbs a ladder, the way a warband earns its grades. Each rung is a real thing the party can point to, and each buys one more reason not to walk all the way home.
+A party that wants more than a borrowed town raises a hold of its own. It climbs a ladder, the way a warband earns its grades. Each rung is a real thing the party can point to, and each buys one more reason not to walk all the way home.
 
 - #item[Camp][A night's safety, no more. Set at dusk with the gear on your backs, struck by dawn: a watch, a fire, a ring of stakes. It shelters a rest but mends nothing a bedroll would not, and the first raid scatters it. Free, and gone when you leave.]
 - #item[Outpost][Ground #k[cleared, watered, defensible, and held], a bolt-hole with a door that bars. An Outpost is a #k[Safe Haven] of your own: a week's rest here restores HP and ends Injured as any town does, and the walk to it is shorter than the walk to town. It holds a #k[cache], store Salvage, loot, and gear behind a lock, and seats #k[one Downtime Action] in the field, so the party can mend, craft, or study without the march back. Raising one takes #k[Salvage] and a season, below.]
@@ -35,7 +35,7 @@ A party that wants more than a borrowed town raises a base of its own. It climbs
 A hold is not bought with gold. Gold is experience the moment it reaches town, and a stronghold priced in gold is a hole you pour your levels into. So you build with #k[Salvage], hauled out of ruins by the #k[load]: dressed stone, seasoned timber, iron fittings, a looted forge, a fallen hall's worth of good material carted off by the wagon.
 
 - #item[The Find][A cleared #k[lair] yields #k[1 to 2 loads]; a #k[vault] or a great ruin, #k[3 to 5]. The GM sets it when the place is taken, by how much worked stone and metal it holds. Bare caves give none.]
-- #item[Hauled, Not Sold][Salvage is bulky and worth little to anyone but you. It does not sell, and coin does not buy it. It fills a wagon or a Stable's #k[haulage] the way loot fills slots, so getting Salvage home is the same loot-run as the treasure. A hold raised near its quarry is a hold raised faster.]
+- #item[Hauled, Not Sold][Salvage is bulky and worth little to anyone but you. It does not sell, and coin does not buy it. It fills a wagon or a Stable's #k[haulage] the way loot fills slots, so getting Salvage home is the same haul as bearing out treasure. A hold raised near its quarry is a hold raised faster.]
 - #item[Spent, Not Banked][Salvage goes into walls and buildings and stays there. It is not a purse you carry between holds. It is the hold itself, taking shape.]
 
 = Raising the Hold
@@ -55,18 +55,18 @@ Each building is a reason the party used to march to town, now inside the walls,
 - #item[Shrine][A seat for a Priest: healing, Remove Curse, and Turn Undead at the altar, and a step of Standing with a faith that blesses it. Hostile ground for the undead that raid by night.]
 - #item[Forge][Mend and sharpen gear for free, and, with rare ore or a maker's-mark from the #k[Hammerdeep Concord], upgrade a weapon or wake magic in steel. The Craft action runs it.]
 - #item[Scriptorium][Copy scrolls into the book, research a question, learn a tongue: the Study action, with the texts to hand. A Mage's home between delves.]
-- #item[Stable][Mounts and a #k[wagon], and the #k[haulage] to carry Salvage and loot home. The Stable is what makes the loot-run pay, and what carries the next hold's stone.]
+- #item[Stable][Mounts and a #k[wagon], and the #k[haulage] to carry Salvage and loot home. The Stable is what makes a heavy haul pay, and what carries the next hold's stone.]
 - #item[Cartographer][Maps of the country around. The first #k[Travel Check] of a journey that starts from the hold runs at #k[+2], or #k[+4] once the ground is well charted.]
 - #item[Hall][A great room that seats the garrison and draws followers. Raise the cap on hirelings and henchmen the hold can keep, and give a Warband a place to muster and winter.]
 
-= The Loot Run
+= Carrying Off the Treasure
 
-A hoard is only yours when it reaches the base. Dragging it out of the dark is its own problem, and the place encumbrance finally bites.
+A hoard is no good to you in the dungeon. Treasure is heavy, as the core's slots and the equipment supplement's Overloading set out, and bearing it out past whatever still lives below is half the work of winning it.
 
-- #item[Carry It Out][Loot and Salvage fill slots like any load, so what you cannot carry in one trip you cache, hide, or leave, and leaving it means someone else may find it. A great hoard is several trips, or a bigger train. Overloading, in the equipment supplement, says what a heavy load costs.]
-- #item[Carriers Wait at the Rim][Porters and a mule add slots, and a wagon hauls a cartload, but none follow into tight passages, down a cliff, or through water. They hold at the dungeon mouth or the base's edge while the party ferries the take out to them. A Stable's wagon is what turns a good haul into a load carried home.]
-- #item[The Night Call][With the day's take at the mouth and more below, choose. #k[Retreat to the base]: safe rest, and a Downtime Action if the base is yours, but tomorrow you re-walk the approach and the dungeon restocks. #k[Camp rough at the mouth]: a fast turnaround into cleared ground, but roll a night encounter at the region's Tier, and a camp overrun loses the cached take.]
-- #item[Home Again][At the base, loot becomes XP as the core says, a GP to the point once it is safe, and Salvage becomes the stuff of walls. The run is done, and the next starts from a base one rung, or one step of Standing, richer.]
+- #item[Bearing It Out][Coin, plate, and Salvage fill slots like any load. What the party cannot carry in one trip it must cache, hide, or leave, and what is left may be gone, or guarded, when you return. A great hoard means several trips, hired bearers, or pack animals.]
+- #item[Bearers and Beasts][Porters, a mule, or a wagon carry what the party cannot, but none will follow into a tight crawl, down a shaft, or through deep water. They wait at the dungeon's mouth or the edge of safe ground while the party ferries the treasure out to them. A Stable's wagon turns a good haul into a wagonload borne home.]
+- #item[Camp or Withdraw][With the day's take at the mouth and more still below, the party must choose. Withdraw to the town or hold: safe rest, and a Downtime Action if the base is your own, but the approach is marched again and the dungeon will have restocked. Camp at the dungeon mouth: a quick return to cleared ground, but the night risks a wandering encounter at the region's Tier, and a camp overrun loses the treasure cached there.]
+- #item[Back to Town][Treasure counts as experience only once it is safe in town, a gold piece to the point, as the core says, and Salvage becomes stone for the walls. The foray is done, and the next sets out from a base the richer for it.]
 
 = The Garrison
 
@@ -121,7 +121,7 @@ Land has owners, even the wild. How you come to hold ground sets who your first 
 - #item[Let the Doom Pace It][Build in the slack seasons, hold in the hard ones. A hold is the party betting that what they raise outlasts what the Doom sends. Sometimes it does not.]
 - #item[Hand It to a Player][One player keeps the hold the way another keeps the warband: its Salvage, its garrison, its buildings, its castellan. A page of your own tracks it.]
 
-#rolltable("1d8", "Rumors of the Frontier", note: [A lead the base turns up, and where to set out next. Pitch the Tier to how far it lies from home.], (
+#rolltable("1d8", "Rumors of the Frontier", note: [A lead traded in town, and where to set out next. Pitch the Tier to how far out it lies.], (
   item[A Barrow Opened][A storm has breached an old tomb and its wards are failing. The dead, and what they were buried with.],
   item[The Flooded Mine][A drowned dwarf working, abandoned to its deep veins and whatever moved in after.],
   item[A Dead Mage's Tower][Half-standing and trapped, with books, workings, and worse still inside.],
