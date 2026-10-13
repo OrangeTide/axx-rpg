@@ -179,9 +179,11 @@
   // HTML drops, so emit the title and subtitle as a plain document header.
   context {
     if target() == "html" and title != none {
+      let rev = sys.inputs.at("rev", default: none)
       html.elem("header", {
         html.elem("h1", title)
         if subtitle != none { html.elem("p", subtitle) }
+        if rev != none and rev != "" { html.elem("small", rev) }
       })
     }
   }

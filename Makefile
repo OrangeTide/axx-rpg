@@ -77,9 +77,9 @@ $(REVFILE): FORCE
 
 FORCE:
 
-$(OUTDIR)/%.html: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
+$(OUTDIR)/%.html: $(SRCDIR)/%.typ $(LIBS) $(FONTS) $(REVFILE)
 	@mkdir -p $(dir $@)
-	$(TYPST) compile $(TYPSTFLAGS) --format html $< $@
+	$(TYPST) compile $(TYPSTFLAGS) --format html --input rev="$(REV)" $< $@
 
 $(OUTDIR)/%.thumb.png: $(SRCDIR)/%.typ $(LIBS) $(FONTS)
 	@mkdir -p $(dir $@)

@@ -267,6 +267,13 @@ body.doc header p {
   color: var(--ink-2);
   margin: 0.5rem 0 0;
 }
+body.doc header small {
+  display: block;
+  font-family: var(--type);
+  font-size: 0.72rem;
+  color: var(--ink-3);
+  margin: 0.4rem 0 0;
+}
 
 body.doc h2 {
   font-family: var(--head);
