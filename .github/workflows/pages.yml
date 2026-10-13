@@ -1,19 +1,16 @@
-name: Pages
+name: Publish
 
+# Publish on a version tag only: build every document, bundle the PDFs, deploy
+# the site to Pages, and attach the bundle to the tag's GitHub Release. A manual
+# run (workflow_dispatch) builds and deploys the site but makes no release.
 on:
   push:
-    branches: [main]
-    paths:
-      - "src/**"
-      - "lib/**"
-      - "fonts/**"
-      - "pages/**"
-      - "Makefile"
-      - ".github/workflows/pages.yml"
+    tags:
+      - "v*"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -28,6 +25,11 @@ jobs:
       TYPST_VERSION: "0.14.2"
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history and tags so `git describe --tags` can stamp the
+          # revision in every document footer. The default shallow checkout
+          # would leave the stamp wrong or empty.
+          fetch-depth: 0
 
       - name: Install poppler (pdfinfo, for page counts)
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
@@ -38,13 +40,30 @@ jobs:
             | sudo tar -xJ --strip-components=1 -C /usr/local/bin typst-x86_64-unknown-linux-musl/typst
           typst --version
 
-      - name: Build the site
+      - name: Build the site (and every PDF)
         run: make site
+
+      - name: Bundle all PDFs into a zip
+        run: |
+          ver="${GITHUB_REF_NAME}"
+          zip="axx-${ver}-pdfs.zip"
+          # Every built PDF, flattened (basenames are unique), sorted for a
+          # stable archive. Keep a fixed-name copy in the site for a stable
+          # download URL, and the versioned name as the release asset.
+          find build -name '*.pdf' -print0 | sort -z | xargs -0 zip -j "$zip"
+          cp "$zip" _site/axx-pdfs.zip
+          echo "ZIP=$zip" >> "$GITHUB_ENV"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
+      - name: Attach the PDF bundle to the release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.ZIP }}
 
   deploy:
     needs: build
