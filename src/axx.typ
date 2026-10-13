@@ -97,7 +97,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == Combat
 
-- #item[Initiative][Each round, roll 1d6 per side, high side first, or let the fiction set the order. On a tie, both act at once: resolve everything before anyone drops.]
+- #item[Initiative][Each round, roll 1d6 per side, high side first, or choose what best suits the story and the game. On a tie, both act at once: resolve everything before anyone drops.]
 - #item[Action][Each round, either #k[act], attack, cast, use an item, or aid, with a short step, or #k[move] up to #k[30 ft] (20 in medium or heavy armor). #k[Run] doubles it. Reaching a far foe is a move; you strike next round, or #k[Charge]: close and attack at once, +2 to hit and -2 AC until your next turn.]
 - #item[Withdraw][Leaving an enemy's reach draws a free attack. Withdraw instead: half speed, no action, and no attack drawn.]
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = your track bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two on one target: +2 each.]
@@ -145,7 +145,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 - #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth]. Level 2 costs by track (see Classes); each later Level doubles the last.]
 - #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks follow your track; saves and slots follow Level.]
-- #item[Improvise][These rules are bones, not the whole beast. When something's not covered, call a Check at 12+, jot down how you ruled it, and stick with that. Trust the fiction over the sheet: a sound ruling can stand in for a roll, and a foe can run on a look and a want. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
+- #item[Improvise][These rules are a foundation to build your own game upon. Use a Check at 12+ for general situations not explicitly stated. Rulings by the GM are more potent than this book, and the GM is the ultimate judge and arbiter for how your fantasy realm functions. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
 
 = Running the Dungeon
 
