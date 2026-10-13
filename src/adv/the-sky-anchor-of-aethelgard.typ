@@ -8,7 +8,7 @@
 
 = The Hook
 
-A frantic gnome named Pipkin, Archivist of Oakhaven, hires the party on the strength of a torn star-chart. It points to the Cloud-Spires, a range of floating peaks that broke from the mainland during the Great Sundering and drifted off centuries ago. Pipkin is sure the _Sovereign of the Zephyr_, a gnomish airship that once crossed oceans in days, still sits docked at the highest spire, held in an old stasis field. He offers #k[1,000 GP] for its safe return, and first claim on whatever else the party can carry off.
+A frantic gnome named Pipkin, Archivist of Oakhaven, hires the party on the strength of a torn star-chart. It points to the Cloud-Spires, a range of floating peaks that broke from the mainland during the Great Sundering and drifted off centuries ago. Pipkin is sure the _Sovereign of the Zephyr_, a gnomish airship that once crossed oceans in days, still sits docked at the highest spire, held fast by an old binding-spell that keeps it out of time. He offers #k[1,000 GP] for its safe return, and first claim on whatever else the party can carry off.
 
 = Act I: The Ascent
 
@@ -31,7 +31,7 @@ The lift reaches a jagged island of obsidian and marble, overgrown with glowing 
 Beyond the doors waits the _Sovereign of the Zephyr_, a ship of brass and mahogany. It is not empty.
 
 - #item[Thalros][A cloud giant has claimed the ship as his hoard. He has no wish to sail it. He lounges on its deck and keeps the crew's preserved bodies as furniture.]
-- #item[The Deck Fight][The battle plays out on the open deck. Thalros wakes the ship's last working systems to call up small thunderstorms that shove the party toward the rail.]
+- #item[The Deck Fight][The battle plays out on the open deck. Thalros wakes the ship's last working enchantments to call up small thunderstorms that shove the party toward the rail.]
 - #item[The Failing Engine][The Aether-Engine is unstable. Every few rounds the deck heaves: #k[Dodge save] or slide 20 ft in a random direction. Over the rail is a long fall.]
 - #item[The Navigator][With Thalros down, one riddle remains, etched into the helm. Solve it with an #k[INT Check, 12+] or with good talk, and the ship's sleeping spirit wakes. The crew called it the Navigator.]
 
