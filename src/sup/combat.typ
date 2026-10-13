@@ -14,7 +14,7 @@ It adds options, not new dice. Every rule here is still #k[1d20 + a flat modifie
 
 = Position
 
-- #item[Range Without a Map][For theater-of-the-mind play, track three bands, not feet: #k[engaged] (in reach), #k[near] (a move off, about 30 ft), and #k[far] (a Run or a bowshot away). A move shifts one band, reaching engaged lets you strike, and leaving engaged draws the free attack unless you Withdraw. Missiles carry to far at the core's range steps.]
+- #item[Range Without a Map][For combat run by description, with no map or figures on the table, track three bands, not feet: #k[engaged] (in reach), #k[near] (a move off, about 30 ft), and #k[far] (a Run or a bowshot away). A move shifts one band, reaching engaged lets you strike, and leaving engaged draws the free attack unless you Withdraw. Missiles carry to far at the core's range steps.]
 - #item[Difficult Ground][Rubble, mud, deep snow, thick brush, a steep slope, or shallow water. Moving through it costs double, so 30 ft becomes 15. You cannot charge or run across it.]
 - #item[High Ground][An attacker above the target, on a ledge, a stair, or a saddle, strikes at +1, and holds reach against anyone climbing up.]
 - #item[Prone][Knocked flat by a shove, a trip, a charge, or a fall. A prone creature attacks at -2, is hit in melee at +2, and is a poor target at range, -2 to shoot. Standing up spends half your move.]
@@ -75,7 +75,7 @@ Martial skill shows in volume, not only in bigger numbers. The extra attacks are
   item[Broken Ground][Rubble and pits across the middle. Difficult ground, and no charge through it.],
   item[Scattered Cover][Pillars, crates, gravestones. Half cover for whoever reaches it first.],
   item[The Drop][A pit, cliff, or rail along one side. Shoves and trips turn deadly here.],
-  item[Darkness][Guttered torches or a deep cave. -4 to those without darkvision, and a lamp becomes a prize.],
+  item[Darkness][Guttered torches or a deep cave. -4 to any who cannot see in the dark, and a lamp becomes a prize.],
   item[Hazard][Fire, a flood, a swarm, a swinging blade. 1d6 to anyone forced into it.],
   item[Slick Footing][Ice, mud, or spreading blood. A DEX save to run or be shoved, or fall Prone.],
 ))
