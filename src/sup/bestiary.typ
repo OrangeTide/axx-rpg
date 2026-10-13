@@ -2,7 +2,7 @@
 
 #show: xx.with(
   title: "AX&X: Bestiary",
-  subtitle: "The source of truth for monsters in AX&X.",
+  subtitle: "The keywords that run a monster, and a roster of foes. A bestiary supplement for AX&X.",
   cols: 2,
   dense: true,
 )
@@ -35,7 +35,7 @@ Number appearing and treasure are the GM's call, guided by the core Stocking and
 
 == Monster Abilities
 
-The full list of monster keywords, and the source of truth for them. The core picks up the few its starter foes need and summarizes them; every tag and its rule lives here.
+The full list of monster keywords, and the rules for each. The core picks up the few its starter foes need and summarizes them; every keyword and its rule lives here.
 
 - #item[Mindless][Immune to Sleep, Charmed, Poisoned, and Frightened. Most undead, oozes, and constructs.]
 - #item[Berserk][Fights in a fury: #k[+2 to attack], never tests morale, and never yields, fighting to the death. Immune to Frightened. A fury it cannot switch off, it attacks the nearest target, friend or foe, if no enemy stands.]
