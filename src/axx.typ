@@ -85,7 +85,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Doors][Stuck: STR check to force. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
 - #item[Wandering Monsters][Roll 1d6 about every third turn, and at once after a fight, a forced door, or a shout: a #k[1], or #k[1--2] after noise, brings a wanderer from the Threat table.]
 - #item[Darkness][Swinging at what you can't see is -4. Targeted spells need line of sight.]
-- #item[Hirelings][Torchbearer #k[1 GP/day] (HD 1/2, HP 3, AC 10). Man-at-arms #k[5 GP/day] (HD 1, HP 6, AC 13, Atk +1, 1d6). Each takes a half share of XP. When first asked to risk death, make a CHA check or they flee or quit.]
+- #item[Hirelings][Torchbearer #k[1 GP/day] (HD 1/2, HP 3, AC 10). Man-at-arms #k[5 GP/day] (HD 1, HP 6, AC 13, Atk +1, 1d6). Each takes a half share of XP. When first asked to risk death, a CHA check or they quit; then test Morale.]
 
 == Encounters
 
