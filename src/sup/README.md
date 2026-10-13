@@ -54,9 +54,11 @@ Each builds to a standalone PDF in the shared house style.
 - `warband.typ`: mass combat, running a crowd as one combatant by Hit Dice.
 - `factions.typ`: factions, territory, and standing, generated from `factions.csv`.
 - `doom.typ`: the Foretold Doom, a campaign countdown over the whole game.
-- `strongholds.typ`: camps, outposts, and strongholds, built with Salvage hauled
-  from dungeons, held by a garrison warband, and raided on the Doom's steps. The
-  last page is a printable Hold Record, copied one per hold.
+- `strongholds.typ`: the base of operations and its loot-and-expansion loop, West
+  Marches style. The base runs from a borrowed town to a built stronghold, raised
+  with Salvage hauled from dungeons, held by a garrison warband, and raided on the
+  Doom's steps. Includes the loot run (getting the take home) and a Rumors table.
+  The last page is a printable Hold Record, copied one per hold.
 - `conversion.typ`: converting first-edition material, with the deviation map and
   the stat-block formulas.
 - `bestiary.typ`: the bestiary. Page one is the monster rules and the ability

@@ -2,7 +2,7 @@
 
 #show: xx.with(
   title: "AX&X: Towns, Keeps, and Marches",
-  subtitle: "Camps, outposts, and the hold you raise. A strongholds supplement for AX&X.",
+  subtitle: "A base of operations, the loot run, and the hold you raise. A strongholds supplement for AX&X.",
   cols: 2,
 )
 
@@ -12,9 +12,19 @@ The dungeon is a place you raid and leave. A hold is a place you keep. It is whe
 
 It is built from pieces the other books already carry. The garrison is a #k[Warband]; the patron who grants your charter and the raiders who covet your walls are #k[Powers of the Land]; the clock the raids keep is the #k[Foretold Doom]; the season you spend raising a wall is #k[Downtime]; the hands that man it are the funnel's survivors and your hirelings. None of this is needed to crawl a dungeon. Bring it in when the party stops being wanderers and wants a place on the map.
 
+= The Base and the Loop
+
+Every expedition runs from a #k[base], a safe place you set out from and haul the take back to, and the game is the loop between the base and the dangerous ground beyond. That is a West Marches game, and this supplement runs one.
+
+- #item[The Base Is a Haven][It can be a town you borrow or a hold you build. A #k[borrowed Haven], a market town or a friendly refuge, is where most tables start and many stay: you do not own it, but you rest, resupply, hire, and turn loot to XP there. The Three Rungs below are the base you raise for yourself when a borrowed one is not enough.]
+- #item[The Loop][Set out toward a known or rumored site, delve, haul the take out, make the night call, and carry it home. Loot buys levels, Salvage and Standing buy a better base, and a better base opens deeper, higher-Tier ground. Then again.]
+- #item[Growing a Borrowed Base][You cannot build in a town you do not own, so you grow it by #k[Standing] instead. A Favored power opens its market, its healers, and its hireling hall, as Powers of the Land sets out. Earn the town, and it serves you like a hold you never had to raise.]
+- #item[No Fixed Party][Take who is free that session and strike out from the shared base. The base, its Standing, its buildings, and the map charted so far are the campaign's memory, not any one character.]
+- #item[Distance Is Danger][The region #k[Tier] in Travel grades the frontier, tame near the base and direr the farther you range. Players choose how deep to reach for how rich a haul.]
+
 = The Three Rungs
 
-A hold climbs a ladder, the way a warband earns its grades. Each rung is a real thing the party can point to, and each buys one more reason not to walk all the way home.
+A party that wants more than a borrowed town raises a base of its own. It climbs a ladder, the way a warband earns its grades. Each rung is a real thing the party can point to, and each buys one more reason not to walk all the way home.
 
 - #item[Camp][A night's safety, no more. Set at dusk with the gear on your backs, struck by dawn: a watch, a fire, a ring of stakes. It shelters a rest but mends nothing a bedroll would not, and the first raid scatters it. Free, and gone when you leave.]
 - #item[Outpost][Ground #k[cleared, watered, defensible, and held], a bolt-hole with a door that bars. An Outpost is a #k[Safe Haven] of your own: a week's rest here restores HP and ends Injured as any town does, and the walk to it is shorter than the walk to town. It holds a #k[cache], store Salvage, loot, and gear behind a lock, and seats #k[one Downtime Action] in the field, so the party can mend, craft, or study without the march back. Raising one takes #k[Salvage] and a season, below.]
@@ -48,6 +58,15 @@ Each building is a reason the party used to march to town, now inside the walls,
 - #item[Stable][Mounts and a #k[wagon], and the #k[haulage] to carry Salvage and loot home. The Stable is what makes the loot-run pay, and what carries the next hold's stone.]
 - #item[Cartographer][Maps of the country around. The first #k[Travel Check] of a journey that starts from the hold runs at #k[+2], or #k[+4] once the ground is well charted.]
 - #item[Hall][A great room that seats the garrison and draws followers. Raise the cap on hirelings and henchmen the hold can keep, and give a Warband a place to muster and winter.]
+
+= The Loot Run
+
+A hoard is only yours when it reaches the base. Dragging it out of the dark is its own problem, and the place encumbrance finally bites.
+
+- #item[Carry It Out][Loot and Salvage fill slots like any load, so what you cannot carry in one trip you cache, hide, or leave, and leaving it means someone else may find it. A great hoard is several trips, or a bigger train. Overloading, in the equipment supplement, says what a heavy load costs.]
+- #item[Carriers Wait at the Rim][Porters and a mule add slots, and a wagon hauls a cartload, but none follow into tight passages, down a cliff, or through water. They hold at the dungeon mouth or the base's edge while the party ferries the take out to them. A Stable's wagon is what turns a good haul into a load carried home.]
+- #item[The Night Call][With the day's take at the mouth and more below, choose. #k[Retreat to the base]: safe rest, and a Downtime Action if the base is yours, but tomorrow you re-walk the approach and the dungeon restocks. #k[Camp rough at the mouth]: a fast turnaround into cleared ground, but roll a night encounter at the region's Tier, and a camp overrun loses the cached take.]
+- #item[Home Again][At the base, loot becomes XP as the core says, a GP to the point once it is safe, and Salvage becomes the stuff of walls. The run is done, and the next starts from a base one rung, or one step of Standing, richer.]
 
 = The Garrison
 
@@ -94,11 +113,24 @@ Land has owners, even the wild. How you come to hold ground sets who your first 
   item[A Claimant][Someone arrives with a prior claim, a cause, or a debt. Trouble, or an ally, by how you meet it.],
 ))
 
+#colbreak()
+
 = Running a Hold
 
 - #item[Start at the Outpost][Do not sketch a castle on day one. The first real hold is one cleared dungeon, three loads, and a door that bars. The ladder earns the rest.]
 - #item[Let the Doom Pace It][Build in the slack seasons, hold in the hard ones. A hold is the party betting that what they raise outlasts what the Doom sends. Sometimes it does not.]
 - #item[Hand It to a Player][One player keeps the hold the way another keeps the warband: its Salvage, its garrison, its buildings, its castellan. A page of your own tracks it.]
+
+#rolltable("1d8", "Rumors of the Frontier", note: [A lead the base turns up, and where to set out next. Pitch the Tier to how far it lies from home.], (
+  item[A Barrow Opened][A storm has breached an old tomb and its wards are failing. The dead, and what they were buried with.],
+  item[The Flooded Mine][A drowned dwarf working, abandoned to its deep veins and whatever moved in after.],
+  item[A Dead Mage's Tower][Half-standing and trapped, with books, workings, and worse still inside.],
+  item[The Beast's Lair][A predator or monster dens near a road, over a season's worth of stolen hoard.],
+  item[A Darkened Shrine][A holy place gone silent. Its treasures remain, and so does the reason it fell.],
+  item[The Sunken Keep][A fallen stronghold: Salvage there for the hauling, and its old garrison risen to guard it.],
+  item[An Unmapped Cave][A dark the locals shun. The Tier is unknown until you are inside it.],
+  item[Deeper In][A way down from ground you already cleared, to older and richer dark.],
+))
 
 // Hold Record: a print worksheet, one per hold. The reflowable HTML export
 // drops its form spacing and boxes, so the whole page is built into the PDF
