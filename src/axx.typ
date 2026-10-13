@@ -106,7 +106,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
-- #item[Helpless][Attacks on a sleeping, paralyzed, or bound target hit automatically.]
+- #item[Helpless][Attacks on a sleeping, paralyzed, or bound target hit automatically. Call a blow nonlethal to drop a foe Helpless at 0, not slain.]
 - #item[Ending][A side that is down, flees, or yields ends it. Break line of sight to escape, unless chased at equal speed. A CHA check may turn a fight to parley, if the enemy can talk.]
 
 == Healing & Injury
