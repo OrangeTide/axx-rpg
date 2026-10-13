@@ -38,7 +38,7 @@ A standing choice, and the #k[slowest traveler sets it].
 
 == Overland
 
-A leg is a day, and the guide rolls #k[STR] to march and force the way. What you ride sets the distance and the load, below. Once per day in the wild, roll 1d6: on a 1, an encounter, so roll on the Threat table. A Lost Mishap or a filled Count calls for an #k[INT Check] to read the land and pick up the trail; fail and lose another day astray.
+A leg is a day, and the guide rolls #k[STR] to march and force the way. What you ride sets the distance and the load, below. Once per day in the wild, roll 1d6: on a 1, an encounter, read off the Terrain Matrix below, not a flat Threat roll, so the ground and the region decide what you meet. A Lost Mishap or a filled Count calls for an #k[INT Check] to read the land and pick up the trail; fail and lose another day astray.
 
 - #item[Road or trail][24 miles. +4 to Travel.]
 - #item[Open plain][20 miles. +2 to Travel.]
@@ -83,11 +83,30 @@ A leg is a day afloat, and the guide rolls #k[WIS] to navigate. Wind sets the di
 
 A leg is a day aloft, and the guide rolls #k[DEX] at the helm. An airship makes #k[120 miles] a day and flies straight over mountain and ocean, which is why the far spires are days away, not months. It answers to no terrain, but it answers to weather and its engine. A storm aloft is a Travel Check at #k[-4]: fail and the ship is flung off heading, loses height, and anyone on deck makes a Dodge save or goes over the rail. When the Count fills, or a Mishap breaks the engine, an #k[INT Check] keeps the aether-engine lit; fail and it costs a day of repairs, or sets you down to go on overland.
 
+= The Terrain Matrix
+
+A wandering monster should fit the ground and the region, not drop in from a harder game. Where the dungeon has depth, the overland has #k[Tier] and terrain: the Tier sets how dangerous the country is, the terrain sets what lives there, and a single d6 nudges the night's luck one step either way.
+
+- #item[Region Tier][The GM rates each region by how far it lies from help, I to IV. #k[I Settled], patrolled and tame #bar #k[II Borderland], the ragged edge of the map #bar #k[III Wild], no law, and old things stirring #bar #k[IV Blighted], the Doom's own country. The Tier caps the danger the way a dungeon's depth does, so read the heavier foes from the Bestiary as it climbs. A Decline step can raise a region a Tier, and a Stronghold reads its raids off the same number.]
+- #item[The Step][When an encounter comes, roll #k[1d6]. On a #k[1 or 2] it is a step milder, often only a Sign or a fresh track and no contact at all. On a #k[3 or 4] it meets the region at its Tier. On a #k[5 or 6] it is a step direr. Never more than one step, so a Settled wood never looses a Blighted horror.]
+- #item[Reading It][Take the terrain's line at the Tier the Step lands on, and stat the result from the Bestiary. The line names what haunts the ground; the Bestiary gives its numbers and keywords.]
+
+== The Ground and Its Denizens
+
+Each terrain reads low to high, Tier I to IV. Pick the entry at the Step's Tier.
+
+- #item[Road and Trail][#k[I] a trader, pilgrims, or a toll-keeper with news #bar #k[II] bandits, or a patrol that wants a word #bar #k[III] an orc raid, or a beast lairing by the road #bar #k[IV] a warband off the march, or the Doom's own agents.]
+- #item[Open Plain][#k[I] herds and the folk who drive them #bar #k[II] wolves, nomad riders, or a raiding party #bar #k[III] ogres, a wyvern hunting, or a warhost #bar #k[IV] a giant, a horde, or a dragon on the wing.]
+- #item[Forest and Hills][#k[I] boar, deer, and charcoal-burners #bar #k[II] a goblin band, outlaws, or a bear #bar #k[III] an orc patrol, a troll, or giant spiders #bar #k[IV] a dragon's hunting range, or a fey lord's grudge.]
+- #item[Mountains and Desert][#k[I] goats, eagles, and a hermit #bar #k[II] raiders, wolves, or a wyvern's range #bar #k[III] ogres, a griffon, or a giant's path #bar #k[IV] a dragon's eyrie, a giant's hold, or loosed elementals.]
+- #item[Swamp and Jungle][#k[I] stirges, serpents, and frog-folk #bar #k[II] lizardfolk, giant insects, or a hunting beast #bar #k[III] a troll, undead in the mire, or a black dragon's fen #bar #k[IV] a hag's demesne, or a horror of the deep mire.]
+- #item[Open Sea and Sky][#k[I] gulls, dolphins, or a fishing boat #bar #k[II] pirates, a serpent's wake, or a roc aloft #bar #k[III] a reaver fleet, or a wyvern flight #bar #k[IV] a dragon turtle, a sky-leviathan, or a storm given shape.]
+
 #rolltable("1d8", "Mishaps", note: [Roll on a failed Travel Check, or when the Journey Count fills.], (
   item[Lost][Add a day finding the way. At sea you are off course; aloft, blown off heading.],
   item[Weather Turns][You are Weakened until it breaks, or hole up and lose a day. At sea or aloft, a storm, as that road says.],
   item[Breakdown][A mount goes lame, an axle breaks, a sail tears, the engine coughs. Mend it with a Check or go on slower.],
-  item[Not Alone][A wandering monster on open ground or deep water. Roll on the Threat table.],
+  item[Not Alone][A wandering monster on open ground, deep water, or high air. Read it off the Terrain Matrix.],
   item[The Ground Turns][A flood, a rockfall, a ravine, a reef, a downdraft. A Check to cross, or a day the long way around.],
   item[Spoiled Stores][A day's rations ruined, or the water fouled.],
   item[Hard Going][Someone is hurt or loses heart. A traveler is Weakened until the next safe rest, or a hireling tests morale.],
