@@ -65,7 +65,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == The Core Roll
 
-- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or the GM may grant it at a price. 9+ for easy, 15+ for hard. Round down by default; a bonus or penalty counts once per source.]
+- #item[Check][For a risky action, roll #k[1d20 + Ability Mod], #k[12+] to succeed. Fall short and it fails, or the GM may grant it at a price. 9+ for easy, 15+ for hard. Rolls may be skipped when there is nothing at stake. Round down by default; a bonus or penalty counts once per source.]
 - #item[Class Check][A check using class training adds your Level: #k[1d20 + Level + Ability Mod], 12+.]
 - #item[Save][A check against a hazard: #k[1d20 + half Level + Ability Mod], #k[12+], or 10 + HD or higher if a creature caused it. Success avoids or halves the effect. Monsters save at #k[1d20 + HD], 10 + the caster's Level or higher.]
   - #k[Body (CON):] poison, death magic, paralysis, petrification, disease. #k[Dodge (DEX):] breath, blasts, falling, pits, dart traps. #k[Will (WIS):] spells, charm, fear, illusion. Save against the effect, not the thing that delivers it.
@@ -83,7 +83,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 - #item[Search][One turn per 10 ft section, WIS check: find a secret door, trap, or hidden cache. A Thief uses a Class Check, and can disarm a trap they find. A trap left unfound springs when triggered, forcing its Dodge save.]
 - #item[Doors][Stuck: STR check to force. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
-- #item[Wandering Monsters][Roll 1d6 every third turn, and at once after a fight, a forced door, or a shout: a #k[1], or #k[1--2] after noise, brings a wanderer from the Threat table.]
+- #item[Wandering Monsters][Roll 1d6 about every third turn, and at once after a fight, a forced door, or a shout: a #k[1], or #k[1--2] after noise, brings a wanderer from the Threat table.]
 - #item[Darkness][Swinging at what you can't see is -4. Targeted spells need line of sight.]
 - #item[Hirelings][Torchbearer #k[1 GP/day] (HD 1/2, HP 3, AC 10). Man-at-arms #k[5 GP/day] (HD 1, HP 6, AC 13, Atk +1, 1d6). Each takes a half share of XP. When first asked to risk death, make a CHA check or they flee or quit.]
 
@@ -149,8 +149,8 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 = Running the Dungeon
 
-- #item[Depth][Dungeon level 1 is nearest the surface. On levels 1 and 2, roll Threat on the #k[1d6] table below; deeper, add the level and read the heavier foes from the Bestiary. Coin results multiply by the level.]
-- #item[Stocking][For each room roll 1d6: #k[1--3] empty (1-in-6 chance of hidden treasure, found by Search) #bar #k[4] monster (1-in-2 chance it guards treasure) #bar #k[5] trap or trick (Dodge save or 2d6 damage, or a puzzle; below level 3, gas: Body save or Petrified) #bar #k[6] treasure, with a guard on 1--2 on 1d6.]
+- #item[Depth][Dungeon level 1 is nearest the surface. On levels 1 and 2, roll Threat on the #k[1d6] table below, or pick; deeper, add the level and read the heavier foes from the Bestiary. Coin results multiply by the level.]
+- #item[Stocking][For each room roll 1d6, or place it by hand: #k[1--3] empty (1-in-6 chance of hidden treasure, found by Search) #bar #k[4] monster (1-in-2 chance it guards treasure) #bar #k[5] trap or trick (Dodge save or 2d6 damage, or a puzzle; below level 3, gas: Body save or Petrified) #bar #k[6] treasure, with a guard on 1--2 on 1d6.]
 - #item[Handing Out Treasure][Treasure comes from stocking, not from fights. Defeated monsters carry 1d6 x 10 GP on a 1--2 on 1d6, else nothing but XP. A leader of 3+ HD carries one Treasure roll.]
 
 #rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. #k[Mindless] is immune to Sleep, Charmed, Poisoned, and Frightened. The Bestiary holds the heavier foes and the full list of keywords.], (
