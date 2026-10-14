@@ -43,7 +43,8 @@ Each power wants something: coin, secrets, blood, worship, land, or the Doom to 
 
 == Favor and Enmity
 
-- #item[Favored][Their region is a Haven to you. Expect a discount, a hireling, a thread of lore, or a shot at a named item held back from the market.]
+- #item[Favored][Their region is a Haven to you, with a bed, a hireling, and a thread of lore for the asking. What its market opens to you climbs with Standing, below.]
+- #item[The Shelf][A power stocks by its Specialty, and how much of that shelf it opens to you rises a rung at a time. #k[Wary] sells nothing it would miss #bar #k[Neutral] the common stock at the common price #bar #k[Favored] a discount, and first refusal on an item held back from the open market #bar #k[Sworn] the guarded shelf, a relic, a named item, a specialist's work, or a levy from the Warband book. Befriend the power that sells what you need.]
 - #item[Hostile][Their region is a threat. Patrols, bounties, barred gates, and a knife at your back while you crawl someone else's dungeon.]
 
 == Rivals

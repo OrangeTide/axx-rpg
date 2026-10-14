@@ -49,6 +49,7 @@ Give it a reason in the world, so it reads as more than a convenient escape. The
 
 = Tuning
 
+- #item[Sizing a Count][Any Count, the Doom, a Journey, a raid: match the marks to the fill rate, or the name lies. #k[Imminent] 4, #k[Looming] 6, #k[Distant] 8. Never spend one bad roll twice, on the Check and the Count both.]
 - #item[Buying Back Time][Optional. A major victory, toppling a lieutenant, sealing a gate, saving a province, restores one mark, never above the starting number.]
 - #item[Harder or Softer][Fewer marks for dread, more for a slow saga. Hand out extra ticks freely to tighten the screw, or waive them to loosen it.]
 
