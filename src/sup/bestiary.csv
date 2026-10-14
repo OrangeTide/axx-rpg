@@ -79,3 +79,10 @@ Roc,beast,12,60,15,+12,1d8/1d8/2d6,,common,"Flies. A titan eagle. Two talons and
 Pegasus,monster,4,18,15,+4,1d6/1d6,,common,"Flies. A noble winged horse, shy of the cruel and the loud. Two hooves. Will bear a rider it judges worthy, won by patience, never by force. Tell: hoofprints that run to a cliff and lift away. Want: to stay wild, or be gentled by a kind hand.",
 Sphinx,monster,9,45,16,+9,2d4/2d4,,common,"Flies. Lion-bodied, grave, and old. Sets a riddle: answer true and it may aid you or wave you past; answer false and it falls on you. Roar once a day: all within 30 ft Body save or deafened and -2 for the fight. Tell: a riddle cut into the pass, bones of wrong answers beneath. Want: a riddle well met, or a finer one in trade.",
 Will-o'-Wisp,monster,3,14,18,+3,2d8,,common,"Flies and darts, almost impossible to strike (AC 18). A bobbing light that lures travelers into bog and mire, then feeds on their terror as they sink. Can snuff itself dark to vanish. Tell: a warm lantern where no road or house stands. Want: to drown you, and drink the fear of it.","It lures you into the mire; ignore the light and it finds no prey."
+Riding Horse,beast,2,10,12,+2,1d4,,common,"60 ft, double that on the road. Will not stand in a fight; a panic kick is 1d4, and it bolts at blood, fire, or a monster's roar.",
+War Pony,beast,2,10,13,+2,1d3/1d3,,common,"40 ft. War-trained and surefooted in hill and mountain. Two hooves.",
+Light Warhorse,beast,2,10,13,+2,1d4/1d4,,common,"60 ft. War-trained and fast, the scout's and skirmisher's mount. Two hooves.",
+Medium Warhorse,beast,3,15,13,+3,1d6/1d6/1d3,,common,"50 ft. The common cavalry mount, war-trained. Two hooves and a bite.",
+Heavy Warhorse,beast,3,15,14,+3,1d8/1d8/1d3,,common,"40 ft. The destrier, bred for the lance and the charge. Two hooves and a bite.",
+Mule,beast,2,10,12,+2,1d4,,common,"40 ft. Stubborn and surefooted, hauls a load where a horse balks. A kick for 1d4.",
+Camel,beast,2,10,12,+2,1d4,,common,"40 ft. Keeps the desert and goes long without water. Spits, bites, and kicks for 1d4.",
