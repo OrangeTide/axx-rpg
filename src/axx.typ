@@ -145,7 +145,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 - #item[XP][#k[1 GP = 1 XP] once brought to town. A defeated or outwitted monster earns #k[25 XP per HD]. The first visit to each dungeon level earns #k[100 XP x depth]. Level 2 costs by track (see Classes); each later Level doubles the last.]
 - #item[Level Up][Roll one more Hit Die + CON and add it to HP. Attacks follow your track; saves and slots follow Level.]
-- #item[Improvise][These rules are a foundation to build your own game upon. Use a Check at 12+ for general situations not explicitly stated. Rulings by the GM are more potent than this book, and the GM is the ultimate judge and arbiter for how your fantasy realm functions. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
+- #item[Improvise][These rules are a foundation to build your own game upon. Use a Check at 12+ for general situations not explicitly stated. Rulings by the GM are more potent than this book, and the GM is the final arbiter of how your fantasy realm works. Anything from 1st Edition drops right in: AC is 19 minus the old number, HD is HD, saves as above.]
 
 = Running the Dungeon
 

@@ -23,7 +23,7 @@ It adds options, not new dice. Every rule here is still #k[1d20 + a flat modifie
 = Charging & Bracing
 
 - #item[Charge][Move at least 20 ft in a straight line at a foe, then make one melee attack at +2. You are committed: -2 to your own AC until your next turn. Difficult ground or a turn in the path cancels it.]
-- #item[Set Against a Charge][Ready a spear, pike, or polearm and name the way you face. The first charger or large creature to reach you is struck first and takes double damage. This is why a braced line beats cavalry.]
+- #item[Set Against a Charge][Ready a spear, pike, or polearm and name the way you face. The first charger or large creature to reach you is struck first and takes double damage.]
 - #item[Shove & Trip][In place of an attack, make a STR check against a foe's STR, or its HD for a monster. Win, and push it back 5 ft or drop it Prone. A creature two sizes larger cannot be moved this way.]
 
 = Tactical Actions
@@ -64,7 +64,7 @@ For grabs, tackles, and bare hands, when a blade is the wrong tool.
 
 = Optional: Heroes of the Line
 
-Martial skill shows in volume, not only in bigger numbers. The extra attacks are already core, and the High Level Play supplement runs them in full, with sweep, two weapons, and weapon mastery. A quick reference:
+Martial skill shows in volume as well as in bigger numbers. The extra attacks are already core, and the High Level Play supplement runs them in full, with sweep, two weapons, and weapon mastery. A quick reference:
 
 - #item[Extra Attack][A core #k[Warrior], Fighter, Barbarian, or Ranger, makes a second attack at Level 6 and a third at 11, each a full roll at the same Attack Mod.]
 - #item[Cleave][When a Warrior's melee attack drops a foe, the swing carries into another within reach, once per turn.]

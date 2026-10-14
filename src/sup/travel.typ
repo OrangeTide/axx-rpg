@@ -85,7 +85,7 @@ The By Sea leg above runs the crossing. This is the hull you cross in: a berth b
 
 - #item[Passage][Pay per head and ride her route, about #k[2 GP a leg] in the hold, more for a cabin. The captain sets the course and the schedule and makes the ship's Travel Checks. You bring only your own slots.]
 - #item[Charter][Hire the whole hull: set the route and the cargo, crew her or pay a crew, and own every Mishap. Reckon it near a crew's wages for the voyage. Now your guide makes the navigation Check, and you fill her hold.]
-- #item[Buy Her][A ship is a campaign prize, not a shop line. Set the price with the GM, or win one, and take on her upkeep, her crew's wages, and a home port. The strongholds supplement runs a port as a base.]
+- #item[Buy Her][A ship is a campaign prize. Set the price with the GM, or win one, and take on her upkeep, her crew's wages, and a home port. The strongholds supplement runs a port as a base.]
 - #item[The Hold][A hull hauls like a wagon writ large, far past what a party can carry, which is how loot and Salvage come home. Count the hold in #k[loads], as strongholds counts Salvage. Load her past full and she rides low: a step slower, and -2 to every storm Check.]
 - #item[Crew][She needs hands to make her distance. Short-crewed, she sails a step slower and a storm Check is at a further -2. Wages run a man-at-arms' #k[5 GP a day] each, or press and volunteers as the Hirelings and Warbands rules allow. A galley's rowers are its muscle and its morale both.]
 - #item[Stores][Crew and passengers eat a ration a day, and water runs dry at sea. On a long crossing, name the Journey Count for the water casks; empty stores are the core's Weakened until a landfall.]

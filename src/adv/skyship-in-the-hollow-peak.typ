@@ -8,7 +8,7 @@
 
 = Background
 
-For three nights a green star has hung over the mountains, and each dawn it sits lower in the sky. In the village of Brackenford, the old mapmaker Orla Venn knows it for what it is. No star at all, but a signal lantern, shining from the lost skyship _Gale's Promise_.
+For three nights a green star has hung over the mountains, and each dawn it sits lower in the sky. In the village of Brackenford, the old mapmaker Orla Venn knows it for what it is: a signal lantern shining from the lost skyship _Gale's Promise_.
 
 The ship vanished thirty years ago while carrying a sealed brass coffer to the wizard's observatory at Hollow Peak. Orla offers the party #k[500 GP] to find it and bring the coffer back. She warns them the captain was a proud man, and that he would sooner burn his vessel than hand it over.
 

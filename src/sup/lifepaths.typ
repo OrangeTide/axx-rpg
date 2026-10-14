@@ -24,7 +24,7 @@ Pick a career whose key ability is #k[9 or higher] (a +0 modifier or better). Ro
 
 A term is four years. Resolve these in order, then decide whether to serve another.
 
-- #item[Survival][#k[1d20 + survival ability, 12+]. Fail and death reaches for you: roll on #k[Brush with Death] in the core rules. On #k[Slain], scrap the sheet and roll a new character. On any other result you lived through it and carry any lasting mark, a Maimed limb or a Scar. The HP and recovery lines belong to the dungeon, not your past.]
+- #item[Survival][#k[1d20 + survival ability, 12+]. Fail and death reaches for you: roll on #k[Brush with Death] in the core rules. On #k[Slain], scrap the sheet and roll a new character. On any other result you lived through it and carry any lasting mark, a Maimed limb or a Scar. The HP and recovery lines belong to the dungeon.]
 - #item[Progress][#k[1d20 + key ability, 12+]. Success earns rank and #k[500 XP], and a roll on Benefits. Failure earns #k[250 XP] and nothing more.]
 - #item[Event][Roll once on Lifepath Events for the mark this term left on you.]
 
@@ -50,7 +50,7 @@ Key is the ability you roll to Enlist and to Progress. Survival is the ability y
 - #item[Free Company][Fighter or Thief. Key STR, Survival STR. Paid blades on a hard campaign.]
 - #item[Drafted (Peasant)][Any class. No key. Survival CON. The fallback when enlistment fails.]
 
-Militia and Free Company are service under arms, a stint in the kind of host the Warband supplement fields. A veteran keeps those bonds. Hold a Rank and you may call your old company to the banner for a cause or a wage, a warband of men-at-arms from a Free Company or of militia from the Militia. They remember the years you served with them.
+Militia and Free Company are service under arms, a stint in the kind of host the Warband supplement fields. A veteran keeps those bonds. Hold a Rank and you may call your old company to the banner for a cause or a wage, a warband of men-at-arms from a Free Company or of militia from the Militia.
 
 = Example
 
@@ -67,7 +67,7 @@ Roll on these as each term of service calls for them. Benefits and Events come u
   item[Knack][A background trade, such as riding, herbs, stonework, or forgery. +2 to Checks that use it.],
   item[War Chest][2d6 x 10 GP, saved from your pay.],
   item[Toughening][+1 to your career's key ability, to a maximum of 18.],
-  item[Heirloom][Roll 1d6: #k[1--3] a scroll or potion #bar #k[4--5] a +1 ring or protective charm #bar #k[6] a +1 weapon.],
+  item[Heirloom][Roll 1d6: #k[1 to 3] a scroll or potion #bar #k[4 to 5] a +1 ring or protective charm #bar #k[6] a +1 weapon.],
   item[Rank][+1 to every later Progress roll in this career, and one more Mustering Out roll.],
 ))
 

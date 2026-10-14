@@ -72,7 +72,7 @@
 #grid(
   columns: (1.05fr, 1.25fr, 1fr),
   column-gutter: 14pt,
-  // --- the Day ---
+  // ===== the Day =====
   [
     #sechead("The Day")
     #field("Day", 24%)#h(0.8em)#lbl("8h sleep")#h(0.3em)#sq
@@ -83,7 +83,7 @@
     #v(0.5em)
     #note[Skip the ration and you heal nothing and are Weakened until you eat. Bind Wounds is once a day, a rest Turn, 1d4 HP.]
   ],
-  // --- light and supplies ---
+  // ===== light and supplies =====
   [
     #sechead("Light")
     #lbl("Torches, 6 Turns each")\
@@ -96,7 +96,7 @@
     #v(0.3em)
     #note[The dark is -4 to swing at what you cannot see, and spells need line of sight.]
   ],
-  // --- depth, order ---
+  // ===== depth, order =====
   [
     #sechead("Depth and Order")
     #lbl("Level first entered, 100 XP x depth")

@@ -16,7 +16,7 @@ It is built from pieces the other books already carry. The garrison is a #k[Warb
 
 A party adventures out from a safe place and bears its winnings back to it. At the start that place is a #k[town], the farthest outpost of law before the wilds begin: a taproom to plan in, a market to outfit at, a temple to mend you, and men to hire. You do not own it, but you rest, resupply, and tally your treasure as experience there, then set out again. This runs that open, player-driven campaign the West Marches made its name on: the party chooses where in the wilds to dare, and the country, not a plot, decides what it finds.
 
-- #item[The Wilds][Beyond the last field lies frontier, regions each with its own tone and hazards: known landmarks, rumored ruins, and ground no one has yet walked. The party picks where to go and the GM stocks what is there. The players make the adventures; the land does not come to them.]
+- #item[The Wilds][Beyond the last field lies frontier, regions each with its own tone and hazards: known landmarks, rumored ruins, and ground no one has yet walked. The party picks where to go and the GM stocks what is there. The players make the adventures, and the land waits to be walked.]
 - #item[The Farther Out, the Deadlier][Danger rises with the walking distance from town, not as the crow flies. The region #k[Tier] in Travel sets it, each region harder than the last, so a party reaches as far as it dares for as rich a haul. A prize beyond their strength is marked and left for when they are higher Level.]
 - #item[Rumors][Every foray begins with a lead traded in the taproom: a landmark, a rumored ruin, a region to be first into. Rumors of the Frontier, below, is where the next expedition is chosen.]
 - #item[No Fixed Party][Take whoever has gathered to go, and set out. The town, its rumors, the map drawn so far, and the holds raised are the campaign's memory, not any one party.]
@@ -32,11 +32,11 @@ A party that wants more than a borrowed town raises a hold of its own. It climbs
 
 = Salvage
 
-A hold is not bought with gold. Gold is experience the moment it reaches town, and a stronghold priced in gold is a hole you pour your levels into. So you build with #k[Salvage], hauled out of ruins by the #k[load]: dressed stone, seasoned timber, iron fittings, a looted forge, a fallen hall's worth of good material carted off by the wagon.
+Gold is experience the moment it reaches town, and a stronghold priced in gold is a hole you pour your levels into. So you build with #k[Salvage], hauled out of ruins by the #k[load]: dressed stone, seasoned timber, iron fittings, a looted forge, a fallen hall's worth of good material carted off by the wagon.
 
 - #item[The Find][A cleared #k[lair] yields #k[1 to 2 loads]; a #k[vault] or a great ruin, #k[3 to 5]. The GM sets it when the place is taken, by how much worked stone and metal it holds. Bare caves give none.]
 - #item[Hauled, Not Sold][Salvage is bulky and worth little to anyone but you. It does not sell, and coin does not buy it. It fills a wagon or a Stable's #k[haulage] the way loot fills slots, so getting Salvage home is the same haul as bearing out treasure. A hold raised near its quarry is a hold raised faster.]
-- #item[Spent, Not Banked][Salvage goes into walls and buildings and stays there. It is not a purse you carry between holds. It is the hold itself, taking shape.]
+- #item[Spent, Not Banked][Salvage goes into walls and buildings and stays there. It is the hold itself, taking shape.]
 
 = Raising the Hold
 
@@ -73,7 +73,7 @@ A hoard is no good to you in the dungeon. Treasure is heavy, as the core's slots
 Walls do not fight; soldiers do. A hold is held by a #k[Warband], mustered and run by that supplement, standing watch while the party is in the field.
 
 - #item[Who Mans It][The funnel's survivors, men-at-arms hired by the day, a levy a #k[Favored] power lends you, or henchmen too green to delve. Five or more under a banner is a warband, as ever.]
-- #item[The Castellan][Someone holds it while you delve: a #k[henchman] Commander, or a #k[retired veteran] who has hung up their delving boots. A mustered-out character does not vanish. Their gear and one knack or special ability stay with the company as the castellan's, a trainer, a quartermaster, or a captain of the watch, seeding the garrison they now command.]
+- #item[The Castellan][Someone holds it while you delve: a #k[henchman] Commander, or a #k[retired veteran] who has hung up their delving boots. A mustered-out character remains. Their gear and one knack or special ability stay with the company as the castellan's, a trainer, a quartermaster, or a captain of the watch, seeding the garrison they now command.]
 - #item[Upkeep][Wages are coin, as the core hirelings rule, a man-at-arms at #k[5 GP a day]. A season's garrison is a real purse, and the first drain a hold puts on the party. A hold with a Stable and worked land feeds itself and pays part of its own keep, the GM's call.]
 
 = The Raid
@@ -91,7 +91,7 @@ Land has owners, even the wild. How you come to hold ground sets who your first 
 
 - #item[By the Sword][Clear a dungeon to its roots and you hold the ground above it by right of the last one standing. Expect the thing you evicted, or its kin, to want it back.]
 - #item[By Grant][A #k[Favored] or #k[Sworn] power deeds you land and a charter, and lends a levy to hold it. Now they share the hold with you, a forward post in their war, and its enemies are the ones they name.]
-- #item[By Taking It][Seize a standing keep, a bandit hold, or an abandoned tower, and inherit its walls and its grudges both. Faster than building, and never quite yours until the old claim is settled.]
+- #item[By Taking It][Seize a standing keep, a bandit hold, or an abandoned tower, and inherit its walls and its grudges both. Faster than building, but the old claim stands against you until someone settles it.]
 
 #rolltable("1d8", "At the Gates", note: [Who comes for the hold, or what a lost defense costs. Roll when the Doom turns an enemy toward your walls.], (
   item[A Raiding File][A warband or two of the region's tier, after loot and gone by dawn. Beat it and the frontier learns your name.],

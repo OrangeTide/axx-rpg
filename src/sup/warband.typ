@@ -58,7 +58,7 @@ A blast does not wipe an army: soldiers shield one another, and a crowd scatters
 = Losses, Morale, and Recovery
 
 - #item[Casualties][Damage removes files from the fight. Below #k[one file], the remnant is no longer a warband: it scatters into individuals or routs.]
-- #item[Morale][When the host first loses a quarter of its files, and again at half, the GM rolls 1d6 as the core Morale rule: on 1--3 it breaks. A mindless or sworn host does not check.]
+- #item[Morale][When the host first loses a quarter of its files, and again at half, the GM rolls 1d6 as the core Morale rule: on 1 to 3 it breaks. A mindless or sworn host does not check.]
 - #item[After the Battle][Not every fallen file is dead. On a field you hold, #k[half the lost files] return, knocked down, scattered, or lightly hurt and regrouped. A routed or slaughtered host gets few back, or none.]
 
 = The Commander

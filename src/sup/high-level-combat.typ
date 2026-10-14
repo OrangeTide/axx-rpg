@@ -15,8 +15,8 @@ It adds no new dice. Each blow is still #k[1d20 + your Attack Mod] against AC. W
 = The Warrior's Progression
 
 - #item[When][A core #k[Warrior], Fighter, Barbarian, or Ranger, strikes twice from Level 6 and three times from Level 11. The core sets this and keeps it. No other track gains extra attacks from Level.]
-- #item[Melee Only][The extra blows are melee. A bow, sling, or crossbow holds its own rate of fire whatever your Level, see Missiles below. Level makes an archer hit harder, not oftener.]
-- #item[Spending Them][Each attack is a full roll at the same Attack Mod. Split them across any foes in reach, named before you roll. A short step may fall between blows, but a full move is the alternative to attacking, not a part of it.]
+- #item[Melee Only][The extra blows are melee. A bow, sling, or crossbow holds its own rate of fire whatever your Level, see Missiles below.]
+- #item[Spending Them][Each attack is a full roll at the same Attack Mod. Split them across any foes in reach, named before you roll. A short step may fall between blows; a full move is the alternative to attacking.]
 - #item[Charge and Withdraw][A Charge lands your full attacks, all on the foe you closed with, at +2 and -2 to your own AC until your next turn. A Withdraw spends the action and draws no blows of its own.]
 - #item[The Ceiling][Three attacks is the top of the base rule. For a long campaign, allow a fourth at Level 16. Weapon Mastery is the other road past three.]
 

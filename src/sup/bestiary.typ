@@ -15,10 +15,10 @@ The conventions match the core rules. A monster has about #k[5 HP per Hit Die], 
 
 == Encounters as Puzzles
 
-A monster is a problem to solve, not just a heap of hit points. Every fight offers four answers: Fight, Flee, Talk, or Exploit a weakness. The job of a stat block is to arm that choice before it is made.
+A monster is a problem to solve. Every fight offers four answers: Fight, Flee, Talk, or Exploit a weakness. The job of a stat block is to arm that choice before it is made.
 
 - #item[Read the Foe][A look at the scene, or a Lore check with INT, tells the party what the creature shrugs off, what cuts it deep, and what it wants. The notes carry this: an #k[Immune] line it ignores, a #k[Resistant] or #k[vulnerable] line for damage, a weakness to name, and often a Tell (how it reads on sight) and a Want (what might buy it off).]
-- #item[Fight or Run][Armor the decision with the numbers. HD and damage say how hard it hits; an immunity may make a fight hopeless, a vulnerability may make it quick. Let the players weigh this while they still can, not after the first blow.]
+- #item[Fight or Run][Armor the decision with the numbers. HD and damage say how hard it hits; an immunity may make a fight hopeless, a vulnerability may make it quick. Let the players weigh this while they still can, before the first blow.]
 - #item[Telegraph the Trick][A deadly effect, a gaze, a breath, a drain, shows a round before it lands. That round is the warning. A party that reads the Tell can ready the counter, per the core The Answer rule, and turn the creature's trick aside.]
 - #item[Be Ruthless, Be Fair][Because the trick is telegraphed and answerable, the GM can trigger it without pulling the punch. The danger stays real; the puzzle stays solvable.]
 
@@ -27,7 +27,7 @@ A monster is a problem to solve, not just a heap of hit points. Every fight offe
 - #item[HD][Hit Dice. Also the attack bonus, and the number appearing often scales with it.]
 - #item[HP][A typical total. Roll 1d6 per HD for variety, or just use this.]
 - #item[AC][Ascending. The target an attacker needs.]
-- #item[Atk][The attack bonus, equal to HD, and the damage in parentheses with its type. Slashed dice, as claw/claw/bite, are several attacks a round, one roll each at the same bonus.]
+- #item[Atk][The attack bonus, equal to HD, and the damage in parentheses with its type. Slashes separate several attacks a round, as claw/claw/bite, one roll each at the same bonus.]
 - #item[Notes][Number appearing, behavior, and the abilities below, named by keyword.]
 - #item[Trick][One line on the puzzle of the fight: the defense to get past, or the weakness to exploit. The notable foes carry one; a plain fight needs none.]
 

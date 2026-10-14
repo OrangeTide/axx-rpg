@@ -14,7 +14,7 @@ The feel is the old hex-map wargames, a weird continent of kingdoms: ancient, sc
 
 == Running These at the Table
 
-Do not bring all of them in at once. Treat the roster as a map to draw from. You stage only the few you need.
+Do not bring all of them in at once. Treat the roster as a map to draw from.
 
 - #item[Start small][Pick two to four powers whose territory touches where the party begins. Leave the rest as rumor, a name on the map, until the party travels into their reach.]
 - #item[Let Ties choose][A character's core Tie binds to a power, as #k[Ties to the World] below sets out. Seat the factions your players already hold a lever on, and the ones that matter pick themselves.]
@@ -49,7 +49,7 @@ Each power wants something: coin, secrets, blood, worship, land, or the Doom to 
 
 == Rivals
 
-Powers contend, so your friends make your enemies. Aiding one power shifts you a step against each rival its entry names. You cannot befriend the whole map; choose your enemies deliberately, and let two foes spend themselves on each other.
+Powers contend, so your friends make your enemies. You cannot befriend the whole map; choose your enemies deliberately, and let two foes spend themselves on each other.
 
 == Ties to the World
 
@@ -65,7 +65,7 @@ Give it a region, a people, a specialty, a stance, and one strange want. Add a h
 
 = The Powers
 
-Generated from #k[factions.csv]. Each is a faction of the land.
+Generated from #k[factions.csv].
 
 #let fmt(r) = {
   let name = r.at(0)

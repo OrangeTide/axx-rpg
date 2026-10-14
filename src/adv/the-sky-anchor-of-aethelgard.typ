@@ -47,7 +47,7 @@ The Navigator opens its eyes and asks whose orders it follows now. The party has
 
 Pipkin pays the promised #k[1,000 GP] the moment the chart proves true. Keep the _Sovereign_ and the party holds a ship that crosses oceans in days, though its Aether-Engine wants a gnomish wright's care after every long haul.
 
-Either way, a fleet of hired blades now knows the ship was found, and the open sky ahead is not empty.
+Either way, a fleet of hired blades now knows the ship was found, and the open sky ahead holds danger.
 
 = Threats
 

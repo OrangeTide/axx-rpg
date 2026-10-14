@@ -43,7 +43,7 @@ A henchman is not hired but won: a loyal adventurer who throws in with you for a
 
 - #item[How Many][You may lead henchmen up to your #k[CHA modifier + 1], minimum one. A charmer draws a following; a boor leads no one.]
 - #item[Where They Come From][A funnel survivor you kept, a captive you freed, a Lifepath Comrade or Retainer, a faction's gift, or a likely sort won in a tavern with a #k[CHA check]. Each is a full character, rolled up, entering at Level 1 or a Level below you.]
-- #item[The Deal][No wage. A henchman takes a #k[half share] of loot and XP and #k[levels on it], and gets a say in how both are split. That share is owed by right, not granted by your largesse.]
+- #item[The Deal][No wage. A henchman takes a #k[half share] of loot and XP and #k[levels on it], and gets a say in how both are split. A henchman is owed that share by right.]
 - #item[Loyalty][Loyalty is won by use. Share fairly, spend them as comrades not fodder, and they hold. Cheat or risk them past reason and loyalty frays: a CHA check or a morale test when pushed, and a broken henchman walks, or turns, a ready-made Rival or Enemy.]
 - #item[The Succession][When your character dies, a henchman is the replacement the core already promises: leveled, equipped, and tied to the party. Promote one, and roll a fresh henchman in their place.]
 

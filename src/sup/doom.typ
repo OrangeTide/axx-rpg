@@ -35,7 +35,7 @@ The world does not wait for zero. Each quarter of the Count that empties advance
 
 = The End
 
-At zero the doom lands. The rite completes, the comet falls, the sea comes in. The campaign is lost, in the way the Decline had been writing on the wall for hours of play. It is not a twist; it is the bill. The GM narrates the dark age that follows. From there you can call it an ending, or carry survivors into that fallen world as a different, harder game.
+At zero the doom lands. The rite completes, the comet falls, the sea comes in. The campaign is lost, in the way the Decline had been writing on the wall for hours of play. It is the bill come due. The GM narrates the dark age that follows. From there you can call it an ending, or carry survivors into that fallen world as a different, harder game.
 
 = Succession
 
@@ -43,7 +43,7 @@ A party wipe does not wind the Count back. The years still passed, and now they 
 
 = Variant: Death Winds the Doom Back
 
-For a kinder campaign you can lose and begin again, let a total party wipe wind the Count back to full, or back by half if full is too soft. The campaign becomes a cycle you can lose and try again, not a single falling line. The pressure now comes from wanting to reach the end before you run out of heroes you care about, rather than from the calendar alone.
+For a kinder campaign you can lose and begin again, let a total party wipe wind the Count back to full, or back by half if full is too soft. The campaign becomes a cycle you can lose and try again. The pressure now comes from wanting to reach the end before you run out of heroes you care about, rather than from the calendar alone.
 
 Give it a reason in the world, so it reads as more than a convenient escape. The age is caught in recurrence: a prophecy that re-rolls when its champions die, a god of time that rewinds to its last chosen, a cycle the villain's unfinished rite forces on the world. Each new party wakes at the dawn of the twelve years with the dim sense they have walked this road before, and now and then a memory that proves true: a trap they already know, a face they should not recognize, a door that should not be open.
 

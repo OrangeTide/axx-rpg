@@ -83,4 +83,4 @@ Be plain about the lineage. This effect-based split is close to third edition's 
   [Spell], [By the effect: Will for the mind, Dodge for a blast, Body for poison or withering],
 )
 
-Two old threats had no save: a fall (now a Dodge save to halve it) and energy drain (now a Body save vs the Drain keyword). Save-or-die becomes a save at 10 + HD.
+Two old threats had no save: a fall (now a Dodge save to halve it) and energy drain (now a Body save vs the Drain keyword).

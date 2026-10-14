@@ -15,7 +15,7 @@ It adds no new dice. A mounted attack is still #k[1d20 + Attack Mod] against AC,
 = Riding into a Fight
 
 - #item[From the Saddle][Mounted, you move at the mount's speed and strike down from #k[high ground, +1], as the Combat supplement sets out, with the reach to hold off anyone on foot. You take the mount's whole movement and still attack.]
-- #item[A Steady Mount][A #k[war-trained] horse fights without a thought from you. Any other mount, a palfrey, a pack mule, a borrowed nag, will not charge or stand in a melee: ride it into blood, fire, or a monster's roar and make a #k[Ride check] (DEX, or a Class or Lifepath Check, 12+) to hold it, or it tests #k[Morale] and bolts, carrying you off or throwing you. Roll only when the fiction would spook it.]
+- #item[A Steady Mount][A #k[war-trained] horse fights without a thought from you. Any other mount, a palfrey, a pack mule, a borrowed nag, will not charge or stand in a melee: ride it into blood, fire, or a monster's roar and make a #k[Ride check] (DEX, or a Class or Lifepath Check, 12+) to hold it, or it tests #k[Morale] and bolts, carrying you off or throwing you.]
 - #item[Hands and Heed][Managing a mount in a melee wants a hand and your attention. Fighting two-handed from the saddle, or casting, rides on the mount's steadiness alone, a war-trained beast or a Ride check each round.]
 
 = The Charge
