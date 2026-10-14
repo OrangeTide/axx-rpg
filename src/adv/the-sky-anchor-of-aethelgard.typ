@@ -1,4 +1,4 @@
-#import "../../lib/24xx.typ": *
+#import "../../lib/adventure.typ": *
 
 #show: xx.with(
   title: "AX&X: The Sky-Anchor of Aethelgard",
@@ -53,9 +53,11 @@ Either way, a fleet of hired blades now knows the ship was found, and the open s
 
 #k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage. Attack bonus equals HD.
 
-- #item[Gargoyle][HD 4, HP 18, AC 16, Atk +4 (1d6 claws). Flies. A Mindless construct. Resistant to all but magic weapons.]
-- #item[Gargoyle Chieftain][HD 6, HP 28, AC 17, Atk +6 (1d8 claws). Flies. As a gargoyle, but proud, and open to tribute.]
-- #item[Harpy][HD 3, HP 13, AC 13, Atk +3 (1d4 talons). Flies. Song: Will save or walk toward the harpy, even off a ledge, until struck.]
-- #item[Wraith-Librarian][HD 5, HP 22, AC 15, Atk +5 (1d6 chilling touch, Body save or Injured). Harmed only by magic or silver. Can hush a caster for 1d4 rounds on a failed Will save.]
-- #item[Clockwork Sentinel][HD 4, HP 20, AC 17, Atk +4 (1d8 blade). A Mindless construct. Vulnerable to lightning.]
-- #item[Thalros, Cloud Giant][HD 8, HP 40, AC 17, Atk +8 (2d8 slam). Thunder-call: a 20 ft burst, Dodge save or 3d6 and shoved to the deck's edge.]
+#list(
+  monster("Gargoyle", hd: 4, hp: 18, ac: 16, dmg: [1d6 claws])[Flies. A Mindless construct. Resistant to all but magic weapons.],
+  monster("Gargoyle Chieftain", hd: 6, hp: 28, ac: 17, dmg: [1d8 claws])[Flies. As a gargoyle, but proud, and open to tribute.],
+  monster("Harpy", hd: 3, hp: 13, ac: 13, dmg: [1d4 talons])[Flies. Song: Will save or walk toward the harpy, even off a ledge, until struck.],
+  monster("Wraith-Librarian", hd: 5, hp: 22, ac: 15, dmg: [1d6 chilling touch, Body save or Injured])[Harmed only by magic or silver. Can hush a caster for 1d4 rounds on a failed Will save.],
+  monster("Clockwork Sentinel", hd: 4, hp: 20, ac: 17, dmg: [1d8 blade])[A Mindless construct. Vulnerable to lightning.],
+  monster("Thalros, Cloud Giant", hd: 8, hp: 40, ac: 17, dmg: [2d8 slam])[Thunder-call: a 20 ft burst, Dodge save or 3d6 and shoved to the deck's edge.],
+)
