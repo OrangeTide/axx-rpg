@@ -32,7 +32,7 @@ A funnel opens a campaign with a crowd of zero levels and ends it with a few her
 
 A hireling is a zero level you pay by the day. Build a torchbearer or a porter exactly as a funnel peasant, kindred, past life, and all; a man-at-arms is a cut above, a trained hand at Level 1.
 
-- #item[The Hired][Torchbearer or porter #k[1 GP/day], a zero level. Link-boy, bearer, and camp-hand are the same. A #k[man-at-arms] at #k[5 GP/day] is Level 1: HD 1, a weapon and light armor, Atk +1.]
+- #item[The Hired][Torchbearer or porter #k[1 GP/day], a zero level. Link-boy, bearer, and camp-hand are the same. A #k[man-at-arms] at #k[5 GP/day] is Level 1, the core's hireling: HD 1, HP 6, AC 13, Atk +1, 1d6.]
 - #item[Shares][A hireling draws its wage and a #k[half share] of XP. Let that XP ride and a hireling can reach the Level 1 threshold and graduate just as a funnel survivor does, choosing a class and coming up a henchman.]
 - #item[Loyalty][Asked first to risk death, a hireling makes a #k[CHA check], yours, or balks, flees, or quits. After that it tests #k[morale] like any creature: 1d6, breaking on 1 to 3 when the blood runs. Fair pay, fair shares, and not being spent as bait all weigh for you, and the GM may shade the roll.]
 - #item[Specialists][A trade expert, an alchemist, a sage, a sapper, costs more and bargains harder, but brings a knack no common hireling has. Price it to the job.]
