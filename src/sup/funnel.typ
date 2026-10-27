@@ -2,7 +2,7 @@
 
 #show: xx.with(
   title: "AX&X: The Funnel",
-  subtitle: "Zero-level play, hirelings, and henchmen. A followers supplement for AX&X.",
+  subtitle: "Zero-level characters and the dungeon that makes heroes. A funnel supplement for AX&X.",
   cols: 2,
 )
 
@@ -28,25 +28,6 @@ A funnel opens a campaign with a crowd of zero levels and ends it with a few her
 - #item[The Dungeon][It ships as rules, not a map. Bring your own deadly place and stock it with the core procedure, pitched a notch crueller than a Level 1 party would meet.]
 - #item[Graduation][Live to the end and the character #k[becomes Level 1]. Pick a class, your kindred and past life already yours: take the class Hit Die at maximum plus CON for new HP, gain its abilities, keep the knack and whatever gear and scars you carried out, and roll a Tie. The past life colors the choice, a cutpurse leans Thief, an acolyte Cleric, but never binds it. The funnel's XP carries over.]
 
-= Hirelings
+= Beyond the Funnel
 
-A hireling is a zero level you pay by the day. Build a torchbearer or a porter exactly as a funnel peasant, kindred, past life, and all; a man-at-arms is a cut above, a trained hand at Level 1.
-
-- #item[The Hired][Torchbearer or porter #k[1 GP/day], a zero level. Link-boy, bearer, and camp-hand are the same. A #k[man-at-arms] at #k[5 GP/day] is Level 1, the core's hireling: HD 1, HP 6, AC 13, Atk +1, 1d6.]
-- #item[Shares][A hireling draws its wage and a #k[half share] of XP. Let that XP ride and a hireling can reach the Level 1 threshold and graduate just as a funnel survivor does, choosing a class and coming up a henchman.]
-- #item[Loyalty][Asked first to risk death, a hireling makes a #k[CHA check], yours, or balks, flees, or quits. After that it tests #k[morale] like any creature: 1d6, breaking on 1 to 3 when the blood runs. Fair pay, fair shares, and not being spent as bait all weigh for you, and the GM may shade the roll.]
-- #item[Specialists][A trade expert, an alchemist, a sage, a sapper, costs more and bargains harder, but brings a knack no common hireling has. Price it to the job.]
-
-= Henchmen
-
-A henchman is not hired but won: a loyal adventurer who throws in with you for a share and a cause, levels at your side, and may one day carry the torch when you fall.
-
-- #item[How Many][You may lead henchmen up to your #k[CHA modifier + 1], minimum one. A charmer draws a following; a boor leads no one.]
-- #item[Where They Come From][A funnel survivor you kept, a captive you freed, a Lifepath Comrade or Retainer, a faction's gift, or a likely sort won in a tavern with a #k[CHA check]. Each is a full character, rolled up, entering at Level 1 or a Level below you.]
-- #item[The Deal][No wage. A henchman takes a #k[half share] of loot and XP and #k[levels on it], and gets a say in how both are split. A henchman is owed that share by right.]
-- #item[Loyalty][Loyalty is won by use. Share fairly, spend them as comrades not fodder, and they hold. Cheat or risk them past reason and loyalty frays: a CHA check or a morale test when pushed, and a broken henchman walks, or turns, a ready-made Rival or Enemy.]
-- #item[The Succession][When your character dies, a henchman is the replacement the core already promises: leveled, equipped, and tied to the party. Promote one, and roll a fresh henchman in their place.]
-
-= From Peasant to Hero
-
-One ladder runs under all of it. A zero level is the bottom rung, peasant, torchbearer, and porter alike. Earn a half share through a funnel or a hired season, cross the Level 1 threshold, and pick a class to graduate. Throw in for a cause and a share, and a graduate becomes a henchman who levels with you. Outlive your patron, or strike out alone, and a henchman becomes a hero in their own right. When the whole crowd takes the field, the Warband supplement runs them as one host, the funnel's mob mustering under a banner.
+A zero level who lives is a Level 1 hero. But the same stat block, hired instead of played, is a torchbearer or a porter; and a survivor you keep at your side is a henchman. Hiring the hands, winning the henchmen, their wages, shares, loyalty, and how a party spends them, is run in full in the #k[Retinue] supplement. This book builds the zero level and sends a funnel of them into the dark; the Retinue is how you put the survivors, and the hands you never funneled, to work.

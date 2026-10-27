@@ -59,7 +59,7 @@ The left is the old way, the right is AX&X.
   [Dungeon stocking], [d20 room contents table in the appendix], [1d6: empty, monster, trap or trick, treasure.],
   [Treasure], [Treasure types A to Z by monster], [From stocking. Defeated monsters carry coin on a 1 to 2, otherwise XP only.],
   [Magic items], [Hundreds, many as pluses], [+1 weapon and armor, two potions, scrolls, and six named items with a cost each.],
-  [Hirelings], [Henchmen, hirelings, loyalty, and morale rules], [Zero-level hirelings for a wage and leveling henchmen for a share, loyalty by one CHA check and morale. The Funnel supplement.],
+  [Hirelings], [Henchmen, hirelings, loyalty, and morale rules], [Zero-level hirelings for a wage and leveling henchmen for a share, loyalty by one CHA check and morale. The Retinue supplement.],
 )
 
 = Spells Past Level 3
