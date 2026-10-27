@@ -120,14 +120,15 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 == Conditions
 
-- #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands, negates it. The GM telegraphs the trick a round before, so a prepared party can deny it.]
+- #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands. The GM telegraphs it a round before.]
 - #item[Weakened][-2 to all d20 rolls; -4 from two separate sources.]
-- #item[Poisoned][1d6 damage at the end of each round and Weakened. Body save at the end of each round to end it.]
+- #item[Poisoned][The save is for your life. Fail and drop to 0 HP, roll Brush with Death at +2. Weakened until cured.]
+- #item[Diseased][Weakened, and no healing works. Body save each Day's end to end it, or _Cure Disease_. Virulent strains kill as Poisoned.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
-- #item[Asleep][Helpless. Wakes when damaged or after a round of shaking.]
+- #item[Asleep][Helpless. Wakes if damaged or shaken a round.]
 - #item[Charmed][Treats the caster as a trusted friend for a day. Harm from the caster ends it.]
 - #item[Frightened][Must flee from the source for 1d4 rounds.]
-- #item[Burning][1d6 fire damage each round until a round is spent dousing.]
+- #item[Burning][1d6 fire each round until a round douses it.]
 - #item[Petrified][Stone. Out of play, permanent unless cured.]
 - #item[Injured][Weakened until healed as the Brush with Death result states.]
 
@@ -153,8 +154,8 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Stocking][For each room roll 1d6, or place it by hand: #k[1--3] empty (1-in-6 chance of hidden treasure, found by Search) #bar #k[4] monster (1-in-2 chance it guards treasure) #bar #k[5] trap or trick (Dodge save or 2d6 damage, or a puzzle; below level 3, gas: Body save or Petrified) #bar #k[6] treasure, with a guard on 1--2 on 1d6.]
 - #item[Handing Out Treasure][Treasure comes from stocking, not from fights. Defeated monsters carry 1d6 x 10 GP on a 1--2 on 1d6, else nothing but XP. A leader of 3+ HD carries one Treasure roll.]
 
-#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. #k[Mindless] is immune to Sleep, Charmed, Poisoned, and Frightened. The Bestiary holds the heavier foes and the full list of keywords.], (
-  item[Giant Rats][HD 1/2, HP 2, AC 12, Atk +0 (1d3 piercing). 2d6 rats. A bite on a 20 also gives disease: Poisoned.],
+#rolltable("1d6", "Threat", note: [#k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage type. Attack bonus equals HD. #k[Mindless] is immune to Sleep, Charmed, Poisoned, Diseased, and Frightened. The Bestiary holds the heavier foes and the full list of keywords.], (
+  item[Giant Rats][HD 1/2, HP 2, AC 12, Atk +0 (1d3 piercing). 2d6 rats. A bite on a 20 also inflicts Diseased.],
   item[Goblin Band][HD 1, HP 4, AC 13, Atk +1 (1d6). 1d6 goblins ambush from cover.],
   item[Skeleton Guard][HD 1, HP 5, AC 13, Atk +1 (1d6). 1d6. Mindless. Resistant to piercing and edged, vulnerable to blunt.],
   item[Orc Patrol][HD 1, HP 5, AC 13, Atk +1 (1d8). 1d4 warriors demanding blood or toll.],
