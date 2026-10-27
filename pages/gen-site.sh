@@ -183,6 +183,19 @@ attack. Withdraw is just the first edition's careful retreat under a shorter nam
 conversion supplement carries the full line-by-line map for running old modules at the
 table.</p>
 </section>
+<details class="backronyms">
+<summary>What does AX&amp;X stand for?</summary>
+<p>Nobody at the table agrees, and the original was lost on a bad morale roll. The leading theories:</p>
+<ul>
+<li><b>Advanced Xanthics &amp; Xiphoids</b>: Magical Auras and Sword-Shaped Blades.</li>
+<li><b>Advanced Xenoliths &amp; Xenomorphs</b>: Strange Crystals and Alien Monsters <i>(a lethal megadungeon, or a derelict starship, dropped into your fantasy realm, who knows)</i>.</li>
+<li><b>Advanced Xanadus &amp; Xebecs</b>: Mythic Realms and Pirate Ships <i>(a fantasy game for treasure on the high seas)</i>.</li>
+<li><b>Advanced Xylographs &amp; Xoanons</b>: Ancient Runes and Creepy Idols <i>(a medieval Indiana Jones, digging up eldritch horrors)</i>.</li>
+<li><b>Advanced Xerophytes &amp; Xeric-beasts</b>: Desert Plants and Wasteland Horrors <i>(a Dark Sun adjacent retroclone)</i>.</li>
+<li><b>Advanced Xenoglossies &amp; Xylophones</b>: Speaking in Tongues and Musical Instruments <i>(a roleplaying system for bard lovers)</i>.</li>
+<li><b>Advanced Xylotomies &amp; Xenophobes</b>: Wood-Chopping and Fear of Strangers <i>(a game for paranoid wood elves)</i>.</li>
+</ul>
+</details>
 <p class="license">
 <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license"><img class="cc0" src="assets/cc0.svg" alt="CC0 1.0 Public Domain" width="88" height="31"></a>
 AX&amp;X is dedicated to the public domain under
