@@ -203,3 +203,117 @@ If run again: off cups as a flat DC 15 save (finding 2), spill at -2 (finding 3)
 cup reward on a clean Charm or a doubled Guile bank (finding 5), and the
 conscious-at-the-bell rule written into the premise (finding 6). Then test whether a
 CON 8 schemer can actually take the pot off Old Bessa.
+
+---
+
+# Second Pass: The CON-Drain Rules
+
+The rules the tavern supplement now carries, tested against the same party. The
+pile-up penalty is gone; drinking instead **drains CON**, which lowers the very mod
+the drinking save rolls on, restored by a night's rest. Spill is -2, off cups are a
+flat DC 15 (CON no help), smelling a cup is a real **Wits (INT) Check** that can fail,
+and the Cleric brings **Purify Food and Drink**. Played loose: beats narrated, dice
+only on the deliberate acts.
+
+## The rulings as run
+
+- **Drink:** -1 CON (off -2). **Body save at current CON mod** vs 12. Fail = **lurch**
+  (Weakened -2 on your next action only). **Pass out at CON 3.**
+- **Smell** (Wits INT Check vs 12, 15 if doctored) to tell clean from turned, costs the turn.
+- **Guile** pour-out banks a cup; caught = -2. **Charm** presses a cup on a rival. **Purify** cleans a turned cup to ordinary ale.
+- Body save = `d20 + 1 (half-level) + current CON mod + class Body boon` (Fighter and Ranger +2).
+
+## The night
+
+Starting CON: Dagny 16, Grukk 18, Wen 13, Aldric 11, Pib 9, Ves 8; Old Bessa the dwarf benchmark at an effective Body +5.
+
+**Pours 1-2.** Grukk scorns a sniff and drinks a **turned** cup blind, flat 15 `[9]`,
+fail: even an 18-CON gut lurches on a mouthful of sour (CON 18 to 16). Dagny `[11]`,
+Wen (smelled clean first, `[13]`) and Aldric drink clean and pass. **Pib opens
+cheating**, Guile `[13]`+4 = 17, banks a cup with no drink. **Ves** reads the table,
+Wits `[14]`+2, and spends pour 2 **Charming a turned cup onto Old Bessa** `[15]`. The
+dwarf, a sport, drinks it, flat 15 `[14]`, **fail, lurches**: the flat DC humbles even
+Bessa. But note what the Charm did: it handed Bessa a cup, which **raised** his tally.
+**Pib is caught** on his second pour-out `[7]`+4 = 11, -2, back to nothing. **Aldric
+spends a Purify slot** to cleanse a turned cup and drink it safe.
+
+Standings after 2: Dagny, Aldric, Wen, Grukk, Bessa all 2; Ves and Pib 0. The two
+schemers are last.
+
+**Pours 3-5.** The drinkers grind. Nearly every Body save passes, and the few that
+fail (Grukk twice, Wen once, Aldric once) cost only a **lurch**, never the cup. Dagny
+rolls down from CON 16 toward 11 but keeps scoring one a round. Aldric burns his
+second Purify to mine another turned cup. Pib plays safe Guile `[17]`, `[14]` and
+climbs slowly; Ves drinks what little she dares, failing at CON 8 `[9]` but losing
+only a lurch, and creeps to 2. Old Bessa matches the drinkers cup for cup.
+
+Standings after 5: Dagny, Aldric, Wen, Bessa, Grukk all 5; Pib 3; Ves 2.
+
+**Pour 6, the bell.** Everyone who drinks scores their sixth. Dagny `[12]`, Grukk
+(fails, lurches, keeps the cup), Wen `[14]`, Aldric `[15]`, Bessa `[11]` all reach 6.
+**Pib is caught a second time** `[6]`+4 = 10, -2, and finishes at 1. Ves lands her
+clean cup, 3. **Not one contestant passed out:** the highest-CON drinkers ended around
+CON 10-11, nowhere near the floor of 3.
+
+## Outcome
+
+**A five-way tie at 6 cups:** Dagny, Grukk, Wen, Aldric, and Old Bessa, every one of
+them still upright. Pib 1, Ves 2. The tie forced a ruling the rules do not have; I
+settled it on **steadiest hand, the highest CON still standing**, which gave it to
+**Grukk** (CON 11) over Bessa (CON 9). So the party beat the house, barely, and only
+on a tiebreak invented at the table.
+
+## Findings
+
+1. **The flat-DC off cup is the fix it promised.** A turned cup now humbles anyone, an
+   18-CON barbarian and an iron dwarf both lurched on one. Off cups are a shared
+   hazard, not a frailty tax. Keep it.
+
+2. **Smell-as-a-Check feels right.** Wen and Aldric both failed to read their cups and
+   drank blind; Ves, with the wits for it, turned the telegraph into a weapon. Fallible
+   and tempo-costed, exactly as wanted.
+
+3. **Purify stayed balanced and useful.** Aldric spent both slots to drink turned cups
+   safely, a real edge against the 1-in-3, but it cost him two turns and never touched
+   the drunkenness race. It made the Cleric a support piece, not a winner. Good.
+
+4. **The core flaw: a failed drink costs only a lurch, so a cup is nearly free.** This
+   is the big result. Because failing the Body save does not cost the cup or the turn,
+   anyone who drinks every round scores every round, and they **all tie at 6**. CON
+   drain and the lurch add flavor but never gate the score. The contest needs the
+   failure to bite the tally: a failed save should mean **the cup does not count** (you
+   wear it) or **you lose your next pour** (retching), not just a -2 on one later roll.
+
+5. **Pass-out at CON 3 never fired.** Six pours drain a high gut only to CON 10-11, so
+   the dramatic topple that ended the first run never happened here and the night
+   ended in a tie instead. The first pass's **three-lurch ladder to Out Cold** actually
+   produced pass-outs and a clean winner. The cleanest design is probably **both**: CON
+   drain for the diegetic difficulty, plus **three lurches = Out Cold** so failing
+   accumulates toward a real fall (which also answers finding 4).
+
+6. **A tiebreaker is mandatory, and it exposes the contest as a CON check.** Five
+   drinkers tied, and the only sensible tiebreak, highest CON standing, just crowns the
+   toughest gut. Under the pure-drain rules the Clear-Out Cup reduces to "who has the
+   most Constitution," with the other three roads as decoration.
+
+7. **The schemers lost again, worse.** Pib's Guile was efficient between catches, but
+   two -2 spills across the night sank him to last. And **Charm is actively
+   counterproductive:** making a rival drink *raises their cup count*, so Ves's clever
+   foisting fed Bessa's lead while only tiring his gut. For the clever roads to matter,
+   **a caught spill must sting less or a Charmed rival must lose a cup or a turn**, not
+   gain one.
+
+## Verdict
+
+The supplement's rules play clean and loose at the table, and off cups, smelling, and
+Purify all land well. But as a **contest** the pure-CON-drain version is
+under-differentiated: drinking is a free cup, nobody falls, and everyone ties. The
+recommended patch, carried back into the supplement, is small: **a failed Body save
+means the cup does not count**, and **three lurches drops you Out Cold**. That restores
+the first run's real toppling and its clear finish while keeping the CON-drain spine.
+Charm and Guile still need a reason to exist beside straight drinking; that is the next
+dial to turn.
+
+**Applied:** the failed-cup and three-lurch-to-Out-Cold rules are now in the tavern
+supplement's Clear-Out Cup. The Charm and Guile scoring question is left open.
+
