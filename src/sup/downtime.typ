@@ -34,8 +34,8 @@ The week has a price. A resupply stay between delves is free, as the Foretold Do
 
 The core mends the day to day: Bind Wounds, a night's sleep, a week's Haven. This is for the deeper hurts, the ones that outlast a night. It is the slow healing of 1st Edition, bent so that a maiming is a setback and not an ending, if you can get your friend home.
 
-- #item[Convalescence][A lasting wound, a Maimed limb, a Grievous Wound, a bad Exposure, carries a #k[Mending] Count of #k[2 to 6 weeks], the GM setting it by how bad. A week of true rest at a haven fills a mark; a healer, an Infirmary, or a course of Remedies fills two; a Cure spell skips the Count. When it fills, the Injured lifts: the scar stays, a lost eye or a limp the GM keeps, but you fight at full again.]
-- #item[Escape First][The Count runs only where it is safe to lie still. A Maimed or Grievous character carried out of the dungeon can mend; one who falls and is left behind cannot. Death in the dark is still death, so getting the wounded home is the new goal, and often the harder one.]
+- #item[Convalescence][A lasting wound, a Maimed limb or a bad Exposure, carries a #k[Mending] Count of #k[2 to 6 weeks], the GM setting it by how bad. A week of true rest at a haven fills a mark; a healer, an Infirmary, or a course of Remedies fills two; a Cure spell skips the Count. When it fills, the Injured lifts: the scar stays, a lost eye or a limp the GM keeps, but you fight at full again.]
+- #item[Escape First][The Count runs only where it is safe to lie still. A Maimed character carried out of the dungeon can mend; one who falls and is left behind cannot. Death in the dark is still death, so getting the wounded home is the new goal, and often the harder one.]
 - #item[The Remedy][The herbalist's dose, gathered in the wild or bought at market: one use, heals 1d6 or ends one condition, no magic needed. A party without a Cleric lives on these, and a steady course of them is what mends a wound in half the weeks.]
 - #item[First Aid][Once per wound, a WIS Check or a Thief or Cleric Class Check, 12+: steady a Grievous or Shaken ally at 1 HP without magic, or add #k[+1 Hit Die] to a patient's next night of healing. Bind it now, mend it later.]
 - #item[The Infirmary][A haven's healer, shrine, or sickhouse. For a fee or a favor it tends the Injured and fills two Mending marks a week. A Favored power often keeps one, and a lost Haven takes it with them.]
@@ -50,7 +50,7 @@ It leans on Travel and adds no new dice. A day in the wild is a #k[leg] or a #k[
 
 Each day in the wild, a character may work the land instead of, or alongside, pressing on. Name the #k[harvest] and the one who works it. Only that one rolls, and the whole camp eats what comes of it.
 
-- #item[The Roll][#k[1d20 + the harvest's ability], 12+. The Country and the Season lift or drop it, as terrain bends a Travel Check. Another hand may Aid for +2.]
+- #item[The Roll][#k[1d20 + the harvest's ability modifier], 12+. The Country and the Season lift or drop it, as terrain bends a Travel Check. Another hand may Aid for +2.]
 - #item[The Yield][A success makes #k[rations], food for that many travelers for one day, or for herbs a #k[Remedy]. Each harvest says how many it feeds. Several hands stack, and lean ground takes many to feed a party.]
 - #item[While You Travel][Some work rides along with the journey and some spends the day, as each harvest says. A march still crawls at the #k[Cautious] pace while it forages, a ship trails a line as it sails, and aloft the land is out of reach, so an airship crosses on its stores alone.]
 - #item[Failure][Nothing from that harvest today. Out of food, every traveler is Weakened and heals nothing until the camp is fed, as Travel and the core both warn.]
@@ -76,7 +76,7 @@ Each reads in one order: the ability and what it feeds, the ground it needs, whe
 
 == Eating and Keeping
 
-- #item[A Ration a Day][Each traveler eats one ration per Day or leg, bought in town or won from the land. A camp that cannot feed everyone goes short, and short camps heal nothing. Carried food fills slots like any good, a ration to the slot, or a few days dried and salted to the slot at the GM's call.]
+- #item[A Ration a Day][Each traveler eats one ration per Day or leg, bought in town or won from the land. A camp that cannot feed everyone goes short, and short camps heal nothing. Carried food fills slots like any good, a week's rations to the slot, or a few days of fresh meat dried and salted to the slot at the GM's call.]
 - #item[Keep the Kill][Fresh meat feeds today and spoils by tomorrow. Salt or smoke it, a Craft task with the gear, to carry a good hunt forward as rations.]
 - #item[Count or Wave][Counting rations by the head is the point, and the pressure, so keep it if you can. A table that would rather not may wave it: a good day feeds the camp, a bad one leaves it hungry and healing nothing.]
 - #item[The Long Wait][Days spent provisioning or laid up in the wild pass like any downtime. The Foretold Doom does not care that you were only resting, and time bought from the land is still spent.]

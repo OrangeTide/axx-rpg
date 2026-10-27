@@ -10,7 +10,7 @@
 
 The dungeon is a place you raid and leave. A hold is a place you keep. It is where you stack what the dark gave up, mend between delves without the long walk back to town, and plant a banner the land must reckon with. This supplement raises one, from a night's camp to a walled stronghold, and runs the day the enemy comes to tear it down.
 
-It is built from pieces the other books already carry. The garrison is a #k[Warband]; the patron who grants your charter and the raiders who covet your walls are #k[Powers of the Land]; the clock the raids keep is the #k[Foretold Doom]; the season you spend raising a wall is #k[Downtime]; the hands that man it are the funnel's survivors and your hirelings. None of this is needed to crawl a dungeon. Bring it in when the party stops being wanderers and wants a place on the map.
+It is built from pieces the other books already carry. The garrison is a #k[Warband]; the patron who grants your charter and the raiders who covet your walls are #k[Powers of the Land]; the countdown the raids keep is the #k[Foretold Doom]; the season you spend raising a wall is #k[Downtime]; the hands that man it are the funnel's survivors and your hirelings. None of this is needed to crawl a dungeon. Bring it in when the party stops being wanderers and wants a place on the map.
 
 = The Town and the Wilds
 

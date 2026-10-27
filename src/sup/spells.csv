@@ -11,7 +11,7 @@ Remove Fear,Cleric,1,,,"Ends Frightened on an ally, or grants +4 to resist it fo
 Resist Cold,Cleric,1,,,"An ally is immune to natural cold and takes half from cold attacks, one fight.",
 Sanctuary,Cleric,1,Will,,"For 1d4 rounds enemies need a Will save to attack you; you may not attack in turn.",
 Find Traps,Cleric,2,,,"Traps within 30 ft glow to your sight for 6 turns.",
-Hold Person,Cleric,2,Body,,"Up to 3 people, Body save or Paralyzed 1d4 turns.",
+Hold Person,Cleric,2,Body,,"Up to 3 people, Body save or Paralyzed 1d4 rounds.",
 Know Alignment,Cleric,2,,,"Read one creature's alignment.",
 Resist Fire,Cleric,2,,,"An ally is immune to natural fire and takes half from fire attacks, one fight.",
 Silence,Cleric,2,,,"15 ft radius, no sound or casting, 6 turns.",
@@ -64,7 +64,7 @@ Flame Arrow,Magic-User,3,,fire,"Touched arrows or bolts burn for +1d6 fire, one 
 Fly,Magic-User,3,,,"You fly for 6 turns.",
 Gust of Wind,Magic-User,3,,,"A blast of wind scatters missiles, clouds, and small flyers in a line.",
 Haste,Magic-User,3,,,"Up to one creature per Level acts twice or moves double, one fight.",
-Hold Person,Magic-User,3,Will,,"Up to four people, Will save or Paralyzed 1d4 turns.",
+Hold Person,Magic-User,3,Body,,"Up to four people, Body save or Paralyzed 1d4 rounds.",
 Invisibility 10 ft,Magic-User,3,,,"You and all within 10 ft turn invisible until one attacks or casts.",
 Lightning Bolt,Magic-User,3,Dodge,lightning,"5d6 in a 60 ft line, Dodge save for half.","a scrap of fur and a glass rod"
 Phantasmal Force,Magic-User,3,Will,,"A silent illusion up to a 20 ft cube. A viewer who disbelieves sees through it (Will save).",

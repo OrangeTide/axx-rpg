@@ -29,7 +29,7 @@ The lance is why a knight is worth ten footmen, and why a hedge of spears is wor
 = Horse and Rider as Two
 
 - #item[Two Bodies][The mount is its own creature, with the HD, HP, and AC on the table below. A war-trained one makes its #k[own hoof or bite attack] each round, on your initiative. A foe may strike at you, or at the larger, easier target under you.]
-- #item[Down Goes the Horse][Drop the mount and the rider spills #k[Prone]: a #k[Ride save] (DEX, 12+) to land clear and on your feet, or take the fall, #k[1d6] and Prone. A dead horse is cover, and a line of retreat gone.]
+- #item[Down Goes the Horse][Drop the mount and the rider spills #k[Prone]: a #k[Dodge save] (DEX, 12+) to land clear and on your feet, or take the fall, #k[1d6] and Prone. A dead horse is cover, and a line of retreat gone.]
 - #item[Barding][Armor for the mount, bought and worn like a character's. It raises the mount's AC and weighs it down a speed step; heavy barding leaves only a trot. Light #k[+1 AC], medium #k[+2], heavy #k[+3], at a rider's armor prices.]
 
 = Unhorsing
@@ -37,7 +37,7 @@ The lance is why a knight is worth ten footmen, and why a hedge of spears is wor
 Coming off a horse is half the danger of riding one.
 
 - #item[Thrown Down][A rider is unhorsed by an adjacent foe's #k[Shove or Trip] (opposed STR, or HD for a monster), by a #k[set weapon's] hit, by the mount going down, or, with the optional critical, by a natural 20 from a weapon of reach.]
-- #item[Staying Seated][Each time, a #k[Ride save] (DEX, 12+) keeps the saddle. Fail and you hit the ground Prone for #k[1d6], at the feet of whatever put you there.]
+- #item[Staying Seated][Each time, a #k[Dodge save] (DEX, 12+) keeps the saddle. Fail and you hit the ground Prone for #k[1d6], at the feet of whatever put you there.]
 
 = From the Saddle
 
@@ -60,10 +60,10 @@ Coming off a horse is half the danger of riding one.
 The warhorses, the pony, and a trained camel fight; a riding horse, a mule, and any untrained mount do not.
 
 #rolltable("1d6", "In the Saddle", note: [Roll when a mount is pushed hard, shaken, or a Ride check fails badly.], (
-  item[Rears][It rears from the fray. A Ride save to stay up and keep it facing the foe, or lose your action to the reins.],
-  item[Girth Snaps][Saddle or girth gives. A Ride save or you slide off Prone, and you ride bareback until it is mended.],
+  item[Rears][It rears from the fray. A Dodge save to stay up and keep it facing the foe, or lose your action to the reins.],
+  item[Girth Snaps][Saddle or girth gives. A Dodge save or you slide off Prone, and you ride bareback until it is mended.],
   item[Shies][It will not face the fire, the undead, or the roar. It backs a move out of reach until you master it.],
   item[Tramples][A charge or a rear carries into the fallen. The nearest Prone or tiny foe takes the mount's hoof damage.],
-  item[Bolts][It takes the bit and runs. A Ride save each round to turn it; until then it bears you where it fears least.],
+  item[Bolts][It takes the bit and runs. A Dodge save each round to turn it; until then it bears you where it fears least.],
   item[Thrown][You are down, Prone for 1d6, and the mount bolts clear unless war-trained and held.],
 ))

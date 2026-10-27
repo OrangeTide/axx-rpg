@@ -53,7 +53,7 @@ Powers contend, so your friends make your enemies. You cannot befriend the whole
 
 == Ties to the World
 
-A character's core Tie, an ally, enemy, patron, mentor, or contact, belongs to a power. Roll or pick which, and that bond gains a banner, a region, and a want behind it. Now the favor owed to one name is a lever on a whole faction.
+A character's core Tie, an ally, an enemy, a debt, a patron, a mentor, or kin, belongs to a power. Roll or pick which, and that bond gains a banner, a region, and a want behind it. Now the favor owed to one name is a lever on a whole faction.
 
 == The Foretold Doom
 

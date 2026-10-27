@@ -14,7 +14,7 @@ It adds options, not new dice. Every rule here is still #k[1d20 + a flat modifie
 
 = Position
 
-- #item[Range Without a Map][For combat run by description, with no map or figures on the table, track three bands, not feet: #k[engaged] (in reach), #k[near] (a move off, about 30 ft), and #k[far] (a Run or a bowshot away). A move shifts one band, reaching engaged lets you strike, and leaving engaged draws the free attack unless you Withdraw. Missiles carry to far at the core's range steps.]
+- #item[Range Without a Map][For combat run by description, with no map or figures on the table, track three bands, not feet: #k[engaged] (in reach), #k[near] (a move off, about 30 ft), and #k[far] (a Run or a bowshot away). A move shifts one band; closing to engaged is that move, so you strike next round or Charge to do both, and leaving engaged draws the free attack unless you Withdraw. Missiles carry to far at the core's range steps.]
 - #item[Difficult Ground][Rubble, mud, deep snow, thick brush, a steep slope, or shallow water. Moving through it costs double, so 30 ft becomes 15. You cannot charge or run across it.]
 - #item[High Ground][An attacker above the target, on a ledge, a stair, or a saddle, strikes at +1, and holds reach against anyone climbing up.]
 - #item[Prone][Knocked flat by a shove, a trip, a charge, or a fall. A prone creature attacks at -2, is hit in melee at +2, and is a poor target at range, -2 to shoot. Standing up spends half your move.]
@@ -45,9 +45,9 @@ For grabs, tackles, and bare hands, when a blade is the wrong tool.
 = Ranged Combat
 
 - #item[Point Blank][Within 10 ft, a clear shot hits at +1. A sling or thrown weapon serves here. A bow does not: with a foe in melee you shoot at -4 and draw a free attack, so drop it for a blade.]
-- #item[Into the Scrum][Shooting a target locked in melee with your friends is -4 to pick it out. A natural 1 or 2 hits a random fighter in that knot instead, friend or foe.]
+- #item[Into the Scrum][Shooting a target locked in melee with your friends is -4 to pick it out, and a miss hits a random fighter in that knot instead, friend or foe, as the core sets out.]
 - #item[Cover][Something solid in the way: a low wall, a corner, a pillar. Half cover is -2 to hit; full cover, no shot. It shields you from a foe's arrows the same way.]
-- #item[Concealment][Smoke, fog, foliage, or gloom hides a target without stopping an arrow. Lightly hidden is -2, heavily hidden -4, and a target you cannot see at all takes no aimed shot or targeted spell.]
+- #item[Concealment][Smoke, fog, foliage, or gloom hides a target without stopping an arrow. Lightly hidden is -2, heavily hidden -4, and a target you cannot see at all is a blind shot at -4 and takes no targeted spell, which needs line of sight.]
 
 = Light & Weather
 
@@ -67,7 +67,7 @@ For grabs, tackles, and bare hands, when a blade is the wrong tool.
 Martial skill shows in volume as well as in bigger numbers. The extra attacks are already core, and the High Level Play supplement runs them in full, with sweep, two weapons, and weapon mastery. A quick reference:
 
 - #item[Extra Attack][A core #k[Warrior], Fighter, Barbarian, or Ranger, makes a second attack at Level 6 and a third at 11, each a full roll at the same Attack Mod.]
-- #item[Cleave][When a Warrior's melee attack drops a foe, the swing carries into another within reach, once per turn.]
+- #item[Cleave][When a Warrior's melee attack drops a foe, the swing carries into another within reach, once per round.]
 
 #rolltable("1d8", "Battlefield Features", note: [Roll one or two to give a fight its shape. Each is a prize for both sides.], (
   item[Choke Point][A door, bridge, or ledge only one or two can hold. Flanking is denied, and a braced line rules.],

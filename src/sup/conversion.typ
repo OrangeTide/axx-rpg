@@ -15,7 +15,7 @@ AX&X is a refit of the original advanced rules, so the shelves of old modules, m
 Most of it is a few rules and a shrug.
 
 - #item[Armor Class][The old descending AC becomes #k[19 minus the old number]. AC 2 is 17, AC 5 is 14, AC 8 is 11.]
-- #item[Hit Dice][Hit Dice carry over whole. A creature keeps its HD, attacks at #k[+ HD], and saves at #k[10 + HD].]
+- #item[Hit Dice][Hit Dice carry over whole. A creature keeps its HD, attacks at #k[+ HD], and saves at #k[1d20 + HD].]
 - #item[Hit Points][Old monster HP work as printed, or reroll at #k[5 per HD].]
 - #item[Saving Throws][Drop the old categories. Pick the AX&X save that fits the threat: #k[Body] for poison, death, and petrification; #k[Dodge] for breath, blasts, and falling; #k[Will] for magic and the mind. Save against the effect, not the thing that delivers it. An old save-or-die becomes a save at 10 + HD, or a condition. Reading the Old Saves, below, maps the five old categories in full.]
 - #item[To Hit][No matrices. Everyone rolls #k[1d20 + Attack Mod vs AC]; a monster attacks at #k[+ HD]. A creature with several attacks keeps them, one roll each.]
@@ -50,9 +50,9 @@ The left is the old way, the right is AX&X.
   [Spell lists], [Hundreds of spells], [A starter list in the core; about seventy spells across three levels in the Spellbook. The Improvise rule and this supplement cover conversion.],
   [Turn Undead], [Matrix of Cleric level against undead type, with 2d6 result], [One roll: 1d20 + Level + WIS, 10 + HD or higher. Turns 2d6 HD, or destroys when 3 levels above.],
   [Experience], [Gold and monster XP by table, prime requisite bonus, training cost to level], [1 GP is 1 XP. 25 XP per monster HD. 100 XP times depth for a first visit. Level 2 by track, 1,500 to 2,500, doubling after. No training.],
-  [Death], [Dead at -10, or 0 with optional rules, resurrection survival rolls], [0 HP triggers a Brush with Death roll (1d6, +1 per earlier Brush that day, 6+ Slain). Slain, Maimed, and Petrified are permanent unless the GM supplies a cure, though a maiming can mend over weeks if the party escapes the dungeon, by the downtime supplement.],
-  [Healing], [1 HP per day of rest], [Bind Wounds 1d4 once per day, one Hit Die per night, full after a week in town. Convalescence and living off the land are in the downtime supplement.],
-  [Conditions], [Described per spell or monster], [Eight named conditions, each with one source and one effect.],
+  [Death], [Dead at -10, or 0 with optional rules, resurrection survival rolls], [0 HP triggers a Brush with Death roll (1d6, +1 per earlier Brush that day, 7+ Slain). Slain, Maimed, and Petrified are permanent unless the GM supplies a cure, though a maiming can mend over weeks if the party escapes the dungeon, by the downtime supplement.],
+  [Healing], [1 HP per day of rest], [Bind Wounds 1d4 once per day, one Hit Die and CON per night, full after a week in town. Convalescence and living off the land are in the downtime supplement.],
+  [Conditions], [Described per spell or monster], [Ten named conditions, each with one source and one effect.],
   [Reaction], [Percentile roll with CHA adjustments], [2d6 + CHA, three bands.],
   [Morale], [Percentile morale checks with many modifiers], [1d6, flee or yield on 1 to 3, checked at first loss and at half strength.],
   [Wandering monsters], [Varies by level, commonly 1 in 6 every three turns], [1 in 6 every three turns. Noise forces a roll at once on 1 to 2.],

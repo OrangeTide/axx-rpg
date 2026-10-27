@@ -26,7 +26,7 @@ It is built for the kind of play where a line of heroes races one deadline, and 
 
 = The Decline
 
-The world does not wait for zero. Each quarter of the Count that empties advances the Decline one step: a named milestone the whole table feels, telegraphed a tick before by a Sign. A Stronghold takes a raid at each step, and the Powers of the Land rise and fall with it, so the milestones are the campaign's shared clock.
+The world does not wait for zero. Each quarter of the Count that empties advances the Decline one step: a named milestone the whole table feels, telegraphed a tick before by a Sign. A Stronghold takes a raid at each step, and the Powers of the Land rise and fall with it, so the milestones are the campaign's shared countdown.
 
 - #item[The Carrion Wind][First quarter gone. Birds fall from the sky, the dead sleep ill, and refugees crowd the roads. Rumor, not yet ruin.]
 - #item[The Breaking][Halfway. A city burns or a river runs foul, and a region or an ally falls. Journey Counts start one mark shorter, and prices climb.]

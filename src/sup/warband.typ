@@ -27,7 +27,7 @@ Build the host from one member's Bestiary profile and run it as a single creatur
 - #item[AC][The member's AC.]
 - #item[Attack][Once per round, #k[1d20 + HD] against the target.]
 - #item[Damage][The member's damage die #k[\+ the Warband HD]. One roll. A bigger host hits harder because it has more HD, not more dice to total.]
-- #item[Save][10 + HD, like any creature.]
+- #item[Save][1d20 + HD, like any creature.]
 - #item[Keywords][It keeps what the member has. A skeleton legion stays Mindless and resistant to edged and piercing; wolves harry; a winged host flies.]
 - #item[Recount at the top of its turn][As files fall, HD, HP, attack, and damage all drop together. Only work them out when the host's turn comes round, never after each hit.]
 

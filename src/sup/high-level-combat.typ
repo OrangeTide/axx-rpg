@@ -17,7 +17,7 @@ It adds no new dice. Each blow is still #k[1d20 + your Attack Mod] against AC. W
 - #item[When][A core #k[Warrior], Fighter, Barbarian, or Ranger, strikes twice from Level 6 and three times from Level 11. The core sets this and keeps it. No other track gains extra attacks from Level.]
 - #item[Melee Only][The extra blows are melee. A bow, sling, or crossbow holds its own rate of fire whatever your Level, see Missiles below.]
 - #item[Spending Them][Each attack is a full roll at the same Attack Mod. Split them across any foes in reach, named before you roll. A short step may fall between blows; a full move is the alternative to attacking.]
-- #item[Charge and Withdraw][A Charge lands your full attacks, all on the foe you closed with, at +2 and -2 to your own AC until your next turn. A Withdraw spends the action and draws no blows of its own.]
+- #item[Charge and Withdraw][A Charge lands your full attacks, all on the foe you closed with, at +2 and -2 to your own AC until your next turn. A Withdraw is your move at half speed, with no blows of your own and none drawn against you.]
 - #item[The Ceiling][Three attacks is the top of the base rule. For a long campaign, allow a fourth at Level 16. Weapon Mastery is the other road past three.]
 
 = Variant: The Old Cadence
@@ -27,7 +27,7 @@ For the grittier first-edition curve, replace the whole-attack jumps with fracti
 = Mowing the Rabble
 
 - #item[Sweep][Against foes of #k[1 HD or less], a Warrior makes one melee attack per Level, each a full roll, striking as many as stand in reach. This is how one veteran scatters a mob of goblins. Nothing above 1 HD falls to it.]
-- #item[Cleave][When any melee attack drops a foe, the swing carries to another within reach, one free blow, once a turn. A Warrior at full Sweep has no need of it; a lone duelist does.]
+- #item[Cleave][When any melee attack drops a foe, the swing carries to another within reach, one free blow, once a round. A Warrior at full Sweep has no need of it; a lone duelist does.]
 
 = More Hands, More Blows
 

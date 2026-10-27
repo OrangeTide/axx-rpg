@@ -2,7 +2,8 @@ category,item,cost_gp,slots,stat,notes
 Weapon,Light weapon,2,1,1d4,"Blunt, edged, or piercing, chosen when bought."
 Weapon,Medium weapon,10,1,1d6,"Blunt, edged, or piercing."
 Weapon,Heavy weapon,15,2,1d10,"Two hands. Blunt, edged, or piercing."
-Weapon,Bow or sling,20,2,1d6,"Piercing. Includes ammunition."
+Weapon,Bow,20,2,1d6,"Piercing. Includes arrows."
+Weapon,Sling,2,1,1d4,"Blunt. Includes stones."
 Armor,Light armor,20,1,AC 11,
 Armor,Medium armor,75,2,AC 14,
 Armor,Heavy armor,100,3,AC 16,

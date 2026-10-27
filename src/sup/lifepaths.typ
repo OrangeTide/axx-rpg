@@ -24,13 +24,13 @@ Pick a career whose key ability is #k[9 or higher] (a +0 modifier or better). Ro
 
 A term is four years. Resolve these in order, then decide whether to serve another.
 
-- #item[Survival][#k[1d20 + survival ability, 12+]. Fail and death reaches for you: roll on #k[Brush with Death] in the core rules. On #k[Slain], scrap the sheet and roll a new character. On any other result you lived through it and carry any lasting mark, a Maimed limb or a Scar. The HP and recovery lines belong to the dungeon.]
+- #item[Survival][#k[1d20 + survival ability, 12+]. Fail and death reaches for you: roll on #k[Brush with Death] in the core rules, #k[+1 for each term already served] as the core adds +1 per earlier Brush, so the long-serving court a Slain. On #k[Slain], scrap the sheet and roll a new character. On any other result you lived through it and carry any lasting mark, a Maimed limb or a Scar. The HP and recovery lines belong to the dungeon.]
 - #item[Progress][#k[1d20 + key ability, 12+]. Success earns rank and #k[500 XP], and a roll on Benefits. Failure earns #k[250 XP] and nothing more.]
 - #item[Event][Roll once on Lifepath Events for the mark this term left on you.]
 
 == Re-enlist or Muster Out
 
-After each term you may leave, or try to stay on with a #k[2d6, 6+] roll. Fail and the career releases you, so you muster out either way. From your #k[fifth term] (age 34), the years start to bite: each term, make a #k[CON check (1d20 + CON, 12+)] or lose 1 point from STR, DEX, or CON, your choice.
+After each term you may leave, or try to stay on with a #k[2d6, 6+] roll. Fail and the career releases you, so you muster out either way. From your #k[fifth term] (age 34), the years start to bite: each term, make a #k[CON check (1d20 + CON modifier, 12+)] or lose 1 point from STR, DEX, or CON, your choice.
 
 == Enter Play
 
@@ -54,7 +54,7 @@ Militia and Free Company are service under arms, a stint in the kind of host the
 
 = Example
 
-Rolls STR 14, DEX 15, CON 12, INT 11, WIS 9, CHA 10. DEX 15 is +1, so she enlists in the Thieves' Guild on a 1d20+1, and makes it. Term one: Survival on DEX, a 12, clear. Progress on DEX, an 8, clear, so 500 XP and a Benefits roll of 3, a War Chest of 80 GP. Term two: Survival comes up a 4, +1 is 5, short of 12. She rolls on Brush with Death and gets Slain. The watch catches her, and she hangs before ever seeing a dungeon. New character.
+Rolls STR 14, DEX 15, CON 12, INT 11, WIS 9, CHA 10. DEX 15 is +1, so she enlists in the Thieves' Guild on a 1d20+1, and makes it. Term one: Survival on DEX, a 12, clear. Progress on DEX, an 11 and +1 is 12, clear, so 500 XP and a Benefits roll of 3, a War Chest of 80 GP. Term two: Survival comes up a 4, +1 is 5, short of 12. She rolls on Brush with Death at +1 for her first term, a 6 becomes 7, and she is Slain. The watch catches her, and she hangs before ever seeing a dungeon. New character.
 
 #pagebreak()
 
