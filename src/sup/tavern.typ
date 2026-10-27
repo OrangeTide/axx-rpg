@@ -1,8 +1,8 @@
 #import "../../lib/24xx.typ": *
 
 #show: xx.with(
-  title: "AX&X: The Common Room",
-  subtitle: "Carousing between delves, the clear-out cup, the brawl, and the rumors in the ale. A tavern supplement for AX&X.",
+  title: "AX&X: The Alehouse",
+  subtitle: "A dockside common room of porters, sailors, and travelers: carousing, the clear-out cup, the brawl, and the rumors in the ale. An alehouse supplement for AX&X.",
   cols: 2,
 )
 
@@ -10,7 +10,7 @@
 
 _Burned into the beam over the bar: no hittin', no spittin', no fightin', no killin'. By last call, all four are broken._
 
-Every delve begins and ends in the same place: a low room, a fire, and a cup. The tavern is where a party hears its next job, spends its last, hires its spare hands, and makes the trouble that becomes the next adventure. This adds no new dice. A night out runs on #k[Checks], #k[Reaction], and #k[Morale], the same as any other scene, and most of it is talk. Roll only when the night turns on something: a contest, a brawl, a boast that someone decides to test.
+Every delve begins and ends in the same place: a low room, a fire, and a cup. This one is a #k[dockside alehouse], where the river stairs empty at dusk and porters, sailors, and travelers wash up with coin to spend and news to tell. It is where a party hears its next job, spends its last, hires its spare hands, and makes the trouble that becomes the next adventure. This adds no new dice. A night out runs on #k[Checks], #k[Reaction], and #k[Morale], the same as any other scene, and most of it is talk. Roll only when the night turns on something: a contest, a brawl, a boast that someone decides to test.
 
 The coin you carry home is already your reward, #k[1 GP = 1 XP] once it reaches safety. What follows is how a party spends it, and what the spending costs.
 
@@ -24,7 +24,7 @@ The coin you carry home is already your reward, #k[1 GP = 1 XP] once it reaches 
 
 - #item[A Night's Revel][Between delves, blow your winnings on the town. A lavish night costs a #k[tenth of your haul or 50 GP], whichever is more, and buys a roll on #k[The Morning After]: a rumor earned, a friend made, or a mess to wake to. A party may carouse together on one shared spend.]
 - #item[The Bigger the Spend][Great wealth thrown around draws great trouble. Add #k[+1 to the Morning After roll] for each further #k[50 GP] spent past the first, and the GM reads the night from where it lands.]
-- #item[Drink and Dice][Taverns run games, too: a wager on knucklebones or the turn of a card is a #k[CHA or INT Check] against the house, 12+, stake for stake. The house cheats on a natural 1.]
+- #item[Drink and Dice][Alehouses run games, too: a wager on knucklebones or the turn of a card is a #k[CHA or INT Check] against the house, 12+, stake for stake. The house cheats on a natural 1.]
 
 = The Clear-Out Cup
 
@@ -39,15 +39,15 @@ The house is clearing old stock the only way a crowd will swallow it: a contest.
 - #item[The Bell][Most cups wins, counted only among those #k[still sitting upright]. A contestant face-down in the rushes has no claim, whatever stands before them.]
 
 #rolltable("1d6", "At the Long Bench", note: [The house runs a ringer or two to drive the night. Roll or pick.], (
-  item[Old Bessa, a dwarf drover][An iron gut and no guile: pure fortitude, setting a pace meant to drown the field. The one to beat.],
+  item[Old Bessa, a dwarf stevedore][An iron gut and no guile: pure fortitude, setting a pace meant to drown the field. The one to beat.],
   item[Finch, a peddler][All sleight and no stomach. Tips every cup, frames rivals for the spill, and never seems to drink.],
-  item[Mad Gurt, a hog farmer][Drinks everything, turned cups and all, and roars. Crashes out early and loud, often taking a neighbor down with them.],
-  item[A hedge-priest][Quietly purifies the worst cups and sips slow. Outlasts the brawlers by never once lurching.],
-  item[A boastful squire][Loud, proud, and easily steered: a Charm check lands the turned cups square in their hand.],
+  item[Mad Gurt, a bargeman][Drinks everything, turned cups and all, and roars. Crashes out early and loud, often taking a neighbor down with them.],
+  item[A river pilgrim][Quietly purifies the worst cups and sips slow. Outlasts the brawlers by never once lurching.],
+  item[A young sailor][Loud, proud, and easily steered: a Charm check lands the turned cups square in their hand.],
   item[The house itself][The tapster nudges the stock, so the turned cups tend to reach whoever is winning. Fair is not the point; clearing the cellar is.],
 ))
 
-= A Tavern Brawl
+= An Alehouse Brawl
 
 - #item[Fists and Stools][A brawl is #k[nonlethal] by default. A fist or a grabbed stool deals #k[1d3], and a foe at 0 drops #k[Helpless], not slain, as the core sets out. A thrown mug reaches Near on a Check, a table is cover, and the chandelier is a Dodge save waiting for someone to swing on it.]
 - #item[How It Starts][A spilled drink, a called cheat, a slur, a lost wager. When the fists come up, roll #k[Reaction] for the room: a hostile crowd piles in, a wary one rings the fighters and bets.]
@@ -56,7 +56,7 @@ The house is clearing old stock the only way a crowd will swallow it: a contest.
 
 = Hiring Hands
 
-- #item[The Help][The tavern is where the spare hands wait. A #k[porter or torchbearer] works for a few SP a day and no share of the danger; a #k[man-at-arms] wants #k[1 GP a day] and a cut of the take; a #k[guide or linkboy] knows the near country or the low streets.]
+- #item[The Help][The alehouse is where the spare hands wait. A #k[porter or torchbearer] works for a few SP a day and no share of the danger; a #k[man-at-arms] wants #k[1 GP a day] and a cut of the take; a #k[guide or linkboy] knows the near country or the low streets.]
 - #item[Will They Come][Offer the work and roll #k[Reaction] with CHA: a fair wage and an honest face hire easy, while a grim rumor or a miser's purse sends them back to their cups. The desperate and the green come cheapest, and cost the most later.]
 - #item[Will They Stay][Hirelings test #k[Morale] when the delve turns deadly, the pay runs short, or the first of them falls. Pay square and treat them well, and the good ones become the #k[henchmen] a reputation is built on.]
 
