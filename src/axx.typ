@@ -122,7 +122,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 
 - #item[The Answer][A deadly effect has a counter: the right item, spell, or class skill, spent the round it lands. The GM telegraphs it a round before.]
 - #item[Weakened][-2 to all d20 rolls; -4 from two separate sources.]
-- #item[Poisoned][The save is for your life. Fail and drop to 0 HP, roll Brush with Death at +2. Weakened until cured.]
+- #item[Poisoned][The save is for your life. Fail and drop to 0 HP, roll Brush with Death at +2. Weakened until _Neutralize Poison_ or a _Cure_.]
 - #item[Diseased][Weakened, and no healing works. Body save each Day's end to end it, or _Cure Disease_. Virulent strains kill as Poisoned.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes if damaged or shaken a round.]
