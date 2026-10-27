@@ -317,3 +317,98 @@ dial to turn.
 **Applied:** the failed-cup and three-lurch-to-Out-Cold rules are now in the tavern
 supplement's Clear-Out Cup. The Charm and Guile scoring question is left open.
 
+---
+
+# Third Pass: Teeth for the Schemers
+
+Testing the supplement's new **Cheat and Sabotage** options, which read the pot as
+relative, so tearing a rival down wins as well as drinking. The question: can a low-CON
+schemer now take the pot off Old Bessa? Pib the Thief plays the pure cheat (ditch cups
+to score, spill rivals'), Ves the Magic-User plays the saboteur (Wits to read, Charm to
+foist turned cups and drive rivals under). The rest drink.
+
+## The rulings as run
+
+- **Ditch a cup** (Guile, DEX or Thief Class Check vs 12): scores an empty cup, no drink; caught = -2 cups.
+- **Spill a rival's** cup (Guile vs 12): the house docks them 2.
+- **Foist a turned cup** (Charm vs 12): the rival drinks it; a failed flat-15 sour save scores them nothing and lands a lurch. Three lurches, Out Cold.
+- Pib's ditch/spill is a Class Check, `d20 + 2 (Level) + 2 (DEX) = +4`; Ves's Charm is `d20 + 0`.
+
+## The night
+
+**Pours 1-2.** Pib opens ditching, `[12]`+4 and `[9]`+4, two clean cups and not a drop
+drunk. Grukk drinks blind into a **turned** cup, flat 15 `[8]`: under the new rule he
+scores **nothing** and lurches. Ves reads the table (`[14]`+2), then **foists a turned
+cup on Grukk** `[13]`: he drinks, fails `[7]`, a second lurch. The drinkers, Dagny,
+Wen, Aldric, Bessa, bank their cups. Aldric fails one himself, `[8]`, and wears it.
+
+Standings after 2: Dagny, Wen, Bessa, Pib all 2; Aldric 1; Ves 0; Grukk 0 and two
+lurches deep.
+
+**Pour 3, the barbarian falls.** Ves foists a third turned cup on Grukk `[16]`; he
+drinks, `[5]`, **third lurch, Out Cold.** The saboteur has removed the strongest gut at
+the table without lifting a cup. But the night's cheating catches up: **Pib is caught**
+tipping his out, `[6]`+4 = 10, and forfeits 2, back to nothing. Ves has scored zero,
+all her turns spent on Grukk.
+
+Standings after 3: Dagny, Wen, Bessa 3; Aldric 2; Pib 0, Ves 0; Grukk out.
+
+**Pours 4-6.** With Grukk gone, the schemers turn to scoring, but the math is unkind.
+Pib ditches clean (`[15]`, `[12]`, `[11]`) and climbs, Ves finally banks a few (`[13]`,
+`[14]`), but Wen is **caught** ditching too (`[8]`+1), -2, and the steady drinkers pull
+away at a reliable cup a round. At the last pour Ves spends her turn **foisting a turned
+cup on Dagny** `[15]`, denying the leader her sixth (`[8]` sour, no cup, a lurch), but
+it is a cup denied, not a cup gained. Old Bessa, never once sabotaged, drinks her sixth
+clean.
+
+## Outcome
+
+**Old Bessa takes it at 6**, still upright. Dagny 5 (robbed of her last by Ves). Aldric
+4, Pib 3, Wen 3, Ves 2. Grukk out cold. The house wins a third time, and both schemers
+finished in the bottom three.
+
+## Findings
+
+1. **The sabotage works, and it is the best new toy.** Ves put the 18-CON barbarian
+   under the bench with three foisted cups and never drank a drop, and her last foist
+   robbed Dagny of the winning cup. Foisting a turned cup is now a real play because the
+   patched rules mean the victim scores nothing on the failed sour save. Removing and
+   denying rivals is fun and it swings the board.
+
+2. **But sabotage does not score, so a lone saboteur sinks.** Every turn Ves spent
+   foisting was a turn she banked no cup, and she finished last but one. Disruption is a
+   spoiler's game, not a winner's: you can drag the field down, but you cannot climb it
+   at the same time.
+
+3. **The cheat is a mathematical trap.** This is the key result. Ditching at a 12+
+   check with a -2 catch is **expected-value negative even for the Thief**: Pib's +4
+   succeeds about 65% of the time, so each ditch averages `0.65(+1) + 0.35(-2) = -0.05`
+   cups. Meanwhile a drinker passes more often and a failed drink now costs only the cup
+   (zero), never going negative. So **drinking strictly beats cheating**, and the two
+   catches (Pib, Wen) were not bad luck, they were the expected tax. Guile cannot be a
+   scoring lane while the catch is -2 against a 1-in-3 failure.
+
+4. **One or two schemers cannot suppress a whole field.** Ves removed Grukk and denied
+   Dagny, real damage, but Old Bessa was never touched and strolled to 6. With five
+   drinkers and two schemers, there are not enough sabotage actions to hold everyone
+   down, so the unharried drinker wins. Schemers are kingmakers and spoilers here, not
+   favorites.
+
+## Verdict and the next dial
+
+The new tools are good: the table now has lateral play, a barbarian got foisted under
+the bench, a leader was robbed at the bell, and it read as a bawdy, dirty contest
+rather than a CON check. But the original goal, that a clever low-CON character can
+**win**, is still unmet, for one concrete reason: **ditching loses cups on average.**
+The fix is to make the cheat pay in a room this rowdy and crowded:
+
+- **Ditching is an easy act** (9+, not 12+) when the room is packed and loud, and the
+  **catch is -1**, not -2. Then the Thief's ditch averages about `+0.7` a round, matched
+  to drinking, and a cheat who is never sabotaged can run with the drinkers.
+- Leave sabotage as it is. It should stay a spoiler's tool that trades your turn for a
+  rival's, not a self-scoring one, or disruption becomes dominant.
+
+With ditching made to pay, a fourth pass could finally answer the question with a yes:
+a Thief who cheats every cup while an ally foists the leaders under the bench.
+
+
