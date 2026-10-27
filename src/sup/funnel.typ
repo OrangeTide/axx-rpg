@@ -11,7 +11,7 @@
 Before a character is a Fighter or a Thief they are just a person with a trade and a bad idea. That is the #k[zero level], and it is one stat block shared by three kinds of nobody: the peasant mob of a funnel, the torchbearer you hire at the gate, and the porter who hauls your loot. All three are built the same.
 
 - #item[Abilities and Kindred][Roll #k[3d6 in order] for the six, and take a kindred. Its one trait applies even now: a dwarf still sees in the dark, an elf still shrugs off Sleep.]
-- #item[Hit Points][#k[1d4 + CON], minimum 1. A zero level is one bad blow from the grave.]
+- #item[Hit Points][#k[3], flat. A zero level is one bad blow from the grave.]
 - #item[Defense and Attack][#k[AC 10], or better with scraps of armor. Attacks at #k[+0]: no class, no Level. A pitchfork, sling, or torch is a light weapon, improvised at -2 unless it is a real one.]
 - #item[Saves][#k[1d20 + ability, 12+]. No Level to add and no class bonus, though a kindred save still counts.]
 - #item[A Past Life][Roll on #k[Occupations] below. It grants a #k[knack], +2 to Checks that life would cover, and the one odd thing you carried out of it.]
