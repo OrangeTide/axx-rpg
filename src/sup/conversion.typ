@@ -83,4 +83,4 @@ Be plain about the lineage. This effect-based split is close to third edition's 
   [Spell], [By the effect: Will for the mind, Dodge for a blast, Body for poison or withering],
 )
 
-Two old threats had no save: a fall (now a Dodge save to halve it) and energy drain (now a Body save vs the Drain keyword).
+Two old threats had no save: a fall (now a Dodge save to halve it) and energy drain. First Edition left energy drain save-less and near-permanent, a Level gone short of a high Restoration. AX&X softens it both ways: a #k[Body save] resists the drain, and a lost Level mends with downtime rest, so it stings without ending a character.

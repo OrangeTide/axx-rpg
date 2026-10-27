@@ -8,7 +8,7 @@ Giant Spider,beast,2,9,14,+2,1d6,piercing,core,"Poison on a hit (Body save). Web
 Rival Adventurers,humanoid,,,,,,,core,"1d4+1 NPCs of the party's Level, one per class. Roll Reaction.",
 Dark Cultist,humanoid,3,12,12,+3,1d4,,core,"Casts Cause Light Wounds for 1d8 on a touch. Chaotic.",
 Ogre,giant,4,19,15,+4,2d6,blunt,core,"Heavy club. Keeps a crude hoard. Tell: a reeking club and a tally of skulls. Want: food, bright coin, or a fight it can win.",
-Wight,undead,3,14,15,+3,1d4,,core,"Drain on a hit (Body save or Injured). Silver or magic only. Mindless. Tell: a barrow chill, and its victims rising behind it. Want: to drag you under, and it rarely talks.","Silver or magic weapons only."
+Wight,undead,3,14,15,+3,1d4,,core,"Drain on a hit, a Level. Silver or magic only. Mindless. Tell: a barrow chill, and its victims rising behind it. Want: to drag you under, and it rarely talks.","Silver or magic weapons only."
 Troll,monster,6,30,16,+6,1d4/1d4/1d8,edged,core,"Two claws and a bite. Regeneration 3 each round unless the wound was fire or acid. Tell: wounds knitting shut as you watch. Want: a toll of meat, or your slowest companion.","Regenerates each round; only fire or acid keeps it down."
 Young Dragon,dragon,8,40,18,+8,2d8,,core,"Fear on first sight (Will save). Breath 6d6 fire in 30 ft, Dodge for half. Immune to fire. Tell: scorched ground, a sulphur reek, bones picked clean. Want: tribute, flattery, or word of a richer hoard.","Immune to fire; take the breath on a Dodge, then close so it cannot line up another."
 Gargoyle,construct,4,18,16,+4,1d6,,"skyship; sky-anchor","Flies. Mindless. Silver or magic only. Tell: stone that waits stock-still until you pass. Want: tribute, or just to guard its roost.","Silver or magic only; plain steel skids off stone."
@@ -18,7 +18,7 @@ Animated Rigging,construct,2,10,12,+2,special,,skyship,"Grab: Dodge save or stuc
 Wick the Pseudodragon,dragon,1,4,15,+1,1d3,,skyship,"Sting: Body save or Asleep. Flies. A friend, not a fight, once fed.",
 Gargoyle Chieftain,construct,6,28,17,+6,1d8,,sky-anchor,"Flies. Mindless. Silver or magic only. Proud, and open to tribute.",
 Harpy,monster,3,13,13,+3,1d4,,sky-anchor,"Flies. Song: Will save or walk toward it, even off a ledge, until struck. Tell: a sweet song on the wind you cannot place. Want: to lure and feast, but it hushes for shiny trade.",
-Wraith-Librarian,undead,5,22,15,+5,1d6,,sky-anchor,"Drain on a hit (Body save or Injured). Silver or magic only. Hushes a caster for 1d4 rounds (Will save).",
+Wraith-Librarian,undead,5,22,15,+5,1d6,,sky-anchor,"Drain on a hit, a Level. Silver or magic only. Hushes a caster for 1d4 rounds (Will save).",
 Clockwork Sentinel,construct,4,20,17,+4,1d8,,sky-anchor,"Mindless. Vulnerable to lightning.",
 Thalros the Cloud Giant,giant,8,40,17,+8,2d8,,sky-anchor,"Slam. Thunder-call: a 20 ft burst, Dodge save or 3d6 and shoved to the deck's edge.",
 Kobold,humanoid,1/2,2,13,+0,1d4,,common,"Scheming and cowardly. Warrens of 4d6, thick with traps. Breaks morale fast.",
@@ -35,7 +35,7 @@ Zombie,undead,2,9,12,+2,1d8,,common,"Mindless and slow, always acts last.",
 Wraith,undead,4,18,15,+4,1d6,,common,"Drain on a hit. Flies. Silver or magic only. Mindless.","Silver or magic only; kill it fast before it drains your Levels."
 Spectre,undead,6,28,16,+6,1d8,,common,"Drains two Levels on a hit. Flies. Magic only. Mindless.","Magic weapons only; it drains two Levels a hit."
 Mummy,undead,5,24,16,+5,1d12,,common,"Slam. A hit brings the mummy's rot, a wasting death as the Cause Disease spell, and no wound it dealt will close till Cure Disease lifts it. The sight of it Frightens (Will save). Mindless. Fire or magic weapons only. Tell: dry rot, bandage dust, a curse cut over the door. Want: its tomb left undisturbed.","Only fire or a magic weapon bites it; its rot kills as Cause Disease unless Cure Disease stays it."
-Vampire,undead,7,32,17,+7,1d10,,common,"Drain on a hit. Charm gaze (Will save). Regeneration 3. Becomes mist or a bat. A stake, sunlight, or running water undoes it; else magic only. Tell: no reflection, a graveyard cold, charmed thralls. Want: blood, servants, and its secret kept.","A stake, sunlight, or running water undoes it; else it reforms."
+Vampire,undead,7,32,17,+7,1d10,,common,"Drains two Levels on a hit. Charm gaze (Will save). Regeneration 3. Becomes mist or a bat. A stake, sunlight, or running water undoes it; else magic only. Tell: no reflection, a graveyard cold, charmed thralls. Want: blood, servants, and its secret kept.","A stake, sunlight, or running water undoes it; else it reforms."
 Wolf,beast,1,5,13,+1,1d4,piercing,common,"2d6 pack. Harries and surrounds. Breaks if the leader falls.",
 Dire Wolf,beast,3,14,14,+3,1d6,piercing,common,"Great pack-hunter. 1d4+1 run together.",
 Brown Bear,beast,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite. A hug for 2d8 more if both claws land.",

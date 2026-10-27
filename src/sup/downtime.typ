@@ -40,6 +40,7 @@ The core mends the day to day: Bind Wounds, a night's sleep, a week's Haven. Thi
 - #item[The Remedy][The herbalist's dose, gathered in the wild or bought at market: one use, heals 1d6 or ends one condition, no magic needed. A party without a Cleric lives on these, and a steady course of them is what mends a wound in half the weeks.]
 - #item[First Aid][Once per wound, a WIS Check or a Thief or Cleric Class Check, 12+: steady a Grievous or Shaken ally at 1 HP without magic, or add #k[+1 Hit Die] to a patient's next night of healing. Bind it now, mend it later.]
 - #item[The Infirmary][A haven's healer, shrine, or sickhouse. For a fee or a favor it tends the Injured and fills two Mending marks a week. A Favored power often keeps one, and a lost Haven takes it with them.]
+- #item[Restoring the Drained][Energy drain is no life sentence here. A drained Level returns with #k[a week of true rest at a Haven], one Level a week, its HP, attacks, and saves coming back with it. Until then you fight at the lower Level.]
 
 = Living off the Land
 

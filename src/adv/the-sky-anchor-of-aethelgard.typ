@@ -57,7 +57,7 @@ Either way, a fleet of hired blades now knows the ship was found, and the open s
   monster("Gargoyle", hd: 4, hp: 18, ac: 16, dmg: [1d6 claws])[Flies. A Mindless construct. Silver or magic weapons only.],
   monster("Gargoyle Chieftain", hd: 6, hp: 28, ac: 17, dmg: [1d8 claws])[Flies. As a gargoyle, but proud, and open to tribute.],
   monster("Harpy", hd: 3, hp: 13, ac: 13, dmg: [1d4 talons])[Flies. Song: Will save or walk toward the harpy, even off a ledge, until struck.],
-  monster("Wraith-Librarian", hd: 5, hp: 22, ac: 15, dmg: [1d6 chilling touch, Body save or Injured])[Harmed only by magic or silver. Can hush a caster for 1d4 rounds on a failed Will save.],
+  monster("Wraith-Librarian", hd: 5, hp: 22, ac: 15, dmg: [1d6 chilling touch])[Drains a Level on a hit. Harmed only by magic or silver. Can hush a caster for 1d4 rounds on a failed Will save.],
   monster("Clockwork Sentinel", hd: 4, hp: 20, ac: 17, dmg: [1d8 blade])[A Mindless construct. Vulnerable to lightning.],
   monster("Thalros, Cloud Giant", hd: 8, hp: 40, ac: 17, dmg: [2d8 slam])[Thunder-call: a 20 ft burst, Dodge save or 3d6 and shoved to the deck's edge.],
 )

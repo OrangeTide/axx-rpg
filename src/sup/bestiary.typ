@@ -42,7 +42,7 @@ The full list of monster keywords, and the rules for each. The core picks up the
 - #item[Berserk][Fights in a fury: #k[+2 to attack], never tests morale, and never yields, fighting to the death. Immune to Frightened. A fury it cannot switch off, it attacks the nearest target, friend or foe, if no enemy stands.]
 - #item[Silver or Magic][Only silver or magic weapons bite it. Plain steel passes through.]
 - #item[Regeneration][Regains the listed HP each round, unless the wound came from its bane, usually fire or acid. Damage past 0 only keeps it down if the bane did it.]
-- #item[Drain][A hit, Body save or lose a Level: its HP, and a point from attacks and saves. A week of rest or a Remove Curse restores one Level.]
+- #item[Drain][A hit, Body save or lose a Level: a Hit Die of HP, and a point from attacks and saves. Drained below 1st you die, perhaps rising as the thing that drained you. Drained Levels mend with rest, by the downtime rules.]
 - #item[Petrify][A gaze, breath, or touch turns flesh to stone on a failed Body save. See Petrified.]
 - #item[Poison][A hit, Body save or Poisoned. A few venoms do worse, as the note says.]
 - #item[Blood Drain][On a hit it latches and drains automatically each round. An action or a STR Check tears it off.]
