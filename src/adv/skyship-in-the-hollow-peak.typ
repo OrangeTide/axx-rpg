@@ -52,7 +52,7 @@ The coffer's brass lining holds a map to the observatory, and a second green sig
 #k[HD] Hit Dice, #k[AC] Armor Class, #k[Atk] attack bonus and damage. Attack bonus equals HD.
 
 #list(
-  monster("Gargoyle", hd: 4, hp: 18, ac: 16, dmg: [1d6 claws])[Flies. A Mindless construct. Resistant to all but magic weapons.],
+  monster("Gargoyle", hd: 4, hp: 18, ac: 16, dmg: [1d6 claws])[Flies. A Mindless construct. Silver or magic weapons only.],
   monster("Engine Guardian", hd: 5, hp: 24, ac: 16, dmg: [1d8 claws])[A gargoyle grown fat on the coffer's magic. Won't leave the engine room.],
   monster("Restless Sailor", hd: 2, hp: 9, ac: 13, dmg: [1d6 chilling touch])[Harmed only by magic or silver. Passive unless the party disturbs the watch.],
   monster("Animated Rigging", hd: 2, hp: 10, ac: 12, dmg: [Dodge save or stuck 1d4 rounds])[A Mindless construct. Fire frees anyone caught.],

@@ -53,6 +53,7 @@ The full list of monster keywords, and the rules for each. The core picks up the
 - #item[Surprise][Catches a party off guard more easily. Lower the surprise odds in its favor.]
 - #item[Flies][Moves through the air. If it stays high, ground attacks are at -4.]
 - #item[Split][A blow divides it into two weaker copies. Only its bane kills it whole.]
+- #item[Fear][Its presence or gaze forces a Will save or Frightened. The dread of dragons, liches, and the mighty dead.]
 
 == Making New Monsters
 

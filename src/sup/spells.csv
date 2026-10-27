@@ -55,7 +55,7 @@ Ray of Enfeeblement,Magic-User,2,Body,,"A ray saps a target: -2 to its attacks a
 Scare,Magic-User,2,Will,,"A target of 4 HD or less is Frightened (Will save).",
 Stinking Cloud,Magic-User,2,Body,,"A 20 ft cloud: Body save or retch helplessly for 1d4 rounds.",
 Strength,Magic-User,2,,,"An ally gains a step of STR, +1 to attack and damage, for one fight.",
-Web,Magic-User,2,Dodge,,"20 ft, Dodge save or stuck 1d4 turns. Burns away in a round.",
+Web,Magic-User,2,Dodge,,"20 ft, Dodge save or stuck 1d4 rounds. Burns away in a round.",
 Blink,Magic-User,3,,,"You flicker out and in: attacks against you at -2, and you may step 10 ft each round.",
 Clairvoyance,Magic-User,3,,,"See a known or nearby place at a distance for 6 turns.",
 Dispel Magic,Magic-User,3,,,"Ends ongoing spells up to your Level in a 20 ft area.",

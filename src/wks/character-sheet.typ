@@ -82,7 +82,7 @@
 #field("Will (WIS)", 26%)#h(0.4em)#text(size: 6.5pt)[magic, charm, fear]
 
 #sechead("When You Drop")
-#text(size: 6.8pt)[At 0 HP roll #k[Brush with Death] (1d6 +1 per earlier Brush that day, 7+ Slain). #k[Weakened] is -2 to all d20 rolls, stacking by source. #k[Injured] until a Haven rest.]
+#text(size: 6.8pt)[At 0 HP roll #k[Brush with Death] (1d6 +1 per earlier Brush that day, 7+ Slain). #k[Weakened] is -2 to all d20 rolls, -4 from two sources. #k[Injured] until a Haven rest.]
 
 #colbreak()
 
