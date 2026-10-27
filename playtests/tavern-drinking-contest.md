@@ -411,4 +411,77 @@ The fix is to make the cheat pay in a room this rowdy and crowded:
 With ditching made to pay, a fourth pass could finally answer the question with a yes:
 a Thief who cheats every cup while an ally foists the leaders under the bench.
 
+---
+
+# Fourth Pass: The Cheat Pays
+
+The buff from the third pass is in the supplement: **ditching is an easy 9+** in a
+packed, loud room, and the **catch is -1**, not -2. The setting is now a **dockside
+alehouse** of porters and sailors, Old Bessa recast as a dwarf stevedore. The test: with
+ditching made to pay, can the pair of schemers, Pib the Thief cheating every cup and Ves
+the Magic-User foisting the leaders under the bench, finally take the pot?
+
+## The math, first
+
+Pib's ditch is a Class Check, `d20 + 4`, against 9: he succeeds on a 5 or better, **80%**,
+and a miss costs only 1. That is `0.8(+1) + 0.2(-1) = +0.6` cups a round at **no CON
+cost and no pass-out risk**, where a drinker's cup now declines with their CON and can
+be lost outright to a bad save. For the first time, cheating is worth doing.
+
+## The night
+
+**Pib ditches, every pour.** `[12]`, `[15]`, `[9]`, `[14]`, `[12]`, `[11]`, all +4, all
+clear of 9: six cups tipped out the window over the river and not a drop drunk. **Ves
+works the leaders.** Pour 1 she spills Old Bessa's cup, Guile `[13]`, the house docks the
+dwarf 2. Pour 2 she foists a turned cup on Dagny `[14]`, who fails `[8]` and lurches for
+nothing. Pour 3, the same on Bessa `[15]`. Pour 4 she lands a third foisted cup on Grukk
+`[13]`, `[5]`, **third lurch, Out Cold**, the barbarian down again. Pours 5 and 6 she
+spills Dagny and Bessa in turn, `[14]` and `[13]`, docking each 2 at the worst moment.
+
+The drinkers, meanwhile, grind and stumble: Grukk out by pour 4, **Aldric out by pour 5**
+on his third failed save, Dagny and Bessa drinking clean but bled of cups by Ves's
+spills as fast as they bank them.
+
+## Outcome
+
+**Pib the Thief takes it at 6**, having never touched a drink. Wen 4, Dagny 3, Old Bessa
+2. Grukk and Aldric under the bench. Ves, the saboteur, finishes at **0**, the
+kingmaker who won nothing and delivered everything. For the first time in four passes,
+**the house loses, and a low-CON schemer takes the pot.**
+
+## Findings
+
+1. **The buff answers the question: yes.** Ditching at 9+/-1 is finally worth more than
+   drinking, +0.6 a round at no risk against a drinker's declining, loseable cup. Pib
+   scored a clean 6 on pure Guile. The cheat is now a real road to the win.
+
+2. **It takes a pair, and that is the right shape.** Pib scored, Ves suppressed; neither
+   could have won alone. The saboteur still cannot self-score (Ves ended at 0), so a lone
+   schemer is a spoiler and a duo is a dynasty. For a party, that is a fine answer, the
+   clever players win as a team while the iron guts drink.
+
+3. **The watch-item: if the cheat is this safe, why would anyone drink?** No catch
+   landed all night. At 80% and only -1, ditching dominates drinking for anyone with a
+   Thief's hands, and the contest risks becoming a cheat-fest with the casks untouched.
+   For a dockside dive that is thematically a farce, and fine. If it needs a brake, the
+   fix is the **house wising up**: the catch DC rises, or the forfeit climbs, as the
+   pile of "empty" cups with no one visibly drinking grows too tall to ignore. Hold this
+   as a dial, not a change.
+
+4. **Fortitude is now the honest player's road, not the only one.** Across four passes
+   the contest went from a pure CON check, to a tie, to a spoiler's game, to this: iron
+   guts drink and endure, sly hands cheat and risk the catch, cunning foists and spills
+   to drag the field down, and the relative pot ties the three together. That is the
+   contest the original rules were reaching for.
+
+## Verdict
+
+The Clear-Out Cup is done. The four roads all live: **Fortitude** wins by enduring,
+**Guile** by cheating cups out of sight, **Charm** by dragging rivals under, and **Wits**
+by reading the turned cups and pacing the night. CON still sets who can out-drink whom,
+but it no longer decides the contest alone. The one dial left untouched, by choice, is
+the house's tolerance for cheating; raise it at the table if the casks go undrunk. The
+rules as they stand in the alehouse supplement play clean, loose, and bawdy, exactly as
+a dockside clear-out should.
+
 
