@@ -24,7 +24,7 @@ The coin you carry home is already your reward, #k[1 GP = 1 XP] once it reaches 
 
 - #item[A Night's Revel][Between delves, blow your winnings on the town. A lavish night costs a #k[tenth of your haul or 50 GP], whichever is more, and buys a roll on #k[The Morning After]: a rumor earned, a friend made, or a mess to wake to. A party may carouse together on one shared spend.]
 - #item[The Bigger the Spend][Great wealth thrown around draws great trouble. Add #k[+1 to the Morning After roll] for each further #k[50 GP] spent past the first, and the GM reads the night from where it lands.]
-- #item[Drink and Dice][Alehouses run games, too: a wager on knucklebones or the turn of a card is a #k[CHA or INT Check] against the house, 12+, stake for stake. The house cheats on a natural 1.]
+- #item[Drink and Dice][Alehouses run games, too: a wager on knucklebones or the turn of a card is a #k[CHA or INT Check] against the house, 12+, stake for stake. The house cheats when it can.]
 
 = The Clear-Out Cup
 

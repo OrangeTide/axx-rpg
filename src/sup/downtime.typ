@@ -68,7 +68,7 @@ Where and when you work the land bends the roll, the way the roads bend a Travel
 
 Each reads in one order: the ability and what it feeds, the ground it needs, when it fits the journey, and its catch.
 
-- #item[Forage][#k[WIS], feeds #k[1d4]. Roots, greens, nuts, and berries from wood and field. Worked on the march, at the #k[Cautious] pace. On a natural 1 a foul find hides in the basket: Body save or any who eat it are Poisoned.]
+- #item[Forage][#k[WIS], feeds #k[1d4]. Roots, greens, nuts, and berries from wood and field. Worked on the march, at the #k[Cautious] pace.]
 - #item[Hunt][#k[DEX] or #k[STR], feeds #k[1d6]. Needs a bow or a sling and country that holds game. A dedicated outing that spends the day or the leg. The kill carries far, so roll a wandering monster at once, on 1 to 2.]
 - #item[Fish][#k[WIS], feeds #k[1d3]. Needs line and hooks and water to cast on. Worked at a shore camp, or over the rail of a ship underway for no cost to the leg. Quiet and sure, if slow.]
 - #item[Trap][#k[Thief Class Check] or #k[INT], feeds #k[1d4]. Needs a set of snares and runs or burrows to lay them on. Set at dusk and read at dawn, so it costs no daylight and rides along with march or rest. The wild may claim the snares: recover them on a Check, or lose them.]

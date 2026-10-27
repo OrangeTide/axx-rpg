@@ -17,7 +17,7 @@ It adds no new dice. Break a crossing into #k[legs], usually a day each, and mak
 Name a #k[guide] for the leg, the one breaking trail or at the helm. Only the guide rolls, and the whole party shares what happens. The guide rolls #k[1d20 + the leg's ability, 12+]. A road, fair weather, or an easy route lifts it; a storm, rough ground, or no way marked drops it, as each road says below. Another traveler may Aid for +2. Each road leans on one ability for the leg and a second when things go wrong.
 
 - #item[Success][The leg goes clean. You reach the next stop on time and whole.]
-- #item[Failure][You still get there, but it costs a day and a roll on Mishaps. Press on from where it leaves you. A natural 1 also fills a mark of the Journey Count.]
+- #item[Failure][You still get there, but it costs a day and a roll on Mishaps. Press on from where it leaves you.]
 
 = Pace
 
