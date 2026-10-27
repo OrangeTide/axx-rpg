@@ -56,7 +56,7 @@ The house is clearing old stock the only way a crowd will swallow it: a contest.
 
 = Hiring Hands
 
-- #item[The Help][The alehouse is where the spare hands wait. A #k[porter or torchbearer] works for a few SP a day and no share of the danger; a #k[man-at-arms] wants #k[1 GP a day] and a cut of the take; a #k[guide or linkboy] knows the near country or the low streets.]
+- #item[The Help][The alehouse is where the spare hands wait. A #k[porter or torchbearer] works for a few SP a day and no share of the danger; a #k[man-at-arms] wants #k[5 GP a day] and a cut of the take; a #k[guide or linkboy] knows the near country or the low streets.]
 - #item[Will They Come][Offer the work and roll #k[Reaction] with CHA: a fair wage and an honest face hire easy, while a grim rumor or a miser's purse sends them back to their cups. The desperate and the green come cheapest, and cost the most later.]
 - #item[Will They Stay][Hirelings test #k[Morale] when the delve turns deadly, the pay runs short, or the first of them falls. Pay square and treat them well, and the good ones become the #k[henchmen] a reputation is built on.]
 
