@@ -19,8 +19,6 @@ A monster is a problem to solve. Every fight offers four answers: Fight, Flee, T
 
 - #item[Read the Foe][A look at the scene, or a Lore check with INT, tells the party what the creature shrugs off, what cuts it deep, and what it wants. The notes carry this: an #k[Immune] line it ignores, a #k[Resistant] or #k[vulnerable] line for damage, a weakness to name, and often a Tell (how it reads on sight) and a Want (what might buy it off).]
 - #item[Fight or Run][Armor the decision with the numbers. HD and damage say how hard it hits; an immunity may make a fight hopeless, a vulnerability may make it quick. Let the players weigh this while they still can, before the first blow.]
-- #item[Telegraph the Trick][A deadly effect, a gaze, a breath, a drain, shows a round before it lands. That round is the warning. A party that reads the Tell can ready the counter, per the core The Answer rule, and turn the creature's trick aside.]
-- #item[Be Ruthless, Be Fair][Because the trick is telegraphed and answerable, the GM can trigger it without pulling the punch. The danger stays real; the puzzle stays solvable.]
 
 == Reading a Stat Block
 
