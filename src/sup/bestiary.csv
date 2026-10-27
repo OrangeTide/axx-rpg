@@ -34,7 +34,7 @@ Fire Giant,giant,11,50,18,+11,2d10,blunt,common,"Immune to fire. Hurls burning r
 Zombie,undead,2,9,12,+2,1d8,,common,"Mindless and slow, always acts last.",
 Wraith,undead,4,18,15,+4,1d6,,common,"Drain on a hit. Flies. Silver or magic only. Mindless.","Silver or magic only; kill it fast before it drains your Levels."
 Spectre,undead,6,28,16,+6,1d8,,common,"Drains two Levels on a hit. Flies. Magic only. Mindless.","Magic weapons only; it drains two Levels a hit."
-Mummy,undead,5,24,16,+5,1d12,,common,"Touch brings rot: wounds heal at quarter rate until Remove Curse. Fear on sight. Fire or magic only. Tell: dry rot, bandage dust, a curse cut over the door. Want: its tomb left undisturbed.","Fire or magic only; its rot heals at a quarter rate until Remove Curse."
+Mummy,undead,5,24,16,+5,1d12,,common,"Slam. A hit brings the mummy's rot: Diseased that no Day's rest will shake, lifted only by Cure Disease, and no wound it dealt will close till then. The sight of it Frightens (Will save). Mindless. Fire or magic weapons only. Tell: dry rot, bandage dust, a curse cut over the door. Want: its tomb left undisturbed.","Only fire or a magic weapon bites it; its rot lifts only with Cure Disease."
 Vampire,undead,7,32,17,+7,1d10,,common,"Drain on a hit. Charm gaze (Will save). Regeneration. Becomes mist or a bat. A stake, sunlight, or running water undoes it; else magic only. Tell: no reflection, a graveyard cold, charmed thralls. Want: blood, servants, and its secret kept.","A stake, sunlight, or running water undoes it; else it reforms."
 Wolf,beast,1,5,13,+1,1d4,piercing,common,"2d6 pack. Harries and surrounds. Breaks if the leader falls.",
 Dire Wolf,beast,3,14,14,+3,1d6,piercing,common,"Great pack-hunter. 1d4+1 run together.",
