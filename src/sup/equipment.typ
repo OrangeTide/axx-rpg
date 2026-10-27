@@ -49,7 +49,7 @@ Greed and good hauls both outweigh a strong back. You may take up more than you 
 
 == Light & Fire
 
-- #item[Torches][A torch lights 30 ft and burns 6 turns. Carry spares; the dark is -4 to hit and blinds your spells.]
+- #item[Torches][A torch lights 30 ft and burns 6 turns. Carry spares; the dark is -4 to hit, and no targeted spell reaches what you cannot see.]
 - #item[Lantern][Steadier than a torch and shielded from wind. Each oil flask feeds it for 24 turns.]
 - #item[Oil as a Weapon][A flask thrown and lit deals 1d6 and sets the target Burning. A missed throw can light the floor instead.]
 

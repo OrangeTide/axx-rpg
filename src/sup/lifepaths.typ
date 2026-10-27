@@ -34,7 +34,7 @@ After each term you may leave, or try to stay on with a #k[2d6, 6+] roll. Fail a
 
 == Enter Play
 
-- #item[Level][Convert your banked XP with the core Thresholds. Four solid terms is about Level 2; most veterans enter at Level 1. Take the HP, attacks, saves, and slots for that Level.]
+- #item[Level][Convert your banked XP by the core's Level costs, by track. Four solid terms is about Level 2; most veterans enter at Level 1. Take the HP, attacks, saves, and slots for that Level.]
 - #item[Class and Kindred][Pick both as normal. Your career points at a class but does not bind you to it.]
 - #item[Carry It In][Your banked gold is your starting wealth; you do not also roll the usual 3d6 x 10 GP. Add your items, knacks, and ties. Your age is 18 plus 4 per term served.]
 - #item[Muster Out][Roll on Mustering Out once per term served. For each Rank you hold, also roll once on Legacy, the greater spoils of a long service.]
