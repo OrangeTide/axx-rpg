@@ -8,6 +8,8 @@
 
 = Between Delves
 
+_Burned into the beam over the bar: no hittin', no spittin', no fightin', no killin'. By last call, all four are broken._
+
 Every delve begins and ends in the same place: a low room, a fire, and a cup. The tavern is where a party hears its next job, spends its last, hires its spare hands, and makes the trouble that becomes the next adventure. This adds no new dice. A night out runs on #k[Checks], #k[Reaction], and #k[Morale], the same as any other scene, and most of it is talk. Roll only when the night turns on something: a contest, a brawl, a boast that someone decides to test.
 
 The coin you carry home is already your reward, #k[1 GP = 1 XP] once it reaches safety. What follows is how a party spends it, and what the spending costs.
