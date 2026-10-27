@@ -11,6 +11,8 @@
   landscape: landscape,
 )
 
+AX&X is a two-page fantasy roleplaying game: gather a party, delve the dungeon, and roll 1d20 over 12 to settle the rest.
+
 = Character Creation
 
 Roll abilities, pick a kindred, class, and alignment, buy gear, then roll a Tie. Lifepaths adds a Trinket and a fuller past.
