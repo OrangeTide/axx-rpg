@@ -79,7 +79,7 @@ Each attacks the other as above, HD against HD. Or settle it fast: the higher Wa
 
 Five or more of one troop type under a banner, with a Commander over them. A player draws a host from the other supplements.
 
-- #item[Hire It][The core Hirelings rule prices a man-at-arms at 5 GP a day. Keep five or more for a warband. They take a half share of XP, and the first order to risk death calls for the loyalty check.]
+- #item[Hire It][The core Hirelings rule prices a man-at-arms at 5 GP a day. Keep five or more for a warband. They take a half share of XP, and the first order to risk death calls for the #k[loyalty check], the hireling CHA check the core sets out.]
 - #item[A Faction's Levy][In Powers of the Land, a power at Favored Standing lends you a company. The richest source, and the one that ties a host to the campaign.]
 - #item[Rally the Willing][A CHA check raises 2d6 times five townsfolk or refugees as militia: cheap, HD 1/2, quick to break.]
 - #item[Old Comrades][A Lifepath veteran of the Militia or a Free Company may call the old company to the banner. The funnel's survivors muster as one warband too.]

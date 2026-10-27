@@ -28,7 +28,7 @@ A party that wants more than a borrowed town raises a hold of its own. It climbs
 
 - #item[Camp][A night's safety, no more. Set at dusk with the gear on your backs, struck by dawn: a watch, a fire, a ring of stakes. It shelters a rest but mends nothing a bedroll would not, and the first raid scatters it. Free, and gone when you leave.]
 - #item[Outpost][Ground #k[cleared, watered, defensible, and held], a bolt-hole with a door that bars. An Outpost is a #k[Safe Haven] of your own: a week's rest here restores HP and ends Injured as any town does, and the walk to it is shorter than the walk to town. It holds a #k[cache], store Salvage, loot, and gear behind a lock, and seats #k[one Downtime Action] in the field, so the party can mend, craft, or study without the march back. Raising one takes #k[Salvage] and a season, below.]
-- #item[Stronghold][An Outpost behind a #k[wall], with buildings inside it. The wall turns a raid into a siege and gives the garrison hard cover. Each building is a function the party used to walk to town for: a forge, an infirmary, a shrine. A Stronghold is a Haven that works for you, and a prize worth an army's march to take.]
+- #item[Stronghold][An Outpost behind a #k[wall], with buildings inside it. The wall turns a raid into a siege and gives the garrison cover. Each building is a function the party used to walk to town for: a forge, an infirmary, a shrine. A Stronghold is a Haven that works for you, and a prize worth an army's march to take.]
 
 = Salvage
 
@@ -43,7 +43,7 @@ Gold is experience the moment it reaches town, and a stronghold priced in gold i
 Building is #k[Downtime]. A #k[Build] action, one of a character's two in a haven week, puts a season's labor and a store of Salvage into the hold. It wants the Salvage in the cache, hands to swing the hammers, the hirelings, the funnel's mob, or a hired crew, and a season safe enough to work.
 
 - #item[Outpost][Clear and hold the ground, then spend #k[3 loads] and a season. You must hold the ground first: a dungeon cleared to its roots, or land a patron grants, below.]
-- #item[The Wall][#k[5 loads] turns an Outpost into a Stronghold and earns it hard cover against a raid. Raise it before the first building, or the building has nothing to stand behind.]
+- #item[The Wall][#k[5 loads] turns an Outpost into a Stronghold and earns it cover against a raid. Raise it before the first building, or the building has nothing to stand behind.]
 - #item[Buildings][#k[2 to 4 loads] each, one raised or advanced per Build action. A Stronghold holds as many as its walls have room for, the GM's call, often #k[the founder's CHA modifier plus one].]
 - #item[The Cost in Time][A season at the hearth fills a mark of the #k[Decline], as Downtime warns. Building is that season. Raise your walls while the Doom still has slack, because every wall is time the dark gains.]
 
@@ -81,8 +81,8 @@ Walls do not fight; soldiers do. A hold is held by a #k[Warband], mustered and r
 The hold has value, so the land comes for it. At each #k[Decline] step the Foretold Doom turns an enemy toward your walls, and a #k[Sign] can telegraph it a tick before. Who comes is a Hostile power, the Doom's own agent, or a beast lord whose ground you took.
 
 - #item[The Raiders][Stat them as a #k[Warband] at the region's tier: a tame frontier sends a raiding file or two, a fallen heartland sends a legion. The deeper and darker the country, the heavier the host.]
-- #item[Home, You Hold the Walls][If the party is there, run it as a #k[Warband] fight from fortified ground. A #k[Stronghold wall] is hard cover, the garrison strikes from behind it, and the raiders must breach or scale before their numbers tell. You can spend a Commander's Focus and the high ground.]
-- #item[Away, One Roll at the Gate][If the party is delving when the raid lands, the castellan holds alone. Make one #k[defense roll]: the castellan's Command check, #k[1d20 + CHA + Level], or the garrison's #k[Warband HD] against the raiders', 12+. The wall adds #k[+2], a full garrison its weight. Success holds the gate for the loss of a file or a season's stores. Failure sacks something: roll on #k[At the Gates], below.]
+- #item[Home, You Hold the Walls][If the party is there, run it as a #k[Warband] fight from fortified ground. A #k[Stronghold wall] is #k[cover], full to those who shelter and half to those who strike over it, and the raiders must breach or scale before their numbers tell. You can spend a Commander's Focus and the high ground.]
+- #item[Away, One Roll at the Gate][If the party is delving when the raid lands, the castellan holds alone. Settle it as a #k[Warband clash]: the garrison's #k[Warband HD], #k[+2 for the wall] and its full weight, against the raiders'. The #k[higher HD holds the gate]; a castellan who makes a #k[Command check] (#k[1d20 + CHA + Level], 12+) adds a Focus, #k[+1 HD] in the clash. Hold, and it costs a file or a season's stores; lose, and roll on #k[At the Gates], below.]
 - #item[After][A raid beaten earns Standing with the powers it threatened and the Spoils of a Warband field. A raid lost costs Salvage, a building, or a Haven, and the Doom reads the fall as its own.]
 
 = Charter and Claim
@@ -98,7 +98,7 @@ Land has owners, even the wild. How you come to hold ground sets who your first 
   item[A Siege][A host sits down to starve you out. A Count fills as the stores run; a sally or a relief force ends it.],
   item[The Old Tenant][The thing you evicted, or its heir, come to take back its ground. It knows the halls better than you do.],
   item[A Rival's Claim][A Hostile power disputes your charter, by a warband, a writ, or a bribed magistrate. Standing decides how it opens.],
-  item[Betrayal Within][A file, a hireling, or the castellan is bought. The gate opens from inside unless a Loyalty check catches it.],
+  item[Betrayal Within][A file, a hireling, or the castellan is bought. The gate opens from inside unless a #k[Loyalty check] (a CHA check) catches it.],
   item[The Doom's Agent][The enemy of the Foretold Doom marches on you by name. Heavier than the tier, and it does not deal.],
   item[Sabotage][No assault, but a fire in the stores, a fouled well, a cracked wall. You lose Salvage or a building, not blood.],
   item[Tribute Demanded][Pay in coin, Salvage, or a service, or be raided. Powers of the Land sets who asks and what it buys.],
@@ -188,7 +188,7 @@ Land has owners, even the wild. How you come to hold ground sets who your first 
 #text(size: 7.5pt, fill: luma(40%))[HD = files x member HD. HP = 5 x HD. Attack +HD. Damage die +HD. The Warband book runs the fight.]
 
 #sechd("Raids and the Doom")
-#text(size: 7.5pt, fill: luma(40%))[A raid lands on each Decline step. Home is a warband fight from the walls; away is one defense roll, Command or garrison HD against the raiders', 12+, wall +2. Note what came and what it cost.]
+#text(size: 7.5pt, fill: luma(40%))[A raid lands on each Decline step. Home is a warband fight from the walls; away is a Warband clash, garrison HD +2 wall against the raiders', the higher holds, a Command check adding a Focus. Note what came and what it cost.]
 #v(0.35em)
 #for i in range(5) [#blank(100%)#v(0.85em)]
 

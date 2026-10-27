@@ -50,7 +50,7 @@ The left is the old way, the right is AX&X.
   [Spell lists], [Hundreds of spells], [A starter list in the core; about seventy spells across three levels in the Spellbook. The Improvise rule and this supplement cover conversion.],
   [Turn Undead], [Matrix of Cleric level against undead type, with 2d6 result], [One roll: 1d20 + Level + WIS, 10 + HD or higher. Turns 2d6 HD, or destroys when 3 levels above.],
   [Experience], [Gold and monster XP by table, prime requisite bonus, training cost to level], [1 GP is 1 XP. 25 XP per monster HD. 100 XP times depth for a first visit. Level 2 by track, 1,500 to 2,500, doubling after. No training.],
-  [Death], [Dead at -10, or 0 with optional rules, resurrection survival rolls], [0 HP triggers a Brush with Death roll (1d6, +1 per earlier Brush that day, 7+ Slain). Slain, Maimed, and Petrified are permanent unless the GM supplies a cure, though a maiming can mend over weeks if the party escapes the dungeon, by the downtime supplement.],
+  [Death], [Dead at -10, or 0 with optional rules, resurrection survival rolls], [0 HP triggers a Brush with Death roll (1d6, +1 per earlier Brush that day, 7+ Slain). Slain, Maimed, and Petrified are permanent unless the GM supplies a cure: a lost limb or eye is for good, short of a Restoration or a Wish. Lesser wounds convalesce by the downtime supplement.],
   [Healing], [1 HP per day of rest], [Bind Wounds 1d4 once per day, one Hit Die and CON per night, full after a week in town. Convalescence and living off the land are in the downtime supplement.],
   [Conditions], [Described per spell or monster], [Ten named conditions, each with one source and one effect.],
   [Reaction], [Percentile roll with CHA adjustments], [2d6 + CHA, three bands.],

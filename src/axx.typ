@@ -56,7 +56,7 @@ Any kindred, any class. One trait each.
 
 == Gear
 
-Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
+Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or the armor value, plus a DEX edge: #k[+1] at DEX 16--17, #k[+2] at 18. Slots equal STR with a pack worn, fewer without; over your slots you are #k[Weakened], at half speed, no Run; a heavy hoard of coin costs slots at the GM's call, about one per 100. Each weapon is #k[blunt], #k[edged], or #k[piercing], chosen when bought.
 
 - #item[Weapons][Light (1d4, 1 slot) #k[2 GP] #bar Medium (1d6, 1 slot) #k[10 GP] #bar Heavy, two hands (1d10, 2 slots) #k[15 GP] #bar Spear (1d6, 1 slot) #k[3 GP] #bar Polearm, two hands (1d8, 2 slots) #k[8 GP] #bar Javelin (1d4, 1 slot) #k[1 GP] #bar Darts (1d3, 1 slot) #k[1 GP] #bar Sling (1d4, 1 slot) #k[2 GP] #bar Bow, with arrows (1d6, 2 slots) #k[20 GP] #bar Crossbow, with bolts (1d6+1, 2 slots) #k[25 GP].]
 - #item[Armor][Light (AC 11, 1 slot) #k[20 GP] #bar Medium (AC 14, 2 slots) #k[75 GP] #bar Heavy (AC 16, 3 slots) #k[100 GP] #bar Shield (+1 AC, 1 slot) #k[10 GP]. A shield's bonus counts only against foes you face; splinter it to negate one hit, then it is gone.]
@@ -118,7 +118,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Haven][A week in a safe town or refuge restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
 - #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[7+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement when the GM judges the moment fitting.]
-- #item[The Long Road][Between delves a party lives off the land and lays up to heal, and with time and safety even a maiming can mend. The downtime supplement runs it, or rule it at the table.]
+- #item[The Long Road][Between delves a party lives off the land and lays up to heal, and with time and safety the deeper hurts mend. The downtime supplement runs it, or rule it at the table.]
 
 == Conditions
 
