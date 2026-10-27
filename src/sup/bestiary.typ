@@ -38,7 +38,7 @@ Number appearing and treasure are the GM's call, guided by the core Stocking and
 
 The full list of monster keywords, and the rules for each. The core picks up the few its starter foes need and summarizes them; every keyword and its rule lives here.
 
-- #item[Mindless][Immune to Sleep, Charmed, Poisoned, and Frightened. Most undead, oozes, and constructs.]
+- #item[Mindless][Immune to Sleep, Charmed, Poisoned, Diseased, and Frightened. Most undead, oozes, and constructs.]
 - #item[Berserk][Fights in a fury: #k[+2 to attack], never tests morale, and never yields, fighting to the death. Immune to Frightened. A fury it cannot switch off, it attacks the nearest target, friend or foe, if no enemy stands.]
 - #item[Silver or Magic][Only silver or magic weapons bite it. Plain steel passes through.]
 - #item[Regeneration][Regains the listed HP each round, unless the wound came from its bane, usually fire or acid. Damage past 0 only keeps it down if the bane did it.]

@@ -1,5 +1,5 @@
 name,type,hd,hp,ac,atk,damage,damage_type,source,notes,trick
-Giant Rats,beast,1/2,2,12,+0,1d3,piercing,core,"2d6 rats. A bite on a natural 20 also gives disease (Poisoned).",
+Giant Rats,beast,1/2,2,12,+0,1d3,piercing,core,"2d6 rats. A bite on a natural 20 also inflicts Diseased.",
 Goblin Band,humanoid,1,4,13,+1,1d6,,core,"1d6 goblins ambush from cover.",
 Skeleton Guard,undead,1,5,13,+1,1d6,,core,"Mindless. Resistant to piercing and edged, vulnerable to blunt.",
 Orc Patrol,humanoid,1,5,13,+1,1d8,,core,"1d4 warriors demanding blood or toll.",
@@ -41,7 +41,7 @@ Dire Wolf,beast,3,14,14,+3,1d6,piercing,common,"Great pack-hunter. 1d4+1 run tog
 Brown Bear,beast,5,24,14,+5,1d6/1d6/1d8,,common,"Two claws and a bite. A hug for 2d8 more if both claws land.",
 Boar,beast,3,14,14,+3,1d6,,common,"Charges. Fights on for a round past 0 HP.",
 Giant Bat,beast,2,9,14,+2,1d4,,common,"Flies. A swarm fouls the air: -2 to anyone within.",
-Giant Centipede,beast,1/2,2,12,+0,1,,common,"A bite brings weak Poison: Body save or Poisoned, though the venom only sickens.",
+Giant Centipede,beast,1/2,2,12,+0,1,,common,"A bite brings weak venom: Body save or Diseased, as it only sickens.",
 Constrictor Snake,beast,4,18,13,+4,1d6,,common,"A hit coils: automatic 1d6 each round until a STR Check breaks the grip.",
 Stirge,beast,1,4,14,+1,1d3,piercing,common,"Flies. Blood Drain: latches on a hit, 1d3 each round until torn off.",
 Giant Scorpion,beast,4,18,16,+4,1d4/1d4/1d6,,common,"Two claws and a sting. Sting Poison (Body save).",
