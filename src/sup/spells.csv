@@ -20,7 +20,7 @@ Speak with Animals,Cleric,2,,,"Talk with natural beasts for 6 turns; they may an
 Spiritual Hammer,Cleric,2,,,"A floating hammer of force fights for you at your attack bonus, 1d4, one fight.","the caster's holy symbol"
 Animate Dead,Cleric,3,,,"Raise HD of skeletons or zombies up to your Level to serve until destroyed. A Chaotic act.","bone dust and a black pearl worth 100 GP, consumed"
 Continual Light,Cleric,3,Body,,"A permanent bright light, or blind a creature's eyes until dispelled (Body save).","a firefly or a pinch of phosphorus"
-Cure Disease,Cleric,3,,,"Cures one disease, including a mummy's rot. Reverses to Cause Disease.",
+Cure Disease,Cleric,3,,,"Ends the Diseased condition and lifts a mummy's rot or a wasting sickness. Reverses to Cause Disease: touch, Body save or struck with a wasting disease, Diseased and failing on a death Count of CON modifier + 10 days; when it fills, death as Poisoned. Only Cure Disease stays it.",
 Cure Serious Wounds,Cleric,3,,,"Restores 2d8 HP. Reverses to Cause Serious Wounds.",
 Dispel Magic,Cleric,3,,,"Ends ongoing spells up to your Level in a 20 ft area, or counters one as it is cast.",
 Locate Object,Cleric,3,,,"Point toward a known object within a mile for 6 turns.",
@@ -100,7 +100,7 @@ Fire Trap,Druid,2,Dodge,fire,"Ward a box, door, or body. The next to open it unb
 Obscuring Mist,Druid,2,,,"A damp fog fills a Near space for 6 turns. Past 5 ft, sight and missiles fail.",
 Speak with Plants,Druid,2,,,"For 6 turns, question the local growth. It answers simply and may part a path or tangle a foe.",
 Trip,Druid,2,Dodge,,"A vine, root, or your staff whips out: a moving target in reach saves Dodge or falls prone.",
-Cure Disease,Druid,3,,,"A touch ends one disease or rot. Reverses to Cause, a wasting sickness on a failed Body save.",
+Cure Disease,Druid,3,,,"A touch ends one disease or rot. Reverses to Cause Disease, the same wasting death as the Cleric spell.",
 Neutralize Poison,Druid,3,,,"Draw the venom from one creature or dose: ends Poisoned, or renders a poison inert. Can instead foul good food.",
 Pyrotechnics,Druid,3,Dodge,,"Spend a nearby fire as blinding fireworks (watchers Dodge or blind a round) or a choking smoke cloud.",
 Snare,Druid,3,Dodge,,"Weave a cord, vine, or root into a near-invisible trap. The first to tread it is bound or yanked up, Dodge negates. Holds until sprung.",
