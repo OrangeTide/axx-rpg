@@ -84,7 +84,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 == Exploration
 
 - #item[Search][One turn per 10 ft section, WIS check: find a secret door, trap, or hidden cache. A Thief uses a Class Check, and can disarm a trap they find. A trap left unfound springs when triggered, forcing its Dodge save.]
-- #item[Doors][Stuck: STR check to force. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
+- #item[Doors][Stuck: STR check to force. A barred or locked door won't give to a shove, but hacking or burning through it takes 1d4 turns. Listen: WIS check, one turn. Held with spikes: 1d4 turns against a monster.]
 - #item[Wandering Monsters][Roll 1d6 about every third turn, and at once after a fight, a forced door, or a shout: a #k[1], or #k[1--2] after noise, brings a wanderer from the Threat table.]
 - #item[Darkness][Swinging at what you can't see is -4. Targeted spells need line of sight.]
 - #item[Hirelings][Torchbearer #k[1 GP/day] (HD 1/2, HP 3, AC 10). Man-at-arms #k[5 GP/day] (HD 1, HP 6, AC 13, Atk +1, 1d6). Each takes a half share of XP. When first asked to risk death, a CHA check or they quit; then test Morale.]
@@ -92,6 +92,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 == Encounters
 
 - #item[Four Answers][Meet a monster four ways: Fight, Flee, Talk, or Exploit a weakness. A look or a Lore check with INT tells you what cuts it, what it shrugs off, and what it wants.]
+- #item[Parley][Talk resolves on a CHA check: success shifts the monster's reaction one step warmer, opening a deal or safe passage. The same check may turn a fight already joined back to parley, if the enemy can talk.]
 - #item[Surprise][When an encounter begins, each side rolls 1d6: on 1--2 it's caught off guard and loses the first round. A side that saw it coming, or that scouted ahead, isn't; a side that sneaks in unseen, on a won stealth check, surprises outright.]
 - #item[Distance][An encounter opens about #k[2d6 x 10 ft] apart, less in tight quarters or on a surprise, more in the open. Then roll reaction and set the order.]
 - #item[Reaction][When a monster's intent is unclear, roll 2d6 + CHA: #k[2--5] hostile #bar #k[6--8] wary, open to a deal #bar #k[9+] friendly, for now.]
@@ -109,7 +110,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
 - #item[Helpless][Attacks on a sleeping, paralyzed, or bound target hit automatically. Call a blow nonlethal to drop a foe Helpless at 0, not slain.]
-- #item[Ending][A side that is down, flees, or yields ends it. Break line of sight to escape, unless chased at equal speed. A CHA check may turn a fight to parley, if the enemy can talk.]
+- #item[Ending][A side that is down, flees, or yields ends it. Break line of sight to escape, unless chased at equal speed.]
 
 == Healing & Injury
 
