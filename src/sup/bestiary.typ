@@ -54,6 +54,7 @@ The full list of monster keywords, and the rules for each. The core picks up the
 - #item[Flies][Moves through the air. If it stays high, ground attacks are at -4.]
 - #item[Split][A blow divides it into two weaker copies. Only its bane kills it whole.]
 - #item[Fear][Its presence or gaze forces a Will save or Frightened. The dread of dragons, liches, and the mighty dead.]
+- #item[Driver][Commands a host that cannot hold together without it: a #k[Set] or #k[Bound] warband, as the Warbands supplement defines them. Break the driver, by death, Dispel, or Turning it alone by its own HD, and a Set host goes leaderless while a Bound host disperses outright. Liches, vampires, and necromancers field such hosts, so the driver is the way to break a legion without grinding it down.]
 
 == Making New Monsters
 

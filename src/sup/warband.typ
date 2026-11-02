@@ -72,6 +72,11 @@ Each round, in place of their own action, the commander may make a #k[Command ch
 
 If the commander falls or flees, the host tests morale at once.
 
+A mindless or compelled host is the exception, and the dangerous one. It has no will to break, which is why it never tests morale, and no will to lead itself, which is why it hangs entirely on the one who drives it. When that one falls, slain, Dispelled, the control severed, or the driver #k[Turned as a single creature by its own HD], how the host ends turns on how it was raised:
+
+- #item[Set][Raised and left to a standing order, as Animate Dead leaves the dead. Leaderless, it holds that last order and no more: it fights what stands before it, but cannot maneuver, pursue, Rally, or take a Commander's action. A stupid, dangerous mob until destroyed or commanded anew.]
+- #item[Bound][Held in the field only by a living will, a vampire's thralls, a lich's guard, a demon's conscripts. Sever that will and the binding goes with it: the host disperses at once, the undead collapsing where they stand, the compelled scattering free.]
+
 = Warband Against Warband
 
 Each attacks the other as above, HD against HD. Or settle it fast: the higher Warband HD wins the clash. The loser sheds Hit Dice equal to the gap between them, and the winner half as much; both turn the lost HD back into fallen files. A Commander's Focus, higher ground, or a clean flank counts as +1 Warband HD for the clash.
