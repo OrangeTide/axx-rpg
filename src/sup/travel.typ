@@ -31,7 +31,7 @@ A standing choice, and the #k[slowest traveler sets it].
 
 - #item[Rations][Each leg costs one ration per traveler, like any Day. Out of food, every further day you are Weakened and heal nothing until you resupply.]
 - #item[Carriers][A mount, wagon, or ship can be lost or wrecked on a Mishap. Strand or scuttle one to turn a hazard aside, once. What each one hauls and how fast is set by its road below.]
-- #item[The Journey Count][A long or risky crossing is a Count of 4 to 6 marks, named for what runs out: the snows closing the pass, a pursuit, the stores. Each Mishap, each detour, and each night camped in the open fills one. When it fills, the named thing happens with no roll to stop it. The Check says whether today went well; the Count says how long you have. Do not spend one bad roll on both.]
+- #item[The Journey Count][A long or risky crossing is a Count of 4 to 6 marks, named for what runs out: the snows closing the pass, a pursuit, the stores. Each Mishap, each detour, and each night camped in the open fills one. Laying up to rest or heal fills one too, for the clock runs on while you halt, and choosing to stop is itself a move that spends time. When it fills, the named thing happens with no roll to stop it. The Check says whether today went well; the Count says how long you have. Do not spend one bad roll on both.]
 - #item[Arriving][You arrive as worn as the road left you. Carry any fatigue and wounds into what waits. A safe arrival lets you rest as a Day or a Haven; a hot one does not.]
 
 = The Three Roads
