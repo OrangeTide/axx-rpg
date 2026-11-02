@@ -106,7 +106,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Attack][Roll #k[1d20 + Attack Mod] vs #k[AC]. Attack Mod = your track bonus + STR (melee) or DEX (missile). Monsters attack at + HD. Two on one target: +2 each.]
 - #item[Range][#k[Near] is 30 ft, a thrown weapon's reach. A bow, sling, or crossbow carries #k[60 ft], 120 ft at -2, 240 ft at -5. #k[Shots a round:] darts 3, bow 2, sling 1; a crossbow fires once, then reloads an action. Half cover: -2 to hit; full cover, no target. Loose into a melee and a miss hits a random figure, friend or foe.]
 - #item[Reach & Thrown][A spear or polearm strikes from the second rank, behind a front-line ally, and keeps a closing foe at bay. A spear or javelin throws to Near; any one-handed weapon at -2.]
-- #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP, roll on Brush with Death. Damage past 0 is ignored.]
+- #item[Damage][Weapon die + STR for melee. A creature #k[resistant] to a damage type takes half; #k[vulnerable], double. At 0 HP you fall; Brush with Death comes at your next turn. Damage past 0 is ignored.]
 - #item[Poison][A dose on a blade lasts one hit: Body save or Poisoned. Applying it is an action.]
 - #item[Casting][Takes the action. If the caster took damage earlier in the round, the spell is lost.]
 - #item[Helpless][Attacks on a sleeping, paralyzed, or bound target hit automatically. Call a blow nonlethal to drop a foe Helpless at 0, not slain.]
@@ -118,13 +118,13 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
 - #item[Sleep][A Day regains one Hit Die + CON.]
 - #item[Haven][A week in a safe town or refuge restores all HP and ends Injured.]
 - #item[Magic][_Cure Light Wounds_ and potions restore HP at once.]
-- #item[At 0 HP][Drop to 0 and roll #k[Brush with Death]: #k[1d6 + 1 per earlier Brush this day], read below, #k[7+] always Slain. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement when the GM judges the moment fitting.]
+- #item[At 0 HP][Drop to 0 and you fall, Helpless and out of the fight. Roll #k[Brush with Death] at the start of your next turn: #k[1d6 + 1 per earlier Brush this day], read below, #k[7+] always Slain. Healing you to 1 HP or more first cancels the roll. An ally may instead spend an action to steady you, #k[-2] to the roll; only one such aid counts. A new day clears the count. Slain, Maimed, and Petrified are permanent unless the GM provides a cure. The player may bring in a replacement when the GM judges the moment fitting.]
 - #item[The Long Road][Between delves a party lives off the land and lays up to heal, and with time and safety the deeper hurts mend. The downtime supplement runs it, or rule it at the table.]
 
 == Conditions
 
 - #item[Weakened][-2 to all d20 rolls; -4 from two separate sources.]
-- #item[Poisoned][The save is for your life. Fail and drop to 0 HP, roll Brush with Death at +2. Weakened until _Neutralize Poison_ or a _Cure_.]
+- #item[Poisoned][The save is for your life. Fail and drop to 0 HP, Brush with Death at +2. Weakened until _Neutralize Poison_ or a _Cure_.]
 - #item[Diseased][Weakened, and no healing works. Body save each Day's end to end it, or _Cure Disease_. Virulent strains kill as Poisoned.]
 - #item[Paralyzed][No move or action for 1d4 rounds. Helpless.]
 - #item[Asleep][Helpless. Wakes if damaged or shaken a round.]
@@ -183,7 +183,7 @@ Take your #k[class kit] to start, or roll #k[3d6 x 10 GP] and shop. AC is 10, or
   item[Kin][A relative went into the dungeon and never came back.],
 ))
 
-#rolltable("1d6", "Brush with Death", note: [Rolled at 0 HP. +1 per earlier Brush today; #k[7+] is Slain.], (
+#rolltable("1d6", "Brush with Death", note: [Rolled at the start of your turn while at 0 HP, if not healed first. +1 per earlier Brush today; #k[7+] is Slain.], (
   item[Close Call][Negate the blow that felled you and any effect it carried.],
   item[Close Call][As above.],
   item[Scarred][-1 CHA checks or +1 intimidate. Back to full HP, ailments cleared.],
