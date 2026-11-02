@@ -51,8 +51,9 @@ A blast does not wipe an army: soldiers shield one another, and a crowd scatters
 - #item[The Span][A breath, a Fireball, a gaze cone, or a gas catches a limited span of files, about its radius in 5-ft steps, not the whole host.]
 - #item[Scatter Save][The warband makes one save. On a success the caught files #k[scatter], out of the fight a round, then reform; on a failure they are lost. Files outside the span are untouched.]
 - #item[Single-Target][A touch, a bite, one Charm, or a one-on-one gaze takes out a single file, or, if aimed there, the Commander, who saves alone. A well-placed Hold or Charm on the banner breaks a host without fighting it.]
-- #item[By Hit Dice][An effect that works on so many HD of creatures spends those Hit Dice here: Sleep drops a militia's worth of HD, Turn Undead routs Hit Dice of a skeleton legion, each felling whole files.]
+- #item[By Hit Dice][An effect that works on so many HD of creatures spends those Hit Dice here: Sleep drops a militia's worth of HD, felling whole files.]
 - #item[Mass Fear][A dragon's Fear or a mass Charm is a #k[Morale check], not a hundred Frightened soldiers. The Commander may Rally against it.]
+- #item[Turning][Turn Undead reads an undead host's #k[Warband HD] as its Hit Dice, the host's collective weight standing in for the single skeleton's, not the raw tally of bodies. The Cleric turns on 1d20 + Level + WIS, #k[10 + the Warband HD] or higher, and routs #k[2d6] of that Warband HD, felling whole files. A small host breaks entire; a great legion loses only what the roll takes, and the rest hold. Three Levels above the Warband HD destroys what it turns outright. A Mindless host flees the symbol all the same, and only a free-willed Commander may Rally it back.]
 - #item[Lasting Harm][Burning and Poison become attrition: a file's worth of loss each round until it ends or is doused, nothing to track.]
 
 = Losses, Morale, and Recovery
