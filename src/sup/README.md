@@ -18,9 +18,13 @@ generate stat blocks or tables from them.
 - `magic.csv`: magic items, both the generic treasure items and the one-of-a-kind
   named items with their drawback. `magic.typ` reads this file and generates the
   item roster, so adding a row adds an item.
-- `occupations.csv`: the zero-level past lives, each with a knack and the one odd
-  thing it left behind. `funnel.typ` reads this file and generates the Occupations
-  table, so adding a row adds a past life to the funnel.
+- `backgrounds.csv`: the former stations a character fell from or left behind, each
+  with a knack, a keepsake, and a complication that still has a claim. `backgrounds.typ`
+  reads this file and generates the Backgrounds table, so adding a row adds a station.
+- `occupations.csv`: the zero-level past lives, each with a knack, the one odd
+  thing it left behind, and a complication that followed the character out of it.
+  `funnel.typ` reads this file and generates the Occupations table, so adding a row
+  adds a past life to the funnel.
 - `spells.csv`: the spell compendium, by class and level, with the save a target
   rolls and the damage type where one applies. `spells.typ` generates the Cleric,
   Magic-User, and Druid entries; `classes.typ` also prints the Druid list beside
@@ -44,6 +48,9 @@ Each builds to a standalone PDF in the shared house style.
   the dungeon.
 - `funnel.typ`: zero-level funnels, hirelings, and henchmen, all sharing one
   level-0 baseline.
+- `backgrounds.typ`: the character background supplement, a single roll giving a
+  knack, a keepsake, and a complication from the station a character fell from or
+  left behind. A lighter cousin of `lifepaths.typ`, generated from `backgrounds.csv`.
 - `travel.typ`: the travel and journey supplement, covering overland, sea, and
   airship crossings, the mounts and carts and ships you cross in, and how a ship
   hauls loot and Salvage home.
