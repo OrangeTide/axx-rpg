@@ -8,7 +8,7 @@
 
 = Where You Stood Before
 
-Not every adventurer was born to the plough. Some fell from a higher place, or walked away from one: a trade gone sour, a house that cast you out, an office you can no longer hold. A #k[background] is that former station, and the mark it left. You carry out of it a little knowledge, one keepsake, and a complication that still has a claim on you.
+Not every adventurer was born to the plough. Some fell from a higher place. Others simply walked away from one, but the place keeps its claim: a house that still sends you work, an oath not yet discharged, a patron who waits on you, a debt or a disgrace at your back. A #k[background] is that former station, and the mark it left. You carry out of it a little knowledge, one keepsake, and a complication that still has a hold on you.
 
 A background is the lighter cousin of the #k[Lifepaths] supplement. Where Lifepaths plays the years out term by term, a background is one roll and a line of history. It differs from the funnel's #k[Occupations] as well: those are the lowborn trades of the peasant mob, while these are the fallen and the former, the kind of past that draws debts and old faces after you.
 
