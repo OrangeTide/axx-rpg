@@ -10,7 +10,7 @@
 
 Not every adventurer was born to the plough. Some fell from a higher place. Others simply walked away from one, but the place keeps its claim: a house that still sends you work, an oath not yet discharged, a patron who waits on you, a debt or a disgrace at your back. A #k[background] is that former station, and the mark it left. You carry out of it a little knowledge, one keepsake, and a complication that still has a hold on you.
 
-A background is the lighter cousin of the #k[Lifepaths] supplement. Where Lifepaths plays the years out term by term, a background is one roll and a line of history. It differs from the funnel's #k[Occupations] as well: those are the lowborn trades of the peasant mob, while these are the fallen and the former, the kind of past that draws debts and old faces after you.
+A background is the lighter cousin of the #k[Lifepaths] supplement. Where Lifepaths plays the years out term by term, a background is one roll and a line of history. It parts from the funnel's #k[Occupations] too: those are the trades of the zero-level mob, a knack and the odd thing it left, while a background is a station you have since left behind, and the claim it still keeps on you.
 
 - #item[One Roll][Roll on #k[Backgrounds] below, or pick the one that fits your idea.]
 - #item[The Knack][Each entry opens with a short list of what the station taught you, the keepsake set in italics after it. Gain #k[+2 to any Check] that the knack plainly covers, by the GM's call. It grants no spell and no class skill.]
